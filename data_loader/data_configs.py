@@ -14,7 +14,7 @@ task2dataiter = {
     "udpos": TaggingDataIter,
 }
 
-
+# the training data sets
 task2datadir = {
     "mrpc": "data/glue_data/data/MRPC",
     "sst2": "data/glue_data/data/SST-2",

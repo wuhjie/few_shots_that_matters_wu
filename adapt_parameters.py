@@ -8,6 +8,7 @@ def get_args():
     RAW_DATA_DIRECTORY = join(ROOT_DIRECTORY, "data/")
     TRAINING_DIRECTORY = join(RAW_DATA_DIRECTORY, "checkpoint_adapt")
 
+# for command-line interfaces
     parser = argparse.ArgumentParser()
     parser.add_argument("--override", type=str2bool, default=True)
 
@@ -23,6 +24,7 @@ def get_args():
     parser.add_argument("--adapt_epochs", type=int, default=5)
     parser.add_argument("--adapt_batch_size", type=int, default=32)
     parser.add_argument("--adapt_num_shots", type=int, default=5)
+    # use adam optimizer as default optimizer
     parser.add_argument("--adapt_optimizer", type=str, default="adam")
     parser.add_argument("--adapt_lr", type=float, default=5e-5)
     parser.add_argument("--group_index", type=int, default=-1)

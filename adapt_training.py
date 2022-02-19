@@ -175,6 +175,7 @@ def main(conf):
 
     hooks = init_hooks(conf, metric_name)
 
+# todo!
     conf.logger.log("Initialized tasks, recorders, and initing the trainer.")
     trainer = AdaptTuner(
         conf, collocate_batch_fn=collocate_batch_fn, logger=conf.logger
@@ -244,4 +245,5 @@ def init_config(conf):
 if __name__ == "__main__":
     conf = get_args()
 
+# back to line 156
     main(conf)

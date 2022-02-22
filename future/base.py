@@ -16,6 +16,7 @@ class BaseTrainer(object):
         self._batch_step = 0
         self._epoch_step = 0
 
+# similar to getter and setter
     @property
     def batch_step(self):
         return self._batch_step
@@ -45,6 +46,8 @@ class BaseTrainer(object):
             raise ValueError(
                 f"Required metric {metric_name} not implemented in meters module."
             )
+
+# Returns the index of a currently selected device.
         if device is None:
             device = torch.cuda.current_device()
         model.eval()
@@ -78,6 +81,8 @@ class BaseTrainer(object):
             batched, golds, uids, _golds_tagging = collocate_batch_fn(
                 batched, device=device
             )
+            # no_grad == no gradient which would reduce memory consumption,
+            # make sure not calling tf.backwards when using this function
             with torch.no_grad():
                 _, bert_out_preds, *_ = self._model_forward(model, **batched)
                 assert bert_out_preds.shape == _golds_tagging.shape

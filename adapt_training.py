@@ -31,6 +31,7 @@ task2sampleddataset = {
 }
 
 
+# config would be override in marc_adapt_1_shot.sh
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",
@@ -175,7 +176,6 @@ def main(conf):
 
     hooks = init_hooks(conf, metric_name)
 
-# todo!
     conf.logger.log("Initialized tasks, recorders, and initing the trainer.")
     trainer = AdaptTuner(
         conf, collocate_batch_fn=collocate_batch_fn, logger=conf.logger

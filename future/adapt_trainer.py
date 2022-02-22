@@ -10,12 +10,16 @@ from torch.utils.data import SequentialSampler, RandomSampler
 from collections import defaultdict, Counter
 
 
+# adapt tuner inherit all the functions from the basetrainer
 class AdaptTuner(BaseTrainer):
     def __init__(self, conf, collocate_batch_fn, logger):
         assert len(conf.adapt_trn_languages) == 1
+        
+# initilise with the basetrainer
         super(AdaptTuner, self).__init__(conf, logger)
         self.log_fn("Init trainer.")
         self.collocate_batch_fn = collocate_batch_fn
+        # plt == bert
         self.model_ptl = conf.ptl
 
     def _init_model_opt(self, model):
@@ -56,6 +60,7 @@ class AdaptTuner(BaseTrainer):
         return scores
 
     def train(
+# model from configuration: bert-base-multilingual-cased
         self, model, tokenizer, data_iter, metric_name, adapt_loaders, hooks=None
     ):
         opt, model = self._init_model_opt(model)

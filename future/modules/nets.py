@@ -3,7 +3,8 @@ from transformers.models.bert.modeling_bert import (
     BertForSequenceClassification,
     BertForMultipleChoice,
 )
-# from transformers.configuration_roberta import RobertaConfig
+
+from transformers.configuration_roberta import RobertaConfig
 from transformers.tokenization_bert import BertTokenizer
 from transformers.tokenization_roberta import RobertaTokenizer
 

@@ -32,12 +32,12 @@ def tagging_batch_to_device(batched, device=None):
 
 
 task2collocate_fn = {
-    "marc": seqcls_collocate,
-    "mldoc": seqcls_collocate,
-    "conll2003": tagging_batch_to_device,
-    "argustan": seqcls_collocate,
-    "pawsx": seqcls_collocate,
-    "xnli": seqcls_collocate,
-    "panx": tagging_batch_to_device,
+    # "marc": seqcls_collocate,
+    # "mldoc": seqcls_collocate,
+    # "conll2003": tagging_batch_to_device,
+    # "argustan": seqcls_collocate,
+    # "pawsx": seqcls_collocate,
+    # "xnli": seqcls_collocate,
+    # "panx": tagging_batch_to_device,
     "udpos": tagging_batch_to_device,
 }

@@ -22,11 +22,11 @@ from sampled_infos.sampled_data_loader.udpos import SampledUDPOSDataset
 
 
 task2sampleddataset = {
-    "mldoc": SampledMLDocDataset,
-    "marc": SampledMARCDataset,
-    "xnli": SampledXNLIDataset,
-    "pawsx": SampledPAWSXDataset,
-    "panx": SampledPANXDataset,
+    # "mldoc": SampledMLDocDataset,
+    # "marc": SampledMARCDataset,
+    # "xnli": SampledXNLIDataset,
+    # "pawsx": SampledPAWSXDataset,
+    # "panx": SampledPANXDataset,
     "udpos": SampledUDPOSDataset,
 }
 

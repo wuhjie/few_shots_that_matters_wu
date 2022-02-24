@@ -4,9 +4,13 @@ from transformers.models.bert.modeling_bert import (
     BertForMultipleChoice,
 )
 
-from transformers.configuration_roberta import RobertaConfig
-from transformers.tokenization_bert import BertTokenizer
-from transformers.tokenization_roberta import RobertaTokenizer
+# from transformers.configuration_roberta import RobertaConfig
+# from transformers.tokenization_bert import BertTokenizer
+# from transformers.tokenization_roberta import RobertaTokenizer
+
+from transformers import RobertaConfig
+from transformers import BertTokenizer
+from transformers import RobertaTokenizer
 
 import torch.nn as nn
 import torch

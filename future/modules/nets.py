@@ -1,5 +1,5 @@
 from transformers import BertModel, BertPreTrainedModel
-from transformers.modeling_bert import (
+from transformers.models.bert.modeling_bert import (
     BertForSequenceClassification,
     BertForMultipleChoice,
 )

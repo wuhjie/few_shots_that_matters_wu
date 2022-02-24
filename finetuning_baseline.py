@@ -87,7 +87,6 @@ def init_hooks(conf, metric_name):
 
 
 def main(conf):
-
     if conf.override:
         for name, value in config.items():
             assert type(getattr(conf, name)) == type(value), f"{name} {value}"

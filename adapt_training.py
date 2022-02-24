@@ -82,6 +82,7 @@ def init_task(conf):
             model.load_state_dict(ckpt["best_state_dict"], strict=False)
 
     exp_languages = sorted(list(set(conf.adapt_trn_languages)))
+    # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]
     data_iter = {}
     if hasattr(raw_dataset, "contents"):

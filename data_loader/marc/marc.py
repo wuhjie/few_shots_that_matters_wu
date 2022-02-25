@@ -44,7 +44,7 @@ class MARCDataset(MultilingualRawDataset):
                 elif which_split == "test":
                     which_split = os.path.join("test", f"dataset_{lang}_test.json")
                     # reference before assignment
-                file_ = os.path.join("_", which_split)
+                file_ = os.path.join(_, which_split)
                 entries.extend(self.marc_parse(lang, file_, wsplit))
         entries = sorted(entries, key=lambda x: x[0])  # groupby requires contiguous
         for language, triplets in itertools.groupby(entries, key=lambda x: x[0]):

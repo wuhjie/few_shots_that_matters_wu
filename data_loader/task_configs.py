@@ -12,14 +12,14 @@ from .pos import UDPOSDataset
 
 task2dataset = {
     # "mldoc": MLDocDataset,
-    # "marc": MARCDataset,
-    # "argustan": ARGUStanceDataset,
-    # "pawsx": PAWSXDataset,
+    "marc": MARCDataset,
+    "argustan": ARGUStanceDataset,
+    "pawsx": PAWSXDataset,
     "xnli": XNLIDataset,
-    # "conll2003": CONLL2003Dataset,
-    # "mrpc": MRPCDataset,
-    # "panx": PANXDataset,
-    # "udpos": UDPOSDataset,
+    "conll2003": CONLL2003Dataset,
+    "mrpc": MRPCDataset,
+    "panx": PANXDataset,
+    "udpos": UDPOSDataset,
 }
 
 

@@ -15,19 +15,19 @@ task2dataset = {
     # "marc": MARCDataset,
     # "argustan": ARGUStanceDataset,
     # "pawsx": PAWSXDataset,
-    # "xnli": XNLIDataset,
+    "xnli": XNLIDataset,
     # "conll2003": CONLL2003Dataset,
     # "mrpc": MRPCDataset,
     # "panx": PANXDataset,
-    "udpos": UDPOSDataset,
+    # "udpos": UDPOSDataset,
 }
 
 
 task2labelsetsize = {
-    # "mrpc": 2,
-    # "mldoc": 4,
-    # "marc": 5,
-    # "conll2003": -1,
-    # "panx": -1,
+    "mrpc": 2,
+    "mldoc": 4,
+    "marc": 5,
+    "conll2003": -1,
+    "panx": -1,
     "udpos": -1,
 }

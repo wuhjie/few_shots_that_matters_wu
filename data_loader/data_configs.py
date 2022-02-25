@@ -1,31 +1,31 @@
 from .data_iters import SeqClsDataIter, TaggingDataIter
 
 task2dataiter = {
-    # "mrpc": SeqClsDataIter,
-    # "sst2": SeqClsDataIter,
+    "mrpc": SeqClsDataIter,
+    "sst2": SeqClsDataIter,
     # "mldoc": SeqClsDataIter,
-    # "marc": SeqClsDataIter,
-    # "argustan": SeqClsDataIter,
-    # "pawsx": SeqClsDataIter,
+    "marc": SeqClsDataIter,
+    "argustan": SeqClsDataIter,
+    "pawsx": SeqClsDataIter,
     "xnli": SeqClsDataIter,
-    # "posptb": TaggingDataIter,
-    # "conll2003": TaggingDataIter,
-    # "panx": TaggingDataIter,
-    # "udpos": TaggingDataIter,
+    "posptb": TaggingDataIter,
+    "conll2003": TaggingDataIter,
+    "panx": TaggingDataIter,
+    "udpos": TaggingDataIter,
 }
 
 # the training data sets
 task2datadir = {
-    # "mrpc": "data/glue_data/data/MRPC",
-    # "sst2": "data/glue_data/data/SST-2",
-    # "mnlimiss": "data/xnli/MNLI",
-    # "mnlimatched": "data/xnli/MNLI",
-    # "conll2003": "data/ner/conll2003",
-    # "argustan": "data/arguments/",
-    # "pawsx": "data/pawsx/",
+    "mrpc": "data/glue_data/data/MRPC",
+    "sst2": "data/glue_data/data/SST-2",
+    "mnlimiss": "data/xnli/MNLI",
+    "mnlimatched": "data/xnli/MNLI",
+    "conll2003": "data/ner/conll2003",
+    "argustan": "data/arguments/",
+    "pawsx": "data/pawsx/",
     "xnli": "data/NLI/",
-    # "panx": "data/panx/",
-    # "udpos": "data/udpos/",
+    "panx": "data/panx/",
+    "udpos": "data/udpos/",
 }
 
 LANGUAGE2ID = {

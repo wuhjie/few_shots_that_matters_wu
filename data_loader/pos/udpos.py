@@ -120,6 +120,8 @@ class UDPOSDataset(MultilingualRawDataset):
                 sent_vec = line.strip().split("\n")
                 token_tag_vec = [wt.strip().split("\t") for wt in sent_vec]
                 if update_label_list:
+                    # debug
+                    print(update_label_list)
                     for _, tag in token_tag_vec:
                         self.label_list.append(tag)
                 sentence_egs.append((language, which_split, token_tag_vec,))

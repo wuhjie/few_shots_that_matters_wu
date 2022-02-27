@@ -1,29 +1,3 @@
-==	O
---	O
-Δήμος	B-LOC
-Αλυζίας	I-LOC
---	O
-==	O
-
-'	O
-''	O
-Ράντι	B-PER
-Ρόουντς	I-PER
-''	O
-'	O
--	O
-''κιθάρα	O
-''	O
-
-Στην	O
-πόλη	O
-υπήρχε	O
-ιερό	O
-της	O
-αλφειαίας	B-ORG
-Άρτεμιδας	I-ORG
-με	O
-άγαλμα	O
-της	O
-θεάς	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a826e0146cba87d8c4854212cff3f034dccd000bc5d40242480ac40be454cb2
+size 295

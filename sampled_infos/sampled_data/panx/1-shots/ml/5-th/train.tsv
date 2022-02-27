@@ -1,15 +1,3 @@
-പീപ്പിൾ	B-ORG
-ഫോർ	I-ORG
-എഥിക്കൽ	I-ORG
-ട്രീറ്റ്മെന്റ്	I-ORG
-ഓഫ്	I-ORG
-അനിമൽസ്	I-ORG
-
-ദില്ലിയിലെ	B-LOC
-മംലൂക്ക്	I-LOC
-രാജവംശം	I-LOC
-
-തിരിച്ചുവിടുക	O
-അരുണ	B-PER
-ഷാൻബാഗ്	I-PER
-കേസ്	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba121ab3d3741dabac66929a03fb6cfd0e1acb930705d3c1f0c5da95af9fcaf9
+size 371

@@ -1,27 +1,3 @@
-ינשוף	B-LOC
-השאול	I-LOC
-(	O
-''Asio	O
-stygius	O
-''	O
-)	O
-
-ורנר	B-PER
-פון	I-PER
-האפטן	I-PER
-
-מכבי	B-ORG
-תל	I-ORG
-אביב	I-ORG
-נותרה	O
-הקבוצה	O
-היחידה	O
-שמאז	O
-היווסדה	O
-תמיד	O
-שיחקה	O
-אך	O
-ורק	O
-בליגה	O
-הבכירה	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b62144b1cfb0b3e61ffa53f6212b2b904368e3ac693227d88aa73e19f09cee2
+size 297

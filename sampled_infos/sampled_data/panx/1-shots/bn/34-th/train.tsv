@@ -1,14 +1,3 @@
-ইন্দোচীন	B-LOC
-বাঘ	I-LOC
-এখানেই	O
-পাওয়া	O
-যায়।	O
-
-উইলিয়াম	B-PER
-হেনরি	I-PER
-হ্যারিসন	I-PER
-
-২০১৩	B-ORG
-ফিফা	I-ORG
-কনফেডারেশন্স	I-ORG
-কাপ	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f57f8073558e6358520f6eed87c6278e7f6735f3541cd83f439beaab2aef577f
+size 290

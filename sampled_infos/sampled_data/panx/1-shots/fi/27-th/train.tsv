@@ -1,29 +1,3 @@
-''Eternity	O
-''	O
-,	O
-Jude	B-PER
-Deveraux'n	I-PER
-romaani	O
-.	O
-
-'	O
-''	O
-Chaca	O
-''	O
-'	O
-(	O
-)	O
-on	O
-kaupunki	O
-Uescan	B-LOC
-maakunnassa	I-LOC
-,	O
-Espanjan	B-LOC
-Aragoniassa	B-LOC
-.	O
-
-ohjaus	O
-The	B-ORG
-Walt	I-ORG
-Disney	I-ORG
-Company	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:8377186a732c76b397d551fa6392c18222e9504264e45cd29e8ab8dccc3cc104
+size 245

@@ -1,20 +1,3 @@
-Yu	B-PER
-Aida	I-PER
-(	O
-相田	O
-裕	O
-)	O
-
-Mudi	B-ORG
-(	O
-''Mudi	O
-''	O
-)	O
-
-Estádio	B-ORG
-Beira-Rio	I-ORG
-,	O
-Porto	B-LOC
-Alegre	I-LOC
-,	O
-Brazil	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:44bcb74be77b6b4f580724b3507dce770e6e54990ae99b8b47e364af09fbdad7
+size 155

@@ -1,16 +1,3 @@
-Félix	B-PER
-Vicq	I-PER
-d'Azyr	I-PER
-
-REDIRECTION	O
-Alcudia	B-LOC
-de	I-LOC
-Veo	I-LOC
-
-***	O
-Les	B-ORG
-Boloss	I-ORG
-:	I-ORG
-Loser	I-ORG
-attitude	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e2faf61bd4d53524059264ac3b494ab251a2f5bd9b6ca29b29742c64ce46102
+size 155

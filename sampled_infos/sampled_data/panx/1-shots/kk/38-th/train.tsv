@@ -1,22 +1,3 @@
-АЙДАУ	O
-Б.	B-ORG
-з.	I-ORG
-д.	I-ORG
-744	I-ORG
-жыл	I-ORG
-
-Дмитрий	B-PER
-Иванович	I-PER
-Менделеев	I-PER
-
-Кастилия	B-LOC
-—	I-LOC
-Ла-Манча	I-LOC
-автономды	O
-бірлестігіне	O
-қарасты	O
-Куэнка	B-ORG
-провинциясының	O
-құрамына	O
-кіреді	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ad46d1027fda3d269e88b58cfafeee8c15301eaabbb36f7ab5fc1259db170a0
+size 345

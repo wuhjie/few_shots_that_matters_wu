@@ -1,19 +1,3 @@
-رجوع_مکرر	O
-آفتاب	B-PER
-احمد	I-PER
-(	I-PER
-سرگودھا	I-PER
-کا	I-PER
-کرکٹ	I-PER
-کھلاڑی	I-PER
-)	I-PER
-
-رجوع_مکرر	O
-انڈین	B-ORG
-نیشنل	I-ORG
-کانگریس	I-ORG
-
-رجوع_مکرر	O
-وارن	B-LOC
-کاؤنٹی،	I-LOC
-کینٹکی	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e70c5c23e87acbfd4f69676e9a022270cae10de94c9ca62039d3c80c560ec95
+size 286

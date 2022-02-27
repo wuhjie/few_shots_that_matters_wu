@@ -1,31 +1,3 @@
-לאחר	O
-המלחמה	O
-התיישבו	O
-רבים	O
-מהגולים	O
-לואיזיאנה	B-ORG
-הצרפתית	I-ORG
-שעברה	O
-לשלטון	O
-ספרד	B-LOC
-.	O
-
-במערב	O
--	O
-ים	B-LOC
-התיכון	I-LOC
-,	O
-הערים	O
-נהריה	B-LOC
-עכו	B-LOC
-קריות	B-LOC
-
-את	O
-הסרט	O
-הפיק	O
-,	O
-כתב	O
-וביים	O
-ג'אד	B-PER
-אפאטו	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8dfd66e2281091771df580d26db667b2b901364bb1da508e9f3d8efffee6969
+size 367

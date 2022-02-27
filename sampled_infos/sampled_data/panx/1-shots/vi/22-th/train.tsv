@@ -1,18 +1,3 @@
-Xa	B-ORG
-lộ	I-ORG
-Liên	I-ORG
-tiểu	I-ORG
-bang	I-ORG
-81	I-ORG
-tại	O
-Xã	B-LOC
-Union	I-LOC
-,	I-LOC
-Pennsylvania	I-LOC
-
-Karl	B-PER
-XIV	I-PER
-Johan	I-PER
-của	I-PER
-Thụy	I-PER
-Điển	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:70ec7855f62b4231438e0afecd35d24a5d653090aa949ac914caf489dc660603
+size 195

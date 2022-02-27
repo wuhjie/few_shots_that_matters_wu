@@ -1,20 +1,3 @@
-সিস্তন	B-LOC
-ও	I-LOC
-বালুচেস্তন	I-LOC
-প্রদেশ	I-LOC
-
-ইউনিভার্সিটি	B-ORG
-অব	I-ORG
-ক্যালিফোর্নিয়া	I-ORG
-,	I-ORG
-সান্টা	I-ORG
-ক্রুজ	I-ORG
-
-শাশ্বত	B-PER
-চট্টোপাধ্যায়	I-PER
-,	O
-অনন্যা	B-PER
-চট্টোপাধ্যায়	I-PER
-,	O
-আবীর	B-PER
-চট্টোপাধ্যায়	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b591dd3ab558e98bf7bb9a527a54b8440b78d7ae9943a9e79374dd453c13389
+size 477

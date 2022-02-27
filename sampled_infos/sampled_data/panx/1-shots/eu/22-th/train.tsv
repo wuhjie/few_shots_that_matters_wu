@@ -1,21 +1,3 @@
-'	O
-''	O
-Paolo	B-PER
-Bettini	I-PER
-''	O
-'	O
-,	O
-Italia	B-LOC
-
-2.	B-ORG
-linea	I-ORG
-(	I-ORG
-Bilboko	I-ORG
-metroa	I-ORG
-)	I-ORG
-
-Xinzhou	B-LOC
-Barrutia	I-LOC
-(	O
-新洲区	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0cfe343816e5969a252648445da65b43c850449cb6c3981bf52a8e6c8c217cf
+size 176

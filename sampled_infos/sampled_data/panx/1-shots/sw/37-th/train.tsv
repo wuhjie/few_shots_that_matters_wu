@@ -1,25 +1,3 @@
-Alifuatwa	O
-na	O
-Joseph	B-PER
-Sinde	I-PER
-Warioba	I-PER
-.	O
-
-Surinam	B-LOC
-(	I-LOC
-mto	I-LOC
-)	I-LOC
-
-Eneo	O
-lake	O
-ni	O
-9.5	O
-km²	B-ORG
-.	O
-
-Thr33	B-ORG
-Ringz	I-ORG
-''	O
-(	O
-2008	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e18d33130dd6c2d41eed9c2746e979a9f1bce5994873c1055ed5acaf7038e09
+size 187

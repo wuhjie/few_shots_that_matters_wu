@@ -1,18 +1,3 @@
-Nurullah	B-PER
-Sağlam	I-PER
-(	O
-2009	O
-)	O
-
-Middle	B-LOC
-Musquodoboit	I-LOC
-,	I-LOC
-Nova	I-LOC
-Scotia	I-LOC
-
-Hertha	B-ORG
-BSC	I-ORG
-Berlin	I-ORG
-(	O
-5	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b4a4ec97e37c5b1e12f23cdee71e0b6e0bd7e727306eb5d8f9e946c06a07737
+size 158

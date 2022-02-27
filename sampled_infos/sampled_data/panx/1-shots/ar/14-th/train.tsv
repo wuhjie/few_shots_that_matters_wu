@@ -1,33 +1,3 @@
-ولد	O
-في	O
-الرقة،	B-ORG
-ونشأ	O
-وتعلم	O
-في	O
-بغداد	B-LOC
-.	O
-
-تحويل	O
-شركة	B-ORG
-مروحيات	I-ORG
-روبنسون	I-ORG
-
-خوان	B-PER
-كارلوس	I-PER
-فيريرو	I-PER
-''	O
-(	O
-الجولة	O
-الرابعة	O
-)	O
-''	O
-
-تحويل	O
-بيتربورو	B-LOC
-(	I-LOC
-دائرة	I-LOC
-انتخابية	I-LOC
-في	I-LOC
-المملكة	I-LOC
-المتحدة	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8d7cdc7453e4e243bcd90748b5357d96183e5c75d67e89815304911fe8b41d5
+size 408

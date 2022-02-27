@@ -1,20 +1,3 @@
-თამაში	O
-დაიწყო	O
-„ვესტ	B-ORG
-ჰემ	I-ORG
-იუნაიტედის“	I-ORG
-ახალგაზრდულ	O
-გუნდებში	O
-.	O
-
-ექვემდებარება	O
-მესინის	B-LOC
-პროვინციის	I-LOC
-ადმინისტრაციას	O
-.	O
-
-ტონი	B-PER
-ბენქსი	I-PER
--	O
-კლავიშებიანი	O
-ინსტრუმენტები	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd6841e0ade0c059975c5f1041f69b1ec82ef3c1bb6d41799041123ea2d41e68
+size 474

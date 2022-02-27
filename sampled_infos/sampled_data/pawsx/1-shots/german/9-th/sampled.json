@@ -1,1 +1,3 @@
-{"0": [{"uid": "german-430-val", "text_a": "NS", "label": "0", "portion_identifier": -1, "text_b": "NS"}], "1": [{"uid": "german-848-val", "text_a": "Dies war das dritte von drei erstklassigen Hotels, die im Hauptgesch\u00e4ftsbezirk gebaut werden sollten.", "label": "1", "portion_identifier": -1, "text_b": "Das war das dritte von drei erstklassigen Hotels, die im zentralen Gesch\u00e4ftsviertel gebaut wurden."}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef2812ad0c72a22fa6b1e7e7eb8782f34c881f92865be3718b2dd9bff1ae0373
+size 417

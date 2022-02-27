@@ -1,17 +1,3 @@
-Phoque	B-LOC
-de	I-LOC
-Weddell	I-LOC
-
-====	O
-Championnats	B-ORG
-du	I-ORG
-monde	I-ORG
-====	O
-
-'	O
-''	O
-Avec	O
-Marcus	B-PER
-Ehning	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:79def67befcc40f9e5b3bfcd973f2898759175862400d2696d5b66452c0ed6d8
+size 143

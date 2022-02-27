@@ -1,16 +1,3 @@
-பழநி	B-ORG
-(	I-ORG
-சட்டமன்றத்	I-ORG
-தொகுதி	I-ORG
-)	I-ORG
-
-வழிமாற்று	O
-அக்கினேனி	B-PER
-நாகேஸ்வர	I-PER
-ராவ்	I-PER
-
-===	O
-ஐபீரிய	B-LOC
-குடா	I-LOC
-பகுதி	O
-===	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:9757f256e2b812d1ffd5e1b7119881619534085e687b114323837f606964e63a
+size 287

@@ -1,24 +1,3 @@
-виж	O
-Нерон	B-PER
-Клавдий	I-PER
-Друз	I-PER
-
-пренасочване	O
-Рожае	B-LOC
-(	I-LOC
-община	I-LOC
-)	I-LOC
-
-пренасочване	O
-Мис	B-ORG
-(	I-ORG
-списание	I-ORG
-)	I-ORG
-
-Разпространен	O
-е	O
-в	O
-Колумбия	B-LOC
-и	O
-Панама	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:de3044f25371bf8cb7ef6802dcb97b77c32e2a6de662a6b4b349c9ab19304bc9
+size 313

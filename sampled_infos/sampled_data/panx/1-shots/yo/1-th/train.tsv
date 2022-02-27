@@ -1,35 +1,3 @@
-Àwọn	B-LOC
-Erékùṣù	I-LOC
-Fàróè	I-LOC
-
-Ajagun	B-ORG
-Ojúòfurufú	I-ORG
-Amẹ́ríkà	I-ORG
-
-'	O
-''	O
-'	O
-''	O
-ni	O
-Kánsílọ̀	B-LOC
-orile-ede	O
-Jẹ́mánì	B-LOC
-tele	O
-.	O
-
-Amélie	B-PER
-Mauresmo	I-PER
-lo	O
-bori	O
-Justine	B-PER
-Henin-Hardenne	I-PER
-ni	O
-opin	O
-pelu	O
-ayo	O
-2-6	O
-,	O
-6-3	O
-,	O
-6-4	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc7a67b0918ad9dd0b919c34c8e3b5644f9d959dc40fc9df028be6c6fef1f401
+size 320

@@ -1,28 +1,3 @@
-'	O
-''	O
-Rio	B-ORG
-Ave	I-ORG
-FC	I-ORG
-
-Hij	O
-loopt	O
-van	O
-Aleșd	B-LOC
-naar	O
-via	O
-Șimleu	B-LOC
-Silvaniei	I-LOC
-,	O
-Zalău	B-LOC
-en	O
-Jibou	B-LOC
-naar	O
-Negreni	B-LOC
-.	O
-
-'	O
-''	O
-Patrick	B-PER
-Tambay	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea316badad82a3bbe4a803c601755477be087f327d0f861bf77708d4c0750b59
+size 220

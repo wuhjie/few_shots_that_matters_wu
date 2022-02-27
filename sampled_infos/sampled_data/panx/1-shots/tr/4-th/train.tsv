@@ -1,24 +1,3 @@
-YÖNLENDİR	O
-With	B-ORG
-a	I-ORG
-Child	I-ORG
-'s	I-ORG
-Heart	I-ORG
-
-Taşburun	B-LOC
--	O
-Bayburt	B-LOC
-ilinin	O
-köyü	O
-
-YÖNLENDİRME	O
-Hans	B-PER
-Gillisz.	I-PER
-Bollongier	I-PER
-
-Trabzonlu	B-PER
-I.	I-PER
-Andronikos	I-PER
-,	O
-Trabzon	B-LOC
-imparatoru	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:8beae915b147a1c82f7fff92510d92316e48f0a2cc3518bf6668ddd8da7f7487
+size 257

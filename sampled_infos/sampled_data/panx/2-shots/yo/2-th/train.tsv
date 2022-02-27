@@ -1,36 +1,3 @@
-Ìwo	B-LOC
-Orí	I-LOC
-ilẹ̀	I-LOC
-Áfríkà	I-LOC
-
-Jelena	B-PER
-Janković	I-PER
-''	O
-(	O
-First	O
-Round	O
-)	O
-
-Lindsay	B-PER
-Davenport	I-PER
-''	O
-(	O
-Final	O
-)	O
-
-Ajagun	B-ORG
-Ojúòfurufú	I-ORG
-Amẹ́ríkà	I-ORG
-
-Pópù	B-PER
-Marcellus	I-PER
-1k	I-PER
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Mobbar	I-LOC
-
-Ààrẹ	B-ORG
-ilẹ̀	I-ORG
-Brasil	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f228f4e804bc0809b1a0ea83615b20569482d01ea354b9f010eaa91e79af3c7
+size 362

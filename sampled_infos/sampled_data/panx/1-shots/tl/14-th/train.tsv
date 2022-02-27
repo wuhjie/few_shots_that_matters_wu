@@ -1,21 +1,3 @@
-Lungsod	B-LOC
-ng	I-LOC
-Chiba	I-LOC
-
-Central	B-ORG
-Japan	I-ORG
-Railway	I-ORG
-Company	I-ORG
-
-Pagpapalabas	B-PER
-na	I-PER
-pambabae	I-PER
-
-'	O
-''	O
-Thailand	B-LOC
-''	O
-'	O
-–	O
-Aniporn	O
-Chalermburanawong	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0db6e4691ff54e5584a276db0fa321baf3d5c4307d1ad8d11246c52e3ac969c3
+size 204

@@ -1,26 +1,3 @@
-'	O
-''	O
-Baarle-Nassau	B-LOC
-''	O
-'	O
-
-Liste	B-LOC
-des	I-LOC
-communes	I-LOC
-du	I-LOC
-Cantal	I-LOC
-
-Luca	B-ORG
-Turilli	I-ORG
-(	I-ORG
-groupe	I-ORG
-)	I-ORG
-
-Jerome	B-PER
-Davis	I-PER
-Antonio	B-PER
-Pettigrew	I-PER
-Angelo	B-PER
-Taylor	I-PER
-Michael	B-PER
-Johnson	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7ebc011bd86b7002bf7e660d06a442bc14ff38135854704e890ff113d4ac8e6
+size 263

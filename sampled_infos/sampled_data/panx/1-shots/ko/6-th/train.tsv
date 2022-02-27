@@ -1,17 +1,3 @@
-베른하르트	B-PER
-리만과	I-PER
-아돌프	B-PER
-후르비츠가	I-PER
-증명하였다	O
-.	O
-
-1996년	B-ORG
-아프리카	I-ORG
-네이션스컵	I-ORG
-준우승	O
-
-류난	B-LOC
-구	I-LOC
-(	O
-柳南区	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0eda0b76e396ddc5bbc8a2ac4e62cd302ad1602eb84212abce257f097a4b0e7
+size 210

@@ -1,22 +1,3 @@
-רובם	O
-היגרו	O
-מושבת	B-ORG
-הכף	I-ORG
-דרום	B-LOC
-אפריקה	I-LOC
-שנוסדה	O
-זמן	O
-קצר	O
-לפני	O
-כן	O
-.	O
-
-ג'ון	B-PER
-ברומוויץ	I-PER
-'	I-PER
-(	O
-)	O
-,	O
-הודח	O
-בסיבוב	O
-הראשון	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ead5733239286e2d2780bf6be02d62d6f24ee95e5b9d2b7697e3ae83ce6a6176
+size 242

@@ -1,18 +1,3 @@
-Australia	B-LOC
-(	O
-1950	O
-)	O
-
-Juan	B-PER
-ang	I-PER
-Alagad	I-PER
-
-Commonwealth	B-ORG
-of	I-ORG
-Independent	I-ORG
-States	I-ORG
-
-Mga	B-LOC
-comune	I-LOC
-ng	I-LOC
-Ain	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:234206f39d01bb2f1c3e5475144fa017bbdbce8b6cefc6a4708105d2866e8a7f
+size 169

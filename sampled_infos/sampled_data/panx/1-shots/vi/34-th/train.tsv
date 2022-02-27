@@ -1,21 +1,3 @@
-Liên	B-ORG
-minh	I-ORG
-châu	I-ORG
-Âu	I-ORG
-
-đổi	O
-Étréchy	B-LOC
-,	I-LOC
-Essonne	I-LOC
-
-'	O
-''	O
-Nauru	B-LOC
-''	O
-'	O
-
-đổi	O
-Giáo	B-PER
-hoàng	I-PER
-Calixtô	I-PER
-I	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:042fc23dcffe67a28f1eafa12f1c066fd64cffdf76728c28f657b6e3d615a42d
+size 182

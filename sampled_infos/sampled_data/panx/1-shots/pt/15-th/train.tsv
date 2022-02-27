@@ -1,26 +1,3 @@
-REDIRECIONAMENTO	O
-Lista	B-ORG
-de	I-ORG
-chefes	I-ORG
-de	I-ORG
-governo	I-ORG
-de	I-ORG
-Portugal	I-ORG
-
-Entre	O
-seus	O
-colegas	O
-,	O
-Igor	B-PER
-Kolyvanov	I-PER
-e	O
-Ihor	B-PER
-Dobrovols'kyi	I-PER
-.	O
-
-“	O
--	O
-Dois	B-LOC
-Irmãos	I-LOC
-do	I-LOC
-Buriti	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:49c27bc903c0f9ade258a278e2241574eb3f500297be1593480d9eae269dc74d
+size 254

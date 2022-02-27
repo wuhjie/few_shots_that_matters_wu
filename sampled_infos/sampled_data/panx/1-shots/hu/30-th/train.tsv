@@ -1,18 +1,3 @@
-Jon	B-PER
-Anderson	I-PER
-''	O
-–	O
-ének	O
-
-Tobil	B-ORG
-Kosztanaj	I-ORG
-(	O
-0.649	O
-)	O
-
-ÁTIRÁNYÍTÁS	O
-Struhařov	B-LOC
-(	I-LOC
-Kelet-prágai	I-LOC
-járás	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5bde494086fc45cc2dc6a6875707b847591d49b6c60b95ec204ede14c2c9dfbd
+size 175

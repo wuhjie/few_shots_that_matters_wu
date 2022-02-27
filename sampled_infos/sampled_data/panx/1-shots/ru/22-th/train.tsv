@@ -1,30 +1,3 @@
-'	O
-''	O
-Папская	B-LOC
-область	I-LOC
-''	O
-'	O
-—	O
-
-Рэйчел	B-PER
-Шелли	I-PER
-—	O
-''Анна-Мари	O
-''	O
-
-**	O
-'	O
-''	O
-Кашмир	B-LOC
-''	O
-'	O
-—	O
-
-'	O
-''	O
-Линия	B-ORG
-Нассо-стрит	I-ORG
-,	I-ORG
-Би-эм-ти	I-ORG
-''	O
-'Брод-стрит	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:812d5de99664d222aa8b56e0da8e68f7bd9a601e8dbba55104de2ac1fbc1c847
+size 297

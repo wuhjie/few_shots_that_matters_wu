@@ -1,16 +1,3 @@
-Lambo	B-ORG
-la	I-ORG
-Aswan	I-ORG
-(	O
-Ziwa	B-LOC
-la	I-LOC
-Nasser	I-LOC
--	O
-Misri	B-LOC
-)	O
-
-Reiko	B-PER
-Aylesworth	I-PER
-kama	O
-Michelle	B-PER
-Dessler	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:70838227a2faa58dd287b968715f0f87ba58758b96f2b7e65ca7773908b67c4d
+size 156

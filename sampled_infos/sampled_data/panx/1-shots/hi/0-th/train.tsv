@@ -1,23 +1,3 @@
-वर्जीनिया	B-PER
-रुआनो	I-PER
-पास्कुआल	I-PER
-पाओला	B-PER
-सुआरेज़	I-PER
-
-सैन	B-LOC
-जुआन	I-LOC
-प्रान्त	I-LOC
-,	I-LOC
-अर्जेन्टीना	I-LOC
-
-ओशनोग्राफी	O
-गहरे	O
-पानी	O
-में	O
-आकार	O
-लेता	O
-भविष्य	O
-(	O
-दैनिक	B-ORG
-भास्कर	I-ORG
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c4d030104a2199a8c1293042f01a89f956e5a0cf71e89b72dc39803a370f0ca
+size 431

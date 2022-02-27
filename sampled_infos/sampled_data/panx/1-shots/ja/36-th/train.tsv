@@ -1,25 +1,3 @@
-#	O
-A	B-ORG
-I	I-ORG
-K	I-ORG
-a	I-ORG
-（	O
-相	O
-田	O
-郷	O
-造	O
-）	O
-
-青	B-PER
-木	I-PER
-宣	I-PER
-親	I-PER
-
-#	O
-セ	B-LOC
-ラ	I-LOC
-ヴ	I-LOC
-ァ	I-LOC
-ッ	I-LOC
-レ	I-LOC
-#	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d5d47c3ce5a74c3128de1113de6914cd6c00c040fdf91585275f2356588dffd
+size 182

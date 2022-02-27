@@ -1,36 +1,3 @@
-الوليد	B-PER
-بن	I-PER
-عبد	I-PER
-الملك	I-PER
-
-خوان	B-PER
-مارتن	I-PER
-ديل	I-PER
-بوترو	I-PER
-''	O
-(	O
-ربع	O
-النهائي	O
-)	O
-
-القوات	B-ORG
-الجوية	I-ORG
-الملكية	I-ORG
-الأسترالية	I-ORG
-
-تحويل	O
-ضرعاء	B-LOC
-هلباء	I-LOC
-شائكة	I-LOC
-
-تحويل	O
-تنس	B-ORG
-الريشة	I-ORG
-في	I-ORG
-أولمبياد	I-ORG
-2004	I-ORG
-
-تحويل	O
-الإمارات	B-LOC
-العربية	I-LOC
-المتحدة	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b01dfc0c3a045d6f95dc33ee503217160aad05a68f01bd68d763d0a521db4588
+size 484

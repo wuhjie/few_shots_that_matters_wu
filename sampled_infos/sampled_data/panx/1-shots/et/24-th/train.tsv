@@ -1,30 +1,3 @@
-Läbimurre	O
-oli	O
-1995.	O
-aastal	O
-sarjas	O
-Alarm	B-PER
-Cobra	I-PER
-11	I-PER
--	I-PER
-Highway	I-PER
-Patrol	I-PER
-,	O
-mida	O
-filmitakse	O
-tänaseni	O
-.	O
-
-'	O
-''	O
-Läti	B-LOC
-''	O
-'	O
-
-aastal	O
-eraldus	O
-Portugali	B-ORG
-kuningriik	I-ORG
-Leóni	B-LOC
-kuningriigist	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e806c28ec9db91ff88dcd741a20aa095b65cd65a1d4bf4ea4efcd51edcee7a26
+size 274

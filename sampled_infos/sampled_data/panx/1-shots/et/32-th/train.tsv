@@ -1,27 +1,3 @@
-Leedus	B-LOC
-suleti	O
-Ignalina	B-ORG
-tuumaelektrijaama	I-ORG
-viimane	O
-reaktor	O
-.	O
-
-1935–1940	O
-Türi	B-LOC
-linnapea	O
-ja	O
-linnavanem	O
-.	O
-
-'	O
-''	O
-Kalajoki	B-LOC
-linn	I-LOC
-''	O
-'	O
-
-Ya	B-PER
-Ding	I-PER
-(	O
-1956–	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f404639be70e5916622483eac2cb9098e36004806fdd5a59a6395f863a9f0019
+size 229

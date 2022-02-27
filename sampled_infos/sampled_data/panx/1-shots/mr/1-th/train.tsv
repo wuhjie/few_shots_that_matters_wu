@@ -1,25 +1,3 @@
-'	O
-''	O
-'	O
-''	O
-उत्तर	B-LOC
-प्रदेशातील	I-LOC
-सतरा	O
-प्रशासकीय	O
-विभागांपैकी	O
-एक	O
-आहे	O
-.	O
-
-पुनर्निर्देशन	O
-इस्रो	B-ORG
-इनर्शियल	I-ORG
-सिस्टम	I-ORG
-युनिट	I-ORG
-
-'	O
-''	O
-सेबास्टियान	B-PER
-फेटेल	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb41fbb7cfab50d23fec2e03a58aba18a8127e8888b257d18204480efeed1b3f
+size 407

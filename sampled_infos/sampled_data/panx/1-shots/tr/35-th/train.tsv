@@ -1,20 +1,3 @@
-Saltanatı	O
-I.	B-PER
-Ahmed	I-PER
-dönemine	O
-rastgelmektedir	O
-.	O
-
-Dubai	B-LOC
-,	O
-Birleşik	B-LOC
-Arap	I-LOC
-Emirlikleri'nde	I-LOC
-yaşamaktaydi	O
-.	O
-
-YÖNLENDİR	O
-Adalet	B-ORG
-ve	I-ORG
-Kalkınma	I-ORG
-Partisi	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:81cdf15b7cf7b85a19062818ae1d6c41a0ff1f25974856afceb7407d113d0390
+size 221

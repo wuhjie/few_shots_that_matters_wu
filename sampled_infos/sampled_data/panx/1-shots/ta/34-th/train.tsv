@@ -1,16 +1,3 @@
-யாழ்ப்பாணம்	B-LOC
-,	O
-வட	B-LOC
-மாகாணம்	I-LOC
--	O
-அருணாசலம்	B-PER
-மகாதேவா	I-PER
-.	O
-
-இது	O
-திருநெல்வேலி	B-ORG
-மக்களவைத்	I-ORG
-தொகுதியின்	I-ORG
-கீழே	O
-இருக்கிறது	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6d774620e87b56752b60861402995d206eb88001c1211432014262b9455f012
+size 334

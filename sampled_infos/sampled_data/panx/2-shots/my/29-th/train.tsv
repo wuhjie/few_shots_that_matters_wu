@@ -1,36 +1,3 @@
-*25px	O
-'	O
-''	O
-ကူဝိတ်နိုင်ငံ	B-LOC
-''	O
-'	O
-
-ဆုရှင်၊	B-PER
-မောင်၊	I-PER
-စာရေးဆရာ	I-PER
-
-အပြည်ပြည်ဆိုင်ရာ	B-ORG
-ကြက်ခြေနီ	I-ORG
-ကော်မတီ	I-ORG
-
-(	O
-၂	O
-)	O
-သန်လျင်မြို့	B-LOC
-
-ဆေးတက္ကသိုလ်	B-ORG
-(	I-ORG
-၂	I-ORG
-)	I-ORG
-ရန်ကုန်	I-ORG
-
-(	O
-၁	O
-)	O
-မိထွေးတော်	O
-မဟာပဇာပတိဂေါတမီ	B-PER
-ထေရီ	I-PER
--	O
-'အဂ္ဂရတ္တညူ	O
-'	O
-ဘွဲ့တံဆိပ်တော်ရသည်။	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1f2a0e87e5d80c83fe9e5375bb0077a3df9800df0d03184464b92a4f095afa8
+size 652

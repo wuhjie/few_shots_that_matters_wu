@@ -1,18 +1,3 @@
-'	O
-''	O
-Paul	B-PER
-di	I-PER
-Resta	I-PER
-''	O
-'	O
-
-Daerah	B-LOC
-Rychnov	I-LOC
-nad	I-LOC
-Kněžnou	I-LOC
-
-Astro	B-ORG
-(	I-ORG
-televisyen	I-ORG
-satelit	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:715373255a8c4b0d0b78ec52ac8b1848b94c3e5b91045e6ea4e979aa49bdaaa3
+size 164

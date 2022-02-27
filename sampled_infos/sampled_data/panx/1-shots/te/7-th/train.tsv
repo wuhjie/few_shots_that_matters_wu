@@ -1,26 +1,3 @@
-జరిగినదంతా	O
-దూరము	O
-నుండి	O
-చూస్తున్న	O
-విదురుడు	B-PER
-ధృతరాష్ట్రుడికి	O
-విషయము	O
-వివరించాడు	O
-.	O
-
-హైదరాబాద్	B-LOC
-రాష్ట్రం	I-LOC
-స్థాపించబడింది	O
-.	O
-
-16325⇒22645	O
-అహల్య	B-ORG
-నగరి	I-ORG
-ఎక్స్‌ప్రెస్	I-ORG
-
-యువన్	B-PER
-శంకర్	I-PER
-రాజా	I-PER
-సంగీతాన్ని	O
-అందించారు	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ae36ecaa8085e33d075ae89fa78cd0578187b218ce382ef6fc8c4940ee63a3e
+size 583

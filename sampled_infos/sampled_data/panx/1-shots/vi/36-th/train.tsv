@@ -1,18 +1,3 @@
-đổi	O
-Ngân	B-ORG
-hàng	I-ORG
-Trữ	I-ORG
-kim	I-ORG
-Úc	I-ORG
-
-Cô	B-LOC
-Tô	I-LOC
-,	I-LOC
-Tri	I-LOC
-Tôn	I-LOC
-
-đổi	O
-Paul	B-PER
-Léon	I-PER
-Seitz	I-PER
-Kim	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:95cf80c9f86cc5eaf8bb0a0216c545598425198c4e96875146f67a9aba1646de
+size 170

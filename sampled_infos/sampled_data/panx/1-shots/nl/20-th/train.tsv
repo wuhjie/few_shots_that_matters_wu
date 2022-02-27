@@ -1,16 +1,3 @@
-''	O
-Coelops	B-LOC
-frithii	I-LOC
-''	O
-
-DOORVERWIJZING	O
-The	B-ORG
-Power	I-ORG
-of	I-ORG
-Eternity	I-ORG
-
-Samen	O
-met	O
-Joop	B-PER
-Hox	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:deda8360c00ea0f1aa8edefbc38afffb35f7859a6c6f3441635661a2641ac4a5
+size 142

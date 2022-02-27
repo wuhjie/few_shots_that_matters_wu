@@ -1,20 +1,3 @@
-Emilio	B-PER
-Estevez	I-PER
--	O
-James	B-PER
-Lowell	I-PER
-``	I-PER
-Jim	I-PER
-''	I-PER
-Mitchell	I-PER
-
-YÖNLENDİRME	O
-1957	B-ORG
-Türkiye	I-ORG
-genel	I-ORG
-seçimleri	I-ORG
-
-YÖNLENDİR	O
-Amerika	B-LOC
-altın	I-LOC
-yağmurcunu	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:24437236f6bf94790b5852a6fc48e71888e031da52ecfd6e534a4bc07601ada2
+size 231

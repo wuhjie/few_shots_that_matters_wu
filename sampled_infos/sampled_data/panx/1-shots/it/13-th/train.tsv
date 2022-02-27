@@ -1,15 +1,3 @@
-Partito	B-ORG
-Repubblicano	I-ORG
-Italiano	I-ORG
-(	O
-PRI	O
-)	O
-
-San	B-LOC
-Martino	I-LOC
-Valle	I-LOC
-Caudina	I-LOC
-
-Arcadio	B-PER
-di	I-PER
-Mauritania	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9646cdb7e94456b76354221dcad85e5b6cfd6013e7a6ff678986abb8609391d
+size 154

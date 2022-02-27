@@ -1,22 +1,3 @@
-پاکستان	B-ORG
-مسلم	I-ORG
-لیگ	I-ORG
-(	I-ORG
-ن	I-ORG
-)	I-ORG
-
-اساتذہ	O
-میں	O
-حسین	B-PER
-احمد	I-PER
-مدنی	I-PER
-نمایاں	O
-تھے	O
-.	O
-
-رجوع_مکرر	O
-بیور	B-LOC
-ڈیم	I-LOC
-ٹاؤن	I-LOC
-شپ،	I-LOC
-مسوری	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f354d458d662f1b37b57af1642d424d86714a09c5852252379a6d6f2a6841b52
+size 266

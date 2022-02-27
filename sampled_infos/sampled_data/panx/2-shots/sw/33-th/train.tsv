@@ -1,29 +1,3 @@
-Karl	B-PER
-Friedrich	I-PER
-Benz	I-PER
-
-San	B-LOC
-Jose	I-LOC
-,	I-LOC
-California	I-LOC
-
-Msimbo	B-LOC
-wa	I-LOC
-posta	I-LOC
-ni	O
-25214	O
-
-Mehmed	B-PER
-II	I-PER
-''	O
-Mshindi	O
-''	O
-
-Chuo	B-ORG
-Kikuu	I-ORG
-cha	I-ORG
-Tübingen	I-ORG
-
-Kanisa	B-ORG
-la	I-ORG
-Moravian	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fcf8f38fb4cd737dee17c27616d16c2030c2f6e7fd15a874f6509743fcd32d1
+size 264

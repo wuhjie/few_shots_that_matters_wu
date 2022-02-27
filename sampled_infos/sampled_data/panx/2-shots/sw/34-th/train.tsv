@@ -1,34 +1,3 @@
-Basil	B-PER
-wa	I-PER
-Caesarea	I-PER
-
-Alimfuata	O
-Papa	B-PER
-Linus	I-PER
-akafuatwa	O
-na	O
-Papa	B-PER
-Klementi	I-PER
-I	I-PER
-.	O
-
-Wilaya	B-ORG
-ya	I-ORG
-Yamoussoukro	I-ORG
-
-Chuo	B-ORG
-Kikuu	I-ORG
-cha	I-ORG
-Stanford	I-ORG
-
-Msimbo	B-LOC
-wa	I-LOC
-posta	I-LOC
-ni	O
-39302	O
-.	O
-
-Bellerose	B-LOC
-,	I-LOC
-New	I-LOC
-York	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9336cf557225d2a60804bbb2a93de441532e25f0143e60179eaa5774c442a3a
+size 316

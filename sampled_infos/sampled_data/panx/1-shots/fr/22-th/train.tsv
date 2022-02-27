@@ -1,22 +1,3 @@
-**	O
-''22	B-LOC
-en	I-LOC
-fa	I-LOC
-majeur	I-LOC
-''	I-LOC
-,	O
-op	O
-.	O
-
-**	O
-1	B-ORG
-corps	I-ORG
-(	I-ORG
-États-Unis	I-ORG
-)	I-ORG
-
-Franck	B-PER
-Dubosc	I-PER
-et	O
-Marina	B-PER
-Foïs	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fb85e55a45e44fd09153dcfed459534d808ee92c449f4d1b98cb1fea3b88164
+size 186

@@ -1,34 +1,3 @@
-Scott	B-PER
-Weiland	I-PER
-(	O
-Stone	B-ORG
-Temple	I-ORG
-Pilots	I-ORG
-)	O
-
-Harry	B-PER
-Reid	I-PER
-(	O
-D	O
-)	O
-
-Visitaram	O
-muitos	O
-locais	O
-sagrados	O
-na	O
-Terra	B-ORG
-Santa	I-ORG
-,	O
-tais	O
-como	O
-o	O
-Monte	B-LOC
-Sinai	I-LOC
-.	O
-
-Woodmere	B-LOC
-(	I-LOC
-Nova	I-LOC
-Iorque	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c56c995cd6ab837eefd4a7e1ba14b10a78018fa11b2e6b420f092c09347ff1a
+size 285

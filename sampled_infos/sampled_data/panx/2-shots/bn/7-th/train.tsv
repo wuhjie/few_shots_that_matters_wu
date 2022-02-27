@@ -1,30 +1,3 @@
-বাংলাদেশ	B-ORG
-প্রকৌশল	I-ORG
-বিশ্ববিদ্যালয়	I-ORG
-
-নিউ	B-ORG
-ইয়র্ক	I-ORG
-স্টক	I-ORG
-এক্সচেঞ্জ	I-ORG
-ইউরোনেক্সট	I-ORG
-
-কারবালা	B-LOC
-প্রদেশ	I-LOC
-(	O
-كربلاء	O
-)	O
-
-রেমা–কালেঙ্গা	B-LOC
-বন্যপ্রাণী	I-LOC
-অভয়ারণ্য	I-LOC
-
-মোহাম্মদ	B-PER
-ওয়াহিদ	I-PER
-হাসান	I-PER
-(	O
-১৯৫৩–	O
-)	O
-
-মাইকেল	B-PER
-মধুসূদন	I-PER
-দত্ত	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce639c31a09b41d482f20c3c6705d43d5d1143fb9cde8f8e601d369ed3d2ca7e
+size 616

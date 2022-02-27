@@ -1,26 +1,3 @@
-وی	O
-عضو	O
-تیم	B-ORG
-ملی	I-ORG
-فوتبال	I-ORG
-مراکش	I-ORG
-در	O
-جام	B-ORG
-جهانی	I-ORG
-فوتبال	I-ORG
-۱۹۷۰	I-ORG
-بوده	O
-است	O
-.	O
-
-تغییرمسیر	O
-تازه‌آباد	B-LOC
-(	I-LOC
-آبیک	I-LOC
-)	I-LOC
-
-خرچنگ]]	O
-''	O
-ساخته	O
-یورگوس	B-PER
-لانتی‌موس	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b609cce95e467d4195cc06b250cd3471d0344e03d0a7ebdd3624f4a6c924197
+size 331

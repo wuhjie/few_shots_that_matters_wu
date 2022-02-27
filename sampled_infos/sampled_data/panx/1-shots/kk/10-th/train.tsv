@@ -1,26 +1,3 @@
-Қостанай	B-LOC
-облысының	I-LOC
-Әулиекөл	B-LOC
-,	O
-Қарасу	B-LOC
-,	O
-Алтынсарин	B-LOC
-,	O
-Ұзынкөл	B-LOC
-аудандарының	O
-жерімен	O
-ағады	O
-.	O
-
-Имам	B-ORG
-Ағзам	I-ORG
-осыған	O
-қарап	O
-,	O
-үкім	O
-шығарған	O
-.	O
-
-Гай	B-PER
-Юлий	I-PER
-Цезарь	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc8366f817356a979ebb750626f469bab4be02ac28a11afeba5460b433c37e55
+size 358

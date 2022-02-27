@@ -1,33 +1,3 @@
-تغییرمسیر	O
-لشکر	B-ORG
-یکم	I-ORG
-زرهی	I-ORG
-آلمان	I-ORG
-
-تغییرمسیر	O
-ویلیام	B-PER
-آر.	I-PER
-کینگ	I-PER
-
-امامزاده	B-ORG
-جعفر	I-ORG
-(	I-ORG
-بروجرد	I-ORG
-)	I-ORG
-
-تغییر_مسیر	O
-ژرژ-لویی	B-PER
-لو	I-PER
-ساژ	I-PER
-
-تغییرمسیر	O
-امیرآباد	B-LOC
-(	I-LOC
-نیشابور	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-صالح‌آباد	B-LOC
-(	I-LOC
-سمیرم	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5f5c269dda2d6800378b9b58220c83dfbd368b7e11ed84eb799f3356bc9daa6
+size 455

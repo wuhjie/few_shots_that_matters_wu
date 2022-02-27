@@ -1,36 +1,3 @@
-перенаправление	O
-Республика	B-ORG
-Южно-Молуккских	I-ORG
-островов	I-ORG
-
-Великое	B-LOC
-княжество	I-LOC
-Литовское	I-LOC
-
-Кубилюс	B-PER
-,	I-PER
-Витаутас	I-PER
-
-перенаправление	O
-Джонс	B-PER
-,	I-PER
-Тоби	I-PER
-
-Больше	O
-побед	O
-только	O
-у	O
-сборной	B-ORG
-Бразилии	I-ORG
-,	O
-у	O
-неё	O
-их	O
-четыре	O
-.	O
-
-'	O
-''	O
-«Ижора»	O
-Гатчинский	B-LOC
-район	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:638b957887eb205214d5aa8418e9eefdc16bcaf20a1d11908d4abd1fe491caa6
+size 526

@@ -1,18 +1,3 @@
-Ocupação	B-LOC
-Aliada	I-LOC
-da	I-LOC
-Líbia	I-LOC
-
-Asimov	B-ORG
-'s	I-ORG
-Science	I-ORG
-Fiction	I-ORG
-''	O
-
-Tommy	B-PER
-Robredo	I-PER
-''	O
-(	O
-Quarta	O
-Rodada	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc42c17abc65cdfa2330e2b43517ca47b9568fa85ad35c20ec2abe08eeb8e576
+size 166

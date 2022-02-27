@@ -1,34 +1,3 @@
-شاہ	B-PER
-عبداللطیف	I-PER
-بھٹائی	I-PER
-
-رجوع_مکرر	O
-واشنگٹن	B-LOC
-ٹاؤن	I-LOC
-شپ،	I-LOC
-کلارک	I-LOC
-کاؤنٹی،	I-LOC
-انڈیانا	I-LOC
-
-فہرست	B-ORG
-قبرص	I-ORG
-کے	I-ORG
-شہر	I-ORG
-
-رجوع_مکرر	O
-تین	B-ORG
-گھاٹی	I-ORG
-بند	I-ORG
-
-رجوع_مکرر	O
-پورٹیج	B-LOC
-ٹاؤن	I-LOC
-شپ،	I-LOC
-ہینکوک	I-LOC
-کاؤنٹی،	I-LOC
-اوہائیو	I-LOC
-
-رجوع_مکرر	O
-جانی	B-PER
-واکر،	I-PER
-اداکار	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3f49d922b0875edbbada46f84942f96066bbb7d248b510da0717c24983d6231
+size 508

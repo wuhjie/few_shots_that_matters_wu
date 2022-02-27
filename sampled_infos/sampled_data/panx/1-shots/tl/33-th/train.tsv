@@ -1,30 +1,3 @@
-I	B-ORG
-Love	I-ORG
-Betty	I-ORG
-La	I-ORG
-Fea	I-ORG
-''	O
-
-Ang	O
-'	O
-''	O
-Nishiaisu	O
-''	O
-'	O
-ay	O
-isang	O
-munisipalidad	O
-sa	O
-Prepektura	B-LOC
-ng	I-LOC
-Fukushima	I-LOC
-.	O
-
-Henry	B-PER
-IV	I-PER
-,	I-PER
-Banal	I-PER
-na	I-PER
-Emperador	I-PER
-ng	I-PER
-Roma	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:460eb1130d6364e8f88ccd2255dff1995ed40e91e1f4420402bde1ab812599a6
+size 259

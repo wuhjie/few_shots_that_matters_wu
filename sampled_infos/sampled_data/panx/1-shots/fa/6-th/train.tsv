@@ -1,22 +1,3 @@
-تغییرمسیر	O
-قشلاق	B-LOC
-امیرآباد	I-LOC
-(	I-LOC
-قشلاق	B-LOC
-غلام	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-جنجال	B-ORG
-سخنان	I-ORG
-پاپ	I-ORG
-بندیکت	I-ORG
-شانزدهم	I-ORG
-درباره	I-ORG
-اسلام	I-ORG
-
-تغییر_مسیر	O
-ریاست‌جمهوری	B-PER
-اکبر	I-PER
-هاشمی	I-PER
-رفسنجانی	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:4724fa91614ae14b5c242b1c3201761ad36910f0f8b58c53f492e271948e37eb
+size 364

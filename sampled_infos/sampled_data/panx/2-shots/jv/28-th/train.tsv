@@ -1,32 +1,3 @@
-Taman	B-ORG
-Impian	I-ORG
-Jaya	I-ORG
-Ancol	I-ORG
-
-Usmar	B-PER
-Ismail	I-PER
-,	O
-sutradhara	O
-
-ALIH	O
-Tim	B-ORG
-nasional	I-ORG
-bal-balan	I-ORG
-Rumania	I-ORG
-
-ALIH	O
-Nikolas	B-PER
-saka	I-PER
-Myra	I-PER
-
-Alih	O
-Limburg	B-LOC
-(	I-LOC
-Belgia	I-LOC
-)	I-LOC
-
-Mount	B-LOC
-Athos	I-LOC
-(	I-LOC
-otonom	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:437b02db63901d943c159ffdd73cfb3aa4f2f20dbcfb781a3e8f312263e50d38
+size 303

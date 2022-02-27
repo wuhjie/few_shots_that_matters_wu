@@ -1,20 +1,3 @@
-'	O
-''	O
-मार्क	B-PER
-बाउचर	I-PER
-''	O
-'	O
-
-पुनर्निर्देशन	O
-बिर्ला	B-ORG
-इन्स्टिट्यूट	I-ORG
-ऑफ	I-ORG
-टेक्नोलॉजी	I-ORG
-अँड	I-ORG
-सायन्स	I-ORG
-
-मांडवी	B-LOC
-नदी	I-LOC
-(	I-LOC
-गोवा	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:19447da26a9039dc30c73d038cb6d77011f00226a94bbb7c8fa972a122789fa1
+size 341

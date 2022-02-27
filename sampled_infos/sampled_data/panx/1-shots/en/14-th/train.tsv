@@ -1,13 +1,3 @@
-José	B-PER
-Luiz	I-PER
-Ferreira	I-PER
-Rodrigues	I-PER
-
-St	B-ORG
-George	I-ORG
-Stadium	I-ORG
-
-''	O
-Bulbophyllum	B-LOC
-echinochilum	I-LOC
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:19fbf3dcbd09dc8946b57ce0057d213aa21791d2d861141d9ade7b553ee1388c
+size 140

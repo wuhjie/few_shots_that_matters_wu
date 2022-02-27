@@ -1,31 +1,3 @@
-رجوع_مکرر	O
-شوگر	B-LOC
-ہل،	I-LOC
-نیو	I-LOC
-ہیمپشائر	I-LOC
-
-رجوع_مکرر	O
-نوح	B-PER
-علیہ	I-PER
-السلام	I-PER
-
-رجوع_مکرر	O
-ستارہ	B-PER
-(	I-PER
-اداکارہ	I-PER
-)	I-PER
-
-فورٹ	B-ORG
-عباس	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-رجوع_مکرر	O
-عالمی	B-ORG
-موسمیاتی	I-ORG
-تنظیم	I-ORG
-
-رجوع_مکرر	O
-جمہوریہ	B-LOC
-باخا	I-LOC
-کیلیفورنیا	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:73f402df8fc254c6ab25f788d5f563a8e275d15ba483a5bae707cdff4c3eb5c8
+size 456

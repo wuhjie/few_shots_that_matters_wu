@@ -1,18 +1,3 @@
-पुनर्निर्देशन	O
-अजय	B-ORG
--	I-ORG
-अतुल	I-ORG
-
-पुनर्निर्देशन	O
-विल्हेल्म	B-PER
-दुसरा	I-PER
-,	I-PER
-जर्मन	I-PER
-सम्राट	I-PER
-
-सिडनी	B-LOC
-क्रिकेट	I-LOC
-मैदान	I-LOC
-(	O
-SCG	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dabb5995d6a8ee56b3b4438a75166f3252254c5cbd024528de3ceefd9fce66a
+size 326

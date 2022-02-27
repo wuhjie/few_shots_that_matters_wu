@@ -1,25 +1,3 @@
-Gyeongju-si	B-LOC
-–	O
-경주시	O
-,	O
-慶州市	O
-
-Juan	B-PER
-Maria	I-PER
-Vianney	I-PER
-
-Paligsahan	B-ORG
-ng	I-ORG
-mga	I-ORG
-Pelikula	I-ORG
-ng	I-ORG
-Kalakhang	I-ORG
-Maynila	I-ORG
-ng	I-ORG
-2008	I-ORG
-
-Baroy	B-LOC
-,	I-LOC
-Lanao	I-LOC
-del	I-LOC
-Norte	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:66d13c9c17b4dbc4b8b7606e6b33bfefdfafcad64a0d974cf90771460eeebb3a
+size 256

@@ -1,34 +1,3 @@
-Belle	B-LOC
-(	I-LOC
-Virgínia	I-LOC
-Ocidental	I-LOC
-)	I-LOC
-
-24]]	O
-—	O
-30	B-LOC
-de	I-LOC
-maio	I-LOC
-
-Henrique	B-PER
-VII	I-PER
-da	I-PER
-Germânia	I-PER
-
-Campeonato	B-ORG
-Carioca	I-ORG
-de	I-ORG
-Futebol	I-ORG
-
-5.	B-ORG
-Unterseebootsflottille	I-ORG
-(	O
-treinamento	O
-)	O
-
-'	O
-''	O
-Michael	B-PER
-Schumacher	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea043034368bfd0626ad77e36d6afe4c345cbec4949c1fd67ed203af76081940
+size 320

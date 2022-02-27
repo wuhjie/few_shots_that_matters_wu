@@ -1,26 +1,3 @@
-YÖNLENDİRME	O
-UEFA	B-LOC
-Avrupa	I-LOC
-Ligi	I-LOC
-finalleri	I-LOC
-listesi	I-LOC
-
-Otilia'nın	O
-resmi	O
-Facebook	B-ORG
-sayfası	O
-
-''	O
-Julien	B-PER
-Escudé	I-PER
-''	O
-'	O
-–	O
-'	O
-''	O
-Sevilla	B-ORG
-FC	I-ORG
-''	O
-'	O
-–	O
-2005-10	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:07c215d35ed075fe848ae09b52d9f04907e7d5cd122b98e06bdb5f9b0e0fcd73
+size 235

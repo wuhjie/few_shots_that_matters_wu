@@ -1,18 +1,3 @@
-BIRZUZENDU	O
-Espainiako	B-ORG
-Konstituzio	I-ORG
-Auzitegia	I-ORG
-
-Lecceko	B-LOC
-probintzian	I-LOC
-kokatuta	O
-dago	O
-,	O
-Apulia	B-LOC
-eskualdean	O
-.	O
-
-1881–1894	O
-John	B-PER
-Wesley	I-PER
-Powell	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:4eb1b0b06353cf518cf044b2bac2bab44132a073d08d3382584eb1496ff23319
+size 201

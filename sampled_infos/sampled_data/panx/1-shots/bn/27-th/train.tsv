@@ -1,26 +1,3 @@
-হাই	B-ORG
-হোপ্‌স	I-ORG
-(	I-ORG
-পিংক	I-ORG
-ফ্লয়েডের	I-ORG
-গান	I-ORG
-)	I-ORG
-
-পাঞ্জাব	B-LOC
-(	I-LOC
-পাকিস্তান	I-LOC
-)	I-LOC
-
-ঢাকা	B-LOC
-(	O
-৭	O
-,	O
-০৩৩	O
-,	O
-০৭৫	O
-)	O
-
-পি.	B-PER
-ভি.	I-PER
-নরসিমা	I-PER
-রাও	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6861ca5462806dc4da56e9dcf43bbf2227cffa04f7b3e3eb809e9f8d01dda28c
+size 341

@@ -1,18 +1,3 @@
-تغییرمسیر	O
-فهرست	B-PER
-شخصیت‌های	I-PER
-مرد	I-PER
-خانواده	I-PER
-
-تغییرمسیر	O
-رآکتور	B-ORG
-سریع	I-ORG
-خنک‌شده	I-ORG
-فلز	I-ORG
-مایع	I-ORG
-
-تغییرمسیر	O
-اسلام‌آباد	B-LOC
-(	I-LOC
-مهاباد	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b26f205d04e2d215336edba4188cc7e33677257e8782266f86a2f68d5eae5f77
+size 289

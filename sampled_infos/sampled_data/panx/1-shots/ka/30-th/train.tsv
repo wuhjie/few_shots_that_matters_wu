@@ -1,28 +1,3 @@
-გადამისამართება	O
-შანხაი	B-PER
-მასტერსი	I-PER
-(	I-PER
-სნუკერი	I-PER
-)	I-PER
-
-ჯგუფ	O
-ბითლზის	B-ORG
-მიერ	O
-ჩაიწერა	O
-სიმღერის	O
-საკუთარი	O
-ვერსია	O
-.	O
-
-გადამისამართება	O
-ბათუმის	B-ORG
-სახელმწიფო	I-ORG
-საზღვაო	I-ORG
-აკადემია	I-ORG
-
-'	O
-''	O
-გამბიეს	B-LOC
-კუნძულები	I-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:53d0794e00f8c259ec6a0ee549f1a7e8f44ec735709ba3ede7ab8aab037f93a1
+size 564

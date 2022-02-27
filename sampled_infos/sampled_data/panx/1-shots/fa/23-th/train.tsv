@@ -1,16 +1,3 @@
-تغییرمسیر	O
-گروه	B-ORG
-مالی	I-ORG
-میتسوبیشی	I-ORG
-یواف‌جی	I-ORG
-
-تغییرمسیر	O
-نیاب	B-LOC
-(	I-LOC
-اسفراین	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-مریم	B-PER
-خاتون	I-PER
-ملک‌آرا	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:221beae23de3c46e3efa5a5999232433b37492e19079d9c3b75fad914acac185
+size 248

@@ -1,34 +1,3 @@
-'	O
-''	O
-क्यीव	B-LOC
-''	O
-'	O
-''१९९१	O
-''	O
-
-विद्यापीठ	B-ORG
-अनुदान	I-ORG
-आयोग	I-ORG
--	O
-अध्यक्ष	O
-(	O
-१९८६-१९९१	O
-)	O
-
-सैफ	B-PER
-अली	I-PER
-खान	I-PER
-,	O
-शिल्पा	B-PER
-शेट्टी	I-PER
-,	O
-समीरा	B-PER
-रेड्डी	I-PER
-,	O
-विवेक	B-PER
-ओबेरॉय	I-PER
-
-पुनर्निर्देशन	O
-डेल्फी	B-LOC
-,	I-LOC
-ग्रीस	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0569f36770c345add81e4bf05e0eaa6d9b637368fb0349c9532e0804a9a5f0c
+size 508

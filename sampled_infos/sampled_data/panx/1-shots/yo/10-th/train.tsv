@@ -1,18 +1,3 @@
-Monica	B-PER
-Niculescu	I-PER
-''	O
-(	O
-First	O
-Round	O
-)	O
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Birnin	I-LOC
-Kudu	I-LOC
-
-Àgbájọ	B-ORG
-Akáríayé	I-ORG
-Okun	I-ORG
-Átọ́mù	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9515a1b7f2ccae71ea91804e8e0422e2ffb4bae5aca405867282115f1d0a50e
+size 197

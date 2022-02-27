@@ -1,34 +1,3 @@
-تغییرمسیر	O
-آستین	B-PER
-اف.	I-PER
-پایک	I-PER
-
-تغییرمسیر	O
-امپراتوری	B-ORG
-مقدس	I-ORG
-روم	I-ORG
-
-تغییرمسیر	O
-دستک	B-LOC
-(	I-LOC
-آستانه	I-LOC
-اشرفیه	I-LOC
-)	I-LOC
-
-فرد	B-PER
-میس	I-PER
--	O
-شخصیت	O
-مشکوک	O
-
-تغییر_مسیر	O
-احمدآباد	B-LOC
-(	I-LOC
-فیروزه	I-LOC
-)	I-LOC
-
-تغییر_مسیر	O
-جنگ	B-ORG
-ایران–بیزانس	I-ORG
-در	I-ORG
-۵۷۲–۵۹۱	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:e15a02a21e1e05b15726d142fe098e21ef3974ffa72e62e5352e26790685de21
+size 470

@@ -1,16 +1,3 @@
-رجوع_مکرر	O
-ٹیپو	B-ORG
-سلطان	I-ORG
-مسجد	I-ORG
-
-رجوع_مکرر	O
-برززننے،	B-LOC
-کوسکان	I-LOC
-کاؤنٹی	I-LOC
-
-رجوع_مکرر	O
-گرمیت	B-PER
-رام	I-PER
-رحیم	I-PER
-سنگھ	I-PER
-انسان	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:b733f52d0c0620a2340e4d80c2759274fa0b1ca04c104343e313188bd17fb189
+size 247

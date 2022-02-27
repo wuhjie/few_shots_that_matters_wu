@@ -1,16 +1,3 @@
-Yu-Gi-Oh	B-ORG
-!	I-ORG
-Duel	I-ORG
-Monsters	I-ORG
-''	O
-+	O
-
-T'boli	B-LOC
-,	I-LOC
-Timog	I-LOC
-Cotabato	I-LOC
-
-Enrique	B-PER
-II	I-PER
-ng	I-PER
-Pransiya	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6979ff2839b479414f34065cca07aec733467e1c71c941dbfaa3070d13c8a07f
+size 155

@@ -1,36 +1,3 @@
-Саванна	B-LOC
-(	I-LOC
-тауншип	I-LOC
-,	I-LOC
-Миннесота	I-LOC
-)	I-LOC
-
-перенаправление	O
-Российский	B-ORG
-императорский	I-ORG
-военно-воздушный	I-ORG
-флот	I-ORG
-
-перенаправление	O
-Юханссон	B-PER
-,	I-PER
-Кент-Улле	I-PER
-
-Осада	B-ORG
-Тира	I-ORG
-(	I-ORG
-1187	I-ORG
-)	I-ORG
-
-**	O
-'	O
-''	O
-Силезское	B-LOC
-княжество	I-LOC
-''	O
-'	O
-—	O
-
-Гропиус	B-PER
-,	I-PER
-Вальтер	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f0cc5c3db6c464a2793f5972212db395c2460db2542a3ac9314ba4e008535ca
+size 518

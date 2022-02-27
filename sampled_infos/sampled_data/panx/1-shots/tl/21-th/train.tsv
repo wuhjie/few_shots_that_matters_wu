@@ -1,14 +1,3 @@
-Diyosesis	B-LOC
-ng	I-LOC
-Legazpi	I-LOC
-
-Likas	B-ORG
-na	I-ORG
-tulay	I-ORG
-
-'	O
-''	O
-Katrina	B-PER
-Halili	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:869429424ccf1de434b06a601e4bc3ebe58c1a46336a08d90e1848266ba8532c
+size 119

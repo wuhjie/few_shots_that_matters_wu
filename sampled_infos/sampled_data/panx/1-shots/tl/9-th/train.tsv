@@ -1,16 +1,3 @@
-Lungsod	B-LOC
-ng	I-LOC
-Florencia	I-LOC
-
-Pamantasang	B-ORG
-Normal	I-ORG
-ng	I-ORG
-Pilipinas	I-ORG
-
-Si	O
-Orsenigo	O
-na	O
-nakikipagkamay	O
-kay	O
-Joseph	B-PER
-Goebbels	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:72e755abe7d79cb6f370e582aac1a63a7be4c623ee5074c3e29ff59022be5bc5
+size 169

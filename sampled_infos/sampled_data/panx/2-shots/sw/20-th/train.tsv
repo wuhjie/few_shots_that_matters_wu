@@ -1,35 +1,3 @@
-Chuo	B-ORG
-Kikuu	I-ORG
-cha	I-ORG
-Heidelberg	I-ORG
-
-``	O
-Ghetto	B-ORG
-Gospel	I-ORG
-''	O
-(	O
-akishirikiana	O
-na	O
-Elton	B-PER
-John	I-PER
-)	O
-
-Uhusika	O
-ulichezwa	O
-na	O
-D.	B-PER
-B.	I-PER
-Woodside	I-PER
-.	O
-
-Hifadhi	B-LOC
-ya	I-LOC
-Taifa	I-LOC
-ya	I-LOC
-Tsavo	I-LOC
-Mashariki	I-LOC
-
-Palos	B-LOC
-Hills	I-LOC
-,	I-LOC
-Illinois	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:6805d545c61b1d762da7f70835aadb651449f6bf65a20bfdaf8f4ad73a677fb4
+size 325

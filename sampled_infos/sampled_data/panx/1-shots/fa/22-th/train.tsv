@@ -1,17 +1,3 @@
-تغییرمسیر	O
-شهرستان	B-LOC
-دل	I-LOC
-نورت،	I-LOC
-کالیفرنیا	I-LOC
-
-تغییرمسیر	O
-جاده	B-ORG
-ئی۷۲	I-ORG
-اروپا	I-ORG
-
-تغییرمسیر	O
-سیبیل	B-PER
-گابریل	I-PER
-ریکتی	I-PER
-دو	I-PER
-میرابو	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fd2ed2c4cb4d6bb564299b5b29538f67f8340d1e6c1ced4b69e3898cf7f0e11
+size 269

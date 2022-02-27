@@ -1,16 +1,3 @@
-1977–1982	O
-–	O
-Leonid	B-PER
-Brežnev	I-PER
-
-Pamumukaw	B-ORG
-ng	I-ORG
-suso	I-ORG
-
-Lungsod	B-LOC
-ng	I-LOC
-Yokohama	I-LOC
-(	O
-''Kabisera	O
-''	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:17c57cf04e21f937589ed01844324b5e3045cb8808393ee94149bb0d7c7bbe73
+size 150

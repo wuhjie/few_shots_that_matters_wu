@@ -1,29 +1,3 @@
-Агнешка	B-PER
-Радванска	I-PER
-''	O
-(	O
-2	O
-кръг	O
-)	O
-
-Освен	O
-тях	O
-,	O
-малки	O
-популации	O
-обитават	O
-Северна	B-LOC
-Африка	I-LOC
-и	O
-Иран	B-LOC
-.	O
-
-Дълги	O
-години	O
-играе	O
-за	O
-отбора	O
-на	O
-ЦСКА	B-ORG
-Москва	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a899fd9e2b74a37a798addcd6e91bca9efcd758c6537d1dc838e2d1f8377de44
+size 327

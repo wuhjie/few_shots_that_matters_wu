@@ -1,21 +1,3 @@
-Absteiger	O
-in	O
-die	O
-Serie	B-ORG
-B	I-ORG
-
-Er	O
-wurde	O
-zum	O
-Bischof	B-LOC
-von	I-LOC
-Eichstätt	I-LOC
-berufen	O
-am	O
-12	O
-.	O
-
-WEITERLEITUNG	O
-Son	B-PER
-Dam	I-PER
-Bi	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:17d887d027eef523ffb8cb4ede5b0e4a05da464065dd98391d3fa56db363724a
+size 174

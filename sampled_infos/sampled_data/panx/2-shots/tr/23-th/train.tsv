@@ -1,34 +1,3 @@
-Kral	B-ORG
-Baudouin	I-ORG
-Stadyumu	I-ORG
-,	O
-Brüksel	B-LOC
-,	O
-Belçika	B-LOC
-
-John	B-PER
-Wayne	I-PER
-ve	O
-Maureen	B-PER
-O'Hara	I-PER
-
-YÖNLENDİRME	O
-Gur	B-ORG
-(	I-ORG
-il	I-ORG
-)	I-ORG
-
-YÖNLENDİRME	O
-Gecen	B-LOC
-,	I-LOC
-Bartın	I-LOC
-
-YÖNLENDİRME	O
-Bernhard	B-PER
-von	I-PER
-Bülow	I-PER
-
-YÖNLENDİRME	O
-Gökbük	B-LOC
-,	I-LOC
-Finike	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:04d70642d9d15950bc82f06850984c3fbfb7e13ad432e9d59a2f9c0686f0a345
+size 346

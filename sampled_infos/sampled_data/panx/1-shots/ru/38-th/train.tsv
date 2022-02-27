@@ -1,16 +1,3 @@
-перенаправление	O
-Крас	B-PER
-,	I-PER
-Оливер	I-PER
-
-|	O
-Шахтёр	B-ORG
-(	I-ORG
-Донецк	I-ORG
-)	I-ORG
-
-перенаправление	O
-Эссельбах	B-LOC
-(	I-LOC
-река	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7f8d40132a8f0ecffbe8982f8e5ea42e577102d3200932ee9077f4997126b32
+size 224

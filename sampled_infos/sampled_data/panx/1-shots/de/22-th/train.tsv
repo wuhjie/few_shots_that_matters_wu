@@ -1,36 +1,3 @@
-**	O
-'	O
-''	O
-Grafschaft	B-LOC
-Toulouse	I-LOC
-''	O
-'	O
-
-Außerdem	O
-war	O
-er	O
-Gutachter	O
-bei	O
-der	O
-Gründung	O
-der	O
-Neuen	B-ORG
-Pinakothek	I-ORG
-.	O
-
-Nachbardistrikte	O
-sind	O
-Una	B-LOC
-,	O
-Hamirpur	B-LOC
-,	O
-Mandi	B-LOC
-und	O
-Solan	B-LOC
-.	O
-
-Franco	B-PER
-Ferreiro	I-PER
-Rubén	B-PER
-Ramírez	I-PER
-Hidalgo	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d47edff2b224024aa19fc5215b0e476af8825a9ab93e934f5a50c9ee0315608
+size 319

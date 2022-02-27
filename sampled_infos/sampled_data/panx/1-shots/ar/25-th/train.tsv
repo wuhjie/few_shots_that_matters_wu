@@ -1,20 +1,3 @@
-وإداريًا	O
-مديرية	B-LOC
-عيال	I-LOC
-سريح	I-LOC
-.	O
-
-تحويل	O
-كينوما	B-ORG
-(	I-ORG
-ميزوري	I-ORG
-)	I-ORG
-
-``	O
-يا	O
-مسافر	O
-وحدك،	O
-محمد	B-PER
-عبد	I-PER
-الوهاب	I-PER
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:93362bd55ef8774e775a2aab9f0feffaee8789cfa6fc1790d3ee7e63994e135c
+size 231

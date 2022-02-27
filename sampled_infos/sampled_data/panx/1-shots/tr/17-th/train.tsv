@@ -1,25 +1,3 @@
-YÖNLENDİRME	O
-Port	B-LOC
-Louis	I-LOC
-Bölgesi	I-LOC
-(	I-LOC
-Mauritius	I-LOC
-)	I-LOC
-
-Steve	B-PER
-Nash	I-PER
-(	O
-6	O
-)	O
-
-``	O
-Ca	B-ORG
-n't	I-ORG
-Stop	I-ORG
-This	I-ORG
-Thing	I-ORG
-We	I-ORG
-Started	I-ORG
-''	O
-–	O
-4:29	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:507dc5922b2d4cd68a3a346f263b361f722f309fc2283d4b5c586a0bd0b246e1
+size 222

@@ -1,13 +1,3 @@
-Hitomi	B-PER
-Yoshizawa	I-PER
-(	O
-Pinuno	O
-)	O
-
-Kapisanan	B-ORG
-ni	I-ORG
-Hesus	I-ORG
-
-Etajima	B-LOC
-,	I-LOC
-Hiroshima	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1d1e2d403cfb89ffb701d0ab369d8db594f77e34ee88d34f271f84697a05d0e
+size 123

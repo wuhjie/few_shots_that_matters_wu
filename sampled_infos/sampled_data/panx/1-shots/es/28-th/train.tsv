@@ -1,20 +1,3 @@
-'	O
-''	O
-Guillermina	B-PER
-de	I-PER
-Hesse-Kassel	I-PER
-''	O
-'	O
-
-Condado	B-LOC
-de	I-LOC
-Montgomery	I-LOC
-(	O
-este	O
-)	O
-
-Instituto	B-ORG
-de	I-ORG
-Astrofísica	I-ORG
-de	I-ORG
-Andalucía	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a7692b328cb22edc60eebca70002291e8b74b9cb3642efebde234025728f2fa
+size 191

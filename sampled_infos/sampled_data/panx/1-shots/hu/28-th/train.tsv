@@ -1,35 +1,3 @@
-Jean-Alain	B-PER
-Boumsong	I-PER
-–	O
-Newcastle	B-ORG
-United	I-ORG
-FC	I-ORG
-–	O
-2004–06	O
-
-Megközelíthető	O
-az	O
-Akasztó-hegyi	O
-autóparkolótól	O
-a	O
-zöld	B-LOC
-jelzésű	I-LOC
-turistaösvényen	I-LOC
-dél	O
-felé	O
-.	O
-
-RC	B-ORG
-Celta	I-ORG
-de	I-ORG
-Vigo	I-ORG
-
-Ekkor	O
-találkozott	O
-a	O
-számára	O
-oly	O
-fontossá	O
-váló	O
-Brahmsszal	B-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:996b19ccbd8b5754f3c8b5f8cea9d82eeaa204a0b2be58752dece13650e696d5
+size 362

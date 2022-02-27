@@ -1,16 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Manche	I-LOC
-
-Zaman	B-ORG
-Tembikar	I-ORG
-Mumun	I-ORG
-
-'	O
-''	O
-Nick	B-PER
-Heidfeld	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:671d37e0b6fccf825abeb105a4e90c281794cebdbf9eaf4b2330a51ae6d6614e
+size 144

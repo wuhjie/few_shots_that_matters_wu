@@ -1,20 +1,3 @@
-മുഗൾ	B-LOC
-സാമ്രാട്ട്	I-LOC
-മുഹമ്മദ്	B-PER
-ഷായുടെ	I-PER
-ദർബാറിൽ	O
-മന്ത്രിയായിരുന്ന	O
-പിതാവിന്റെ	O
-സഹായകനായി	O
-മകനും	O
-ഒപ്പം	O
-നിന്നു	O
-.	O
-
-കമ്മ്യൂണിസ്റ്റ്	B-ORG
-പാർട്ടി	I-ORG
-ഓഫ്	I-ORG
-ഇന്ത്യ	I-ORG
-(	I-ORG
-മാർക്സിസ്റ്റ്	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c07f61299aeeb154811138587fac6d21c003df4e4689e64f38b07ced74864ed
+size 495

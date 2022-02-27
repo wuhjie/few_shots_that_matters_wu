@@ -1,19 +1,3 @@
-سازمان	B-ORG
-میراث	I-ORG
-فرهنگی،	I-ORG
-صنایع	I-ORG
-دستی	I-ORG
-و	I-ORG
-گردشگری	I-ORG
-
-تغییرمسیر	O
-حسین‌آباد	B-LOC
-(	I-LOC
-ارسنجان	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-ژان	B-PER
-کلود	I-PER
-ون	I-PER
-دم	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c6c807cbb60aaeef3c4e92f6037795bb1143204b5adf6f6bcfa7c87458d9254
+size 276

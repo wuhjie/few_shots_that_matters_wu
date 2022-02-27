@@ -1,18 +1,3 @@
-Semjon	B-PER
-Sergejewitsch	I-PER
-Scherebzow	I-PER
-
-kicker-Archiv	O
-der	O
-Bayerischen	B-ORG
-Staatsbibliothek	I-ORG
-,	O
-teilweise	O
-online	O
-verfügbar	O
-auf	O
-historical-lineups.com	O
-
-Happy	B-LOC
-Valley-Goose	I-LOC
-Bay	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:987a500908ad192c429c456f71bc3874496dcff0a6f11a892b5c9f94e236055e
+size 225

@@ -1,34 +1,3 @@
-ALIH	O
-I	B-ORG
-Am	I-ORG
-...	I-ORG
-Sasha	I-ORG
-Fierce	I-ORG
-
-Charles	B-PER
-Darwin	I-PER
-(	O
-1809-1882	O
-)	O
-
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Haute-Vienne	I-LOC
-
-ALIH	O
-Museum	B-ORG
-Prabu	I-ORG
-Geusan	I-ORG
-Ulun	I-ORG
-
-ALIH	O
-Daftar	B-PER
-Raja	I-PER
-Samoa	I-PER
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Somme	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e6bb60a6877eb6219d379e2d38295d2b4b0469aec0b5dfd00c7c2218a350f3f
+size 326

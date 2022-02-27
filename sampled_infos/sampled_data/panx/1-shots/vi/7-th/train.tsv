@@ -1,26 +1,3 @@
-đổi	O
-Xã	B-LOC
-Hanover	I-LOC
-,	I-LOC
-Quận	I-LOC
-Licking	I-LOC
-,	I-LOC
-Ohio	I-LOC
-
-đổi	O
-Phương	B-ORG
-diện	I-ORG
-quân	I-ORG
-Pribaltic	I-ORG
-1	I-ORG
-
-Kế	O
-vị	O
-ông	O
-là	O
-thúc	O
-phụ	O
-Mộ	B-PER
-Dung	I-PER
-Hi	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d4ffe74ecfa602db847fa2b574adc4d04a3845aa2ddfad23c4d3a16cb6f4eff
+size 240

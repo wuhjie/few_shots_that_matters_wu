@@ -1,34 +1,3 @@
-فينيا	B-LOC
-ديل	I-LOC
-مار	I-LOC
-,	O
-تشيلي	B-LOC
-
-أصبح	O
-في	O
-وقت	O
-لاحق	O
-الأمين	B-ORG
-العام	I-ORG
-لمجلس	I-ORG
-أوروبا	I-ORG
-.	O
-
-فقط	O
-عندما	O
-حصلت	O
-بسلام	O
-التاج	O
-فيليب	B-PER
-الثاني	I-PER
-ملك	I-PER
-إسبانيا،	I-PER
-والآن	O
-فيليب	B-PER
-الأول	I-PER
-ملك	I-PER
-البرتغال،	I-PER
-والسماح	O
-بعودة	O
-الطفل	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3a457318c171f39892314efc1b379418843bcae663cae4489432b044372cd1f
+size 443

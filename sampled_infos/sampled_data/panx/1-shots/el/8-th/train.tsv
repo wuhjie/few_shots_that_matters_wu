@@ -1,22 +1,3 @@
-ΑΝΑΚΑΤΕΥΘΥΝΣΗ	O
-Λαϊκό	B-ORG
-Κοινωνικό	I-ORG
-Κόμμα	I-ORG
-
-'	O
-''	O
-Ηνωμένο	B-LOC
-Βασίλειο	I-LOC
-''	O
-'	O
-
-Πίτερ	B-PER
-Μπρίγκελ	I-PER
-ο	I-PER
-πρεσβύτερος	I-PER
-,	O
-''Τυφλός	O
-που	O
-οδηγεί	O
-τυφλούς	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:390ff5a1cc42045de8bbda65b2b0c385bf1cec10465b37ea3f35616a94a9501c
+size 297

@@ -1,34 +1,3 @@
-Ze	O
-werd	O
-ontworpen	O
-door	O
-Herbert	B-PER
-Baker	I-PER
-en	O
-wordt	O
-onderhouden	O
-door	O
-de	O
-Commonwealth	B-ORG
-War	I-ORG
-Graves	I-ORG
-Commission	I-ORG
-.	O
-
-Boćki	B-LOC
-,	O
-Czeremcha	B-LOC
-,	O
-Dubicze	B-LOC
-Cerkiewne	I-LOC
-,	O
-Milejczyce	B-LOC
-,	O
-Orla	B-LOC
-.	O
-
-'	O
-''	O
-Suzuki	B-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a713ef661fb4b0758e0f01bc3db2dd01bb7579b33655aa031c7d25822e01fc87
+size 299

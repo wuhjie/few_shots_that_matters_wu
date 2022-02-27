@@ -1,17 +1,3 @@
-எஸ்.	B-PER
-பி.	I-PER
-பாலசுப்பிரமணியம்	I-PER
-,	O
-எஸ்.	B-PER
-ஜானகி	I-PER
-
-தமிழ்நாடு	B-ORG
-தொழில்	I-ORG
-முதலீட்டுக்	I-ORG
-கழகம்	I-ORG
-
-பலாமூ	B-LOC
-மாவட்டம்	I-LOC
-(	O
-பகுதி	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:32aa1eea92f5d806df55cb8ceb92d5c5462b35b002f65c5d28756cdd09f04b63
+size 331

@@ -1,35 +1,3 @@
-Meuse]]	O
--	O
-Canal	B-LOC
-Albert	I-LOC
-''	O
-
-'	O
-''	O
-Ola	B-PER
-Vigen	I-PER
-Hattestad	I-PER
-''	O
-'	O
-
-«	O
-Never	B-ORG
-Loved	I-ORG
-a	I-ORG
-Girl	I-ORG
-»	O
-
-Liste	B-LOC
-des	I-LOC
-communes	I-LOC
-de	I-LOC
-la	I-LOC
-Manche	I-LOC
-
-Glen	B-PER
-Hanlon	I-PER
-(	O
-Pirates	B-ORG
-de	I-ORG
-Portland	I-ORG
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:878d8c3b87f8d8c2a8c124e8c1732a0ff5cee80f0ba1b981a50f483f113867aa
+size 295

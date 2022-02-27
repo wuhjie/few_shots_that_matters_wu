@@ -1,26 +1,3 @@
-REDIRECCIÓN	O
-Madame	B-PER
-de	I-PER
-Maintenon	I-PER
-
-'	O
-''	O
-Marsella	B-LOC
-''	O
-'	O
-;	O
-
-Offerings	B-ORG
-II	I-ORG
-:	I-ORG
-All	I-ORG
-I	I-ORG
-Have	I-ORG
-to	I-ORG
-Give	I-ORG
-''	O
-
-REDIRECCIÓN	O
-Distrito	B-LOC
-de	I-LOC
-Stade	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:cddb2ef3af6801c628b634f7c32c38c1254bf0c237cb1b18ad6197aae39f43e0
+size 231

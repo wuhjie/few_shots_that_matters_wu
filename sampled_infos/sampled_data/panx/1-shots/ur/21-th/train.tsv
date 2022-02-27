@@ -1,16 +1,3 @@
-رجوع_مکرر	O
-ہینڈرسنویل،	B-LOC
-شمالی	I-LOC
-کیرولائنا	I-LOC
-
-رجوع_مکرر	O
-امریکی	B-ORG
-جزائر	I-ORG
-ورجن	I-ORG
-میں	I-ORG
-اسلام	I-ORG
-
-رجوع_مکرر	O
-جان	B-PER
-مینارڈ	I-PER
-کینز	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:57fb018c0d159bd3cbf35cc4df1b6c4f0e219037c7180a4abf9ab273507dfe5d
+size 261

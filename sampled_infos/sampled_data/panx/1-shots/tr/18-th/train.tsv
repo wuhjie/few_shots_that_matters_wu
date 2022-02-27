@@ -1,28 +1,3 @@
-Kendisi	O
-,	O
-aynı	O
-zamanda	O
-2006	B-ORG
-FIFA	I-ORG
-Dünya	I-ORG
-Kupası'nda	I-ORG
-Suudi	B-ORG
-Arabistan	I-ORG
-Millî	I-ORG
-Futbol	I-ORG
-Takımı	I-ORG
-adına	O
-kadroya	O
-çağrıldı	O
-.	O
-
-Cesare	B-PER
-Borgia	I-PER
-(	O
-1475–1507	O
-)	O
-
-YÖNLENDİRME	O
-Avrupa	B-LOC
-lekeli	I-LOC
-semenderi	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3be68f051a3c9156591caeb0348cb897d6377bce445dc87ba00b2a93da0fbb5
+size 300

@@ -1,27 +1,3 @@
-AN	O
-Antili	B-LOC
-za	I-LOC
-Kiholanzi	I-LOC
-
-Alimfuata	O
-Papa	B-PER
-Pelagio	I-PER
-II	I-PER
-akafuatwa	O
-na	O
-Papa	B-PER
-Sabinian	I-PER
-.	O
-
-Eneo	O
-lake	O
-ni	O
-15.3	O
-km²	B-ORG
-.	O
-
-Kenya	B-ORG
-Power	I-ORG
-and	I-ORG
-Lighting	I-ORG
-Company	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9fbab22e7e27dc39c457265ee31c1c4e8a0d943b12c965fc9224526f558bc0f
+size 243

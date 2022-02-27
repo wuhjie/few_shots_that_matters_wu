@@ -1,24 +1,3 @@
-تحويل	O
-هراوة	B-ORG
-(	I-ORG
-سلاح	I-ORG
-)	I-ORG
-
-تحويل	O
-كورت	B-LOC
-ماديرا	I-LOC
-(	I-LOC
-كاليفورنيا	I-LOC
-)	I-LOC
-
-وعزف	O
-تحت	O
-قيادة	O
-عظماء	O
-منهم	O
-كلاوديو	B-PER
-أبادو	I-PER
-وسيمون	O
-راتل	O
-وغيرهم	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:425e568b8d4724b537cf8c6a0664f86fb751d1b1904758ab8cb6d014e99e9c5b
+size 293

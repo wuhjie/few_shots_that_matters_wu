@@ -1,34 +1,3 @@
-Бірнеше	O
-рет	O
-Forbes	B-ORG
-журналының	O
-әлемнің	O
-ең	O
-ықпалды	O
-әйелдер	O
-тізімін	O
-басқарды	O
-.	O
-
-АЙДАУ	O
-Футболдан	B-ORG
-әлем	I-ORG
-чемпионатының	I-ORG
-финалы	I-ORG
-(	I-ORG
-2014	I-ORG
-)	I-ORG
-
-Жоғарғы	B-LOC
-Рейн	I-LOC
-департаментінің	I-LOC
-коммуналары	I-LOC
-
-★	O
-'	O
-''	O
-Филип	B-PER
-Сеймур	I-PER
-Хоффман	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3bf8d6e3830570af6f8981015dae09b85c39a28e6251cf3fe17ffdba26b0def
+size 478

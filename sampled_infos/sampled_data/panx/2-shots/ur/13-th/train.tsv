@@ -1,31 +1,3 @@
-خان	B-ORG
-محمد	I-ORG
-چاہ	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-دی	B-LOC
-پاس،	I-LOC
-مینی	I-LOC
-ٹوبا	I-LOC
-
-رجوع_مکرر	O
-قاضی	B-ORG
-احمد	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-ڈپٹی	B-PER
-نذیر	I-PER
-احمد	I-PER
-
-رجوع_مکرر	O
-یوسمتھے	B-LOC
-ولیج،	I-LOC
-کیلی	I-LOC
-فورنیا	I-LOC
-
-فہرست	B-PER
-کتب	I-PER
-آئزک	I-PER
-ایسیموو	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:bff491a6d0c1d9277831c0b050e542fab9e0f77cccd3da2920efb099e1c39081
+size 427

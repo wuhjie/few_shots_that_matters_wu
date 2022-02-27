@@ -1,32 +1,3 @@
-Papa	B-PER
-Pio	I-PER
-V	I-PER
-
-Kabundukan	B-LOC
-ng	I-LOC
-Zambales	I-LOC
-
-''	O
-Van	B-PER
-de	I-PER
-Leon	I-PER
-
-'	O
-''	O
-Pilipinas	B-LOC
-''	O
-'	O
-
-Pigsa	B-ORG
-ng	I-ORG
-gilagid	I-ORG
-
-Partido	B-ORG
-Komunista	I-ORG
-(	I-ORG
-Suwesya	I-ORG
-)	I-ORG
-
-Silangang	B-LOC
-Imperyong	I-LOC
-Romano	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1272acb791b56d79aafedf750f40caaa396f1949b996c7c9469490f400733644
+size 285

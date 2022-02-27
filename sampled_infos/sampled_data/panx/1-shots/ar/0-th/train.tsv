@@ -1,15 +1,3 @@
-وامرأته	O
-أسماء	B-PER
-بنت	I-PER
-عميس	I-PER
-
-**	O
-أديس	B-LOC
-أبابا	I-LOC
-(	O
-البعثة	O
-الدائمة	O
-لدى	O
-الاتحاد	B-ORG
-الأفريقي	I-ORG
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f04ecc08f2b79dcb0f74d2b786669580a6b82f75db127021501eaab5e500bfe1
+size 193

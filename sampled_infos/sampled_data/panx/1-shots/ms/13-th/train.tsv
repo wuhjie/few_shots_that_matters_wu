@@ -1,22 +1,3 @@
-Pasukan	B-ORG
-bola	I-ORG
-sepak	I-ORG
-kebangsaan	I-ORG
-bawah-20	I-ORG
-Uzbekistan	I-ORG
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Manche	I-LOC
-
-Keadaan	O
-ini	O
-telah	O
-timbul	O
-dalam	O
-kes	O
-Stephen	B-PER
-Kalong	I-PER
-Ningkan	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f57484a8d6c88a974d2dc4e385036cf944f29e642f43041e55223757a6e5e39
+size 228

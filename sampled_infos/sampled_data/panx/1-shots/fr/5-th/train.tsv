@@ -1,27 +1,3 @@
-REDIRECTION	O
-Moyale	B-ORG
-Barracks	I-ORG
-Football	I-ORG
-Club	I-ORG
-
-Il	O
-récidive	O
-un	O
-mois	O
-plus	O
-tard	O
-à	O
-Scottsdale	B-LOC
-,	O
-en	O
-Arizona	B-LOC
-,	O
-face	O
-à	O
-Glenn	B-PER
-Layendecker	I-PER
-.	O
-
-Arrondissement	B-LOC
-de	I-LOC
-Werra-Meissner	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbe1ee1531d157760958e0d7273ac44e22c2a7b096fd1818e570cefb33e165e7
+size 259

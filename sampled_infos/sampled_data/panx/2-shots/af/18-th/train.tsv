@@ -1,34 +1,3 @@
-Bloukranspas	B-LOC
-(	I-LOC
-Noord-Kaap	I-LOC
-)	I-LOC
-
-Liza	B-PER
-Minnelli	I-PER
-–	O
-The	O
-Sterile	O
-Cuckoo	O
-''	O
-
-AANSTUUR	O
-Royal	B-ORG
-Natal	I-ORG
-Nasionale	I-ORG
-Park	I-ORG
-
-'	O
-''	O
-Vrystaat	B-ORG
-Cheetahs	I-ORG
-''	O
-'	O
-
-New	B-LOC
-Jersey	I-LOC
-–	O
-DeCavalcante-familie	O
-
-Anna	B-PER
-van	I-PER
-Groot-Brittanje	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:59976ebf47aee688f42e9e122a1bd60fcd5915153a4f176ce71f1ec4e5bb0d92
+size 324

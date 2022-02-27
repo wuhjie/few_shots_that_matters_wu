@@ -1,14 +1,3 @@
-হবিগঞ্জ	B-LOC
-সদর	I-LOC
-উপজেলা	I-LOC
-
-রিচার্ড	B-PER
-অ্যাক্সেল	I-PER
-;	O
-লিন্ডা	B-PER
-বি	I-PER
-বাক	I-PER
-
-১৯৬৩	B-ORG
-সিরিয়ান	I-ORG
-অভ্যুত্থান	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a54964b39defacfc4aa28ab48c0e4a6e367b833fb207688c42f248e02b1ee50b
+size 278

@@ -1,32 +1,3 @@
-ФК	B-ORG
-Динамо	I-ORG
-(	I-ORG
-Тбилиси	I-ORG
-)	I-ORG
-
-Парашкев	B-PER
-Хаджиев	I-PER
-и	O
-проф	O
-.	O
-
-виж	O
-Обединени	B-LOC
-арабски	I-LOC
-емирства	I-LOC
-
-пренасочване	O
-Елън	B-PER
-Джонсън	I-PER
-Сърлийф	I-PER
-
-**	O
-Адис	B-LOC
-Абеба	I-LOC
-(	O
-посолство	O
-)	O
-
-Свободен	B-ORG
-онлайн	I-ORG
-достъп	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:1880497745ad356ddb86dee64129a86db3d086fccac002d50428cc794eedfa28
+size 425

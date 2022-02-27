@@ -1,24 +1,3 @@
-Se	O
-matkasi	O
-kesäkuussa	O
-koeajojen	O
-loppuunsaattamiseksi	O
-sekä	O
-varustamista	O
-varten	O
-Scapa	B-LOC
-Flowhun	I-LOC
-.	O
-
-OHJAUS	O
-El	B-ORG
-rostro	I-ORG
-de	I-ORG
-Analia	I-ORG
-
-'	O
-''	O
-Jussi	B-PER
-Aalto	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e600c240784499f8027fd75ab75735339e7b9fa850e601f036e0978ba724b294
+size 223

@@ -1,25 +1,3 @@
-Houses	B-ORG
-of	I-ORG
-the	I-ORG
-Holy	I-ORG
-''	O
-
-ესაზღვრებოდა	O
-ყირგიზეთის	B-LOC
-სსრ	I-LOC
-,	O
-უზბეკეთის	B-LOC
-სსრ	I-LOC
-,	O
-ავღანეთი	B-LOC
-და	O
-ჩინეთი	B-LOC
-.	O
-
-ლუი	B-PER
-XIV	I-PER
-აფუძნებს	O
-საფრანგეთის	B-ORG
-მეცნიერებათა	I-ORG
-აკადემიას	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:10f781e7658a4c1b08ef9e75750947afb7a0d22957e19fa25a5458835a335ff6
+size 443

@@ -1,35 +1,3 @@
-'	O
-''	O
-Steaua	B-ORG
-Bukarest	I-ORG
-''	O
-'	O
-
-WEITERLEITUNG	O
-Hassel	B-LOC
-(	I-LOC
-Rappbode	I-LOC
-)	I-LOC
-
-In	O
-den	O
-frühen	O
-1980er	O
-Jahren	O
-zog	O
-er	O
-nach	O
-Seattle	B-LOC
-.	O
-
-Dieselbe	O
-Schule	O
-die	O
-Claudio	B-PER
-Reyna	I-PER
-ein	O
-paar	O
-Jahre	O
-später	O
-besuchte	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:cccf2a8361af0c6640b2756b352e041f30b5a0a3d826630fe4df666b4418bcf4
+size 282

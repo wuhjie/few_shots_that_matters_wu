@@ -1,20 +1,3 @@
-திருச்செந்தூர்	B-ORG
-(	I-ORG
-சட்டமன்றத்	I-ORG
-தொகுதி	I-ORG
-)	I-ORG
-
-'	O
-''	O
-செரீனா	B-PER
-வில்லியம்ஸ்	I-PER
-''	O
-'	O
-
-**	O
-லாஸ்	B-LOC
-ஏஞ்சலஸ்	I-LOC
-(	O
-துணைத்	O
-தூதரகம்	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dc4b417928564cd02e9a9a25191a43668b24afd21cb5b5c1b11a71924b7ac54
+size 317

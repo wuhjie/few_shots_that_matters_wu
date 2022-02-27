@@ -1,21 +1,3 @@
-San	B-LOC
-Gregorio	I-LOC
-di	I-LOC
-Catania	I-LOC
-
-'	O
-''	O
-Wilco	B-PER
-Zeelenberg	I-PER
-''	O
-'	O
-
-Nella	O
-stagione	O
-successiva	O
-vince	O
-anche	O
-la	O
-Supercoppa	B-ORG
-europea	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5647a3654753bbab2f773895d33921100e95a38e706904add335cda3aa7f9ff6
+size 185

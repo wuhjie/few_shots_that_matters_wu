@@ -1,11 +1,3 @@
-पुनर्निर्देशन	O
-शिवाजी	B-PER
-अढळराव	I-PER
-पाटील	I-PER
-
-टाइम्स	B-ORG
-वृत्तसमूहाचे	I-ORG
-हिंदी	B-LOC
-भाषा	I-LOC
-दैनिक	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ec73013ccc60401a7a9b73446579732b1c10aa048756c864f49184d0c004f85
+size 246

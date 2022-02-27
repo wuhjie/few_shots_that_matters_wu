@@ -1,32 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Pyrénées-Orientales	I-LOC
-
-Rana	B-PER
-Bahadur	I-PER
-Shah	I-PER
-
-ALIH	O
-Edmund	B-PER
-dari	I-PER
-Langley	I-PER
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Vendée	I-LOC
-
-ALIH	O
-Road	B-ORG
-to	I-ORG
-Abbey	I-ORG
-
-**	O
-Click	B-ORG
-Airways	I-ORG
-(	O
-CGK	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:da41d3fead155d75d182093bdf5e7e7c54798ac918796fe9c90d0b58c94298fa
+size 304

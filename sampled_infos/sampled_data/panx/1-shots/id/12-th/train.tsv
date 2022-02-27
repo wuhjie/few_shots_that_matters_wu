@@ -1,17 +1,3 @@
-ALIH	O
-LOT	B-ORG
-Polish	I-ORG
-Airlines	I-ORG
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Côte-d'Or	I-LOC
-
-Ian	B-PER
-McKellen	I-PER
-sebagai	O
-Gandalf	B-PER
-si	I-PER
-Abu-Abu	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:eca60eeaa5a2a5ecdcd4e4f6f2b820ae34c12e2f424d2eb93f17ae3799714838
+size 182

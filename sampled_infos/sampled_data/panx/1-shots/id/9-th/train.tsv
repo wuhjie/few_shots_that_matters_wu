@@ -1,17 +1,3 @@
-Marco	B-PER
-Melandri	I-PER
-(	O
-Aprilia	B-ORG
-)	O
-
-ALIH	O
-Perusahaan	B-ORG
-Hindia	I-ORG
-Timur	I-ORG
-Britania	I-ORG
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Puy-de-Dôme	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:824ac5b9158cc177877745b6311b407bbc19d082f283a31527bcf9a7591ba121
+size 180

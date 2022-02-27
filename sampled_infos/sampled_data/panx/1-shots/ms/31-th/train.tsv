@@ -1,16 +1,3 @@
-What	B-ORG
-is	I-ORG
-LOVE	I-ORG
-?	I-ORG
-
-Figueira	B-LOC
-de	I-LOC
-Castelo	I-LOC
-Rodrigo	I-LOC
-
-LENCONG	O
-Nik	B-PER
-Nazmi	I-PER
-bin	I-PER
-Nik	B-PER
-Ahmad	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc2ec04ebc4e2f6146cf0029366226b1bdbffba7ed34daf50c6801cc7625d40f
+size 157

@@ -1,1 +1,3 @@
-{"0": [{"uid": "french-1235-val", "text_a": "Il a aussi fait don de 34 000 $ \u00e0 Ted Cruz et 7 000 $ \u00e0 Mitt Romney, incluant sa campagne pr\u00e9sidentielle de 2016.", "label": "0", "portion_identifier": -1, "text_b": "Il a \u00e9galement fait don de 34 000 dollars US \u00e0 Mitt Romney et 7 000 dollars US \u00e0 Ted Cruz, y compris sa campagne pr\u00e9sidentielle de 2016."}], "1": [{"uid": "french-775-val", "text_a": "Il \u00e9tait le fils de Thomas Cairnes et sa femme, Jane Scott, la fille de John Scott.", "label": "1", "portion_identifier": -1, "text_b": "Il \u00e9tait le fils de Thomas Cairnes et sa femme, Jane Scott, la fille de John Scott."}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc6c99c287272f32f21a01af2034749ad244be410043e69b514ade9fd2d66688
+size 665

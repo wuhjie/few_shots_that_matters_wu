@@ -1,20 +1,3 @@
-пренасочване	O
-Правец	B-ORG
-(	I-ORG
-компютри	I-ORG
-)	I-ORG
-
-–	O
-Луций	B-PER
-Манлий	I-PER
-Ацидин	I-PER
-Фулвиан	I-PER
-
-Прикумск	O
-,	O
-Ставрополски	B-LOC
-край	I-LOC
-е	O
-наименуван	O
-Будьонновск	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e8ee5299a6cfb4d63bf0c6e8363cebafe5f4e0530aec4061b93ffb4eb11995b
+size 299

@@ -1,25 +1,3 @@
-Именно	O
-гол	O
-Масинги	O
-в	O
-ворота	O
-команды	B-ORG
-Конго	I-ORG
-вывел	O
-южно-африканцев	O
-на	O
-ЧМ-98	B-ORG
-во	O
-Франции	B-LOC
-.	O
-
-перенаправление	O
-Уопака	B-LOC
-(	I-LOC
-округ	I-LOC
-)	I-LOC
-
-Блантер	B-PER
-,	I-PER
-Матвей	I-PER
-Исаакович	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c179694797f0febf091c000264289afacac2976505fbf3465f034fa2b81983e
+size 357

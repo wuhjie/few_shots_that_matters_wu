@@ -1,14 +1,3 @@
-मनोज	B-PER
-कुमार	I-PER
--	O
-राजा	O
-
-अनुप्रेषित	O
-मेलबोर्न	B-ORG
-क्रिकेट	I-ORG
-ग्रांउड	I-ORG
-
-पुनर्प्रेषित	O
-देश	B-LOC
-,	I-LOC
-महाराष्ट्र	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:36ac22fcb53e72991d18a7cb5d1eec17c728a3b6a39e8a7c1be7b7be26475309
+size 282

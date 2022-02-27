@@ -1,28 +1,3 @@
-Kaapse	B-LOC
-Wynlande	I-LOC
-(	O
-DC2	O
-)	O
-in	O
-die	O
-noorde	O
-
-Humphreys-versameling	O
-by	O
-die	O
-Universiteit	B-ORG
-van	I-ORG
-die	I-ORG
-Witwatersrand	I-ORG
-
-Hy	O
-was	O
-aan	O
-moederskant	O
-verwant	O
-aan	O
-Erik	B-PER
-V	I-PER
-van	I-PER
-Denemarke	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a4dd73e5173c5c9ddaef2c8d6519b14d497f75bfa8d11cf4483629b30c3c9d7
+size 254

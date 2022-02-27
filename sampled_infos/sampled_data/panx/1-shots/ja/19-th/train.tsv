@@ -1,21 +1,3 @@
-売	B-LOC
-木	I-LOC
-村	I-LOC
-
-:	O
-#	O
-声	O
-#	O
--	O
-#	O
-根	B-PER
-谷	I-PER
-美	I-PER
-智	I-PER
-子	I-PER
-
-台	O
-鉄	O
-成	B-ORG
-追	I-ORG
-線	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:68a2ec584e673a8dd0862157b726fdd095ba3a08299fde4dfa807bb192d77505
+size 150

@@ -1,24 +1,3 @@
-'	O
-''	O
-'	O
-''	O
-je	O
-ìlú	O
-ní	O
-Nàìjíríà	B-LOC
-.	O
-
-Louis	B-PER
-11k	I-PER
-ilẹ̀	I-PER
-Fránsì	I-PER
-
-Àwọn	B-ORG
-ọmọ	I-ORG
-Áfríkà	I-ORG
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Ìlàòrùn	I-LOC
-Ilesa	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:104accce0e8aa61e9af096a74204bcba9203972b32543ac3831f9bd84d180dc0
+size 238

@@ -1,17 +1,3 @@
-Qualcomm	B-ORG
-Stadium	I-ORG
-(	O
-2	O
-)	O
-
-Situa-se	O
-na	O
-Beira	B-LOC
-Baixa	I-LOC
-.	O
-
-Ray	B-PER
-(	I-PER
-DC	I-PER
-Comics	I-PER
-)	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:0541744a4a0fb50fcb5381851722147525616443b6963095cefbd2d1311df886
+size 135

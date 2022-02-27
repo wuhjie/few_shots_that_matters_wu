@@ -1,15 +1,3 @@
-തിരിച്ചുവിടുക	O
-ഐക്യ	B-LOC
-അറബ്	I-LOC
-എമിറേറ്റുകൾ	I-LOC
-
-തിരിച്ചുവിടുക	O
-ഇൻറർനാഷനൽ	B-ORG
-ഇസ്‍ലാമിക്	I-ORG
-യൂനിവേഴ്‍സിറ്റി	I-ORG
-മലേഷ്യ	I-ORG
-
-തിരിച്ചുവിടുക	O
-ലിയനാർഡോ	B-PER
-ഡാ	I-PER
-വിഞ്ചി	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:58fa78543535da28cfb4819ecb52ed6e19d2eae67db0a9211dd9d970201e4508
+size 423

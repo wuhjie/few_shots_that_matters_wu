@@ -1,28 +1,3 @@
-АЙДАУ	O
-Бердiбек	B-PER
-Машбекұлы	I-PER
-Сапарбаев	I-PER
-
-Атлантикалық	B-LOC
-Пиреней	I-LOC
-департаментінің	I-LOC
-коммуналары	I-LOC
-
-АЙДАУ	O
-Виньоль	B-LOC
-(	I-LOC
-Ньевр	I-LOC
-)	I-LOC
-
-АЙДАУ	O
-Аспан	B-ORG
-ағашы	I-ORG
-Токио	I-ORG
-
-Томас	B-PER
-Уитлам	I-PER
-Аткинсон	I-PER
-
-Еуразия	B-ORG
-ұлттық	I-ORG
-университеті	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8c85334b1fc187363523a305445e4e51ef06093db2cf3a9eb81028b17ce09fb
+size 469

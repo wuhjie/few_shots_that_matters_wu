@@ -1,16 +1,3 @@
-رجوع_مکرر	O
-پیری	B-LOC
-کاؤنٹی،	I-LOC
-الاباما	I-LOC
-
-رجوع_مکرر	O
-یونیورسٹی	B-ORG
-آف	I-ORG
-ساؤتھ	I-ORG
-ایشیاء،	I-ORG
-لاہور	I-ORG
-
-رجوع_مکرر	O
-زبیر	B-PER
-ابن	I-PER
-عوام	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3e729a643a931e426cc43d1c0ada4d7fa02469fab92e59c774716cc450be75c
+size 253

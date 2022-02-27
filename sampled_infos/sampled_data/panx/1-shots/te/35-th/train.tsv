@@ -1,27 +1,3 @@
-సుయోధనుడు	O
-,	O
-అశ్వత్థామ	B-PER
-,	O
-కర్ణుడు	B-PER
-మొదలైన	O
-వారు	O
-అర్జునుడిని	O
-ఎదుర్కొన్నారు	O
-.	O
-
-Narsapuram	O
-కనుమూరి	B-PER
-బాపిరాజు	I-PER
-INC	O
-
-దారిమార్పు	O
-హార్డ్	B-ORG
-డిస్క్	I-ORG
-డ్రైవ్	I-ORG
-
-ఈ	O
-కొండలు	O
-తూర్పు	B-LOC
-కనుమలలో	I-LOC
-భాగాలు	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c30955bbfea08efbecb900feb2e47d29581b7c6ca422514bbfc4c48e5dc7c1f
+size 512

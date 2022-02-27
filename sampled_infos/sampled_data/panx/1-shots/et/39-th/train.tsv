@@ -1,21 +1,3 @@
-Eelmine	O
-esimees	O
-oli	O
-Carlos	B-PER
-Gomes	I-PER
-Júnior	I-PER
-.	O
-
-aastani	O
-oli	O
-ta	O
-Saksamaa	B-ORG
-Liidupäeva	I-ORG
-liige	O
-.	O
-
-Roosna-Alliku	B-LOC
-vald	I-LOC
-,	O
-Järva	B-LOC
-maakond	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:cce2020dd00583eec6a8f4977b2bdc8102c1242c1348f58fb61f5642da898c3b
+size 199

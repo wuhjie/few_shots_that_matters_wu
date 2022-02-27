@@ -1,21 +1,3 @@
-ऑस्कर	B-PER
-स्टॅन्ले	I-PER
-डॉसन	I-PER
-
-पुनर्निर्देशन	O
-द	B-ORG
-टाइम्स	I-ORG
-ऑफ	I-ORG
-इंडिया	I-ORG
-
-'	O
-''	O
-देवबांध	O
-''	O
-'	O
-महाराष्ट्राच्या	B-LOC
-ठाणे	B-LOC
-जिल्ह्यातील	I-LOC
-गाव	O
-आहे	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5945edd58d94aa6af04179ffd5350892a069fed43d443b9552e5aa4652f9148
+size 370

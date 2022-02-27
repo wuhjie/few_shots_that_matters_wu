@@ -1,22 +1,3 @@
-దారిమార్పు	O
-శ్రీపతి	B-PER
-పండితారాధ్యుల	I-PER
-బాలసుబ్రహ్మణ్యం	I-PER
-
-12717	O
-రత్నాచల్	B-ORG
-సూపర్‌ఫాస్ట్	I-ORG
-ఎక్స్‌ప్రెస్	I-ORG
-
-వెతుకు	O
-అనే	O
-పదాన్ని	O
-ఆంధ్ర	B-LOC
-ప్రదేశ్	I-LOC
-లో	O
-కొన్ని	O
-ప్రాంతాల్లో	O
-కొన్ని	O
-పేర్లతో	O
-పిలుస్తారు	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a266d69cc0feed19d86d2b379bbb7a6529824565e227dad3808cab00eb338cab
+size 541

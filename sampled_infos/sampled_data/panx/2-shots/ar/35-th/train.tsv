@@ -1,35 +1,3 @@
-ألباني	B-LOC
-(	I-LOC
-أوريغون	I-LOC
-)	I-LOC
-†	O
-
-كنيسة	B-ORG
-القديس	I-ORG
-بولس	I-ORG
-خارج	I-ORG
-الأسوار	I-ORG
-.	O
-
-تحويل	O
-الألعاب	B-ORG
-الجامعية	I-ORG
-الصيفية	I-ORG
-2015	I-ORG
-
-تحويل	O
-حديدة	B-LOC
-(	I-LOC
-حمص	I-LOC
-)	I-LOC
-
-فولفغانغ	B-PER
-أماديوس	I-PER
-موتسارت	I-PER
-.	O
-
-فضيلة	O
-الشيخ	O
-العلامة	O
-صالح	B-PER
-الفوزان	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e45a02413c3be76e2dc76ae290a21c9937a80b87380c81b8936e64831c9f2df
+size 454

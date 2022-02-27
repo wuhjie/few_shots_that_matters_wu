@@ -1,28 +1,3 @@
-La	B-ORG
-Liga	I-ORG
-takımlarından	O
-UD	B-ORG
-Almería'nun	I-ORG
-formasını	O
-giyen	O
-oyuncu	O
-,	O
-Defans	B-PER
-bölgesinde	O
-görev	O
-yapmaktadır	O
-.	O
-
-1323	O
-yılında	O
-da	O
-Osmanlı	B-LOC
-İmparatorluğu’na	I-LOC
-bağlanmıştır	O
-.	O
-
-Franz	B-PER
-Schubert	I-PER
-(	O
-1797-1828	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cee5457a99e90d2740f203a3cbd03933b8ec047079f4772fef7021fdbf41b4d
+size 294

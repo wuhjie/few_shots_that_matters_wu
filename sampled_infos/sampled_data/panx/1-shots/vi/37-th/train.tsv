@@ -1,16 +1,3 @@
-đổi	O
-Châu	B-PER
-Hải	I-PER
-My	I-PER
-
-Santa	B-LOC
-Monica	I-LOC
-(	O
-Sapao	O
-)	O
-
-Bà	B-ORG
-Rịa	I-ORG
--	I-ORG
-Vũng	I-ORG
-Tàu	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9d095c9a876304e5604918b4f17ddfac82dff04724539a1e94180a951cb3d52
+size 138

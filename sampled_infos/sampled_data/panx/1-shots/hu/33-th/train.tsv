@@ -1,28 +1,3 @@
-'	O
-''	O
-Gino	B-PER
-Bartali	I-PER
-''	O
-'	O
-
-ÁTIRÁNYÍTÁS	O
-Ausztrália	B-LOC
-(	I-LOC
-ország	I-LOC
-)	I-LOC
-
-Sony	B-ORG
-Music	I-ORG
-Entertainment	I-ORG
-Japan	I-ORG
-
-A	O
-következő	O
-századokban	O
-a	O
-laurói	B-LOC
-birtokhoz	O
-tartozó	O
-falucska	O
-volt	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c50051dd79f71eeee1d49d83ad73f8cdf2f177d97dde4b3bc5d036251616d84
+size 263

@@ -1,22 +1,3 @@
-넘겨주기	O
-긴키	B-ORG
-닛폰	I-ORG
-철도	I-ORG
-게이한나	I-ORG
-선	I-ORG
-
-오르한	B-PER
-1세	I-PER
-(	O
-''베이	O
-''	O
-)	O
-
-**	O
-춘계예제	O
-(	O
-春季例祭	O
-,	O
-5월	B-LOC
-31일	I-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c6bd4396fab9b318f67ddc1976198205c3c1113f8e2f99b1e205ada4e17ac27
+size 206

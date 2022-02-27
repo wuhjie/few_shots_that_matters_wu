@@ -1,26 +1,3 @@
-வழிமாற்று	O
-முதலாம்	B-PER
-லியோ	I-PER
-(	I-PER
-திருத்தந்தை	I-PER
-)	I-PER
-
-Crocidura	O
-andamanensis|White-toothed	O
-Andaman	O
-shrew	O
-(	O
-''Crocidura	O
-andamanensis	O
-''	O
-)	O
-அந்தமான்	B-LOC
-மூஞ்சூறு	I-LOC
-
-அண்ணாமலைப்	B-ORG
-பல்கலைக்	I-ORG
-கழகத்தில்	I-ORG
-பி.எஸ்.சி.ஆனர்ஸ	O
-(	O
-கணக்கு	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2daf0af9a6cd4cfa676e6ad264febc6a055f140b83398ec0f5f5dcc97136d98
+size 471

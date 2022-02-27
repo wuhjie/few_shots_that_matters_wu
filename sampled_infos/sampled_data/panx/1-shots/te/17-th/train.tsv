@@ -1,24 +1,3 @@
-ఆమోస్	B-ORG
-విట్నీతో	I-ORG
-కలిసి	O
-1860లో	O
-హార్ట్‌ఫర్డ్	O
-నగరంలో	O
-ప్రాట్	B-ORG
-&	I-ORG
-విట్నీ	I-ORG
-కంపెనీ	O
-స్థాపించాడు	O
-.	O
-
-దారిమార్పు	O
-మల్లంపల్లి	B-PER
-సోమశేఖర	I-PER
-శర్మ	I-PER
-
-దారిమార్పు	O
-అన్నాసాగర్	B-LOC
-(	I-LOC
-భూత్‌పూర్	I-LOC
-మండలం	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b776142b34bd0ff2fa408c46a957314c33f591c788d179dc168fa337d053582e
+size 524

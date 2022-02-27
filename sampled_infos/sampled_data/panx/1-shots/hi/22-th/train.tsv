@@ -1,15 +1,3 @@
-सराइकेला	B-LOC
-खरसावाँ	I-LOC
-जिला	I-LOC
-
-अजातशत्रु	B-ORG
-(	I-ORG
-मगध	I-ORG
-का	I-ORG
-राजा	I-ORG
-)	I-ORG
-
-ओम	B-PER
-पुरी	I-PER
-...	O
-नत्थू	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2916683a4a3e2568555cf6467190247af901590551d2eac64ddd4730bac37fd5
+size 234

@@ -1,26 +1,3 @@
-Danh	B-ORG
-sách	I-ORG
-vua	I-ORG
-Triều	I-ORG
-Tiên	I-ORG
-
-Comoros	B-LOC
-,	O
-Madagascar	B-LOC
-và	O
-Seychelles	B-LOC
-cũng	O
-tuyên	O
-bố	O
-chủ	O
-quyền	O
-
-đổi	O
-Sở	B-PER
-Đổ	I-PER
-Ngao	I-PER
-
-Xã	B-LOC
-của	I-LOC
-tỉnh	I-LOC
-Aveyron	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f9465caaea8e5565e6cfad1cd2fa0de56542176c11547aca958e8fc862039e1
+size 254

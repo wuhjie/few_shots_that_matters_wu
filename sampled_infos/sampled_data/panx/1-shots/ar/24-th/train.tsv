@@ -1,16 +1,3 @@
-نسيب	B-PER
-لحود،	I-PER
-نائب	O
-سابق	O
-رئيس	O
-حركة	B-ORG
-التجدد	I-ORG
-الديمقراطي	I-ORG
-.	O
-
-تحويل	O
-بوسكو	B-LOC
-فارمز	I-LOC
-(	I-LOC
-نيومكسيكو	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:14322b8df094e899a7dae0a82960a9e6587d4a762c3cecde189d1226dab32588
+size 219

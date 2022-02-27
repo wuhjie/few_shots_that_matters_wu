@@ -1,36 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Gironde	I-LOC
-
-Universiti	B-ORG
-Teknologi	I-ORG
-Kreatif	I-ORG
-Limkokwing	I-ORG
-
-Pertubuhan	B-ORG
-Meteorologi	I-ORG
-Sedunia	I-ORG
-(	O
-WMO	O
-)	O
-
-'	O
-''	O
-Kamui	B-PER
-Kobayashi	I-PER
-''	O
-'	O
-
-Jepun	B-LOC
-(	O
-Waktu	B-LOC
-Piawai	I-LOC
-Jepun	I-LOC
-)	O
-
-Lee	B-PER
-Kyung-won	I-PER
-/	O
-Lee	B-PER
-Hyo-jung	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f8f1180978135ca7d34b99ece05acb67a27e9445946e1ccf9433ae14c6414da
+size 339

@@ -1,29 +1,3 @@
-Musée	B-ORG
-judéo-alsacien	I-ORG
-de	I-ORG
-Bouxwiller	I-ORG
-
-REDIRECTION	O
-Moustapha	B-PER
-el-Nahhas	I-PER
-Pacha	I-PER
-
-à	O
-Thuburbo	B-LOC
-Majus	I-LOC
-,	O
-en	O
-Tunisie	B-LOC
-
-Vicovu	B-LOC
-de	I-LOC
-Sus	I-LOC
-(	O
-)	O
-
-Anthony	B-PER
-Ainley	I-PER
-—	O
-Le	B-ORG
-Maître	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed95576cdcfd759f73c4f8a3012c7e5407aa08999bdabaff2ed202338bd1e776
+size 279

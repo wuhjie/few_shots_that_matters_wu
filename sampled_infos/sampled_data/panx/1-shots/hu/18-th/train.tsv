@@ -1,24 +1,3 @@
-ÁTIRÁNYÍTÁS	O
-Ivan	B-PER
-Alekszandrovics	I-PER
-Orlov	I-PER
-
-Megjelenése	O
-és	O
-életmódja	O
-nagyon	O
-hasonlít	O
-a	O
-sokkal	O
-jobban	O
-ismert	O
-erdei	B-LOC
-szalonkára	I-LOC
-.	O
-
-The	B-ORG
-Sound	I-ORG
-Above	I-ORG
-My	I-ORG
-Hair	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a681915e927a22b0b1b559a24db26cd122bc6e69925823a19f7826f4e11c252
+size 245

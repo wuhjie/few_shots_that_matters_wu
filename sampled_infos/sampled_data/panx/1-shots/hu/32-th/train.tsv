@@ -1,22 +1,3 @@
-A	O
-város	O
-egyben	O
-a	O
-Csernyihivi	B-LOC
-terület	I-LOC
-központja	O
-.	O
-
-'	O
-''	O
-FC	B-ORG
-Tatabánya	I-ORG
-''	O
-'	O
-
-'	O
-''	O
-Darijo	B-PER
-Srna	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdf52ca4d82980cb261df3585edc8b0a9da0794d0e7d384c7604a7bdcb28e835
+size 164

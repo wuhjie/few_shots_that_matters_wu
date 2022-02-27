@@ -1,17 +1,3 @@
-تغییرمسیر	O
-دانشگاه	B-ORG
-ایالتی	I-ORG
-آرکانزاس	I-ORG
-
-تغییر_مسیر	O
-شاه	B-PER
-اسماعیل	I-PER
-یکم	I-PER
-
-تغییرمسیر	O
-مصر	B-LOC
-(	I-LOC
-خور	I-LOC
-و	I-LOC
-بیابانک	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:75ce42b1fbd3dfe665d5ed4898dd006547f87775add9db814cb5f6d51ee9211a
+size 248

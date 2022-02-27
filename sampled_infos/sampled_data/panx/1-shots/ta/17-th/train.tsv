@@ -1,29 +1,3 @@
-சிறிமாவோ	B-PER
-பண்டாரநாயக்காவின்	I-PER
-தலைமையில்	O
-இலங்கை	B-ORG
-சுதந்திரக்	I-ORG
-கட்சி	I-ORG
-வெற்றி	O
-பெற்றது	O
-.	O
-
-வழிமாற்று	O
-ஐதராபாத்து	B-LOC
-(	I-LOC
-இந்தியா	I-LOC
-)	I-LOC
-
-தமிழ்நாடு	B-ORG
-மாநில	I-ORG
-வாரியம்	I-ORG
--	O
-அனைத்து	O
-நிலை	O
-படிப்பிற்கும்	O
-
-**	O
-சியோல்	B-LOC
-(	O
-தூதரகம்	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:14ca44d42f1567947561a9730c13c2a37bee83b008bc72ae9e8987d338bb4565
+size 597

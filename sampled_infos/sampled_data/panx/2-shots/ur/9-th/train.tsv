@@ -1,36 +1,3 @@
-رجوع_مکرر	O
-ہیللنک	B-ORG
-امپیریل	I-ORG
-ائیرویز	I-ORG
-
-رجوع_مکرر	O
-فہرست	B-ORG
-آسٹریلیا	I-ORG
-کے	I-ORG
-شہر	I-ORG
-بلحاظ	I-ORG
-آبادی	I-ORG
-
-رجوع_مکرر	O
-آلبیون،	B-LOC
-جیکسن	I-LOC
-کاؤنٹی،	I-LOC
-وسکونسن	I-LOC
-
-رجوع_مکرر	O
-وین	B-LOC
-کاؤنٹی،	I-LOC
-شمالی	I-LOC
-کیرولائنا	I-LOC
-
-نعمت	B-PER
-اللہ	I-PER
-خان	I-PER
--	O
-وکیل	O
-
-رجوع_مکرر	O
-عقیل	B-PER
-ابن	I-PER
-ابی	I-PER
-طالب	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c7b43a5a1f86ca1167452e28dd2cc972bd467637c7ee3d74879eea95760f878
+size 534

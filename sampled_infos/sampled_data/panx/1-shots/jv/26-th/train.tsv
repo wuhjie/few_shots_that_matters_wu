@@ -1,21 +1,3 @@
-Mayu	B-PER
-Watanabe	I-PER
-(	O
-渡辺	O
-麻友	O
-)	O
-
-Tiga	O
-penelitian	O
-ing	O
-Pennsylvania	B-LOC
-nunjukakenmenawi	O
-mustakaa	O
-botak	O
-dipunkaitaken	O
-kaliyan	O
-dominasi	O
-déning	O
-katah	O
-tiyang	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:974816588f2c40ae1372e1f644c2286282299c6b2f704713ec3d5f82ffd9a13f
+size 204

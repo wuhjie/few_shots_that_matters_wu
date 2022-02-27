@@ -1,20 +1,3 @@
-ჩინეთის	B-LOC
-სახალხო	I-LOC
-რესპუბლიკია	I-LOC
-დაყოფილია	O
-შვიდ	O
-სამხედრო	O
-ოლქად	O
-.	O
-
-გადამისამართება	O
-ჯონ	B-PER
-მეინარდ	I-PER
-კეინზი	I-PER
-
-გადამისამართება	O
-ზუგდიდი	B-ORG
-(	I-ORG
-საფეხბურთო	I-ORG
-კლუბი	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:79e6f376864b791b068f1ba1cba618d3caaa3f0115279d4d56535b2030accdb3
+size 460

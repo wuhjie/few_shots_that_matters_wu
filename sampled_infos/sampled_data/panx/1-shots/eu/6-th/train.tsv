@@ -1,26 +1,3 @@
-BIRZUZENDU	O
-Algirdas	B-PER
-Julius	I-PER
-Greimas	I-PER
-
-Era	O
-berean	O
-,	O
-Espainia	B-LOC
-osoan	O
-bezala	O
-,	O
-Guardia	B-ORG
-Zibila	I-ORG
-eta	O
-Polizia	B-ORG
-Nazionala	I-ORG
-ere	O
-badaude	O
-.	O
-
-Logan	B-LOC
-konderria	I-LOC
-(	I-LOC
-Kansas	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f938e060eac014d28d605607adb4c3643488796bd5dd4839d7314c431627e3e0
+size 252

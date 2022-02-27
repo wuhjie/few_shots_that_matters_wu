@@ -1,35 +1,3 @@
-Jan	B-PER
-Ernst	I-PER
-Matzeliger	I-PER
-
-Sa	B-ORG
-Sandaling	I-ORG
-Kailangan	I-ORG
-Mo	I-ORG
-Ako	I-ORG
-''	O
-(	O
-2004	O
-)	O
-
-Kai	B-LOC
-,	I-LOC
-Yamanashi	I-LOC
-
-''	O
-Amazing	B-ORG
-Cooking	I-ORG
-Kids	I-ORG
-''	O
-(	O
-2011	O
-)	O
-
-Louis	B-PER
-XIII	I-PER
-ng	I-PER
-Pransiya	I-PER
-
-Pangtimog	B-LOC
-na	I-LOC
-Hemispero	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:528fb5ab49f86fd3025b1b6ebcf4655c9f84f702463b0aac45ba71f9cd6e25c9
+size 310

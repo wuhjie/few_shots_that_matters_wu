@@ -1,26 +1,3 @@
-«Реал	O
-Мадрид»	O
-—	O
-Испанияның	B-ORG
-футбол	I-ORG
-Чемпионатының	I-ORG
-жоғарғы	I-ORG
-дивизионынан	I-ORG
-ешқашан	O
-шығып	O
-кетпеген	O
-3	O
-клубтың	O
-бірі	O
-.	O
-
-АЙДАУ	O
-Евно	B-PER
-Фишелевич	I-PER
-Азеф	I-PER
-
-—	O
-Қарқаралы	B-LOC
-ауданының	I-LOC
-орталығы	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0cc64dbe8a25c52f21939ef4733163f654f50a8289f3cfce5e200fafd9e2e1c
+size 401

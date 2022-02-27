@@ -1,17 +1,3 @@
-تغییرمسیر	O
-ژان	B-PER
-دو	I-PER
-لا	I-PER
-فونتن	I-PER
-
-تغییر_مسیر	O
-قاضی	B-LOC
-عثمان	I-LOC
-پاشا	I-LOC
-
-تغییرمسیر	O
-مرکز	B-ORG
-اینترنت	I-ORG
-و	I-ORG
-جامعه	I-ORG
-برکمن	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:786dcfe64c9951bd8968d6748309cc2a966bd2ab209a7061ba2b850ed7e8fb9c
+size 244

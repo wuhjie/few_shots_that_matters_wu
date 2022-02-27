@@ -1,20 +1,3 @@
-Als	O
-speler	O
-van	O
-Club	B-ORG
-Atlético	I-ORG
-Green	I-ORG
-Cross	I-ORG
-
-Carlos	B-PER
-Cardús	I-PER
-(	O
-Honda	B-ORG
-)	O
-
-De	O
-hoofdplaats	O
-is	O
-Gold	B-LOC
-Beach	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb7a0cb2f6df9eb762d54d88e253f6833b5236ca0586ff5966f5aa011c2d0a4e
+size 172

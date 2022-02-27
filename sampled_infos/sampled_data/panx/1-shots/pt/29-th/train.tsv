@@ -1,13 +1,3 @@
-John	B-PER
-Lennon	I-PER
-(	O
-The	B-ORG
-Beatles	I-ORG
-)	O
-
-REDIRECIONAMENTO	O
-Springfield	B-LOC
-(	I-LOC
-The	I-LOC
-Simpsons	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2ad730f2378c82644053ecb531106a4db43c25d0e32d8805157e57c4a030d0f
+size 135

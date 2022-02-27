@@ -1,25 +1,3 @@
-'	O
-''	O
-Шеддадиды	B-ORG
-(	I-ORG
-Гянджинский	I-ORG
-эмират	I-ORG
-)	I-ORG
-''	O
-'	O
-—	O
-
-640015	O
-Курганская	B-LOC
-область	I-LOC
-,	O
-город	O
-Курган	B-LOC
-,	O
-ул	O
-.	O
-
-Петров	B-PER
-,	I-PER
-Андрей	I-PER
-Павлович	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a94797d38442fe77988502b23ddea5c4967bb06a2c97a3d8985e44a66c99abe
+size 292

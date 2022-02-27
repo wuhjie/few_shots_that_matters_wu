@@ -1,25 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Haute-Saône	I-LOC
-
-Ia	O
-menggantikan	O
-ayahandanya	O
-Thierry	B-PER
-dari	I-PER
-Alsace	I-PER
-.	O
-
-Fanipol	B-LOC
-(	O
-;	O
-)	O
--	O
-13,200	O
-
-ALIH	O
-Bantul	B-ORG
-,	I-ORG
-Bantul	B-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:574f44c5124e87ff66ca97efc43a95d8df3692d7b9a6225847a47f7d2e83b6b2
+size 224

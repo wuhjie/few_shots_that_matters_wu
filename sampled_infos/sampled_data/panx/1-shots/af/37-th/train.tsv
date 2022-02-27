@@ -1,28 +1,3 @@
-Die	O
-grondwet	O
-van	O
-die	O
-Zuid-Afrikaansche	B-ORG
-Republiek	I-ORG
-is	O
-aanvaar	O
-.	O
-
-in	O
-die	O
-gebied	O
-om	O
-die	O
-Golf	B-LOC
-van	I-LOC
-Napels	I-LOC
-gebruik	O
-is	O
-.	O
-
-Nicolaas	B-PER
-Johannes	I-PER
-Diederichs	I-PER
-(	O
-1903–1978	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:265cbec47e24e2b7de466caac0aa6f69f2a118488d3e835365941c77aa7c6da3
+size 243

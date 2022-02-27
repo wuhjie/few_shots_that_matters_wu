@@ -1,17 +1,3 @@
-رجوع_مکرر	O
-تونسہ-	B-ORG
-بیراج	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-'	O
-''	O
-اعزاز	B-PER
-چیمہ	I-PER
-''	O
-'	O
-
-رجوع_مکرر	O
-فیلپس	B-LOC
-کاؤنٹی،	I-LOC
-مسوری	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:2abc0c100d66c6d0c712ed91cc11f7120f112381c62812703c5c0c18ac5904e5
+size 218

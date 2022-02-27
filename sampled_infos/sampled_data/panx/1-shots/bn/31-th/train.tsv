@@ -1,23 +1,3 @@
-উত্তর	B-LOC
-দিনাজপুর	I-LOC
-জেলা	I-LOC
-
-বেন	B-ORG
-১০	I-ORG
-(	I-ORG
-টিভি	I-ORG
-ধারাবাহিক	I-ORG
-)	I-ORG
-
-'	O
-''	O
-এবি	B-PER
-ডি	I-PER
-ভিলিয়ার্স	I-PER
-''	O
-'	O
-
-ম্যাসেডোনিয়া	B-LOC
-(	O
-2010–	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cd9af5afd769cd6ecb1b065a05e9cca95d69319307ac78d93fb2a499e756ce6
+size 321

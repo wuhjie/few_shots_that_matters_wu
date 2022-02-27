@@ -1,34 +1,3 @@
-***	O
-Gwen	B-PER
-Stefani	I-PER
-—	O
-``	O
-Hollaback	B-ORG
-Girl	I-ORG
-''	O
-
-``	O
-Breaking	B-ORG
-the	I-ORG
-Habit	I-ORG
-''	O
-
-.hm	B-ORG
-–	O
-Đảo	B-LOC
-Heard	I-LOC
-và	I-LOC
-quần	I-LOC
-đảo	I-LOC
-McDonald	I-LOC
-
-Giáo	B-PER
-hoàng	I-PER
-đối	I-PER
-lập	I-PER
-Pascalê	I-PER
-
-đổi	O
-Thàn	B-LOC
-mát	I-LOC
-tía	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:0da3a8d09417e4e5b745bb6738f35361f4121a23cf56ccc08fd9a56e7e85581c
+size 325

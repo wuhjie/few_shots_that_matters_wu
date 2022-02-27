@@ -1,16 +1,3 @@
-Lalawigan	B-LOC
-ng	I-LOC
-Burdur	I-LOC
-
-Kapulungang	B-ORG
-Pangkatiwasayan	I-ORG
-ng	I-ORG
-Mga	I-ORG
-Nagkakaisang	I-ORG
-Bansa	I-ORG
-
-Souichiro	B-PER
-Hoshi	I-PER
-bilang	O
-Kira	B-PER
-Yamato	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2988b9a10bf8cbea1be1ea070b57f48d0574c54c021c180f747ae8a100ab0104
+size 191

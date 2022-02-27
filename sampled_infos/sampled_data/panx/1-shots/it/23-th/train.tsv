@@ -1,20 +1,3 @@
-RINVIA	O
-Stadio	B-ORG
-Jan	I-ORG
-Breydel	I-ORG
-
-'	O
-''	O
-Sant'Egidio	B-LOC
-alla	I-LOC
-Vibrata	I-LOC
-''	O
-'	O
-
-Roger	B-PER
-Federer	I-PER
-(	O
-)	O
-66-7	O
-,	O
-4-6	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e96971f69c6c5dc432c9c05ad09a05195f3a283537ce4e31ab7cba89cd9be032
+size 160

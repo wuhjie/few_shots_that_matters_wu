@@ -1,26 +1,3 @@
-Später	O
-ging	O
-sie	O
-nach	O
-New	B-LOC
-York	I-LOC
-und	O
-professionalisierte	O
-ihre	O
-Modelarbeit	O
-.	O
-
-National	B-ORG
-Register	I-ORG
-of	I-ORG
-Historic	I-ORG
-Places	I-ORG
-in	I-ORG
-Alabama	I-ORG
-
-John	B-PER
-Silver	I-PER
-–	O
-Alias	O
-„Barbecue“	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:210fb2a8136388254397b84d43690e5e4a5dfdf39a3751406e3ace225b5bf187
+size 255

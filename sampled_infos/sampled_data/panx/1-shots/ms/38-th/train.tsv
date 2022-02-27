@@ -1,28 +1,3 @@
-==	O
-Oricon	B-ORG
-dan	O
-Jumlah	O
-Jualan	O
-==	O
-
-'	O
-''	O
-Juan	B-PER
-Pablo	I-PER
-Montoya	I-PER
-''	O
-'	O
-
-Running	B-ORG
-Man	I-ORG
--	O
-Episod	O
-116,117	O
-(	O
-2012	O
-)	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Hautes-Alpes	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e858d0ee0b51e1f9f19a9d5465411508388588c82067ffbbbbc5a13a24141ffa
+size 221

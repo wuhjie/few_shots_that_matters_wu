@@ -1,14 +1,3 @@
-തിരിച്ചുവിടുക	O
-ബലൂചിസ്ഥാൻ	B-LOC
-(	I-LOC
-ഭൂപ്രദേശം	I-LOC
-)	I-LOC
-
-തിരിച്ചുവിടുക	O
-ആയത്തുല്ല	B-PER
-അലി	I-PER
-ഖാം‌നഇ	I-PER
-
-ഗിണ്ടി	B-ORG
-റെയിൽ	I-ORG
-നിലയം	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b14a7ea0ff2c0195fa983e0a6c62821679dcec7b19294d5b5b2f75b108d2ebd4
+size 317

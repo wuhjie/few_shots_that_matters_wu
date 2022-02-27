@@ -1,25 +1,3 @@
-Kristína	B-PER
-Kučová	I-PER
-Marta	B-PER
-Domachowska	I-PER
-Stephanie	B-PER
-Vogt	I-PER
-Ioana	B-PER
-Raluca	I-PER
-Olaru	I-PER
-
-Pilot	B-ORG
-Pen	I-ORG
-Tennis	I-ORG
-,	O
-New	B-LOC
-Haven	I-LOC
-
-Vienna	B-LOC
-(	O
-uomini	O
-)	O
-Udine	B-LOC
-(	O
-donne	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:876910c69ea52b6a5033741f18d60d91ef28d28d0f7dc591c80901f5c6dfc3fc
+size 246

@@ -1,17 +1,3 @@
-ALIH	O
-Victoria	B-PER
-saking	I-PER
-Britania	I-PER
-Raya	I-PER
-
-Powiat	B-LOC
-Ząbkowice	I-LOC
-Śląskie	I-LOC
-,	O
-Ząbkowice	B-LOC
-Śląskie	I-LOC
-
-ALIH	O
-Dhéwan	B-ORG
-Kaamanan	I-ORG
-PBB	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:258003b1e4a70d1f69b20cb428c807354bb12debbb5d77d8e0db0592aeb23fbc
+size 192

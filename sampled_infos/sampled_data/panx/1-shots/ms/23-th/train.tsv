@@ -1,24 +1,3 @@
-シャンパンの恋	O
-(	O
-Champagne	B-ORG
-no	I-ORG
-Koi	I-ORG
-)	O
-
-Beliau	O
-sering	O
-bergandingan	O
-dengan	O
-M.	B-PER
-Nasir	I-PER
-dalam	O
-membuat	O
-lagu	O
-baru	O
-.	O
-
-LENCONG	O
-Karakoro	B-LOC
-,	I-LOC
-Ivory	I-LOC
-Coast	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cb43c5306e98a4ceb10d603426a2611dd1b5130134d12fefb7d70d74e77b970
+size 225

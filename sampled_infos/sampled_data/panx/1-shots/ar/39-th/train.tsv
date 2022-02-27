@@ -1,18 +1,3 @@
-تحويل	O
-حركة	B-ORG
-العدل	I-ORG
-والمساواة	I-ORG
-
-تحويل	O
-جورجتاون	B-LOC
-(	I-LOC
-أركنساس	I-LOC
-)	I-LOC
-
-سمو	O
-الشيخ	O
-منصور	B-PER
-بن	I-PER
-زايد	I-PER
-آل	I-PER
-نهيان	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b9f4f9393f8dd705ae3447f114335b4835696d0ad492b65541ef56e2d0ecded
+size 238

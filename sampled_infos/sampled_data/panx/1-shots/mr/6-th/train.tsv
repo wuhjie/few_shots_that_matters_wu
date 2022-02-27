@@ -1,26 +1,3 @@
-'	O
-''	O
-पोप	B-PER
-इनोसंट	I-PER
-नववा	I-PER
-''	O
-'Papa	O
-'	O
-''	O
-INNOCENTIUS	O
-''	O
-'	O
-Nonus	O
-
-हे	O
-एक	O
-महाराष्ट्रातील	B-LOC
-सातारा	B-LOC
-जिल्ह्यातील	I-LOC
-गाव	O
-आहे	O
-.	O
-
-१९९६	B-ORG
-हंगेरियन	I-ORG
-ग्रांप्री	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:31b07fc08794f35387844a309e52c562255edb406595c2cf79caee301fe203d1
+size 368

@@ -1,24 +1,3 @@
-Episcopal	B-LOC
-Diocese	I-LOC
-of	I-LOC
-Virginia	I-LOC
-
-'	O
-''	O
-Andy	B-PER
-Roddick	I-PER
-[21]	O
-''	O
-'	O
-
-Massachusetts	B-ORG
-Route	I-ORG
-41	I-ORG
-
-Louth	B-LOC
-(	O
-from	O
-4	O
-to	O
-5	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:957b804ce89ac3bfa554d25ccf23c42a050d965464615cc1ee5de8385270ad59
+size 188

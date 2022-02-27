@@ -1,27 +1,3 @@
-رجوع_مکرر	O
-بالڈون	B-LOC
-کاؤنٹی،	I-LOC
-الاباما	I-LOC
-
-رجوع_مکرر	O
-میرشمس	B-PER
-الدین	I-PER
-محمد	I-PER
-عراقی	I-PER
-
-رجوع_مکرر	O
-فہرست	B-ORG
-ممالک	I-ORG
-بلحاظ	I-ORG
-تناسب	I-ORG
-آبادی	I-ORG
-و	I-ORG
-شکار	I-ORG
-زیر	I-ORG
-تغذیہ	I-ORG
-
-'	O
-''	O
-لومباردیہ	B-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:773df69c0223b136dcb4d3764923283e48bf43a25b1e4c6f307ee57ce1914ca2
+size 374

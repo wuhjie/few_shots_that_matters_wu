@@ -1,17 +1,3 @@
-رجوع_مکرر	O
-حامد	B-PER
-سعید	I-PER
-کاظمی	I-PER
-
-رجوع_مکرر	O
-بٹلر	B-LOC
-ٹاؤن	I-LOC
-شپ،	I-LOC
-سکیلکل	I-LOC
-کاؤنٹی،	I-LOC
-پنسلوانیا	I-LOC
-
-رجوع_مکرر	O
-مسجد	B-ORG
-حسن	I-ORG
-ثانی	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f254f13d475a93dbbd070ac6d391f0434c1e6aaa647ef4891f4fedb0bcdb9439
+size 260

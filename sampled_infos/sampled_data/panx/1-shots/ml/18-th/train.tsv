@@ -1,28 +1,3 @@
-തിരിച്ചുവിടുക	O
-കാട്ടൂർ	B-LOC
-,	I-LOC
-ആലപ്പുഴ	I-LOC
-ജില്ല	I-LOC
-
-പ്രശസ്തകവി	O
-ജോൺ	B-PER
-ഡൺ‍	I-PER
-,	O
-ഫർഗൂസൺ	O
-എന്നുപേരുള്ള	O
-ഒരാൾ	O
-എന്നിവർ	O
-അങ്ങനെ	O
-നിയോഗിക്കപ്പെട്ട	O
-ഗുരുക്കന്മാരിൽ	O
-ചിലരായിരുന്നു	O
-.	O
-
-ബിർള	B-ORG
-ഇൻസ്റ്റിറ്റ്യൂട്ട്	I-ORG
-ഓഫ്‌	I-ORG
-ടെക്നോളജി	I-ORG
-ആന്റ്‌	I-ORG
-സയൻസ്‌	I-ORG
-,	I-ORG
-പിലാനി	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbd868e7c1aadd5ce2e0c40574967bcfae1677ffe01bc51d4dd90682a5ce223d
+size 677

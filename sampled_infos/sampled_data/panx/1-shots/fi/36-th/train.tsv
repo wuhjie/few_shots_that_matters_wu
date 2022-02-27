@@ -1,24 +1,3 @@
-Matkustajaliikenne	O
-keskittyy	O
-Etelä-	B-ORG
-ja	O
-Länsisatamaan	B-ORG
-ja	O
-tavaraliikenne	O
-Vuosaaren	B-ORG
-satamaan	I-ORG
-.	O
-
-Toinen	O
-oli	O
-Nathan	B-PER
-Bedford	I-PER
-Forrest	I-PER
-.	O
-
-Halifax]]	O
-,	O
-Nova	B-LOC
-Scotia	I-LOC
-,	O
-Kanada	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b07394274639123388230d6b1499ae1eee2eea22c9d83e674e1172a24264d89
+size 249

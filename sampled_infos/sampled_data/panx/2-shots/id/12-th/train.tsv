@@ -1,34 +1,3 @@
-``	O
-Just	B-ORG
-the	I-ORG
-Way	I-ORG
-You	I-ORG
-Are	I-ORG
-''	O
--	O
-Bruno	B-PER
-Mars	I-PER
-
-ALIH	O
-Lê	B-PER
-Văn	I-PER
-Khôi	I-PER
-
-Arsip	O
-kolom	O
-di	O
-The	B-ORG
-Guardian	I-ORG
-''	O
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Loir-et-Cher	I-LOC
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Saône-et-Loire	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b054d5d256e121f77b87af6d45c52f6fc2e84fecf6f7c2ea98153c45c132f30
+size 316

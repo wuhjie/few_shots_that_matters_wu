@@ -1,17 +1,3 @@
-Mkoa	B-LOC
-wa	I-LOC
-Bonde	I-LOC
-la	I-LOC
-Ufa	I-LOC
-
-Chuo	B-ORG
-Kikuu	I-ORG
-cha	I-ORG
-Ibadan	I-ORG
-
-Uhusika	O
-ulichezwa	O
-na	O
-Carlos	B-PER
-Bernard	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c4137e38ea8433f78cfcb856e6d23e549c8d9ec95f4c9ca20e19bd2ba35431f
+size 157

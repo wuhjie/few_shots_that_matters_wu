@@ -1,34 +1,3 @@
-Bratislava	B-LOC
-,	O
-Slovakia	B-LOC
-,	O
-Tšekkoslovakia	B-LOC
-
-Bobby	B-PER
-Bauer	I-PER
-,	O
-Boston	B-ORG
-Bruins	I-ORG
-
-James	B-PER
-Gillespie	I-PER
-Blaine	I-PER
-(	O
-rep	B-ORG
-.	I-ORG
-)	O
-'	O
-''	O
-182	O
-''	O
-'	O
-
-Gamma	B-LOC
-Cassiopeiae	I-LOC
--muuttuja	I-LOC
-
-Hänet	O
-lähetettiin	O
-Dachaun	B-LOC
-keskitysleirille	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1832e58a33038f0646474909fb22b1ac514a80ea6afe15085c84b6f802ae87c
+size 322

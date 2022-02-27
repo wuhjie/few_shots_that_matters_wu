@@ -1,17 +1,3 @@
-تغییرمسیر	O
-مورچه‌خورک	B-LOC
-پوزه‌دراز	I-LOC
-شرقی	I-LOC
-
-تغییر_مسیر	O
-لوئی	B-PER
-فان	I-PER
-خال	I-PER
-
-سازمان	B-ORG
-میراث	I-ORG
-فرهنگی،	I-ORG
-صنایع	I-ORG
-دستی	I-ORG
-و	I-ORG
-گردشگری	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3ff41293017b69a80c53bf0758ece42e7731e05eae55aa218e16068b514aac6
+size 274

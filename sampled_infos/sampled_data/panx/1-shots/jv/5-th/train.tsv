@@ -1,29 +1,3 @@
-kang	O
-dikomandani	O
-déning	O
-Ahmad	B-PER
-Dhani	I-PER
-,	O
-sawisé	O
-vokalis	O
-sadurungé	O
-ya	O
-iku	O
-amarga	O
-Ari	B-PER
-Lasso	I-PER
-ditokaké	O
-.	O
-
-ALIH	O
-Batuceper	B-LOC
-,	I-LOC
-Tangerang	I-LOC
-
-ALIH	O
-Asosiasi	B-ORG
-Bangsa	I-ORG
-Bangsa	I-ORG
-Asia	I-ORG
-Kidul	I-ORG
-Wétan	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:67c67555acf4c47a20c7894075017d7719090d4a7d26730dd0f265684d918d5c
+size 283

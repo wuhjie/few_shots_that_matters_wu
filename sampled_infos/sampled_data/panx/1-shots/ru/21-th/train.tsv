@@ -1,33 +1,3 @@
-перенаправление	O
-Маккенна	B-PER
-,	I-PER
-Теренс	I-PER
-Кемп	I-PER
-
-'	O
-''	O
-Франкское	B-LOC
-государство	I-LOC
-''	O
-'	O
-—	O
-
-Благодаря	O
-успеху	O
-в	O
-Мессении	B-LOC
-он	O
-приобрел	O
-полное	O
-доверие	O
-со	O
-стороны	O
-своих	O
-сограждан	O
-.	O
-
-Софийский	B-ORG
-собор	I-ORG
-(	I-ORG
-Новгород	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b562cbebd50079dfe86824e80201ace04a8b8cf03681fa04c9a4e8ce257ba398
+size 444

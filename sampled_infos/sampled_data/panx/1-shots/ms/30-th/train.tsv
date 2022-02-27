@@ -1,20 +1,3 @@
-江戸の手毬唄２	O
-(	O
-Edo	B-ORG
-no	I-ORG
-Temari	I-ORG
-Uta	I-ORG
-II	I-ORG
-)	O
-
-'	O
-''	O
-Mark	B-PER
-Webber	I-PER
-''	O
-'	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Orne	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:7acd69cc0611b09962a3c7406c444f4a07362767b5e99dac695074f28de67032
+size 173

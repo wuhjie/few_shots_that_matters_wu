@@ -1,17 +1,3 @@
-7	O
-,	O
-Jakarta	B-LOC
-Timur	I-LOC
-,	O
-Indonesia	B-LOC
-.	O
-
-Kitahara	B-PER
-Rie	I-PER
-(	O
-8836	O
-)	O
-
-Tembok	B-ORG
-Besar	I-ORG
-China	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8c75af766efe40da807e9728a6d65c5398a8b1aefd7b9e0ed26737b186d86ad
+size 137

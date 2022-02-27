@@ -1,22 +1,3 @@
-Predrag	B-PER
-Mijatović	I-PER
-(	O
-Valencia	B-ORG
-CF	I-ORG
-)	O
-
-Een	O
-'	O
-''	O
-kantoor	O
-''	O
-'	O
-voor	O
-de	O
-Rabobank	B-ORG
-.	O
-
-Rodos	B-LOC
-(	I-LOC
-stad	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ed6cd8f7465e968148e373b162028510f63f4010828946b7efd2c68ccdeaa1f
+size 169

@@ -1,15 +1,3 @@
-đổi	O
-Giáo	B-PER
-hoàng	I-PER
-Côrnêliô	I-PER
-
-''	O
-Haematopus	B-LOC
-finschi	I-LOC
-''	O
-
-Thành	B-ORG
-phố	I-ORG
-tự	I-ORG
-do	I-ORG
-Danzig	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:846335d228e411f5e6f9cae9fde80b4e44138206ceefa51e410ace07838f63c0
+size 153

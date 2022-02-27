@@ -1,29 +1,3 @@
-ఈ	O
-స్తవాన్ని	O
-వావిళ్ల	B-ORG
-రామస్వామి	I-ORG
-శాస్త్రులు	I-ORG
-అండ్	I-ORG
-సన్స్	I-ORG
-ప్రచురించిన	O
-ప్రతి	O
-ఇది	O
-.	O
-
-భారత	B-LOC
-దేశములోని	I-LOC
-కొన్ని	O
-ప్రాంతాలలో	O
-ఇది	O
-సూర్యదేవుని	O
-పేరుతో	O
-''రవివార్	O
-''	O
-గా	O
-పిలువబడుతుంది	O
-.	O
-
-''	O
-దీక్షా	B-PER
-సేథ్	I-PER
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdd3525211263aed07a595067abdcb6155a7c01a10742576b813c7496e1d9a30
+size 564

@@ -1,31 +1,3 @@
-Hän	O
-vietti	O
-vuodet	O
-2011–2013	O
-Yhdysvaltain	B-ORG
-maajoukkueen	I-ORG
-kehitysohjelman	I-ORG
-mukana	O
-pelaten	O
-mm	O
-.	O
-
-'	O
-''	O
-Eléni	B-PER
-Daniilídou	I-PER
-''	O
-'	O
-
-Pohjoisimman	O
-eli	O
-Musandamin	B-LOC
-kuvernoraatin	O
-erottaa	O
-muusta	O
-valtiosta	O
-kaistale	O
-Yhdistyneiden	B-LOC
-arabiemiirikuntien	I-LOC
-valtiota	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:41c712c43b50a64eb2f6204fb2e0c0318b65be5a05785378c68c839d591348d3
+size 334

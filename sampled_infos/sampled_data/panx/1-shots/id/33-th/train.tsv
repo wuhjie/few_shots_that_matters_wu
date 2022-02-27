@@ -1,17 +1,3 @@
-'	O
-''	O
-Rubens	B-PER
-Barrichello	I-PER
-''	O
-'	O
-
-ALIH	O
-Bursa	B-ORG
-efek	I-ORG
-London	I-ORG
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Lot	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7f5670f1db4edceb1c09ccffecfe6f179954d17c4afe931d2fc8b7c1ee50bb1
+size 150

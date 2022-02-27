@@ -1,21 +1,3 @@
-ALIH	O
-Institut	B-ORG
-Tèknologi	I-ORG
-Bandung	I-ORG
-
-Powiat	B-LOC
-Przasnysz	I-LOC
-,	O
-Przasnysz	B-LOC
-
-ALIH	O
-Muhammad	B-PER
-bin	I-PER
-Idris	I-PER
-asy-Syafi`i	I-PER
-
-Plato	B-PER
-(	O
-427-347	O
-BCE	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bb5b3175f7fe4aa21c0b7ccd634c936b495690f434c04c1ed8f3f1d601be99b
+size 203

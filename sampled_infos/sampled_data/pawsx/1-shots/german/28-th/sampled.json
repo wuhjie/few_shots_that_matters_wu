@@ -1,1 +1,3 @@
-{"0": [{"uid": "german-1129-val", "text_a": "Im Mai kam Spencer McLaren als Kieran Fletcher an, ein Schwarm der Figur Sally Fletcher (Kate Ritchie).", "label": "0", "portion_identifier": -1, "text_b": "Im Mai kam Kate Ritchie als Sally Fletcher, ein Liebesinteresse f\u00fcr den etablierten Charakter Kieran Fletcher (Spencer McLaren)."}], "1": [{"uid": "german-22-val", "text_a": "Es erschien am 22. Dezember 2011 und wurde im Februar 2012 angek\u00fcndigt.", "label": "1", "portion_identifier": -1, "text_b": "Es wurde am 22. Dezember 2011 ver\u00f6ffentlicht und im Februar 2012 angek\u00fcndigt."}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e164a84d0cf982b045edc47dae74fd5f2339d1e881ecc62acbd04779ac2c818
+size 603

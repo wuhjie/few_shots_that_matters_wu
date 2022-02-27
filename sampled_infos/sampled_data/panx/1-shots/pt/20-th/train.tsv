@@ -1,25 +1,3 @@
-Li	B-PER
-Ching	I-PER
-Yuen	I-PER
-
-Faz	O
-fronteira	O
-com	O
-Cicagna	B-LOC
-,	O
-Coreglia	B-LOC
-Ligure	I-LOC
-,	O
-Lorsica	B-LOC
-,	O
-Rezzoaglio	B-LOC
-,	O
-San	B-LOC
-Colombano	I-LOC
-Certénoli	I-LOC
-.	O
-
-Oggy	B-ORG
-et	I-ORG
-les	I-ORG
-Cafards	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f5274daa5067ef23ff334a43261059c89360075b2796b0f4cd32a936db4fb20
+size 238

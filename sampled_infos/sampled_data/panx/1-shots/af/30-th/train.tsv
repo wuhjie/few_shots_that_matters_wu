@@ -1,17 +1,3 @@
-AANSTUUR	O
-Orestes	B-PER
-van	I-PER
-Makedonië	I-PER
-
-George	B-LOC
-Town	I-LOC
-,	I-LOC
-Penang	I-LOC
-
-Sir	O
-George	B-ORG
-Herbert	I-ORG
-Farrar	I-ORG
-(	O
-1859–1915	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a40500fa8cccbe71a7d7dc6726bd73bd8469f03f06e3d5cb571028da4fd85f9f
+size 167

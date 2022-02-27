@@ -1,16 +1,3 @@
-넘겨주기	O
-서울	B-ORG
-유나이티드	I-ORG
-FC	I-ORG
-
-넘겨주기	O
-이특	B-PER
-(	I-PER
-가수	I-PER
-)	I-PER
-
-헨더슨빌	B-LOC
-(	I-LOC
-노스캐롤라이나	I-LOC
-주	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1c9457258eb3f5a6414b7035c3d53630e6156bcf1b9c671a766efe3bbf40f0d
+size 191

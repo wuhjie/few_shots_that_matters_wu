@@ -1,16 +1,3 @@
-رجوع_مکرر	O
-میڈرڈ،	B-LOC
-نیو	I-LOC
-یارک	I-LOC
-
-رجوع_مکرر	O
-لوئس	B-PER
-ماؤنٹ	I-PER
-بیٹن	I-PER
-
-رجوع_مکرر	O
-نائب	B-ORG
-صدر	I-ORG
-ریاستہائے	I-ORG
-متحدہ	I-ORG
-امریکہ	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:da37a58bad26432ca112581f5e2eecab93ffec81cda70227a61e63b7816d3939
+size 245

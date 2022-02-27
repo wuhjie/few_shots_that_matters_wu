@@ -1,16 +1,3 @@
-REDIRECTION	O
-Cité	B-LOC
-de	I-LOC
-Cockburn	I-LOC
-
-'	O
-''	O
-Dragons	B-ORG
-Catalans	I-ORG
-''	O
-'	O
-
-Frédéric	B-PER
-II	I-PER
-de	I-PER
-Brunswick-Lunebourg	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:356675f47eb343ed842fac5d73c6de385e691fca656f588a7fc59f2abb41f8f6
+size 160

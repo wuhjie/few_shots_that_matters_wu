@@ -1,32 +1,3 @@
-رجوع_مکرر	O
-اسماعیل	B-PER
-گل	I-PER
-جی	I-PER
-
-'	O
-''	O
-وہاب	B-PER
-ریاض	I-PER
-''	O
-'	O
-
-رجوع_مکرر	O
-پہر	B-LOC
-خیل	I-LOC
-تھل	I-LOC
-
-رجوع_مکرر	O
-موسکوگی	B-LOC
-کاؤنٹی،	I-LOC
-جارجیا	I-LOC
-
-رجوع_مکرر	O
-راجن	B-ORG
-شاہ	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-رجوع_مکرر	O
-دار	B-ORG
-العلوم	I-ORG
-دیوبند	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:52bc0a7be25056943219fc86cab368e1674a1e806264b63972b3533f67751cb1
+size 411

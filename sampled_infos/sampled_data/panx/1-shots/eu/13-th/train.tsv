@@ -1,27 +1,3 @@
-Raymond	B-PER
-Impanis	I-PER
-(	O
-)	O
-s.t	O
-.	O
-
-New	B-LOC
-York	I-LOC
-hiriko	O
-Hamalaugarren	O
-eta	O
-Bosgarren	B-ORG
-Etorbidearen	I-ORG
-artean	O
-,	O
-Rockefeller	B-ORG
-Center	I-ORG
-eraikin-multzoarekin	O
-parez-pare	O
-.	O
-
-1923ko	B-ORG
-Ingalaterrako	I-ORG
-Futbol	I-ORG
-Koparen	I-ORG
-Finala	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a80ed809093553342de31fd968792020dc12fec4bf79215191c4f3c0c7c6303
+size 292

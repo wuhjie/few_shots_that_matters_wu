@@ -1,32 +1,3 @@
-Puolustuksen	O
-kapellimestarina	O
-toimi	O
-Harry	B-PER
-Cameron	I-PER
-,	O
-joka	O
-oli	O
-pioneeritapaus	O
-hyökkäävänä	O
-puolustajana	O
-.	O
-
-'	O
-''	O
-Intia	B-LOC
-''	O
-'	O
-
-**	O
-Abu	B-LOC
-Dhabi	I-LOC
-(	O
-Suurlähetystö	O
-)	O
-
-'	O
-''	O
-Tingsryds	B-ORG
-AIF	I-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:79b0076d3bf29dc685f88f9d62bb33393a851db373d9a9bc81dc4a6c225f7bdc
+size 270

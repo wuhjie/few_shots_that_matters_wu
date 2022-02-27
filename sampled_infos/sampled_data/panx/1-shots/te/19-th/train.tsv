@@ -1,21 +1,3 @@
-ఢిల్లీలోని	B-LOC
-,	O
-బిర్లా	B-ORG
-మందిరం	I-ORG
-(	I-ORG
-ఢిల్లీ	I-ORG
-)	I-ORG
-
-వీరి	O
-స్వస్థలం	O
-గుంటూరు	B-LOC
-జిల్లా	I-LOC
-తెనాలి	B-LOC
-సమీపంలోని	O
-పొన్నెకల్లు	B-LOC
-.	O
-
-దారిమార్పు	O
-ఘట్టమనేని	B-PER
-మహేశ్	I-PER
-‌బాబు	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:bee331b80f00bf533482ec8788e68805ff39012da8d6eec8909e2a191d5e7560
+size 439

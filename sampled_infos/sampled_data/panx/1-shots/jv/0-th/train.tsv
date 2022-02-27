@@ -1,22 +1,3 @@
-Dhèwèké	O
-dikanonisasi	O
-déning	O
-Paus	B-PER
-Nikolas	I-PER
-I	I-PER
-.	O
-
-Komisi	B-ORG
-Dhuwur	I-ORG
-tumrap	I-ORG
-Pengungsi	I-ORG
-Perserikatan	I-ORG
-Bangsa-Bangsa	I-ORG
-(	I-ORG
-UNHCR	I-ORG
-)	I-ORG
-
-Powiat	B-LOC
-Gorlice	I-LOC
-,	O
-Gorlice	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:3223647f78e50ddf03d139a199486944a601a87ec685ca712374504a26bd15f1
+size 244

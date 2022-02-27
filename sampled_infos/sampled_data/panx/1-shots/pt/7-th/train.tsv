@@ -1,22 +1,3 @@
-Timea	B-PER
-Bacsinszky	I-PER
-''	O
-(	O
-Semi-final	O
-)	O
-
-Beaver	B-LOC
-(	I-LOC
-Virgínia	I-LOC
-Ocidental	I-LOC
-)	I-LOC
-
-''	O
-Abrostola	O
-triplasia	O
-''	O
--	O
-Global	B-ORG
-Biodiversity	I-ORG
-Information	I-ORG
-Facility	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fa7863c97389bb6c4acf7a2dad234b283c5f56499c6ab1810fd30f6ca659b5e
+size 221

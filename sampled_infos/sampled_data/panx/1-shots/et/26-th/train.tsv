@@ -1,21 +1,3 @@
-'	O
-''	O
-Jonesi	B-LOC
-maakond	I-LOC
-''	O
-'	O
-Lõuna-Dakotas	B-LOC
-
-Otto	B-PER
-II	I-PER
-(	I-PER
-Braunschweig-Göttingen	I-PER
-)	I-PER
-
-Tallinna	B-ORG
-JK	I-ORG
-Piraaja	I-ORG
-(	O
-III	B-ORG
-liiga	I-ORG
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:47bfd00a8386d7101df34f8c57ba1dab88cfedccc3ef493a12808db721eb5b8a
+size 202

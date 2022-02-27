@@ -1,35 +1,3 @@
-Ìwo	B-LOC
-Orí	I-LOC
-ilẹ̀	I-LOC
-Áfríkà	I-LOC
-
-Jelena	B-PER
-Janković	I-PER
-''	O
-(	O
-First	O
-Round	O
-)	O
-
-Aláṣẹ	B-LOC
-Ìjọba	I-LOC
-Orílẹ̀-èdè	I-LOC
-Palẹstínì	I-LOC
-
-Egbé	B-ORG
-Ọmọ	I-ORG
-Odùduwà	I-ORG
-
-Àgbájọ	B-ORG
-àwọn	I-ORG
-Orílẹ̀-èdè	I-ORG
-Aṣòkan	I-ORG
-
-Jelena	B-PER
-Janković	I-PER
-''	O
-(	O
-Fourth	O
-Round	O
-)	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:73a5aece01676ba62aa82d047e37d22a01d4f909aee04212c6538232798ddcf6
+size 366

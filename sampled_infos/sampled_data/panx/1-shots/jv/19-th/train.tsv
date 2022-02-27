@@ -1,17 +1,3 @@
-'	O
-''	O
-Libanon	B-LOC
-''	O
-'	O
-
-Sapardi	B-PER
-Djoko	I-PER
-Damono	I-PER
-(	O
-Anggota	O
-)	O
-
-ALIH	O
-Garis	B-ORG
-Bar	I-ORG
-Lev	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:524656f04e190004cdd7812f53fadc963c298e73abd1c7dde78c56c5bfdb6750
+size 130

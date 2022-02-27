@@ -1,31 +1,3 @@
-تغییرمسیر	O
-استان	B-LOC
-تین	I-LOC
-گیانگ	I-LOC
-
-تغییرمسیر	O
-جاده	B-ORG
-ئی۸۵۳	I-ORG
-اروپا	I-ORG
-
-برخی	O
-علت	O
-قتل	O
-او	O
-را	O
-به	O
-شراکت	O
-او	O
-با	O
-پسر	O
-علی	B-PER
-فلاحیان	I-PER
-وزیر	O
-وقت	O
-اطلاعات	O
-در	O
-امور	O
-قاچاق	O
-نسبت	O
-میدهند	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:28a4478f2755fc1e1fab6a010b5c754fe234b783ddc3bfd8962e08dc34df7a78
+size 358

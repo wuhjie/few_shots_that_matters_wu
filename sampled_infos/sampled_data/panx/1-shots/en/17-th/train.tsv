@@ -1,29 +1,3 @@
-She	O
-and	O
-other	O
-dancers	O
-were	O
-photographed	O
-by	O
-artist	O
-Edmund	B-PER
-Kesting	I-PER
-.	O
-
-Black-throated	B-LOC
-laughingthrush	I-LOC
-,	O
-unsuccessfully	O
-introduced	O
-to	O
-the	O
-Hawaiian	B-LOC
-Islands	I-LOC
-
-''	O
-Night	B-ORG
-and	I-ORG
-Day	I-ORG
-''	O
--	O
-3:58	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f9a148b37e3253499ca5e6713f502aee322c7363d260d916518b2a8073e93e5
+size 268

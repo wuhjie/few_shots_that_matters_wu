@@ -1,32 +1,3 @@
-**	O
-আফ্রিকান	B-LOC
-পুটিয়াল	I-LOC
-ধনেশ	I-LOC
-''Tockus	O
-nasutus	O
-''	O
-
-মেহেরান	B-PER
-করিমী	I-PER
-নাসেরি	I-PER
-
-'	O
-''	O
-মাইকেল	B-PER
-কারবেরি	I-PER
-''	O
-'	O
-
-ভার্জিনিয়া	B-LOC
-টেক	I-LOC
-হত্যাকাণ্ড	I-LOC
-
-মার্কিন	B-ORG
-যুক্তরাষ্ট্র	I-ORG
-জাতীয়	I-ORG
-ক্রিকেট	I-ORG
-দল	I-ORG
-
-পার্তিদো	B-ORG
-ইন্দেপেন্দেন্তিস্তা	I-ORG
-পুয়ের্তোরিকেনিয়ো	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a0ef59f0ffcb6f885f400fa7dd2606ae67048db54a24f7c2a3f8de3f47c3214
+size 649

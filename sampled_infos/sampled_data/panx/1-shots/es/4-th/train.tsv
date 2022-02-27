@@ -1,17 +1,3 @@
-Phil	B-PER
-Soussan	I-PER
--	O
-bajo	O
-
-Museo	B-ORG
-de	I-ORG
-la	I-ORG
-SHCP	I-ORG
-.	O
-
-REDIRECCIÓN	O
-El	B-LOC
-Playón	I-LOC
-(	I-LOC
-Venezuela	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1d256e71b90e863e788af6b6bc9f29d7aa15eec34ced09806317c49670217c6
+size 153

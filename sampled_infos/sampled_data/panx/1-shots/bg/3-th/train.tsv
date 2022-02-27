@@ -1,24 +1,3 @@
-Шон	B-PER
-Мърфи	I-PER
-(	O
-Англия	B-LOC
-)	O
-
-Разпространен	O
-е	O
-в	O
-Бразилия	B-LOC
-(	O
-Санта	B-LOC
-Катарина	I-LOC
-и	O
-Сао	B-LOC
-Пауло	I-LOC
-)	O
-.	O
-
-``	O
-The	B-ORG
-Unknown	I-ORG
-Soldier	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:440d50246e28e989a53176091a889cdc0a6e4a53a8ab02e40e29c6f8978b3633
+size 256

@@ -1,22 +1,3 @@
-ALIH	O
-A.C.	B-ORG
-Chievo	I-ORG
-Verona	I-ORG
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Manche	I-LOC
-
-Mempunyai	O
-akun	O
-Twitter	B-ORG
-dan	O
-aktif	O
-
-''	O
-Miley	B-PER
-Cyrus	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:57cdf34893281c33591c91aea62c1e150372d13dcfd12e8bcbe8628b844b06aa
+size 191

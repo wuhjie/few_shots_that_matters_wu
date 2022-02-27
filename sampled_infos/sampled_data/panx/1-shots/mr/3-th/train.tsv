@@ -1,13 +1,3 @@
-पुनर्निर्देशन	O
-पोर्टलंड	B-LOC
-,	I-LOC
-मेन	I-LOC
-
-पुनर्निर्देशन	O
-चौधरी	B-PER
-चरण	I-PER
-सिंग	I-PER
-
-भारतीय	B-ORG
-प्रशासकीय	I-ORG
-सेवा	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8889fd4c89a2bcc85ecff1c785ae2ab10ced167d8a1e0d124fb545dd15f28b0
+size 276

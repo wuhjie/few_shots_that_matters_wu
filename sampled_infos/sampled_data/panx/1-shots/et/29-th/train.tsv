@@ -1,25 +1,3 @@
-'	O
-''	O
-Sebastian	B-PER
-Vettel	I-PER
-''	O
-'	O
-
-(	O
-Kingissepa	B-LOC
-salk	O
-)	O
-,	O
-9	O
-.	O
-
-suuna	O
-Rahvusvaheline	B-ORG
-Kinnismälestiste	I-ORG
-Nõukogu	I-ORG
-
-Limburgi	B-LOC
-hertsogkond	I-LOC
-(	I-LOC
-1839–1867	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:0abd612afc2d98948b271f42b23b8e848571091d8f78d5fe6f04d36df666100f
+size 229

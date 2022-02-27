@@ -1,18 +1,3 @@
-살리나스	B-LOC
-(	I-LOC
-에콰도르	I-LOC
-)	I-LOC
-
-루트비히	B-PER
-판	I-PER
-베토벤	I-PER
-
-현재	O
-대한민국	B-LOC
-K리그	B-ORG
-클래식	I-ORG
-상주	B-ORG
-상무에서	I-ORG
-활약하고	O
-있다	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4662fe7cecfff6ee0bf1bb51c01d2cd61f4a503e02a7efe3058c0329c44f4754
+size 219

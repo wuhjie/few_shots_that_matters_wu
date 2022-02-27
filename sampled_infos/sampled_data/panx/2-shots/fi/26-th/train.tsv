@@ -1,35 +1,3 @@
-Syyskuussa	O
-2008	O
-hän	O
-siirtyi	O
-Cedomir	B-PER
-Janevskin	I-PER
-apuvalmentajaksi	O
-Belgradin	B-ORG
-Punaiseen	I-ORG
-tähteen	I-ORG
-.	O
-
-'	O
-''	O
-Rio	B-LOC
-Maior	I-LOC
-''	O
-'	O
-
-Levyt	O
-julkaisi	O
-Sanctuary	B-ORG
-Records	I-ORG
-.	O
-
-****	O
-''	O
-Tamias	B-LOC
-dorsalis	I-LOC
-''	O
-
-Taylor	B-PER
-Hawkins	I-PER
-–	O
-rummut	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:23872fb3b44973b64164d5189eddb5f92f5063a38c0c70998b04bf8ed34249ab
+size 321

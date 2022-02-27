@@ -1,16 +1,3 @@
-Munhwa	B-ORG
-Broadcasting	I-ORG
-Corporation	I-ORG
-
-Poland	B-LOC
-–	O
-80	O
-000	O
-
-Ashikaga	B-LOC
-,	I-LOC
-Tochigi	I-LOC
-
-Bernard	B-PER
-Binlin	I-PER
-Dadié	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:e321f07fe94ca6683c8ad6890f0f31b337cbef1b2841255fce310d15790f183c
+size 160

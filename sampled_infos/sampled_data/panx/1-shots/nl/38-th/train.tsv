@@ -1,34 +1,3 @@
-'	O
-''	O
-FC	B-ORG
-Lienden	I-ORG
-''	O
-'	O
-
-Er	O
-wordt	O
-weleens	O
-gezegd	O
-dat	O
-er	O
-meer	O
-Kaipingezen	O
-in	O
-het	O
-buitenland	O
-wonen	O
-dan	O
-in	O
-de	O
-Volksrepubliek	B-LOC
-China	I-LOC
-zelf	O
-.	O
-
-Ferry	B-PER
-van	I-PER
-Lotharingen	I-PER
-(	O
-1368-1415	O
-)	O
-,	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bddee1931e0f49fdf5737357aee612af7f01e20304c6c216b71ac4498e7c74e6
+size 263

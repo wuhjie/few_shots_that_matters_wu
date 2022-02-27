@@ -1,34 +1,3 @@
-ALIH	O
-Kromatografi	B-ORG
-cair	I-ORG
-kinerja	I-ORG
-tinggi	I-ORG
-
-ALIH	O
-Charlotte	B-LOC
-,	I-LOC
-Carolina	I-LOC
-Utara	I-LOC
-
-ALIH	O
-Konfederasi	B-ORG
-Swiss	I-ORG
-Lama	I-ORG
-
-ALIH	O
-Provinsi	B-LOC
-Dak	I-LOC
-Nong	I-LOC
-
-ALIH	O
-Jigme	B-PER
-Khesar	I-PER
-Namgyel	I-PER
-Wangchuck	I-PER
-
-***	O
-Borislav	B-PER
-Paravac	I-PER
-(	O
-2003–2006	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:958822e9da9a2e66002a8a9c9fdbb9115ff6095ab668fe74186d2d9a51224336
+size 337

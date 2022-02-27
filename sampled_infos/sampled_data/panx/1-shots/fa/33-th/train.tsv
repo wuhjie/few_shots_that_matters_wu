@@ -1,15 +1,3 @@
-تغییرمسیر	O
-چوری	B-LOC
-(	I-LOC
-لنگرود	I-LOC
-)	I-LOC
-
-اچ‌ک‌اس	B-ORG
-اینک	I-ORG
-.	I-ORG
-و	O
-فیلیپ	B-PER
-جانسون	I-PER
-و	O
-جان	B-PER
-بورگی	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d42c4791d2fd4f3018d6a67b25148a67826977b79ee3200614278e9cadeefd05
+size 194

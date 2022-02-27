@@ -1,25 +1,3 @@
-**	O
-Шапеле	B-ORG
-,	I-ORG
-50	I-ORG
-метров	I-ORG
-;	O
-
-]]	O
-;	O
-Региональная	O
-группа	O
-№	O
-58	O
-(	O
-Саратовская	B-LOC
-область	I-LOC
-,	O
-№	O
-2	O
-)	O
-
-перенаправление	O
-Джаффе	B-PER
-,	I-PER
-Мариэль	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:4aa487b2e72656590367cfc8faa0c1db0f4a6a62b57bbd85adc1dd014c3a074d
+size 281

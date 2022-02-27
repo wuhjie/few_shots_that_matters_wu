@@ -1,22 +1,3 @@
-पुनर्निर्देशन	O
-चट्टग्राम	B-LOC
-विभागीय	I-LOC
-मैदान	I-LOC
-
-'	O
-''	O
-झहीर	B-PER
-खान	I-PER
-''	O
-'	O
-
-'	O
-''	O
-'	O
-''	O
-हे	O
-लोकप्रिय	O
-हिंदुस्तानी	B-ORG
-गायिका	I-ORG
-आहेत	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d9c7427d9731bc9fe6f5bc0dbff060388125ca08d0533a917ad87d14264428b
+size 319

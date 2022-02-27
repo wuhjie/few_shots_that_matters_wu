@@ -1,28 +1,3 @@
-ती	O
-वर्धा	B-LOC
-जिल्हा	I-LOC
-या	O
-मधून	O
-वाहते	O
-.	O
-
-लंडन	B-LOC
-(	O
-लंडन	B-ORG
-हीथ्रो	I-ORG
-विमानतळ	I-ORG
-)	O
-
-आयझॅक	B-PER
-न्यूटन	I-PER
-यांचा	O
-मान	O
-ठेवण्यास	O
-या	O
-एककास	O
-त्यांचे	O
-नाव	O
-देण्यात	O
-आले	O
-आहे	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfd2468a97e3257748dc79984198cda5ccfb1f3a00e0e277bcfddd6b722c15e0
+size 422

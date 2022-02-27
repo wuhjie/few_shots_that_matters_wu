@@ -1,25 +1,3 @@
-Dvortsovõi	B-ORG
-sild	I-ORG
-(	O
-Paleesild	O
-,	O
-üles	O
-tõstetud	O
-1:25–4:55	O
-)	O
-
-Peeter	B-PER
-Mudist	I-PER
-,	O
-5	O
-teost	O
-
-Need	O
-maod	O
-on	O
-levinud	O
-Hindustani	B-LOC
-poolsaarel	I-LOC
-ja	O
-Kagu-Aasias	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:474c26ded62c0293daf009c2bdae0d4b20acb7056e924c95496851f921917ea3
+size 221

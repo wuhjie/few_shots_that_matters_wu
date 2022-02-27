@@ -1,15 +1,3 @@
-بيل	B-ORG
-وسيباستيان	I-ORG
-(	I-ORG
-أنمي	I-ORG
-)	I-ORG
-
-جين	B-PER
-كلود	I-PER
-فان	I-PER
-دام	I-PER
-
-تحويل	O
-قبردينو	B-LOC
--	I-LOC
-بلقاريا	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:06741e2c19b8b585e9ef2f129182fdcc52ff9a5d4609cb1cf9a3bd51864e518b
+size 190

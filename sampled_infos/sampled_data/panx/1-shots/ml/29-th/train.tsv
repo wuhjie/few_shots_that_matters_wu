@@ -1,22 +1,3 @@
-തിരിച്ചുവിടുക	O
-ചർച്ച്	B-ORG
-ഓഫ്	I-ORG
-ഇംഗ്ലണ്ട്	I-ORG
-
-തൃശ്ശൂർ	B-LOC
-ജില്ലയുടെ	I-LOC
-തീരദേശഗ്രാമങ്ങളിലൊന്നാണ്‌	O
-'	O
-''	O
-കഴിമ്പ്രം	O
-''	O
-'	O
-.	O
-
-രാക്കടൽ	O
-–	O
-ബിജു	B-PER
-നാരായണൻ	I-PER
-,	O
-സുജാത	B-PER
-മോഹൻ	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:499d4a8d997f9d36fce8d47139056d855282f346811849a742323c4430c097a9
+size 433

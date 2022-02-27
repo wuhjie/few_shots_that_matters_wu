@@ -1,22 +1,3 @@
-टाटा	B-ORG
-स्काय	I-ORG
-,	O
-डी.टी.एच.सेवा	O
-.	O
-
-पुनर्निर्देशन	O
-पी.	B-PER
-रंगराजन	I-PER
-कुमारमंगलम	I-PER
-
-जम्मू	B-LOC
-आणि	I-LOC
-काश्मीर	I-LOC
-,	O
-आंध्र	B-LOC
-प्रदेश	I-LOC
-,	O
-दिल्ली	B-LOC
-,	O
-उत्तर	B-LOC
-प्रदेश	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1197f847d5b3b5adff3044594dd1b4aebca74a2f16e8ffc57fea7ef58e2fbedb
+size 405

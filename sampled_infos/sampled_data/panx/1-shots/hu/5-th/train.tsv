@@ -1,18 +1,3 @@
-Így	O
-került	O
-Fejér	B-LOC
-vármegyébe	I-LOC
-,	O
-ahol	O
-aztán	O
-táblabíróvá	O
-lépett	O
-elő	O
-.	O
-
-Gunnar	B-PER
-Gren	I-PER
-(	O
-IFK	B-ORG
-Göteborg	I-ORG
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b1b7eb0549c1917d739875aa9eb57bd9d03ef1b0cc8a40da5fa9b002d8d7802
+size 167

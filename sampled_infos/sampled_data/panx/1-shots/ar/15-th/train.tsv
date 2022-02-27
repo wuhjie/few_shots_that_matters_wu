@@ -1,14 +1,3 @@
-روزان	B-ORG
-(	I-ORG
-مسلسل	I-ORG
-)	I-ORG
-
-تيتوس	B-PER
-ليفيوس،	I-PER
-''Periochae	O
-''	O
-
-تحويل	O
-كامبو	B-LOC
-دي	I-LOC
-مايرا	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:72d96f40e843d4850beaf8100fbf74cb9e570cf54ba3fa1ea43096131dc34d5f
+size 167

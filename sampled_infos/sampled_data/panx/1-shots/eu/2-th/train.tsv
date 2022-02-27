@@ -1,34 +1,3 @@
-Charles	B-PER
-V.ak	I-PER
-horri	O
-ez	O
-ezik	O
-,	O
-barneko	O
-zatiketari	O
-eta	O
-jende	O
-xehearen	O
-matxinadari	O
-(	O
-''Jacquerie	O
-''	O
-)	O
-ere	O
-aurre	O
-egin	O
-behar	O
-izan	O
-zien	O
-.	O
-
-BIRZUZENDU	O
-Georges	B-ORG
-Pompidou	I-ORG
-Zentroa	I-ORG
-
-La	B-LOC
-Ferté-Macé	I-LOC
-(	O
-61168	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:18ec3bd0ddddbc63a807e6883b9f19c662be97a8fc48576f69b7d8b3b99d355d
+size 287

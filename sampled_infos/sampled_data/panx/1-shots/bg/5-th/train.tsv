@@ -1,24 +1,3 @@
-**	O
-Франклин	B-LOC
-(	I-LOC
-окръг	I-LOC
-,	I-LOC
-Флорида	I-LOC
-)	I-LOC
-
--	O
-Деций	B-PER
-Траян	I-PER
-(	O
-249	O
--251	O
-г	O
-.	O
-
-Фамилията	O
-се	O
-сродява	O
-с	O
-Графство	B-ORG
-Спонхайм	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b508633f9b0ef93fa31490fd06492c963d81f398f95ccf0d04d0257140f1739
+size 256

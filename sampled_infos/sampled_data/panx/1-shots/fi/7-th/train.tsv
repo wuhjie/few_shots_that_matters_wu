@@ -1,16 +1,3 @@
-OHJAUS	O
-Englantilais-ranskalainen	B-ORG
-pienriistan	I-ORG
-ajokoira	I-ORG
-
-917	O
-(	O
-Vehkalahti	B-LOC
-)	O
-
-Euroopan	B-LOC
-komission	I-LOC
-puheenjohtaja	I-LOC
-José	B-PER
-Manuel	I-PER
-Barroso	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fc0ccd450867693f1362f3ff212de1497b2a598cfbd78e9ca68b0d3f61b7cf6
+size 197

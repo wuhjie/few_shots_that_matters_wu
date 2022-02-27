@@ -1,28 +1,3 @@
-Szabályait	O
-a	O
-Nemzetközi	B-ORG
-Atlétikai	I-ORG
-Szövetség	I-ORG
-határozza	O
-meg	O
-.	O
-
-|	O
-''	O
-Krasznodari	B-LOC
-határterület	I-LOC
-''	O
-'	O
-
-**	O
-Ulysses	B-PER
-S.	I-PER
-Grant	I-PER
-másfél	O
-hónappal	O
-a	O
-beiktatás	O
-után	O
-ünnepelte	O
-47.	O
-születésnapját	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8913f7bf1cef7545362de0c19b631cb1dd9eab9cc2617aa986aa2a156adc282f
+size 280

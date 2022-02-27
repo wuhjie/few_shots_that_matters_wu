@@ -1,29 +1,3 @@
-C.D.	B-ORG
-Atlético	I-ORG
-Junior	I-ORG
-
-Taunton	B-LOC
-Vale	I-LOC
-Sports	I-LOC
-Club	I-LOC
-Ground	I-LOC
-
-Jesse	B-PER
-D.	I-PER
-Bright	I-PER
-(	O
-D	O
-)	O
-
-*2004	O
-:	O
-Be	B-ORG
-Here	I-ORG
-''	O
-by	O
-Keith	B-PER
-Urban	I-PER
-
-Yellowwood	B-LOC
-State	I-LOC
-Forest	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf83b5127659b034d6bfe405564b7ec69902486976729c3d0deb63973ada8cf9
+size 260

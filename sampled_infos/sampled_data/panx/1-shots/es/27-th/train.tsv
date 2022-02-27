@@ -1,18 +1,3 @@
-Partido	B-ORG
-Liberal	I-ORG
-Radical	I-ORG
-Ecuatoriano	I-ORG
-(	O
-PLRE	O
-)	O
-
-REDIRECCIÓN	O
-Guérin	B-LOC
-(	I-LOC
-Quebec	I-LOC
-)	I-LOC
-
-REDIRECCIÓN	O
-Sami	B-PER
-Al	I-PER
-Jaber	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:59f30f5d709674a72a096f07c8695fd8c3375214c82db8f6760f6638026d2e8b
+size 182

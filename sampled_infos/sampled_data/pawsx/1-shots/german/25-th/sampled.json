@@ -1,1 +1,3 @@
-{"0": [{"uid": "german-1520-val", "text_a": "Peter Burgess ist verheiratet mit Karen Lieve Ria Hostens, Delegierte f\u00fcr Zusammenarbeit beim Internationalen Komitee vom Roten Kreuz, und Vater von drei Kindern.", "label": "0", "portion_identifier": -1, "text_b": "Karen Lieve Ria Hostens ist verheiratet mit J. Peter Burgess, Kooperationsbeauftragter des Internationalen Komitees vom Roten Kreuz, und Vater von drei Kindern."}], "1": [{"uid": "german-190-val", "text_a": "Es ist nicht bekannt, ob es gegen andere \u00fcbernat\u00fcrliche Wesen wirksam ist, es ist jedenfalls nutzlos gegen Engel.", "label": "1", "portion_identifier": -1, "text_b": "Es ist nicht bekannt, ob es gegen andere \u00fcbernat\u00fcrliche Wesen Wirkung zeigt, obwohl es nicht gegen Engel hilft."}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:425d9ee14a8cb7a7ed5e75c8ba80381c6b2064b1c1b26de374c509050d4316d0
+size 776

@@ -1,30 +1,3 @@
-Paus	B-PER
-Zephyrinus	I-PER
---	O
---	O
-YaYa	O
-
-ALIH	O
-Vocan	B-LOC
-Santa	I-LOC
-Maria	I-LOC
-
-Kagiyatan	O
-iki	O
-dirancang	O
-déning	O
-wong	O
-Inggris	B-LOC
-mawa	O
-''call	O
-sign	O
-''	O
-G3BHK	O
-.	O
-
-ALIH	O
-Kamentrian	B-ORG
-Luar	I-ORG
-Negri	I-ORG
-Republik	I-ORG
-Indonésia	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:16b23242d317e9a42efdcef421fc1c0b8d558625ecda1ed6b2422eee51311ddd
+size 271

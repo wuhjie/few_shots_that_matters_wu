@@ -1,20 +1,3 @@
-ALIH	O
-Philippe	B-PER
-II	I-PER
-dari	I-PER
-Perancis	I-PER
-
-Ia	O
-berasal	O
-dari	O
-Partai	B-ORG
-Amanat	I-ORG
-Nasional	I-ORG
-.	O
-
-(	O
-Wilayah	B-LOC
-Seberang	I-LOC
-Laut	I-LOC
-Britania	I-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:04b411398361a521309c20780e590d453f3c0dbf32357b1f22ea3003f6e63657
+size 189

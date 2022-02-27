@@ -1,27 +1,3 @@
-أكبر	O
-إنجاز	O
-حققه	O
-كان	O
-بفوزه	O
-بطولة	B-ORG
-ويمبلدون	I-ORG
-2014	I-ORG
-لزوجي	O
-الرجال،	O
-مع	O
-شريكه	O
-جاك	B-PER
-سوك	I-PER
-.	O
-
-وإداريًا	O
-مديرية	B-LOC
-الحيمة	I-LOC
-الداخلية	I-LOC
-.	O
-
-طلحة	B-PER
-بن	I-PER
-عبيد	I-PER
-الله	I-PER
-كذلك	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4be586854fc645a4e62bfc1435bc90ddf2141d5bb4cb1b32491859456d5d8c08
+size 341

@@ -1,26 +1,3 @@
-Гомер	B-PER
-поэмаларында	O
-бүкіл	O
-гректерді	O
-Ахейліктер	O
-деп	O
-атаған	O
-.	O
-
-АЙДАУ	O
-Ким	B-PER
-Ён	I-PER
-Сам	I-PER
-
-Қарашығанақ	B-ORG
-мұнай-газ	I-ORG
-конденсат	I-ORG
-кен	I-ORG
-орнын	I-ORG
-игеру	O
-
-Алаш	B-LOC
-Орда	I-LOC
-қатарында	O
-болады	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bef760c81b86f730a52ab5940d90e0d73e72c56c70f6db81bcea4c47138fed70
+size 373

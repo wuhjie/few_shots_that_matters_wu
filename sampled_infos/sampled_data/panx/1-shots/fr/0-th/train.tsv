@@ -1,24 +1,3 @@
-Ivete	B-PER
-Sangalo	I-PER
-(	O
-Fortaleza	B-LOC
-et	O
-Recife	B-LOC
-,	O
-Brésil	B-LOC
-)	O
-
-Dandenong	B-ORG
-Rangers	I-ORG
-19	O
-v.	O
-/	O
-5	O
-d	O
-.	O
-
-REDIRECTION	O
-Malå	B-LOC
-(	I-LOC
-commune	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd0119121178b1a028bf093a4c05bf758d4c146ef8de13b859ca91874ccdb510
+size 200

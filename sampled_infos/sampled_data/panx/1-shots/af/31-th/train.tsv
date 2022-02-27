@@ -1,24 +1,3 @@
-Hy	O
-was	O
-die	O
-jonger	O
-broer	O
-van	O
-Mahmoed	B-PER
-I	I-PER
-en	O
-die	O
-seun	O
-van	O
-Mustafa	B-PER
-II	I-PER
-.	O
-
-FC	B-ORG
-Ingolstadt	I-ORG
-04	I-ORG
-
-Ngquza	B-LOC
-Hill	I-LOC
-Plaaslike	I-LOC
-Munisipaliteit	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:055e6d7f46dc7b72d1c91bc80a532745bace84567d6ed61b80738b967eb989ac
+size 211

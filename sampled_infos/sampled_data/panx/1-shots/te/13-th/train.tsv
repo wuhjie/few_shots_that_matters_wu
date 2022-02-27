@@ -1,28 +1,3 @@
-ఆల్	B-ORG
-ఇండియా	I-ORG
-మజ్లిస్	I-ORG
-ఎ	I-ORG
-ఇత్తెహాదుల్	I-ORG
-ముస్లిమీన్	I-ORG
-
-సినిమాలోని	O
-పాటల	O
-చిత్రీకరణ	O
-మహాబలిపురంలో	B-LOC
-జరిగింది	O
-.	O
-
-నార్ల	B-PER
-వెంకటేశ్వరరావు	I-PER
-ఈ	O
-పత్రికకు	O
-తొలి	O
-సంపాదకుడు	O
-.	O
-
-ఉస్మానియా	B-LOC
-సామ్రాజ్యానికి	I-LOC
-ఇది	O
-తీవ్రమైన	O
-చెంపదెబ్బ	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e55316e9cbd8c9e7acda3adfecc8efdd7d09ff572daa30ada8f01c1701adbf91
+size 620

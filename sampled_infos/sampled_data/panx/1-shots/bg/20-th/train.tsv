@@ -1,31 +1,3 @@
-Видът	O
-е	O
-разпространен	O
-в	O
-Нова	B-LOC
-Зеландия	I-LOC
-.	O
-
-Една	O
-от	O
-най-скорошните	O
-ѝ	O
-появи	O
-е	O
-в	O
-ролята	O
-на	O
-Марта	B-PER
-М.	I-PER
-Мастърс	I-PER
-в	O
-сериала	O
-Д-р	B-ORG
-Хаус“	I-ORG
-.	O
-
-**	O
-Момичето	B-ORG
-от	I-ORG
-Дания	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9ea19663c905702a85981e4aa12ff3ad054e74156df4d0eebf6ef6b6cd2fdb8
+size 361

@@ -1,29 +1,3 @@
-Ugiriki	B-LOC
-(	O
-Athens	B-LOC
-)	O
-(	O
-EU	O
-)	O
-
-Mtaguso	B-ORG
-wa	I-ORG
-pili	I-ORG
-wa	I-ORG
-Vatikani	I-ORG
-
-24	B-ORG
-''	O
-(	O
-2005	O
--	O
-2009	O
-)	O
-kama	O
-Bill	B-PER
-Buchanan	I-PER
-
-Wilaya	B-LOC
-ya	I-LOC
-Mlima	I-LOC
-Elgon	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:c25a1611c8aa4b02b610005abf90b435156249335ac530eca327a3e76ae11db7
+size 228

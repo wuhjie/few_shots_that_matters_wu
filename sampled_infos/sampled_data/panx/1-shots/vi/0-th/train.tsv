@@ -1,24 +1,3 @@
-Gaushorn	B-LOC
-(	O
-213	O
-)	O
-
-đổi	O
-Chiến	B-ORG
-dịch	I-ORG
-Đông	I-ORG
-Dương	I-ORG
-(	I-ORG
-1940	I-ORG
-)	I-ORG
-
-ĐỔI	O
-Lê	B-PER
-Nhân	I-PER
-Tông	I-PER
-
-Lycoperdon	B-LOC
-mammiforme	I-LOC
-''	O
-Pers	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3ce1f6bce475e56997c75f1ef66e97c11a362a7a2dd4643b2700bc4d07a9083
+size 215

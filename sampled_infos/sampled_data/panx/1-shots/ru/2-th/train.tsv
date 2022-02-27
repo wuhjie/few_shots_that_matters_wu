@@ -1,22 +1,3 @@
-Сборная	B-ORG
-СССР	I-ORG
-провела	O
-здесь	O
-несколько	O
-международных	O
-матчей	O
-.	O
-
-Лайош	B-PER
-Кошут	I-PER
-был	O
-объявлен	O
-правителем-президентом	O
-страны	O
-.	O
-
-перенаправление	O
-Каманьяб	B-LOC
-(	I-LOC
-деревня	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:84a20fef55f7748b5be4a72b3ef7ed5e413c5c7a51b53c62026d46f3119210e7
+size 357

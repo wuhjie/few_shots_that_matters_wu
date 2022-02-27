@@ -1,21 +1,3 @@
-לאחר	O
-המלחמה	B-ORG
-העות'מאנית-רוסית	I-ORG
-(	I-ORG
-1877-1878	I-ORG
-)	I-ORG
-הפך	O
-חלק	O
-נסיכות	B-LOC
-בולגריה	I-LOC
-מתוקף	O
-סיכומי	O
-קונגרס	B-ORG
-ברלין	I-ORG
-.	O
-
-איאן	B-PER
-ריצ'רדסון	I-PER
--	O
-השופט	O
-לנגלוי	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f34a7fe9cf5060c6ec6023bad4e05f9c6d020fead075f849e01e7656964ea42c
+size 297

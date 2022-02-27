@@ -1,15 +1,3 @@
-பிரகாஷ்	B-PER
-ராஜ்	I-PER
--	O
-சூர்யபிரகாஷ்	O
-
-கலசலிங்கம்	B-ORG
-பல்கலைக்கழகம்	I-ORG
-(	O
-KLU	O
-)	O
-
-வழிமாற்று	O
-ஆதிச்சநல்லூர்	B-LOC
-தொல்லியல்	I-LOC
-களம்	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b76e89f3f5f473408a4899ca6083b65d7672ed291f74816d4f0339325995070
+size 318

@@ -1,26 +1,3 @@
-Brandon	B-PER
-Knight	I-PER
-wurde	O
-am	O
-19	O
-.	O
-
-I	B-ORG
-Just	I-ORG
-Called	I-ORG
-to	I-ORG
-Say	I-ORG
-I	B-ORG
-Love	I-ORG
-You	I-ORG
-
-In	O
-der	O
-Nordostecke	O
-befand	O
-sich	O
-das	O
-Macellum	B-LOC
-von	I-LOC
-Pompeji	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:11ffb5a35a009c7b78c439b2a21bb6bb657b14b163f4aae1823b632dacb34fa0
+size 221

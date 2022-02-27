@@ -1,20 +1,3 @@
-رجوع_مکرر	O
-محمد	B-PER
-صلی	I-PER
-اللہ	I-PER
-علیہ	I-PER
-و	I-PER
-آلہ	I-PER
-و	I-PER
-سلم	I-PER
-
-رجوع_مکرر	O
-ورچوئل	B-ORG
-یونیورسٹی	I-ORG
-آف	I-ORG
-پاکستان	I-ORG
-
-رجوع_مکرر	O
-لانسی	B-LOC
-آ	I-LOC
-ایپنز	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:94bf42324959bd1b25a8eb6e8d297007b61c3342f3ca830fdf8d17474be222a3
+size 283

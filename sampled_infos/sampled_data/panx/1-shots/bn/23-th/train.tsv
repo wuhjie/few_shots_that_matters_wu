@@ -1,14 +1,3 @@
-শঙ্কর	B-PER
-দয়াল	I-PER
-শর্মা	I-PER
-(	O
-১৯১৮-১৯৯৯	O
-)	O
-
-আন্তর্জাতিক	B-ORG
-একক	I-ORG
-পদ্ধতি	I-ORG
-
-আল	B-LOC
-মুসান্না	I-LOC
-প্রদেশ	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:48a030fac4f4b3ccdbdd831a4cfe71298c424afcdd2b243e4ebdb5481545db40
+size 254

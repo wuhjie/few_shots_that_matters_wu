@@ -1,34 +1,3 @@
-Casto	B-PER
-(	O
-Real	B-ORG
-Betis	I-ORG
-)	O
-
-'	O
-''	O
-José	B-PER
-Bustamante	I-PER
-y	I-PER
-Rivero	I-PER
-''	O
-'	O
-
-Yitzhak	B-PER
-Shamir	I-PER
-,	O
-bekas	O
-Perdana	B-ORG
-Menteri	I-ORG
-Israel	I-ORG
-.	O
-
-El	B-LOC
-Puerto	I-LOC
-de	I-LOC
-Santa	I-LOC
-María	I-LOC
-
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Essonne	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:c42ad67e89eca2201dbed009e92011d94b036fd37945ec7d500818a1372f82c6
+size 308

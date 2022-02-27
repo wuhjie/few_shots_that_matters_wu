@@ -1,17 +1,3 @@
-رجوع_مکرر	O
-شاہ	B-ORG
-نال	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-رجوع_مکرر	O
-جیکسن	B-LOC
-ٹاؤنشپ،	I-LOC
-کمبریا	I-LOC
-کاؤنٹی،	I-LOC
-پنسلوانیا	I-LOC
-
-رجوع_مکرر	O
-تقی	B-PER
-الدین	I-PER
-المقریزی	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:94f841616cb378d86aea26ecb87896c362df83d15cae7ab96a7c689183f5255e
+size 280

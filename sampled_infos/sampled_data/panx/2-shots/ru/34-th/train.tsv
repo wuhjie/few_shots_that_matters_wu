@@ -1,33 +1,3 @@
-Бейлисс	B-PER
-,	I-PER
-Уильям	I-PER
-Мэддок	I-PER
-
-Подчинён	O
-административному	B-LOC
-округу	I-LOC
-Дармштадт	B-LOC
-.	O
-
-Cold	B-ORG
-Meat	I-ORG
-Industry	I-ORG
-
-перенаправление	O
-Харарит	B-PER
-,	I-PER
-Хайя	I-PER
-
-Фигурное	B-ORG
-катание	I-ORG
-на	I-ORG
-зимних	I-ORG
-Олимпийских	I-ORG
-играх	I-ORG
-1964	I-ORG
-
-перенаправление	O
-Катхуа	B-LOC
-(	I-LOC
-округ	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d349a37fa5f6609809e431f121dda342bd7ad552b66a169dee8a827a8c40944
+size 510

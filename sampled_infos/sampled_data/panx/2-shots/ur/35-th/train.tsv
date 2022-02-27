@@ -1,36 +1,3 @@
-رجوع_مکرر	O
-عبدالحق	B-PER
-محدث	I-PER
-دہلوی	I-PER
-
-رجوع_مکرر	O
-اوکووڈ،	B-LOC
-کویاہوگا	I-LOC
-کاؤنٹی،	I-LOC
-اوہائیو	I-LOC
-
-رجوع_مکرر	O
-کین،	B-LOC
-نیو	I-LOC
-ہیمپشائر	I-LOC
-
-رجوع_مکرر	O
-قومی	B-ORG
-اسمبلی	I-ORG
-پاکستان	I-ORG
-
-رجوع_مکرر	O
-نظام	B-PER
-الملک	I-PER
-آصف	I-PER
-جاہ	I-PER
-اول	I-PER
-
-رجوع_مکرر	O
-پاکستان	B-ORG
-انسٹی	I-ORG
-ٹیوٹ	I-ORG
-آف	I-ORG
-فیشن	I-ORG
-اینڈ	I-ORG
-ڈیزائن	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd72227779ac3c9b2b4b60dc2e67878414b33ed5c9f0ef09ba289d85d3b322a8
+size 554

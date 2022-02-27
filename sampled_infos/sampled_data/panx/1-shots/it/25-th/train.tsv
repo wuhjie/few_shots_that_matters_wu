@@ -1,20 +1,3 @@
-Tainted	B-ORG
-Love	I-ORG
--	O
-Soft	B-ORG
-Cell	I-ORG
-
-David	B-PER
-Angell	I-PER
--	O
-Violino	B-ORG
-
-I	O
-suoi	O
-figli	O
-furono	O
-Lugh	B-LOC
-Lámhfada	I-LOC
-e	O
-Delbáeth	B-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d67d34895befa75ea3823fda3fc19b77f7dc1d887fc4ea603f74e94a33a111b
+size 175

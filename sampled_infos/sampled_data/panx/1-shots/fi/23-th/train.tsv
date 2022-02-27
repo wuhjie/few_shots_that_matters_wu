@@ -1,18 +1,3 @@
-Sony	B-ORG
-BMG	I-ORG
-Music	I-ORG
-Entertainment	I-ORG
-
-Iowan	B-LOC
-pääkaupungin	O
-Des	B-LOC
-Moinesin	I-LOC
-kautta	O
-.	O
-
-Alexi	B-PER
-Laiho	I-PER
-–	O
-laulu	O
-,	O
-kitara	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:dda58fb089a3a3ec8ae7abfbba852f6c0f9268bd15004caff3c96854a62243d8
+size 173

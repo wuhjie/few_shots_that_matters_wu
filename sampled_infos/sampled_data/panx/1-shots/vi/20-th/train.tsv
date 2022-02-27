@@ -1,27 +1,3 @@
-Giáo	B-PER
-hoàng	I-PER
-Cêlestinô	I-PER
-I	I-PER
-(	O
-422–432	O
-)	O
-
-Chỉ	B-ORG
-số	I-ORG
-nhà	I-ORG
-chọc	I-ORG
-trời	I-ORG
-
-Tổ	O
-chức	O
-lần	O
-đầu	O
-tiên	O
-tại	O
-Paris	B-LOC
-
-Niagara	B-LOC
-Falls	I-LOC
-,	O
-Quận	B-LOC
-Niagara	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f14e34d56e10849ccd332890426cd1ac92e5e4421977639f4eaf54e93649ed77
+size 252

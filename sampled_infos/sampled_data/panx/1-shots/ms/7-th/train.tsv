@@ -1,21 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Bas-Rhin	I-LOC
-
-'	O
-''	O
-Vitaly	B-PER
-Petrov	I-PER
-''	O
-'	O
-
-Pasukan	O
-ini	O
-dikendalikan	O
-oleh	O
-Persekutuan	B-ORG
-Bola	I-ORG
-Sepak	I-ORG
-Kemboja	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b802520abbbee8e95d49dc3840b967e2cbea0393ae8f3f8b33aac802f355fda1
+size 193

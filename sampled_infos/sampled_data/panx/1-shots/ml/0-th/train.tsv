@@ -1,25 +1,3 @@
-'	O
-''	O
-പ്രതിപക്ഷ	O
-നേതാവ്	O
-''	O
-'	O
--	O
-പി.ടി.	B-PER
-ചാക്കോ	I-PER
-
-1907-ൽ	O
-ഉത്തർപ്രദേശിലെ	B-LOC
-ഫരൂഖാബാദിൽ	O
-ജനിച്ചു	O
-.	O
-
-പശ്ചിമ	B-ORG
-മധ്യ	I-ORG
-റെയിൽ‌വേ	I-ORG
-
-എറണാകുളം	B-LOC
-ജില്ലയിലെ	I-LOC
-പെരുമ്പാവൂരാണ്	B-LOC
-സ്വദേശം	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:94f6645a19a192cde77bb6113d8952894a878c21e989351d0bba60e0b0e48563
+size 460

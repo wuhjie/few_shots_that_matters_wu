@@ -1,34 +1,3 @@
-Professional	B-ORG
-Chess	I-ORG
-Association	I-ORG
-
-Redirecionamento	O
-Emissoras	B-ORG
-Pioneiras	I-ORG
-de	I-ORG
-Televisão	I-ORG
-
-Gastão	B-PER
-IV	I-PER
-,	I-PER
-Conde	I-PER
-de	I-PER
-Foix	I-PER
-
-Saint-Pierremont	B-LOC
-(	I-LOC
-Ardenas	I-LOC
-)	I-LOC
-
-'	O
-''	O
-Felicity	B-PER
-Huffman	I-PER
-''	O
-'	O
-
-20px]]	O
-São	B-LOC
-José	I-LOC
-dos	I-LOC
-Campos	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:86b7f6f77d4839c86b9aac3a53ac536c4ace661406c29678a86e0ba3dd94f461
+size 349

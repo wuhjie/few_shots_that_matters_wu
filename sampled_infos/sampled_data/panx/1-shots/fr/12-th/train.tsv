@@ -1,22 +1,3 @@
-Aubert	B-PER
-d'Avranches	I-PER
-(	O
-?	O
-
-Forges	B-ORG
-de	I-ORG
-la	I-ORG
-Providence	I-ORG
-
-REDIRECTION	O
-Hatohobei	B-LOC
-(	I-LOC
-île	I-LOC
-)	I-LOC
-
-**	O
-Patton	B-PER
-entre	O
-à	O
-Vannes	B-LOC
-;	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:541d2dd5365fff978153615beec9306cbb8cc0fddca341343bf3e82366d7bf5a
+size 195

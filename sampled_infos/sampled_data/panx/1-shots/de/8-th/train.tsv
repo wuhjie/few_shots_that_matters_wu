@@ -1,30 +1,3 @@
-Zudem	O
-war	O
-sie	O
-bereits	O
-Vorband	O
-von	O
-Jools	B-PER
-Holland	I-PER
-,	O
-Journey	B-ORG
-,	O
-Johnny	B-PER
-Winter	I-PER
-und	O
-Robben	B-PER
-Ford	I-PER
-.	O
-
-Titelverteidiger	O
-des	O
-Pokalwettbewerbes	O
-war	O
-Atlético	B-ORG
-Bilbao	I-ORG
-.	O
-
-Nõmme	B-LOC
-(	I-LOC
-Ridala	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b2c9f38f5f6bcb5ede71587977863388802ebdc3a1c4011844c138b965617af
+size 282

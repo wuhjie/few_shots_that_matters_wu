@@ -1,33 +1,3 @@
-פרופיל	O
-השחקן	O
-באתר	O
-ESPN	B-ORG
-
-גם	O
-בהופעות	O
-אלו	O
-הצליל	O
-השתנה	O
-לנמוך	O
-יותר	O
-כדי	O
-להעמיק	O
-את	O
-קולו	O
-של	O
-המתופף	O
-והסולן	O
-,	O
-פיל	B-PER
-קולינס	I-PER
-.	O
-
-קריית	B-LOC
-צאנז	I-LOC
-נתניה	B-LOC
-פותח	O
-בית	B-ORG
-חולים	I-ORG
-לניאדו	I-ORG
-את	O
-שעריו	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d0cda7d596b6853a9f7cad71211bc3396db757c6f71c5605bad5c9d36b10271
+size 383

@@ -1,16 +1,3 @@
-перенаправление	O
-Третье	B-LOC
-Болгарское	I-LOC
-царство	I-LOC
-
-перенаправление	O
-Сетто	B-PER
-,	I-PER
-Мауро	I-PER
-
-Государственная	B-ORG
-Третьяковская	I-ORG
-галерея	I-ORG
-,	O
-Москва	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d578d624681158f7019634eff6db2468a9772a886087b298037b6bc999ee2d6
+size 295

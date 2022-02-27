@@ -1,18 +1,3 @@
-ĐỔI	O
-Nhà	B-ORG
-máy	I-ORG
-thủy	I-ORG
-điện	I-ORG
-Đa	I-ORG
-Nhim	I-ORG
-
-Phù	B-PER
-Sinh	I-PER
-(	O
-苻生	O
-)	O
-
-đổi	O
-Xã	B-LOC
-của	I-LOC
-Pháp	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7799b6c59a4b5f5359efb67feef6a28ae70af97b4fff57dd63c9e2cf906d252
+size 163

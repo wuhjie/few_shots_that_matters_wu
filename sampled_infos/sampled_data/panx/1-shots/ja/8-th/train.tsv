@@ -1,25 +1,3 @@
-;	O
-#	O
-ア	O
-ス	O
-タ	O
-#	O
--	O
-#	O
-木	B-PER
-村	I-PER
-良	I-PER
-平	I-PER
-
-上	B-LOC
-海	I-LOC
-の	O
-大	O
-学	O
-
-3	O
-3	O
-#	O
-ノ	B-ORG
-ッ	I-ORG
-ト	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:71ae413e3739db5384990d7e4a3aef1d1c5543384cd5c9e8b0450400e5f9850b
+size 160

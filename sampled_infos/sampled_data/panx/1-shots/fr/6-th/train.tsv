@@ -1,15 +1,3 @@
-Régions	B-LOC
-de	I-LOC
-la	I-LOC
-Namibie	I-LOC
-
-Hippolyte	B-PER
-Girardot	I-PER
--	O
-''Marc	O
-Bénesteau	O
-''	O
-
-Barrage	B-ORG
-de	I-ORG
-Çorum	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:af1ff4f80ed747f84ce69f677d0fa1c24434d025e48e03edd80630807214b2f3
+size 147

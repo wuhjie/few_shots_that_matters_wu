@@ -1,33 +1,3 @@
-REDIRECTION	O
-Arrondissement	B-LOC
-spécial	I-LOC
-de	I-LOC
-Tokyo	I-LOC
-
-Lac	B-LOC
-de	I-LOC
-Gaube	I-LOC
-
-'	O
-''	O
-D.C.	B-ORG
-United	I-ORG
-''	O
-'	O
-
-Zach	B-PER
-LaVine	I-PER
-(	O
-20	O
-)	O
-
-Tourte	B-ORG
-(	I-ORG
-plat	I-ORG
-)	I-ORG
-
-Tatsuo	B-PER
-Suzuki	I-PER
-(	I-PER
-1928-2011	I-PER
-)	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f6bc8362adb94c8bc2f876f513d3cf1a0b2938ecdd8a1fbe476a756dee9d1ee
+size 284

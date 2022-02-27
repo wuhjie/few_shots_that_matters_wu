@@ -1,24 +1,3 @@
-Sonraki	O
-emeklilik	O
-yaşamını	O
-Moskova'da	B-LOC
-sürdürdü	O
-.	O
-
-``	O
-Because	B-ORG
-We	I-ORG
-Want	I-ORG
-To	I-ORG
-''	O
-
-1979-80	B-LOC
-Türkiye	I-LOC
-1.	I-LOC
-Futbol	I-LOC
-Ligi	I-LOC
-
-YÖNLENDİRME	O
-Louis	B-PER
-van	I-PER
-Gaal	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f3989ef104e18730bc1fbbb47853ed8d94aea89701dd692330dbdabef6f9471
+size 238

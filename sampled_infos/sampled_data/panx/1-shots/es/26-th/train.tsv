@@ -1,27 +1,3 @@
-Realizó	O
-sus	O
-estudios	O
-en	O
-la	O
-Universidad	B-ORG
-Adam	I-ORG
-Mickiewicz	I-ORG
-de	I-ORG
-Poznań	I-ORG
-.	O
-
-Perteneciente	O
-a	O
-Leslie	B-PER
-Shaw	I-PER
-en	O
-''Carmín	O
-,	O
-el	O
-musical	O
-''	O
-
-REDIRECCIÓN	O
-Distrito	B-LOC
-de	I-LOC
-Cañazas	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6476a768e937ce345333f1585827dd0e16c44646d5ffbaebb22c88358a8f09a
+size 252

@@ -1,36 +1,3 @@
-``	O
-Thriller	B-ORG
-(	I-ORG
-canção	I-ORG
-)	I-ORG
-''	O
-
-Está	O
-ameaçada	O
-por	O
-perda	B-LOC
-de	I-LOC
-habitat	I-LOC
-.	O
-
-República	B-LOC
-da	I-LOC
-Irlanda	I-LOC
-
-Zachary	B-PER
-Hietala	I-PER
--	O
-Guitarra	B-ORG
-
-Letícia	B-PER
-Spiller	I-PER
--	O
-Gavita	O
-
-REDIRECIONAMENTO	O
-Lista	B-ORG
-de	I-ORG
-presidentes	I-ORG
-da	I-ORG
-Costa	I-ORG
-Rica	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d17df8aaa36c60a79b68b16749ac513761b693eb1ae310dabaa2de5e3962725
+size 345

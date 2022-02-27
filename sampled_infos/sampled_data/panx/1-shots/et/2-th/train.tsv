@@ -1,30 +1,3 @@
-suuna	O
-Suure	B-ORG
-Paugu	I-ORG
-teooria	I-ORG
-
-Esimest	O
-korda	O
-osalesid	O
-Andorra	B-LOC
-ja	O
-San	B-LOC
-Marino	I-LOC
-.	O
-
-Saatejuhiks	O
-on	O
-poliitiline	O
-humorist	O
-Stephen	B-PER
-Colbert	I-PER
-,	O
-kes	O
-on	O
-endine	O
-The	B-ORG
-Daily	I-ORG
-Show	I-ORG
-''	O
-korrespondent	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dee48b012c72521c9007212a212594174855558b875312f6887d52b5df9f6f2
+size 277

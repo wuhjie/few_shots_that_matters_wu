@@ -1,18 +1,3 @@
-تحويل	O
-العز	B-PER
-بن	I-PER
-عبد	I-PER
-السلام	I-PER
-
-تحويل	O
-وينكونن	B-LOC
-(	I-LOC
-ويسكونسن	I-LOC
-)	I-LOC
-
-تحويل	O
-سوق	B-ORG
-الذهب	I-ORG
-(	I-ORG
-غزة	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:7296803f3cbd478cb08b555093da58f49fc63162d78ca1627e9453c9ee0a2a1c
+size 218

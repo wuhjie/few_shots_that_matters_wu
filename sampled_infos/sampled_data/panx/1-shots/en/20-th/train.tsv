@@ -1,15 +1,3 @@
-Commonwealth	B-ORG
-Stadium	I-ORG
-,	O
-Lexington	B-LOC
-,	I-LOC
-Kentucky	I-LOC
-
-:1st	O
-Stage	O
-4	O
-Giro	B-ORG
-d'Italia	I-ORG
-,	O
-Enrico	B-PER
-Battaglin	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:db8a943353269063847ae7b2656b7fd53a13fc30434fedcae461b8c438d6fb26
+size 155

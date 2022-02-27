@@ -1,22 +1,3 @@
-Le	B-LOC
-Pout	I-LOC
-(	O
-33335	O
-)	O
-
-SSR	B-ORG
-(	O
-11,11	O
-%	O
-)	O
-
-Estadio	B-ORG
-Olímpico	I-ORG
-Atahualpa	I-ORG
-,	O
-Ecuador	B-LOC
-
-REDIRECCIÓN	O
-Áedán	B-PER
-mac	I-PER
-Gabráin	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:74b41d52cb4809f4f688f41082c3fc1ac39fb3e1eb8653485bbd5bffb3219122
+size 187

@@ -1,36 +1,3 @@
-Familie	O
-Narcinidae	B-LOC
-(	O
-stroomroggen	O
-)	O
-
-Hierna	O
-won	O
-hij	O
-van	O
-Gary	B-PER
-Robson	I-PER
-met	O
-5-4	O
-,	O
-waardoor	O
-hij	O
-in	O
-de	O
-halve	O
-finale	O
-terechtkwam	O
-.	O
-
-Nikon	B-ORG
-Corp	I-ORG
-.	I-ORG
-(	O
-)	O
-
-de	O
-bergketen	O
-van	O
-de	O
-Rocky	B-LOC
-Mountains	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fb592f345ae898768780349ca120f8136fdfa14f2ba28b98818cfce0f30e2df
+size 277

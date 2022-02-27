@@ -1,16 +1,3 @@
-The	B-PER
-Notorious	I-PER
-B.I.G	I-PER
-.	I-PER
-
-Saint-Pierre]]	O
-(	O
-La	B-LOC
-Réunion	I-LOC
-)	O
-
-Championnat	B-ORG
-de	I-ORG
-Jordanie	I-ORG
-de	I-ORG
-football	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f09abfb6cf5dce658f2273c8f126817c7a58c8d899b1168a511ef8d2d94feba
+size 163

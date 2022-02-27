@@ -1,22 +1,3 @@
-'	O
-''	O
-Táchira	B-LOC
-''	O
-'	O
-
-Bargas	B-LOC
-Madrid	B-LOC
-Villamiel	B-LOC
-de	I-LOC
-Toledo	I-LOC
-Fuensalida	B-LOC
-
-``	O
-Touch	B-ORG
-Me	I-ORG
-''	O
-(	O
-Robby	B-PER
-Krieger	I-PER
-''	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a2c287f5659a9d161ca02fa2b3ff70c93f7e0ffabc15c783390939053396153
+size 186

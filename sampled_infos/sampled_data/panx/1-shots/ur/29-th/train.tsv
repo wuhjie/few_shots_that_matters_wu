@@ -1,15 +1,3 @@
-رجوع_مکرر	O
-جروگنیوکے،	B-LOC
-گریٹر	I-LOC
-پولینڈ	I-LOC
-صوبہ	I-LOC
-
-رجوع_مکرر	O
-عبداللہ	B-PER
-بن	I-PER
-ابی	I-PER
-اوفی	I-PER
-
-پاکستان	B-ORG
-کے	I-ORG
-اضلاع	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:da05c1f42368dee0e483038d133ba4d4dff9b7a582da3bf543333b92120a092a
+size 229

@@ -1,19 +1,3 @@
-رجوع_مکرر	O
-میسن	B-LOC
-کاؤنٹی،	I-LOC
-کینٹکی	I-LOC
-
-رجوع_مکرر	O
-بین	B-ORG
-الاقوامی	I-ORG
-اتحاد	I-ORG
-برائے	I-ORG
-خالص	I-ORG
-و	I-ORG
-نفاذی	I-ORG
-کیمیاء	I-ORG
-
-رجوع_مکرر	O
-عبداللہ	B-PER
-احمد	I-PER
-بداوی	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a24ce85a15c260d7d72f0a6e7df228f10a70b466685456f9d7a16be2d23828e
+size 300

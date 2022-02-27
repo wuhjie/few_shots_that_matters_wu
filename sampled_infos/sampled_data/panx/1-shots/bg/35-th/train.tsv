@@ -1,26 +1,3 @@
-Михай	B-PER
-Унгуряну	I-PER
-(	O
-р	O
-.	O
-
-Части	O
-от	O
-видеото	O
-към	O
-песента	O
-са	O
-снимани	O
-на	O
-Пътя	B-LOC
-на	I-LOC
-великаните	I-LOC
-.	O
-
-пренасочване	O
-ФК	B-ORG
-Даугава	I-ORG
-Рига	I-ORG
-(	I-ORG
-2003	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:065ad496e29fc3ecf0b572cdca8fe7d5ee39d91cf043c4b19590c2b305da48c1
+size 307

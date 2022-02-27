@@ -1,31 +1,3 @@
-REDIRECCIÓN	O
-Templo	B-ORG
-de	I-ORG
-Hamilton	I-ORG
-
-Estación	B-ORG
-de	I-ORG
-Sarriko	I-ORG
-
-REDIRECCIÓN	O
-Manuel	B-PER
-de	I-PER
-Jesús	I-PER
-Troncoso	I-PER
-
-REDIRECCIÓN	O
-Mancera	B-LOC
-de	I-LOC
-Abajo	I-LOC
-
-Félix	B-PER
-Bracquemond	I-PER
-(	O
-4	O
-)	O
-
-''Genipa	B-LOC
-americana	I-LOC
-''	I-LOC
-,	I-LOC
-Rubiaceae	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:df10eadab9288a2e7b2fe60d56771f157facb859acb24353dc5a91b833c482ea
+size 318

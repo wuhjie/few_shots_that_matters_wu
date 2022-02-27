@@ -1,30 +1,3 @@
-Meleagros	B-LOC
-''	O
-Kirschenhofer	O
-,	O
-1999	O
-
-'	O
-''	O
-Randy	B-PER
-Wolf	I-PER
-''	O
-'	O
-(	O
-2–2	O
-)	O
-
-Route	B-ORG
-311	I-ORG
-(	I-ORG
-Virginia–West	I-ORG
-Virginia	I-ORG
-)	I-ORG
-
-Ran	O
-aground	O
-in	O
-the	O
-Salish	B-LOC
-Sea	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eb9afda98ef2804df0e7efb0940ade0065f99eac3b52409dc960c17a0ac1db7
+size 237

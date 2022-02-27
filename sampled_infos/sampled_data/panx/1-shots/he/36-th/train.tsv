@@ -1,20 +1,3 @@
-ב-1994	O
-עבר	O
-הפועל	B-ORG
-חולון	I-ORG
-,	O
-בתקופה	O
-בה	O
-השקיע	O
-בה	O
-כספים	O
-איש	O
-העסקים	O
-נחום	B-PER
-מנבר	I-PER
-.	O
-
-הפניה	O
-קרני	B-LOC
-אור	I-LOC
-מקבילות	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:3325f98de60f962fc0728e4aac2d99274c8056249a1815c51bf67daa812343c3
+size 233

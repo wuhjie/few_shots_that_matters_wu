@@ -1,34 +1,3 @@
-YÖNLENDİRME	O
-Eurovision	B-LOC
-Çocuk	I-LOC
-Şarkı	I-LOC
-Yarışması'nda	I-LOC
-Letonya	I-LOC
-
-'	O
-''	O
-Buriram	B-ORG
-United	I-ORG
-F.C	I-ORG
-.	I-ORG
-''	O
-'	O
-
-Zayed	B-PER
-Sports	I-PER
-City	I-PER
-Stadium	I-PER
-,	O
-Abu	B-LOC
-Dabi	I-LOC
-
-Bernard	B-PER
-Lee	I-PER
--	O
-M	O
-
-``	O
-Hustler	B-ORG
-'s	I-ORG
-Ambition	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d43faacf9e3cbea7f83233b9d129ed69f92951170622728654af131eb36b83a2
+size 319

@@ -1,28 +1,3 @@
-│	O
-│	O
-×	O
-Maud	B-ORG
-Bigot	I-ORG
-
-2	O
-pour	O
-les	O
-Îles	B-LOC
-Féroé	I-LOC
-;	O
-
-Pete	B-PER
-Rose	I-PER
-entrait	O
-pour	O
-être	O
-``	O
-l'annonceur	O
-spécial	O
-invité	O
-''	O
-pour	O
-le	O
-match	O
-suivant	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d62bb9b5997982396c4460fb0e309357482883e992899b0e1b5d54dcdbb4d54
+size 215

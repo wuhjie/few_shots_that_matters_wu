@@ -1,18 +1,3 @@
-Kova	B-ORG
-laki	I-ORG
-:	I-ORG
-Erikoisyksikkö	I-ORG
-''	O
-
-Antti	B-PER
-J.	I-PER
-Jokinen	I-PER
-(	O
-ohj	O
-.	O
-
-OHJAUS	O
-Ostheim	B-LOC
-vor	I-LOC
-der	I-LOC
-Rhön	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:27557f3ebc0eb5c8a6380323d4fad2925bf074bcf1fbd4144b82ddbf82f1e08f
+size 163

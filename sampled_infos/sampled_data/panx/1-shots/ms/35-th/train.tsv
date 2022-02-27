@@ -1,15 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Charente	I-LOC
-
-5	O
-/	O
-8	O
-Kenneth	B-PER
-Jonassen	I-PER
-
-Rejimen	B-ORG
-Askar	I-ORG
-Melayu	I-ORG
-DiRaja	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:32374505b60a0ee656daf81533955d44ace0df114d97bc6cc7ffafd8844172cf
+size 145

@@ -1,15 +1,3 @@
-মাউস	B-ORG
-(	I-ORG
-কম্পিউটার	I-ORG
-)	I-ORG
-
-উইলিয়ান	B-PER
-বর্জেস	I-PER
-দা	I-PER
-সিলভা	I-PER
-
-সখিপুর	B-LOC
-উপজেলা	I-LOC
-,	O
-টাঙ্গাইল	B-LOC
-জেলা	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d3d1240311bfdd6dc9e1048363190c5292d4e5a2018be0e91df6c6bbb67fdb1
+size 266

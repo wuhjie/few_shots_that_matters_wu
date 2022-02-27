@@ -1,33 +1,3 @@
-SAS	B-ORG
-Épinal	I-ORG
-D3	O
-–	O
-Olympique	B-ORG
-Lyon	I-ORG
-L1	O
-3:3	O
-n.V.	O
-,	O
-4:2	O
-i.E	O
-.	O
-
-Drei	O
-weitere	O
-Gemeinden	O
-,	O
-darunter	O
-die	O
-Stadt	O
-Garching	B-LOC
-b.München	I-LOC
-haben	O
-über	O
-15.000	O
-Einwohner	O
-.	O
-
-Arthur	B-PER
-N.	I-PER
-R.	I-PER
-Robinson	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6572f27fb379d76dbd9bcbe6c78cad94efa751eacafc3b0e8b1c9d5af550f2ae
+size 279

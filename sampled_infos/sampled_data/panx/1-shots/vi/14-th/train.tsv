@@ -1,24 +1,3 @@
-'	O
-''	O
-Sóng	B-ORG
-gió	I-ORG
-gia	I-ORG
-tộc	I-ORG
-''	O
-'	O
-
-Muro	B-LOC
-,	I-LOC
-Baleares	I-LOC
-
-ĐỔI	O
-Tây	B-PER
-Hạ	I-PER
-Nhân	I-PER
-Tông	I-PER
-
-30px]]	O
-''	O
-Maebashi	B-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:803d403033cda8a2aef906f720c3057468507595bcb7ebbd20f7f403958fcc16
+size 193

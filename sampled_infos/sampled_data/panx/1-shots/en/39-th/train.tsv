@@ -1,16 +1,3 @@
-Anderton	B-LOC
-with	I-LOC
-Marbury	I-LOC
-
-U.S.	B-ORG
-Route	I-ORG
-41	I-ORG
-in	I-ORG
-Illinois	I-ORG
-
-'	O
-''	O
-Sebastian	B-PER
-Vettel	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6883498015ff855abe134102201b78704bff396234964d86ed30f8a31522a51
+size 145

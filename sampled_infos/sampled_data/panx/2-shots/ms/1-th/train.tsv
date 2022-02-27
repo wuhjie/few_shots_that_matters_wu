@@ -1,31 +1,3 @@
-LENCONG	O
-Anjing	B-PER
-gembala	I-PER
-Tatra	I-PER
-Poland	I-PER
-
-LENCONG	O
-Anjing	B-ORG
-gembala	I-ORG
-miorița	I-ORG
-
-5	O
-/	O
-8	O
-Chen	B-PER
-Jin	I-PER
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Haute-Garonne	I-LOC
-
-LENCONG	O
-Anjing	B-ORG
-gunung	I-ORG
-Entlebuch	I-ORG
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Gironde	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a0c1b18d1cb71567335ab2649073b61f114b7997e222980eb84b07ee287d33d
+size 308

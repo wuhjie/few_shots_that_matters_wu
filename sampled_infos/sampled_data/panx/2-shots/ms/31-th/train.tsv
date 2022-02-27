@@ -1,36 +1,3 @@
-LENCONG	O
-Anjing	B-ORG
-gembala	I-ORG
-Catalonia	I-ORG
-
-LENCONG	O
-Anjing	B-PER
-gembala	I-PER
-Karst	I-PER
-
-**	O
-Sekolah	B-ORG
-Menengah	I-ORG
-Jenis	I-ORG
-Kebangsaan	I-ORG
-Keat	I-ORG
-Hwa	I-ORG
-
-LENCONG	O
-Lada	B-LOC
-,	I-LOC
-Daerah	I-LOC
-Prešov	I-LOC
-
-Stephen	B-PER
-Kalong	I-PER
-Ningkan	I-PER
-(	O
-Penggal	O
-pertama	O
-)	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Indre-et-Loire	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:33f6a0c505f2c6ea522e448919a1d215ffafb9ca86ff9b88720ad0e9ff58caf7
+size 372

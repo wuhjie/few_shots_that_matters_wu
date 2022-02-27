@@ -1,19 +1,3 @@
-Le	O
-site	O
-,	O
-écrit	O
-Jean	B-PER
-Duvignaud	I-PER
-,	O
-.	O
-
-Jackson	B-LOC
-(	I-LOC
-Géorgie	I-LOC
-)	I-LOC
-
-Happy	B-ORG
-Valley	I-ORG
-(	I-ORG
-Pékin	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e722d0c3a94f5dc336272da8c07525ce9b3afa62325c30d94cf0343edea02c1
+size 161

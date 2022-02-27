@@ -1,29 +1,3 @@
-YouTube'da	B-ORG
-oldukça	O
-yüksek	O
-bir	O
-izlenme	O
-oranı	O
-yakalamıştır	O
-.	O
-
-Seward	B-LOC
-Yarımadasının	I-LOC
-güneydoğusunda	O
-Norton	B-ORG
-Sound'un	I-ORG
-kuzeyinde	O
-yer	O
-alır	O
-.	O
-
-Lord	B-PER
-Voldemort'un	I-PER
-güce	O
-yeniden	O
-kavuştuğunu	O
-ilk	O
-ayırdeden	O
-kişi	O
-oldu	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:190ad1efd50ee92cf24d6726ef59d080d45812bacc905be0f4e5e5fa51bb27f1
+size 302

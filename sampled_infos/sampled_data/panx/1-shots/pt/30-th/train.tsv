@@ -1,21 +1,3 @@
-REDIRECIONAMENTO	O
-Guilherme	B-PER
-I	I-PER
-,	I-PER
-Príncipe	I-PER
-de	I-PER
-Orange	I-PER
-
-Banda	B-LOC
-del	I-LOC
-Río	I-LOC
-Salí	I-LOC
-
-Law	B-ORG
-&	I-ORG
-Order	I-ORG
-:	I-ORG
-Special	I-ORG
-Victims	I-ORG
-Unit	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbece28bca5c4839cfa737c3a3a1ddcaba1e72d97c3781fe8ab8debd82eead1d
+size 218

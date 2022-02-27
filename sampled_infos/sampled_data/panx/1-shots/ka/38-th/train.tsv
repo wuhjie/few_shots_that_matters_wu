@@ -1,16 +1,3 @@
-შედის	O
-ედინეცის	B-LOC
-რაიონის	I-LOC
-შემადგენლობაში	O
-.	O
-
-პეტრე	B-PER
-ბაგრატიონი	I-PER
-(	I-PER
-მეცნიერი	I-PER
-)	I-PER
-
-A	B-ORG
-Question	I-ORG
-of	I-ORG
-Time	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f685287c43c8017d89bb83ada2a5d15f81e7e7cda4cd1114616052348fd30508
+size 277

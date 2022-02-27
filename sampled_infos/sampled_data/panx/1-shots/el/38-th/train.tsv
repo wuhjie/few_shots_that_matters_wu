@@ -1,32 +1,3 @@
-Είναι	O
-η	O
-πρωτεύουσα	O
-της	O
-Βόρειας	B-LOC
-Ρουάντα	I-LOC
-και	O
-του	O
-Δήμου	B-LOC
-Γκικούμπι	I-LOC
-.	O
-
-Αντονέλλο	B-PER
-ντα	I-PER
-Μεσσίνα	I-PER
-,	O
-''Σταύρωση	O
-''	O
-
-'	O
-''	O
-Ολλανδία	B-LOC
-''	O
-'	O
-
-Εθνική	B-ORG
-Σουηδίας	I-ORG
-U21	I-ORG
-(	I-ORG
-ποδόσφαιρο	I-ORG
-ανδρών	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:5bec4292ef1b7b3cb3bcdb0d66252f727818800ad3efe8b817d64cf816fe7b66
+size 403

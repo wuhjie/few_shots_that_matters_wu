@@ -1,29 +1,3 @@
-Beste	O
-taldea	O
-,	O
-era	O
-berean	O
-ugaria	O
-,	O
-iraultzaileena	O
-izan	O
-zen	O
-,	O
-Largo	B-PER
-Caballero	I-PER
-buruzagi	O
-.	O
-
-Berna	B-LOC
-kantonamenduan	I-LOC
-dago	O
-,	O
-barrutian	O
-.	O
-
-FC	B-ORG
-Flora	I-ORG
-Tallinn	I-ORG
-(	O
-10	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:59fbefe78945895bc040d11cb93ccdfadef75b2872342e35a5e855f1ebab266f
+size 236

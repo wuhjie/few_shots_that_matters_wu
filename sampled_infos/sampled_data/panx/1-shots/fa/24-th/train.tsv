@@ -1,21 +1,3 @@
-تغییرمسیر	O
-حجت‌آباد	B-LOC
-(	I-LOC
-عنبرآباد	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-خورشیدگرفتگی	B-ORG
-۱۰	I-ORG
-تیر	I-ORG
-۱۳۹۰	I-ORG
-
-اسرار	O
-کائنات	O
-نوشته	O
-ابراهیم	B-PER
-ویکتوری	I-PER
-انتشارت	O
-به‌نگار	O
-ISBN	O
-978-954-6332-55-3	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f4f66d79ec4581b1d9c01d2347e347832013416797396504d0a25954cbb407b
+size 322

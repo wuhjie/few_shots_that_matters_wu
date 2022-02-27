@@ -1,15 +1,3 @@
-'	O
-''	O
-Sierra	B-LOC
-Leone	I-LOC
-''	O
-'	O
-
-Pinoy	B-PER
-Pop	I-PER
-Superstar	I-PER
-
-Mga	B-ORG
-Muslim	I-ORG
-na	I-ORG
-Arabo	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f132fa911f76e4c6da9431a520b622a19ba377570fe19a19ce66af903691f44f
+size 127

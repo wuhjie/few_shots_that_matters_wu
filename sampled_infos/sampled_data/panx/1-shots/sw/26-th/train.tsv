@@ -1,31 +1,3 @@
-Alan	B-PER
-Paton	I-PER
-,	I-PER
-''Cry	I-PER
-,	I-PER
-The	I-PER
-Beloved	I-PER
-Country	I-PER
-''	I-PER
-(	I-PER
-Afrika	I-PER
-ya	I-PER
-Kusini	I-PER
-)	I-PER
-
-Bangkok	B-LOC
--	O
-''Suvarnabhumi	O
-Airport	O
-''	O
-
-Loyal	B-ORG
-to	I-ORG
-the	I-ORG
-Game	I-ORG
-''	O
-
-Johns	B-LOC
-Creek	I-LOC
-,	I-LOC
-Georgia	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:6efe1a42e86ec8fd7e670c755698fd0b6dad1c32c60a16117c125535975da33e
+size 295

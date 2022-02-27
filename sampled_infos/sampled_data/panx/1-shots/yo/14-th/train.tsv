@@ -1,24 +1,3 @@
-Àmì	B-ORG
-ọ̀pá	I-ORG
-àṣẹ	I-ORG
-ilẹ̀	I-ORG
-Udmurtia	I-ORG
-
-Pópù	B-PER
-Victor	I-PER
-1k	I-PER
-
-'	O
-''	O
-'	O
-''	O
-je	O
-ìlú	O
-ní	O
-Nàìjíríà	B-LOC
-.	O
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Girei	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff780076e0b864dffb16f0c673ed6966bae5b8ce8f589cbd166c53eb7b18f809
+size 231

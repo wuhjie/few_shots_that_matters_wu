@@ -1,28 +1,3 @@
-Анна	B-PER
-Каролина	I-PER
-Шмидлова	I-PER
-''	O
-(	O
-Първи	O
-кръг	O
-)	O
-
-Прави	O
-дебюта	O
-си	O
-в	O
-Серия	B-ORG
-А	I-ORG
-срещу	O
-Палермо	B-ORG
-в	O
-равенството	O
-0:0	O
-.	O
-
-пренасочване	O
-Разбойна	B-LOC
-(	I-LOC
-област	I-LOC
-Бургас	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bbfca000f1dfeac368328343beb9ad120c5e5c0ab7ec058d0aff34bc645f4f1
+size 344

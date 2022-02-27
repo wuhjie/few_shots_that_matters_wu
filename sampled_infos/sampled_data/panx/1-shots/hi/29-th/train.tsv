@@ -1,30 +1,3 @@
-नामक	O
-कार्यक्रम	O
-भी	O
-दिखाया	O
-जाता	O
-है	O
-।	O
-यह	O
-चैनल	B-ORG
-टाटा	B-ORG
-स्काई	I-ORG
-पर	O
-703	O
-नं	O
-.	O
-
-अनुप्रेषित	O
-उत्तर	B-LOC
-पश्चिमी	I-LOC
-प्रान्त	I-LOC
-,	I-LOC
-श्रीलंका	I-LOC
-
-अनुष्का	B-PER
-शर्मा	I-PER
--	O
-जगत	O
-जननी	O
-/	O
-जग्गू	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9d043b629e6a2955fe9d423d331b8067c89c61b5720254fac0745fe8a72f462
+size 457

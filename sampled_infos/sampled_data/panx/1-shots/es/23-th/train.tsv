@@ -1,16 +1,3 @@
-San	B-LOC
-Bartolomé	I-LOC
-Zoogocho	I-LOC
-
-Partido	B-ORG
-Ecológico-Democrático	I-ORG
-(	O
-ÖDP	O
-)	O
-
-'	O
-''	O
-Lindsay	B-PER
-Davenport	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb68dd90d2612cbbfad62d83561c7f545f3ae4dae4cb3ae8584b07c159cb8f61
+size 151

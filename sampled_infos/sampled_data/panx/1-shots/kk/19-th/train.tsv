@@ -1,26 +1,3 @@
-АЙДАУ	O
-Ермахан	B-PER
-Сағиұлы	I-PER
-Ыбрайымов	I-PER
-
-Одан	O
-кейінгі	O
-жылдары	O
-Созақ	B-LOC
-ауданы	I-LOC
-,	O
-Қызылорда	B-LOC
-облысы	I-LOC
-аумағында	O
-үгіт-насихат	O
-жұмыстарын	O
-жүргізген	O
-мекемелердің	O
-басшысы	O
-болған	O
-.	O
-
-Сұңқар	B-ORG
-(	I-ORG
-Қаскелең	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:873b8fbe85516d7979cfa175f58c106fcf370c2953f33dcd5642d24913f02cec
+size 423

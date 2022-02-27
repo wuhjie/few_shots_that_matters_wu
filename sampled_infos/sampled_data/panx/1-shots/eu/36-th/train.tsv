@@ -1,15 +1,3 @@
-BIRZUZENDU	O
-Jurgi	B-PER
-Frederiko	I-PER
-Prusiakoa	I-PER
-
-BIRZUZENDU	O
-Artigas	B-LOC
-de	I-LOC
-Bordèu	I-LOC
-
-Bologna	B-ORG
-FC	I-ORG
-(	O
-2	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:80566306e03911e715a469aa5f581e312b9541e1e083ab36711859fffa17e0ef
+size 144

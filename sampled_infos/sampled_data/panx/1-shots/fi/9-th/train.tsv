@@ -1,22 +1,3 @@
-Feira	B-LOC
-de	I-LOC
-Santana	I-LOC
--	O
-535	O
-284	O
-
-OHJAUS	O
-Franz	B-PER
-Anton	I-PER
-von	I-PER
-Schiefner	I-PER
-
-Sen	O
-julkaisi	O
-Universal	B-ORG
-Republic	I-ORG
-Records	I-ORG
-albumin	O
-kuudentena	O
-singlenä	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7f25f9c7618a52782ddf66510fb74379b6c0b444873ea6a713c00f5d235dd25
+size 213

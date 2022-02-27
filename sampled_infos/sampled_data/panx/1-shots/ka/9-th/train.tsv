@@ -1,25 +1,3 @@
-იაშვილი	B-PER
-,	I-PER
-ალექსანდრე	I-PER
-—	O
-ფეხბურთელი	O
-
-მდებარეობს	O
-კიროვოგრადის	B-LOC
-ოლქის	I-LOC
-კომპანეევკის	B-LOC
-რაიონში	I-LOC
-.	O
-
-მუსიკოსი	O
-და	O
-მომღერალის	O
-ორფეოსის	B-PER
-მეუღლე	O
-.	O
-
-არის	O
-სოციალ-დემოკრატიული	B-ORG
-პარტიის	I-ORG
-წევრი	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f831a14ed7475a8be7d853af39bb8918b6070cbee9e9a675a6abc8d299ae3d4e
+size 540

@@ -1,29 +1,3 @@
-ఈయన	O
-పశ్చిమ	B-LOC
-బెంగాల్	I-LOC
-లోని	O
-నవద్వీపం	O
-లో	O
-జన్మించాడు	O
-.	O
-
-'	O
-''	O
-మేలవోయి	O
-''	O
-'	O
-,	O
-అనంతపురం	B-ORG
-జిల్లా	I-ORG
-,	O
-మడకశిర	B-LOC
-మండలానికి	O
-చెందిన	O
-గ్రామము	O
-.	O
-
-చంద్రశేఖర్	B-PER
-అజాద్	I-PER
-(	O
-విప్లవవాది	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1836a93f83e8f85f201aa642a957ab0614c19cafe1820ff7ba6e340e5d72b7dd
+size 465

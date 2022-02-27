@@ -1,24 +1,3 @@
-Wilhelm	B-PER
-Bleek	I-PER
-(	O
-1827-1875	O
-)	O
-
-Wanachezea	O
-katika	O
-Chama	B-ORG
-cha	I-ORG
-Mpira	I-ORG
-wa	I-ORG
-Kikapu	I-ORG
-nchini	O
-Marekani	B-LOC
-.	O
-
-Wilaya	B-LOC
-ya	I-LOC
-Mwingi	I-LOC
-(	O
-Mwingi	B-LOC
-)	O
-==	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8351dd85356ba33ce2680aea0bd996c3212a87e338fd65f469900184c1c581da
+size 215

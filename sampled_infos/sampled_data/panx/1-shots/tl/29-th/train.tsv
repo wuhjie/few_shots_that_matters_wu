@@ -1,22 +1,3 @@
-**	O
-''	O
-Kalabit	B-ORG
-''	O
-(	O
-2011	O
-)	O
-
-Dumingag	B-LOC
-,	I-LOC
-Zamboanga	I-LOC
-del	I-LOC
-Sur	I-LOC
-
-Papa	B-PER
-Martin	I-PER
-V	I-PER
-
-Estasyong	B-ORG
-Masinag	I-ORG
-ng	I-ORG
-LRT	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3b850497a12d62c66ba4375901b1ecc8fa7d8b06555f4fc21092592e198bd40
+size 187

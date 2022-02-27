@@ -1,29 +1,3 @@
-UK	O
-Army	O
-הצבא	B-ORG
-הבריטי	I-ORG
--	O
-Lieutenant	O
-general	O
-
-קראטה	B-ORG
-תומך	O
-בצדק	O
-.	O
-
-עקב	B-LOC
-חורף	I-LOC
-(	O
-Buteo	O
-buteo	O
-)	O
-
-*במחזה	O
-של	O
-ג'ורג	B-PER
-'	I-PER
-ברנרד	I-PER
-שו	I-PER
-``	O
-''Mrs	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:52daa6444dccb474d473f919dcda46edc9cbd0052bb0a25e5e2bd3f49c82778d
+size 261

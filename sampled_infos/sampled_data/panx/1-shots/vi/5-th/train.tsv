@@ -1,22 +1,3 @@
-đổi	O
-Hạc	B-LOC
-cổ	I-LOC
-đen	I-LOC
-
-Thai	B-ORG
-Airways	I-ORG
-International	I-ORG
-(	O
-Star	B-ORG
-Alliance	I-ORG
-)	O
-
-Hoàn	O
-thay	O
-Chu	B-PER
-Thái	I-PER
-làm	O
-Nhu	O
-Tu	O
-đốc	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:15dadc360fd72b517754c1d0706816efeb0ff8a92ba79edf795cb954fcaf4523
+size 192

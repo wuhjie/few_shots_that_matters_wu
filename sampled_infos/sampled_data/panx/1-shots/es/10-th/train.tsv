@@ -1,28 +1,3 @@
-REDIRECCIÓN	O
-Decepción	B-ORG
-(	I-ORG
-término	I-ORG
-militar	I-ORG
-)	I-ORG
-
-El	O
-guitarrista	O
-The	B-PER
-Edge	I-PER
-consideraba	O
-que	O
-la	O
-canción	O
-en	O
-ese	O
-momento	O
-era	O
-horrible	O
-.	O
-
-'	O
-''	O
-Ciencias	B-LOC
-físicas	I-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:11c7d54d20d61f78a0bff11a84d7bc280194cb20dcb040e1df197c2ebd6af368
+size 245

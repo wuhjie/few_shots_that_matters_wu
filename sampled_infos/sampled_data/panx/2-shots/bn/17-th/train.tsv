@@ -1,34 +1,3 @@
-শ্রীরামপুর	B-LOC
-(	I-LOC
-বর্ধমান	I-LOC
-)	I-LOC
-
-পাকিস্তান	B-ORG
-জাতীয়	I-ORG
-ক্রিকেট	I-ORG
-দল	I-ORG
-
-কেন্দ্রীয়	B-ORG
-মাধ্যমিক	I-ORG
-শিক্ষা	I-ORG
-বোর্ড	I-ORG
-
-হিমালয়ী	B-LOC
-আম	I-LOC
-,	O
-''Mangifera	O
-sylvatica	O
-''	O
-Roxb	O
-.	O
-
-এডউইন	B-PER
-ফন	I-PER
-দের	I-PER
-সার	I-PER
-
-মানো	B-PER
-মেনেজেস	I-PER
-(	O
-২০১০-২০১২	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bb1cc19f2137925a4383f13a1b641678ac13cdeae35403aa33c2d7a89c0ff52
+size 541

@@ -1,32 +1,3 @@
-suuna	O
-Marshall	B-PER
-Warren	I-PER
-Nirenberg	I-PER
-
-Eesti	B-ORG
-Looduseuurijate	I-ORG
-Selts	I-ORG
-
-suuna	O
-Meet	B-ORG
-the	I-ORG
-Fucking	I-ORG
-Bedwetters	I-ORG
-
-Carl	B-PER
-Timoleon	I-PER
-von	I-PER
-Neff	I-PER
-
-'	O
-''	O
-Oulu	B-LOC
-linn	I-LOC
-''	O
-'	O
-
-suuna	O
-Qapqali	B-LOC
-Šibe	I-LOC
-autonoomne	I-LOC
-maakond	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a0c3069139b4309882ba86399873ace527499e894a5e35a28638bc2f21193c2
+size 315

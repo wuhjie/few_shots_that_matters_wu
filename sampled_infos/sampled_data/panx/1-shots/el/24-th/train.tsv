@@ -1,32 +1,3 @@
-Μέσω	O
-του	O
-περιοδικού	O
-αυτού	O
-ήρθε	O
-σε	O
-επαφή	O
-με	O
-τον	O
-Τέο	B-PER
-φαν	I-PER
-Ντέσμπουργκ	I-PER
-και	O
-τον	O
-Πητ	B-PER
-Μοντριάν	I-PER
-.	O
-
-'	O
-''	O
-Ηνωμένο	B-LOC
-Βασίλειο	I-LOC
-''	O
-'	O
-
-**	O
-'	O
-''	O
-Ορφέας	B-ORG
-Αιγάλεω	I-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce12d4606452a0752576eb191179bdbc59633538f4efe3def9957ff19b7c3aca
+size 343

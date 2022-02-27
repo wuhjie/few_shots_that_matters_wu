@@ -1,24 +1,3 @@
-يوسف	B-PER
-عزيزي	I-PER
-بني	I-PER
-طرف،	I-PER
-صحفي	O
-وناشط	O
-.	O
-
-وهي	O
-جزء	O
-من	O
-سلسلة	O
-``	O
-رحلات	B-ORG
-غير	I-ORG
-عادية	I-ORG
-''	O
-
-تحويل	O
-آب	B-LOC
-میس	I-LOC
-(	I-LOC
-أمجز	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb0168b0fc0c378bd343e3dabdea61049683922ca646f33b760dbbd490c8b0b2
+size 253

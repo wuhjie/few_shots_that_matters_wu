@@ -1,22 +1,3 @@
-இந்த	O
-மூன்று	O
-திரைப்படங்களை	O
-ஸ்டீவன்	B-PER
-ஸ்பில்பேர்க்	I-PER
-இயக்கியுள்ளார்	O
-.	O
-
-ஐக்கிய	B-ORG
-நாடுகள்	I-ORG
-கடைப்பிடிப்புக்கள்	I-ORG
--	I-ORG
-அனைத்துலக	I-ORG
-ஆண்டு	I-ORG
-
-'	O
-''	O
-சுன்	B-LOC
-வான்	I-LOC
-மாவட்டம்	I-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:28b4ad6e25e1ed062d56caf710d68321e8fc492f67b3c01285ea37c363c1a536
+size 465

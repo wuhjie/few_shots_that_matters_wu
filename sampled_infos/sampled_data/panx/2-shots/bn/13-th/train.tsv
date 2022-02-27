@@ -1,35 +1,3 @@
-দাদরা	B-LOC
-ও	I-LOC
-নগর	I-LOC
-হাভেলি	I-LOC
-
-ওসামা	B-PER
-বিন	I-PER
-লাদেন	I-PER
-
-**	O
-উদয়ী	B-LOC
-মানিকজোড়	I-LOC
-,	O
-''Ciconia	O
-boyciana	O
-''	O
-(	O
-formerly	O
-in	O
-''C	O
-.	O
-
-মেলবোর্ন	B-ORG
-ক্রিকেট	I-ORG
-গ্রাউন্ড	I-ORG
-,	O
-মেলবোর্ন	B-LOC
-
-এরিক	B-PER
-টেম্পল	I-PER
-বেল	I-PER
-
-ভারতের	B-ORG
-সামরিক	I-ORG
-বাহিনী	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb8f565aef4b98e262a1cf572559879c868666a35ee983d7e153c70569a96971
+size 521

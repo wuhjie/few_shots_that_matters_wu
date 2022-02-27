@@ -1,26 +1,3 @@
-Бем	B-PER
-,	I-PER
-Юзеф	I-PER
-Захариаш	I-PER
-
-Парки	B-ORG
-и	I-ORG
-зоны	I-ORG
-отдыха	I-ORG
-''	O
-
-Средняя	O
-скорость	O
-при	O
-этом	O
-была	O
-равна	O
-8,66	O
-узла	B-ORG
-.	O
-
-перенаправление	O
-Бруйце	B-LOC
-(	I-LOC
-гмина	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:17a44ad0c0d6b320b051d4cc0c349e62ec6761664d658cce9f18d2935654f441
+size 318

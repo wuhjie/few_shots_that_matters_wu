@@ -1,33 +1,3 @@
-আফম	B-PER
-আহসানউদ্দিন	I-PER
-চৌধুরী	I-PER
-
-মেদস্যাঁ	B-ORG
-সঁ	I-ORG
-ফ্রন্তিয়া	I-ORG
-
-**	O
-কালাগলা	B-LOC
-মানিকজোড়	I-LOC
-,	O
-''Ephippiorhynchus	O
-asiaticus	O
-''	O
-
-সবুজ	B-LOC
-বনমোরগ	I-LOC
-,	O
-''Gallus	O
-varius	O
-''	O
-
-অনিল	B-PER
-চৌধুরী	I-PER
-(	I-PER
-আম্পায়ার	I-PER
-)	I-PER
-
-ইউনাইটেড	B-ORG
-স্টেটস	I-ORG
-মেরিন	I-ORG
-কর্পস	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:229e9da1e67e7175f34a02c40529a04b45aeeca9393be2bd5659c6bd99520990
+size 543

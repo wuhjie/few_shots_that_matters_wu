@@ -1,18 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Lot-et-Garonne	I-LOC
-
-'	O
-''	O
-Kaze	B-ORG
-wa	I-ORG
-Fuiteiru	I-ORG
-''	O
-'	O
-
-alih	O
-Wage	B-PER
-Rudolf	I-PER
-Soepratman	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8d48019fe585bc278710f479a9f349a80da43191b00aa7ee6d937c989e1229d
+size 170

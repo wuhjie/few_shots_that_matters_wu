@@ -1,31 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Charente-Maritime	I-LOC
-
-LENCONG	O
-Anjing	B-ORG
-penuding	I-ORG
-Hungary	I-ORG
-
-LENCONG	O
-Anjing	B-ORG
-pemburu	I-ORG
-gunung	I-ORG
-Montenegro	I-ORG
-
-'	O
-''	O
-Nico	B-PER
-Rosberg	I-PER
-''	O
-'	O
-
-Yazid	B-PER
-bin	I-PER
-Muawiyah	I-PER
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Tarn	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbc85a032d24de16b08f7480835e976b6bdc6d347a3eb8d3a3b84bc032b9e2d8
+size 309

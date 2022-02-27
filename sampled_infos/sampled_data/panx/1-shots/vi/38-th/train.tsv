@@ -1,24 +1,3 @@
-Keep	B-ORG
-Your	I-ORG
-Head	I-ORG
-Down	I-ORG
-''	O
-
-ĐỔI	O
-Giáo	B-PER
-hoàng	I-PER
-Urbanô	I-PER
-VIII	I-PER
-
-''	O
-Cotoneaster	B-LOC
-acuminatus	I-LOC
-''	O
-Lindl	O
-.	O
-
-'	O
-''	O
-Suceava	B-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:81b842df1c552ceba89421f0077b3e05a7dd1940caa35ad5f305cd9d38402eb5
+size 200

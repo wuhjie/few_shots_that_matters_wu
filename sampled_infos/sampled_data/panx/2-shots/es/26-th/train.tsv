@@ -1,33 +1,3 @@
-Jordi	B-PER
-Solé	I-PER
-Tura	I-PER
-
-Bolsa	B-ORG
-de	I-ORG
-Valores	I-ORG
-de	I-ORG
-Colombia	I-ORG
-
-==	O
-Provincia	B-LOC
-del	I-LOC
-Este	I-LOC
-==	O
-
-EDIPUCRS	O
-,	O
-Porto	B-LOC
-Alegre	I-LOC
-,	O
-Brasil	B-LOC
-.	O
-
-Casa	B-ORG
-de	I-ORG
-Borbón-Busset	I-ORG
-
-Peter	B-PER
-Luczak	I-PER
-(	O
-98º	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce80909bcb4c443b5fb69632b42170acb49ef1cf3ca90f202cef2d31e0fcf78
+size 288

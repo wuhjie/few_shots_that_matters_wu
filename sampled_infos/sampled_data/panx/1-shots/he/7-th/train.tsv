@@ -1,18 +1,3 @@
-הפניה	O
-In	B-ORG
-the	I-ORG
-Zone	I-ORG
-
-דון	B-PER
-בדג	I-PER
-'	I-PER
-(	O
-ארצות	B-LOC
-הברית	I-LOC
-)	O
-זכה	O
-באליפות	O
-זו	O
-ב-3	O
-תארים	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:77f38c33124b994b1360d107700a3945fc56a6be4edb2e224836cf5a13fae197
+size 177

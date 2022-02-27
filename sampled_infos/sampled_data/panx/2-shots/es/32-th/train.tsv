@@ -1,31 +1,3 @@
-REDIRECCIÓN	O
-Comuna	B-LOC
-de	I-LOC
-Putanges-Pont-Écrepin	I-LOC
-
-REDIRECCIÓN	O
-Federación	B-ORG
-Alemana	I-ORG
-de	I-ORG
-Lesbianas	I-ORG
-y	I-ORG
-Gais	I-ORG
-
-REDIRECCIÓN	O
-Principio	B-ORG
-de	I-ORG
-exclusión	I-ORG
-competitiva	I-ORG
-
-Christian	B-PER
-Von	I-PER
-Wernich	I-PER
-
-Juan	B-PER
-I	I-PER
-Orsini	I-PER
-,	O
-conde	B-LOC
-de	I-LOC
-Cefalonia	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:84c45ddb87613f0bb4ae22fe2b9627750076216c8ab441abcedccfb16affcd05
+size 353

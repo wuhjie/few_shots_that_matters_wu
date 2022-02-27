@@ -1,24 +1,3 @@
-Andrew	B-PER
-Murray	I-PER
-die	O
-jonge	O
-(	O
-1828–1917	O
-)	O
-.	O
-
-Dr.	B-LOC
-Ruth	I-LOC
-Segomotsi	I-LOC
-Mompati-distriksmunisipaliteit	I-LOC
-
-Hiervan	O
-was	O
-die	O
-Berlynse	B-ORG
-Muur	I-ORG
-die	O
-mees	O
-sigbare	O
-voorbeeld	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:15a81cf65ffdcba488b398ecb55f830443649a628873bdf5a45476c75c012243
+size 229

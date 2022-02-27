@@ -1,24 +1,3 @@
-Chính	O
-phủ	O
-của	O
-Jules	B-PER
-de	I-PER
-Polignac	I-PER
-bị	O
-phái	O
-đối	O
-lập	O
-phản	O
-đối	O
-.	O
-
-đổi	O
-1.	B-ORG
-FC	I-ORG
-Köln	I-ORG
-
-đổi	O
-Đuôi	B-LOC
-cụt	I-LOC
-bụng	I-LOC
-đỏ	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:32e2ad507f54da2ae9b505b0ea54926948e7996f8349e6716376dfb91bd14813
+size 215

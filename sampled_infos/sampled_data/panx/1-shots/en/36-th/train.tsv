@@ -1,27 +1,3 @@
-Maritime	B-LOC
-Security	I-LOC
-Patrol	I-LOC
-Area	I-LOC
-
-Edward	B-PER
-Lee	I-PER
-(	I-PER
-bishop	I-PER
-)	I-PER
-
-It	O
-was	O
-published	O
-between	O
-1948	O
-and	O
-2002	O
-by	O
-the	O
-Rijksmuseum	B-ORG
-van	I-ORG
-Natuurlijke	I-ORG
-Historie	I-ORG
-in	O
-Leiden	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec99e032bb5b6d7904ab987edc5315fdbd4ea3ba48b22abbb0b05d0c8ba3b857
+size 255

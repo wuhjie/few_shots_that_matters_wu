@@ -1,20 +1,3 @@
-Khâm	B-ORG
-định	I-ORG
-Việt	I-ORG
-sử	I-ORG
-Thông	I-ORG
-giám	I-ORG
-cương	I-ORG
-mục	I-ORG
-
-Chu	B-PER
-Triệu	I-PER
-cộng	I-PER
-hòa	I-PER
-
-đổi	O
-Fukui	B-LOC
-(	I-LOC
-thành	I-LOC
-phố	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:346411b0b6444584baa24feedc5f8dcd6b286ac7435dccd9a9199ff80e94bea9
+size 213

@@ -1,24 +1,3 @@
-ఇతడు	O
-కృష్ణా	B-LOC
-జిల్లా	I-LOC
-మచిలీపట్నంలో	B-LOC
-జన్మించాడు	O
-.	O
-
-పాతాళ	B-ORG
-భైరవి	I-ORG
-(	I-ORG
-సినిమా	I-ORG
-)	I-ORG
-
-ధర్మరాజు	B-ORG
-``	O
-సరే	O
-``	O
-అన్నాడు	O
-.	O
-
-దారిమార్పు	O
-శంకర	B-PER
-దయాళ్	I-PER
-శర్మ	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ff345f627f34776a975ee971aa6506cbae698b0eb5e65d92200e4d002ab3c98
+size 407

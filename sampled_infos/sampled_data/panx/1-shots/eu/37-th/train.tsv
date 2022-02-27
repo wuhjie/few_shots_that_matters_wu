@@ -1,33 +1,3 @@
-Didio	B-PER
-Juliano	I-PER
-(	O
-193	O
-)	O
-
-Ipar-ekialderantz	O
-lerrokatuak	O
-,	O
-ezkerraldean	O
-Bizkaiko	B-LOC
-golkoa	I-LOC
-eta	O
-Bidasoaren	B-LOC
-bokalea	O
-zituzten	O
-.	O
-
-Udalbatza	O
-Eusko	B-ORG
-Abertzale	I-ORG
-Ekintzak	I-ORG
-(	O
-2	O
-)	O
-eta	O
-CDNk	B-ORG
-(	O
-1	O
-)	O
-osatu	O
-zuten	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4f1c4d1a1f8c375628463e412f7c9e29a4a7225111cc9ceb01303fe6e205868
+size 287

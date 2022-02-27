@@ -1,32 +1,3 @@
-رجوع_مکرر	O
-مجدد	B-PER
-الف	I-PER
-ثانی	I-PER
-
-رجوع_مکرر	O
-جان	B-PER
-رونالڈ	I-PER
-روئل	I-PER
-ٹولکین	I-PER
-
-رجوع_مکرر	O
-ساہیانوالہ	B-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-رجوع_مکرر	O
-فہرست	B-LOC
-متعلقہ	I-LOC
-مضامین	I-LOC
-جزائر	I-LOC
-مارشل	I-LOC
-
-رجوع_مکرر	O
-انڈین	B-ORG
-نیشنل	I-ORG
-کانگریس	I-ORG
-
-ڈفیرین-پیل	B-LOC
-کیتھولک	I-LOC
-اسکول	I-LOC
-بورڈ	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5bd0ad306cc19472649d0a7a245650948b5f2af9d5b04f46e99ca3db09c63640
+size 500

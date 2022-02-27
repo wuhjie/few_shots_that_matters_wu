@@ -1,33 +1,3 @@
-Frederick	B-PER
-Varley	I-PER
-(	O
-1881-1969	O
-)	O
-
-Noyers	B-LOC
-(	I-LOC
-Yonne	I-LOC
-)	I-LOC
-
-The	B-ORG
-Big	I-ORG
-Bang	I-ORG
-Theory	I-ORG
-''	O
-
-*1884	O
--	O
-Andrew	B-PER
-Ainslie	I-PER
-Common	I-PER
-
-Busby	B-LOC
-(	I-LOC
-Montana	I-LOC
-)	I-LOC
-
-Stade	B-ORG
-de	I-ORG
-Gerland	I-ORG
-,	O
-Lyon	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:34f503719c7c46c995039daac2c9ebc68e6d07cc9e617bfd206fd13b99eba250
+size 288

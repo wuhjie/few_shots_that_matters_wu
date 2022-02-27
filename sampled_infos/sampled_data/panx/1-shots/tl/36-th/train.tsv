@@ -1,16 +1,3 @@
-Chóngqìng	B-LOC
-(	O
-重庆市	O
-)	O
-
-Republika	B-LOC
-ng	I-LOC
-Tsina	I-LOC
-
-James	B-PER
-Clerk	I-PER
-Maxwell	I-PER
-
-Neri	B-ORG
-Javier	I-ORG
-Colmenares	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bab04010f0b7743fb7cb1531c2abf43adc55474a4c0ee170495f38359d6614e
+size 157

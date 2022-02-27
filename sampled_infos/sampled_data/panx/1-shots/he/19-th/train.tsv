@@ -1,32 +1,3 @@
-'	O
-''	O
-Auntie	O
-Mame	O
-''	O
-'	O
-בהפקת	O
-'	O
-''	O
-ג'ק	B-ORG
-וורנר	I-ORG
-''	O
-'	O
-(	O
-האחים	B-ORG
-וורנר	I-ORG
-)	O
-.	O
-
-``	O
-Battling	O
-Butler	O
-''	O
-של	O
-באסטר	B-PER
-קיטון	I-PER
-
-סוס	B-LOC
-טרויאני	I-LOC
-(	I-LOC
-תוכנה	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa1d60fe70d837691b472ea20a61e2c91933158213033f696871a132853a952d
+size 280

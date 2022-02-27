@@ -1,18 +1,3 @@
-(	O
-1672-1719	O
-)	O
-Joseph	B-PER
-Addison	I-PER
-
-Yönlendirme	O
-Bayır	B-LOC
-,	I-LOC
-Alanya	I-LOC
-
-YÖNLENDİR	O
-Amerika	B-ORG
-Birleşik	I-ORG
-Devletleri	I-ORG
-Deniz	I-ORG
-Piyade	I-ORG
-Kolordusu	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5e377c2a2a3366e97d8bf243e39aa518eb3ab1e3cfe6be968b7d53bf78a066b
+size 200

@@ -1,24 +1,3 @@
-Eneo	O
-lake	O
-ni	O
-53	O
-km²	B-ORG
-.	O
-
-Nat	B-PER
-King	I-PER
-Cole	I-PER
-
-Strictly	B-ORG
-4	I-ORG
-My	I-ORG
-N.I.G.G.A.Z	I-ORG
-.	I-ORG
-''	O
-
-Msimbo	B-LOC
-wa	I-LOC
-posta	I-LOC
-ni	O
-33410	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:71b91fa3351fdead9f339ae842d52a33b104f50e5f6c68215e3d9a58fba2e1f1
+size 188

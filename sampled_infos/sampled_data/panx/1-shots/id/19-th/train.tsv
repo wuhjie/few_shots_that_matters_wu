@@ -1,16 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Aisne	I-LOC
-
-ALIH	O
-Luxor	B-ORG
-Las	I-ORG
-Vegas	I-ORG
-
-Monty	B-PER
-Tiwa	I-PER
--	O
-Berani	O
-Hidup	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:15a5fb44aca99e609ae1849ecdab89786f6ad07e8451f4d6a7b6381badf3f226
+size 145

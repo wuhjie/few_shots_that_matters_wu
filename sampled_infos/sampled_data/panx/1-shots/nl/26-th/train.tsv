@@ -1,17 +1,3 @@
-*1992	O
-Pieter	B-PER
-Wispelwey	I-PER
-(	O
-cello	O
-)	O
-
-DOORVERWIJZING	O
-Makedonska	B-ORG
-Radio	I-ORG
-Televizija	I-ORG
-
-Lila	B-LOC
-(	I-LOC
-Bohol	I-LOC
-)	I-LOC
--	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3919e498259cff72eb431505c4faad700066103c52681942814470ea02a71a2
+size 161

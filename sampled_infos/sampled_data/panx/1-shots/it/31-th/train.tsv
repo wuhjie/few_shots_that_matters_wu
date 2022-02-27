@@ -1,21 +1,3 @@
-da	O
-Briga	B-LOC
-Marittima	I-LOC
-a	O
-Triora	B-LOC
-
-'	O
-''	O
-Frederik	B-PER
-Van	I-PER
-Lierde	I-PER
-''	O
-'	O
-
-Discipline	B-ORG
-:	I-ORG
-The	I-ORG
-Record	I-ORG
-of	I-ORG
-a	I-ORG
-Crusade	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:e59a3cf7f43de3fa31a65592cfec6857dab0ff06083e6f533c830d3bff9fc94e
+size 187

@@ -1,15 +1,3 @@
-ခင်ခင်လေး၊	B-PER
-(	I-PER
-ဒဂုန်	I-PER
-)	I-PER
-
-:	O
-ဟူကောင်း	B-LOC
-ကျား	I-LOC
-ထိန်းသိမ်းရေး	I-LOC
-နယ်မြေ	I-LOC
-
-ဆေးဘက်‌ဆိုင်ရာနည်းပညာတက္ကသိုလ်	B-ORG
-(	I-ORG
-မန္တလေး	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:6678b64fd7305a8064f44a63e3eecaeb5d5b156d553565cb5a786486538980fc
+size 343

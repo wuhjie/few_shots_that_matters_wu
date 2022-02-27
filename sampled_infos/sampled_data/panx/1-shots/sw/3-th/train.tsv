@@ -1,22 +1,3 @@
-Msimbo	B-LOC
-wa	I-LOC
-posta	I-LOC
-ni	O
-33520	O
-.	O
-
-Akajiunga	O
-na	O
-chama	O
-cha	O
-Kenya	B-ORG
-African	I-ORG
-Union	I-ORG
-.	O
-
-Uhusika	O
-umechezwa	O
-na	O
-Jennifer	B-PER
-Garner	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:81bf1f7544d051818c34b086ea60b5b194af5aef54111f80535e707245830a87
+size 185

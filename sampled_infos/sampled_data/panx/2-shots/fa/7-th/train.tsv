@@ -1,33 +1,3 @@
-تغییرمسیر	O
-جان	B-PER
-هریسون	I-PER
-(	I-PER
-کارگردان	I-PER
-)	I-PER
-
-تغییرمسیر	O
-خولیو	B-PER
-ریکاردو	I-PER
-کروز	I-PER
-
-تغییرمسیر	O
-رزمگاه	B-ORG
-(	I-ORG
-۲۰۱۴	I-ORG
-)	I-ORG
-
-تغییرمسیر	O
-چارلز	B-LOC
-سیتی،	I-LOC
-آیووا	I-LOC
-
-تغییرمسیر	O
-جلیل‌آباد	B-LOC
-(	I-LOC
-ممسنی	I-LOC
-)	I-LOC
-
-تغییر_مسیر	O
-سونی	B-ORG
-فایننشیال	I-ORG
-هولدینگز	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2781593cb881d62b9a452171241510383cbe27a04ac257e3005ffa9b4995a24
+size 479

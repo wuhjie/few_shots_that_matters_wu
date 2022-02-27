@@ -1,27 +1,3 @@
-DOORVERWIJZING	O
-Kategoria	B-LOC
-e	I-LOC
-parë	I-LOC
-1930	I-LOC
-
-Zo	O
-werden	O
-er	O
-concerten	O
-gegeven	O
-met	O
-artiesten	O
-als	O
-Harry	B-PER
-Belafonte	I-PER
-en	O
-Bill	B-PER
-Withers	I-PER
-.	O
-
-Sparta]]	O
-,	O
-Fortuna	B-ORG
-Sittard	I-ORG
-,	O
-Haarlem	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:0144bd6a3ec8b05933ee206394246dd62517385a87d63b192d88f628a962f1b0
+size 254

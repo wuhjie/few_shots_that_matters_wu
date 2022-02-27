@@ -1,32 +1,3 @@
-АЙДАУ	O
-Александр	B-PER
-Николаевич	I-PER
-Винокуров	I-PER
-
-АЙДАУ	O
-Ермахан	B-PER
-Сағиұлы	I-PER
-Ыбрайымов	I-PER
-
-Шахтер	B-ORG
-(	I-ORG
-Қарағанды	I-ORG
-)	I-ORG
-
-Сена	B-LOC
-және	I-LOC
-Марна	I-LOC
-департаментінің	I-LOC
-коммуналары	I-LOC
-
-Әуе	B-ORG
-транспортының	I-ORG
-халықаралық	I-ORG
-қауымдастағы	I-ORG
-
-Ал	O
-шығысында	O
-Жерорта	B-LOC
-теңізімен	I-LOC
-шектеседі	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ace8a13e5e6245fbf9c16e59dd03c3a0c2afa708923d0ccc42d3d5bd12c74d53
+size 553

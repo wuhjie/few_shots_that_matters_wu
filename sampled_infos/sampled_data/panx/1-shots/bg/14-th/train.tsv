@@ -1,36 +1,3 @@
-Селото	O
-се	O
-намира	O
-в	O
-планината	O
-Плачковица	B-LOC
-,	O
-северно	O
-от	O
-общинския	O
-център	O
-Радовиш	B-LOC
-.	O
-
-'	O
-''	O
-Герхард	B-PER
-Бергер	I-PER
-''	O
-'	O
-
-'	O
-''	O
-21-ва	B-ORG
-танкова	I-ORG
-дивизия	I-ORG
-''	O
-'	O
-
-градът	O
-става	O
-част	O
-от	O
-Индо-гръцкото	B-LOC
-царство	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bef706447801c167774f1e45934849dccb49fac3e96fe38aa1ac3a252f3dbb7
+size 417

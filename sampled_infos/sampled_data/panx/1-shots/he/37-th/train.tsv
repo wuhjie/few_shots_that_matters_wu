@@ -1,31 +1,3 @@
-הפניה	O
-מסע	B-LOC
-מים	I-LOC
-אל	I-LOC
-ים	I-LOC
-
-העדות	O
-לכך	O
-הינה	O
-עמק	B-ORG
-הכדים	I-ORG
-.	O
-
-עם	O
-טוני	B-PER
-ויסקונטי	I-PER
-,	O
-יזהר	B-PER
-אשדות	I-PER
-,	O
-יאיר	B-PER
-ניצני	I-PER
-יונתן	B-PER
-בר	I-PER
-גיורא	I-PER
-,	O
-שהיה	O
-שותף	O
-בכתיבת	O
-התסריט	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:57f614121418a5880af77c1eb8d3c28f80be9f69a001732874460e338aea1e02
+size 352

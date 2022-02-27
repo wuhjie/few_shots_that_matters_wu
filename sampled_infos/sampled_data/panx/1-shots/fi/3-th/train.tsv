@@ -1,17 +1,3 @@
-Dera	B-LOC
-Ghazi	I-LOC
-Khanin	I-LOC
-piirikunta	I-LOC
-
-Gustav	B-PER
-Stresemann	I-PER
-(	O
-1878–1929	O
-)	O
-
-The	B-ORG
-Chosen	I-ORG
-Ones	I-ORG
-(	O
-1999	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:3639f48e8a2dee0ab86467a690ad10f3d18b674baad77c07dc0bcff1df941308
+size 156

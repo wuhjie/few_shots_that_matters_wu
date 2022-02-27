@@ -1,18 +1,3 @@
-Hilagang	B-LOC
-Kapuluang	I-LOC
-Mariana	I-LOC
-
-Louis	B-PER
-VII	I-PER
-ng	I-PER
-Pransiya	I-PER
-
-Pangulo	B-ORG
-ng	I-ORG
-Pransiya	I-ORG
-
-'	O
-''	O
-Hokkaidō	B-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5922560e26d73c3e9f81cfc1c52b802dcd990a16a126bb0aeb01f76f9e120ea
+size 166

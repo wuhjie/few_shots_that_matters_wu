@@ -1,26 +1,3 @@
-Lưu	B-PER
-Biểu	I-PER
-bị	O
-bệnh	O
-nặng	O
-và	O
-qua	O
-đời	O
-.	O
-
-Chi	B-LOC
-Lá	I-LOC
-ngón	I-LOC
-
-Phong	B-ORG
-trào	I-ORG
-Chữ	I-ORG
-thập	I-ORG
-đỏ	I-ORG
-và	I-ORG
-Trăng	I-ORG
-lưỡi	I-ORG
-liềm	I-ORG
-đỏ	I-ORG
-quốc	I-ORG
-tế	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8b3a4c0c7a52e23cea9a2699f08558b69012878218f89a10435e8d45df5f6e5
+size 255

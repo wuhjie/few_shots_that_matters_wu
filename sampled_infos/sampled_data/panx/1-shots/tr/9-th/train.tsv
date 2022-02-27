@@ -1,31 +1,3 @@
-YÖNLENDİRME	O
-Halid	B-PER
-bin	I-PER
-Abdülaziz	I-PER
-el-Suud	I-PER
-
-YÖNLENDİRME	O
-Kamışlı	B-LOC
-,	I-LOC
-Merzifon	I-LOC
-
-'	O
-''	O
-Denizlispor	B-ORG
-''	O
-'	O
-
-Ligue	B-ORG
-1	I-ORG
-takımlarından	O
-RC	B-ORG
-Lens'in	I-ORG
-formasını	O
-giyen	O
-oyuncu	O
-,	O
-forvet	B-PER
-bölgesinde	O
-görev	O
-yapmaktadır	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:009f0e80f07a94884e2c21e82e02574258de21f8fb61766f88c34e33309aa33b
+size 315

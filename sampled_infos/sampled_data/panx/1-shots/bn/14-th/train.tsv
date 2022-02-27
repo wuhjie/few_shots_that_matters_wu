@@ -1,14 +1,3 @@
-হুমায়ুন	B-PER
-আজাদ	I-PER
-(	O
-সামগ্রিক	O
-অবদান	O
-)	O
-
-অন্টারিও	B-ORG
-মহাসড়ক	I-ORG
-৭৩	I-ORG
-
-শ্যাম্পেইন	B-LOC
-,	I-LOC
-ইলিনয়	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:148cf0fd8bf9e379bea6cbc91d353003b99d2da69074db178edd99e99c09b837
+size 247

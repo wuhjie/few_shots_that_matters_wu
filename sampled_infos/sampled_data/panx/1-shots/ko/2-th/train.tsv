@@ -1,14 +1,3 @@
-홋카이도	B-LOC
-노보리베쓰	B-LOC
-시에	I-LOC
-있는	O
-네무로	B-ORG
-본선의	I-ORG
-역	O
-.	O
-
-넘겨주기	O
-제레미	B-PER
-(	I-PER
-가수	I-PER
-)	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e2e3755c73c908ea3012cd472f6646db2a09719a13981688e06e8d59d8cf1d3
+size 166

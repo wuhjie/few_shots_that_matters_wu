@@ -1,32 +1,3 @@
-'	O
-''	O
-वूड्रो	B-PER
-विल्सन	I-PER
-''	O
-'	O
-(	O
-1856–1924	O
-)	O
-
-राष्ट्रीय	B-ORG
-रेडिओ	I-ORG
-खगोलभौतिकी	I-ORG
-केंद्र	I-ORG
-
-कल्याण	B-ORG
-पुढे	O
-सर्व	O
-गाड्या	O
-सर्व	O
-स्थानकांवर	O
-थांबतात	O
-.	O
-
-हे	O
-शहर	O
-तवांग	B-LOC
-जिल्ह्याचे	I-LOC
-प्रशासकीय	O
-केंद्र	O
-आहे	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e7b29171f26a3f8fcee02af90b855f2023b801c03da85a2406f2d3f655d4929
+size 510

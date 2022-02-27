@@ -1,27 +1,3 @@
-Se	O
-encuentra	O
-en	O
-Australia	B-LOC
-.	O
-
-REDIRECCIÓN	O
-Estudio	B-ORG
-Op.	I-ORG
-10	I-ORG
-,	I-ORG
-n.º	I-ORG
-12	I-ORG
-(	I-ORG
-Chopin	I-ORG
-)	I-ORG
-
-REDIRECCIÓN	O
-Johann	B-PER
-Heinrich	I-PER
-Cotta	I-PER
-
-REDIRECCIÓN	O
-La	B-LOC
-Aldea	I-LOC
-del	I-LOC
-Obispo	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfd81e220db2329b4ac1498c360669687c6f6b1b590fcf150de887e1b9cd9c08
+size 264

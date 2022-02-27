@@ -1,31 +1,3 @@
-The	B-ORG
-Powerpuff	I-ORG
-Girls	I-ORG
-''	O
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Haute-Corse	I-LOC
-
-ALIH	O
-Yakobus	B-PER
-anak	I-PER
-Alfeus	I-PER
-
-ALIH	O
-Stadion	B-ORG
-delle	I-ORG
-Alpi	I-ORG
-
-ALIH	O
-Paus	B-PER
-Pius	I-PER
-X	I-PER
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Bouches-du-Rhône	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcce3045bb728ce3820edb71f25463801f0b1cf42584a306c9666f49bbb0d12d
+size 308

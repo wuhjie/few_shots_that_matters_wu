@@ -1,18 +1,3 @@
-تغییرمسیر	O
-سن	B-LOC
-پرلیتا،	I-LOC
-تگزاس	I-LOC
-
-تغییرمسیر	O
-بیل	B-ORG
-را	I-ORG
-بکش	I-ORG
-بخش	I-ORG
-۱	I-ORG
-
-تغییرمسیر	O
-مایک	B-PER
-کمپ‌بل	I-PER
-(	I-PER
-نوازنده	I-PER
-)	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:8913a24338789a0447de7f0783624168b8a817dd122fc45b1bec52fc46e35943
+size 245

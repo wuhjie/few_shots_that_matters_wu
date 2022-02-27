@@ -1,20 +1,3 @@
-Antall	B-PER
-József	I-PER
-(	O
-MDF	B-ORG
-)	O
-miniszterelnök	O
-1990–93	O
-
-ÁTIRÁNYÍTÁS	O
-RTL	B-ORG
-II	I-ORG
-(	I-ORG
-Magyarország	I-ORG
-)	I-ORG
-
-UEFA	B-LOC
-Európa-bajnokság	I-LOC
-ezüstérmes	O
-–	O
-2008	B-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eb132abd7cbf97c802f50e4d0e9c3e09301413f3c00b083c06a3f8e8c57ea5d
+size 218

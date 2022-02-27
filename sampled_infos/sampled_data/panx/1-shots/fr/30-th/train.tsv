@@ -1,22 +1,3 @@
-Fernand	B-PER
-Khnopff	I-PER
-n'y	O
-participe	O
-pas	O
-.	O
-
-Stade	B-ORG
-Jules-Deschaseaux	I-ORG
-,	O
-Le	B-LOC
-Havre	I-LOC
-
-**	O
-The	B-ORG
-Velvet	I-ORG
-Underground	I-ORG
--	O
-The	B-ORG
-Velvet	I-ORG
-Underground	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:69cdf0b36cefcd76016210887d3c54cfed0b26716d24eff817cef9233c1199b4
+size 215

@@ -1,20 +1,3 @@
-''	O
-Gilda	B-ORG
-Olvidado	I-ORG
-'s	I-ORG
-Babangon	I-ORG
-Ako't	I-ORG
-Dudurugin	I-ORG
-Kita	I-ORG
-''	O
-(	O
-2008	O
-)	O
-
-United	B-LOC
-Arab	I-LOC
-Emirates	I-LOC
-
-Abdulmari	B-PER
-Asia	I-PER
-Imao	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:7af3afd153fabeb4139f4d6338fcad6a04158401b868e756d5925c4d9db71276
+size 194

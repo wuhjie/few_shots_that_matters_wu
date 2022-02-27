@@ -1,17 +1,3 @@
-نیروی	B-ORG
-هوایی	I-ORG
-ارتش	I-ORG
-جمهوری	I-ORG
-اسلامی	I-ORG
-ایران	I-ORG
-
-تغییرمسیر	O
-بطلمیوس	B-PER
-یکم	I-PER
-سوتر	I-PER
-
-تغییرمسیر	O
-داربست	B-LOC
-(	I-LOC
-بستک	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f39b6c6379ac146220cb91d2b6b58ad2e1a0bc5c4acbe88e90624c3699f266da
+size 247

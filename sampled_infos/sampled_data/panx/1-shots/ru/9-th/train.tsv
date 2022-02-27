@@ -1,32 +1,3 @@
-В	O
-1961—1965	O
-годах	O
-дирижировал	O
-балетами	O
-и	O
-в	O
-концертах	O
-в	O
-Австралии	B-LOC
-,	O
-Египте	B-LOC
-,	O
-Израиле	B-LOC
-и	O
-Новой	B-LOC
-Зеландии	I-LOC
-.	O
-
-Бока	B-ORG
-Хуниорс	I-ORG
-(	O
-Буэнос-Айрес	B-LOC
-)	O
-
-Махалина	B-PER
-,	I-PER
-Юлия	I-PER
-Викторовна	I-PER
-(	O
-род	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:31082f330ef9ff0409bd9575eb7e8ad4c617c613f1c45f1f8a780b351e361a91
+size 400

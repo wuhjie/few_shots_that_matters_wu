@@ -1,17 +1,3 @@
-Hava	B-ORG
-yolu	I-ORG
-,	O
-taşımacılık	O
-yapan	O
-şirket	O
-
-Jan	B-PER
-Hooks	I-PER
-(	O
-1986–1991	O
-)	O
-
-YÖNLENDİRME	O
-Bolatlı	B-LOC
-,	I-LOC
-Gölpazarı	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:411b8f73122792d7f518575d3ffc4cecacf299e24b35f1b678faaa078ea5cbec
+size 165

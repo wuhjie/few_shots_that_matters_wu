@@ -1,27 +1,3 @@
-**	O
-Ojamajo	B-ORG
-Doremi	I-ORG
-''	O
-(	O
-1999-2000	O
-)	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Savoie	I-LOC
-
-Baginda	O
-kemudiannya	O
-mengasaskan	O
-kerajaan	O
-Singapura	B-LOC
-lama	O
-.	O
-
-'	O
-''	O
-Daniel	B-PER
-Ricciardo	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5103c29f4c65ea9783c30741e8e56d4935c3c4e5a487359b3c90da3d54a59721
+size 231

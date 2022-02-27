@@ -1,35 +1,3 @@
-رجوع_مکرر	O
-شاہ	B-ORG
-پور	I-ORG
-جہانیاں	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-جان	B-PER
-فوربس	I-PER
-ناش	I-PER
-جے	I-PER
-آر	I-PER
-
-رجوع_مکرر	O
-ولیم	B-PER
-ہاورڈ	I-PER
-ٹافٹ	I-PER
-
-رجوع_مکرر	O
-سان	B-LOC
-ماتیو	I-LOC
-کاؤنٹی،	I-LOC
-کیلیفورنیا	I-LOC
-
-رجوع_مکرر	O
-لاہ	B-LOC
-ڈیراز،	I-LOC
-بوروجین	I-LOC
-
-کھاریاں	B-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-(	O
-KRN	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fa80d7bce5feea382dec72b88fca86611b923d6e5e348c50365e116331630ef
+size 482

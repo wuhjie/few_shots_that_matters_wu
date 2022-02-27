@@ -1,27 +1,3 @@
-'	O
-''	O
-Boston	B-ORG
-Celtics	I-ORG
-''	O
-'	O
-
-Tema	O
-tütar	O
-oli	O
-ajaloolane	O
-Ea	B-PER
-Jansen	I-PER
-.	O
-
-Ameerika	B-LOC
-Ühendriikide	I-LOC
-autotootja	O
-Ford	B-ORG
-Motor	I-ORG
-Company	I-ORG
-avalikustas	O
-ulatuslikud	O
-meetmed	O
-kulude	O
-kokkuhoiuks	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a4bd37a279eef28c9195e774c300a723c14240ffda38a92d5f09ecac2cf3cef
+size 258

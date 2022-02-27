@@ -1,14 +1,3 @@
-بئیر	B-LOC
-لیک،	I-LOC
-برٹش	I-LOC
-کولمبیا	I-LOC
-
-رجوع_مکرر	O
-شمالی	B-ORG
-آگسٹا،	I-ORG
-اونٹاریو	I-ORG
-
-رجوع_مکرر	O
-وی	B-PER
-پی	I-PER
-سنگھ	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c3c299e037f10bd3a79a0a901f0e2b9651b50c96deb5b19f15fbedad783c5be
+size 204

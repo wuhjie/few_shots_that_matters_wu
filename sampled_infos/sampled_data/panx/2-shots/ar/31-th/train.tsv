@@ -1,31 +1,3 @@
-تحويل	O
-آلفرد	B-PER
-إدوارد	I-PER
-هاوسمان	I-PER
-
-تحويل	O
-لجنة	B-ORG
-أولمبية	I-ORG
-وطنية	I-ORG
-
-موطنها	O
-المغرب	B-LOC
-العربي	I-LOC
-إسبانيا	B-LOC
-.	O
-
-شكري	B-PER
-القوتلي	I-PER
--	O
-الرئيس	B-LOC
-السوري	I-LOC
-الأسبـق	O
-.	O
-
-عضو	O
-في	O
-الاتحاد	B-ORG
-الأفريقي	I-ORG
-لكرة	I-ORG
-القدم	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3745ed8fb770af9ad6ed5550b337b4f98d5f688cbed90c9f8ef96ec4f6960c7
+size 413

@@ -1,19 +1,3 @@
-'	O
-''	O
-Sebastian	B-PER
-Vettel	I-PER
-''	O
-'	O
-
-Petrus	B-LOC
-Steyn	I-LOC
-→	O
-Mamafubedu	O
-(	O
-voorgestel	O
-)	O
-
-AANSTUUR	O
-Franse	B-ORG
-koloniale	I-ORG
-ryk	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf7120fc86b92529ef3f64b9ba3c438022faa466a558068a4f988a36328a188a
+size 164

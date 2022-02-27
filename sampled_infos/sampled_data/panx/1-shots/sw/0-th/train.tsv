@@ -1,11 +1,3 @@
-London	B-ORG
-School	I-ORG
-of	I-ORG
-Economics	I-ORG
-
-31	B-LOC
-Mei	I-LOC
--	O
-Papa	B-PER
-Pius	I-PER
-XI	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:4add904b80487bc8fea314ab89ccaa97004df359183638cc1733cfe408779b5b
+size 106

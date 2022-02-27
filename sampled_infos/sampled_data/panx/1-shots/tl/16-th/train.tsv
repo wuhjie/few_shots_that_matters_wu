@@ -1,21 +1,3 @@
-Sentrong	B-ORG
-Pambansa	I-ORG
-ng	I-ORG
-Akwatika	I-ORG
-ng	I-ORG
-Beijing	I-ORG
-
-Kasama	O
-ni	O
-Bill	B-PER
-Gates	I-PER
-,	O
-itinatag	O
-nila	O
-ang	O
-Microsoft	B-ORG
-.	O
-
-Pulo	B-LOC
-ng	I-LOC
-Anghel	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a8c7e97aa94a246b941d730cb4d7d439ac3274b462f1b8855e75c2518760c8c
+size 197

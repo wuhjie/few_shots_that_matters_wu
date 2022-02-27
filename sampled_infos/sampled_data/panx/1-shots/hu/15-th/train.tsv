@@ -1,29 +1,3 @@
-Robert	B-PER
-De	I-PER
-Niro	I-PER
-,	O
-Dianna	B-PER
-Agron	I-PER
-,	O
-Michelle	B-PER
-Pfeiffer	I-PER
-
-Rio	B-LOC
-de	I-LOC
-Janeiro	I-LOC
-központjától	O
-kb	O
-.	O
-
-Az	O
-ország	O
-a	O
-Német	B-ORG
-Szövetség	I-ORG
-tagja	O
-lett	O
-,	O
-ahol	O
-Ausztriát	B-LOC
-támogatta	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b0712dbb05e2f34f6fdfd3ccb33871cbbca188e00e9ad6d01b721acaa7644df
+size 268

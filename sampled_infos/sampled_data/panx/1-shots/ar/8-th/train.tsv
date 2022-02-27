@@ -1,15 +1,3 @@
-تحويل	O
-كونتريفو	B-LOC
-(	I-LOC
-أين	I-LOC
-)	I-LOC
-
-تحويل	O
-السنة	B-ORG
-الدولية	I-ORG
-للطفل	I-ORG
-
-نونو	B-PER
-ألفاريز	I-PER
-بيريرا	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:86834175f5770e4d80787c663f7e8740054d5744569556fafcf1be6f93c3f8e4
+size 194

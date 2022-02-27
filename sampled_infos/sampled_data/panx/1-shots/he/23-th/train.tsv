@@ -1,30 +1,3 @@
-חיה	O
-ארצות	B-LOC
-הברית	I-LOC
-,	O
-רומניה	B-LOC
-גרמניה	B-LOC
-.	O
-
-הדמות	O
-נוצרה	O
-בידי	O
-סטן	B-PER
-לי	I-PER
-ג'ק	B-PER
-קירבי	I-PER
-,	O
-שכתבו	O
-את	O
-מרבית	O
-הגליונות	O
-הראשונים	O
-בסדרה	O
-.	O
-
-הנמל	O
-משרת	O
-כ-40	O
-חברות	B-ORG
-תעופה	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dd3acc4f19498e4758649959b286b1b252b2ea8b1f4e4fc238f0f4153361161
+size 341

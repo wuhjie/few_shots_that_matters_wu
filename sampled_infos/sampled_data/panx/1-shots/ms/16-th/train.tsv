@@ -1,16 +1,3 @@
-Unit	B-ORG
-terbitan	I-ORG
-SI	I-ORG
-
-Jawatankuasa	B-LOC
-pembangunan	I-LOC
-kampung	I-LOC
-di	I-LOC
-Nepal	I-LOC
-
-'	O
-''	O
-Ji	B-PER
-Suk-jin	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d223b52230057f3258f87847d4c290fc41ee0d1c6ee28cbe5f403d067d5eab20
+size 150

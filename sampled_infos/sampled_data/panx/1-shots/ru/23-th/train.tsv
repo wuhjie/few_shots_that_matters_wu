@@ -1,21 +1,3 @@
-Зураб	B-PER
-Кипшидзе	I-PER
-(	O
-Грузия	B-LOC
-)	O
-,	O
-актёр	O
-
-Ковингтон	B-LOC
-(	I-LOC
-округ	I-LOC
-,	I-LOC
-Миссисипи	I-LOC
-)	I-LOC
-
-''	O
-Ultimate	B-ORG
-Fighting	I-ORG
-Championship	I-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:244cd651c071ae800bc976c6c1b93fb08db741de4c8da7cefafe6d58e7ff87f9
+size 240

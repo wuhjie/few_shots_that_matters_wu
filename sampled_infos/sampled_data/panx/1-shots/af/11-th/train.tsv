@@ -1,35 +1,3 @@
-Die	O
-geestelikheid	O
-verkies	O
-egter	O
-Paschalis	B-PER
-.	O
-
-Hy	O
-is	O
-opgevolg	O
-deur	O
-Pous	B-PER
-Bonifatius	I-PER
-IX	I-PER
-.	O
-
-Die	O
-Verenigde	B-ORG
-Nasies	I-ORG
-en	O
-die	O
-Organisasie	B-ORG
-vir	I-ORG
-Afrika-eenheid	I-ORG
-het	O
-die	O
-onafhanklikheidsverklaring	O
-skerp	O
-veroordeel	O
-.	O
-
-AANSTUUR	O
-Akrotiri	B-LOC
-en	I-LOC
-Dhekelië	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1fedd739ffc6d3d2dd5035afd76b42cbe241bb7796a50fe557d3f53544d60e2
+size 344

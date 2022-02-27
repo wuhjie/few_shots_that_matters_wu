@@ -1,34 +1,3 @@
-העיטור	O
-קרוי	O
-על	O
-שמו	O
-של	O
-המנהיג	O
-הראשון	O
-של	O
-ברית	B-LOC
-המועצות	I-LOC
-.	O
-
-קאפקייקס	B-ORG
-(	I-ORG
-מאפינים	I-ORG
-)	I-ORG
-של	O
-הטבלה	O
-המחזורית===	O
-
-לבסוף	O
-הוא	O
-גם	O
-צדד	O
-בזכותם	O
-של	O
-הפורטוגזים	O
-למרוד	O
-פליפה	B-PER
-הרביעי	I-PER
-,	I-PER
-מלך	I-PER
-ספרד	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e35cc09c533ef84b6b08a1eb611ae89a2f169333645dd7af99b194e13e1971a
+size 402

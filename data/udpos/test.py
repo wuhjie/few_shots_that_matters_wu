@@ -3,7 +3,7 @@
 sentence_egs = []
 language = 'german'
 
-with open("test-fa.tsv", "r") as f:
+with open("test-en.tsv", "r") as f:
     lines = f.read().strip().split("\n\n")
     for line in lines:
         sent_vec = line.strip().split("\n")

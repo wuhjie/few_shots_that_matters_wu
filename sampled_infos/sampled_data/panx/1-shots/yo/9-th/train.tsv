@@ -1,17 +1,3 @@
-Prime	O
-Minister]]	O
-Mohamed	B-PER
-Said	I-PER
-Fofana	I-PER
-
-Ìkokò	B-LOC
-àbàwọ́n	I-LOC
-(	O
-''Crocuta	O
-crocuta	O
-''	O
-)	O
-
-Ìgbìmọ̀	B-ORG
-Òlímpíkì	I-ORG
-Akáríayé	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fd6b04aaf02fd7218512ea655e6ce43db1c549f94e15e1a0c2aa6e208ca2018
+size 185

@@ -1,24 +1,3 @@
-Видът	O
-е	O
-разпространен	O
-в	O
-Испания	B-LOC
-(	O
-Балеарски	B-LOC
-острови	I-LOC
-)	O
-.	O
-
-'	O
-''	O
-Михаел	B-PER
-Шумахер	I-PER
-''	O
-'	O
-
-'	O
-''	O
-Синята	B-ORG
-коалиция	I-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f77fc36278d90527cb735907af5eb20afdc8489cf4cfd856e857a322b0e096e
+size 251

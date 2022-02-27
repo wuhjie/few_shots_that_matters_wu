@@ -1,26 +1,3 @@
-இச்சொற்றொடர்	O
-புனித	B-PER
-அகுஸ்தீன்	I-PER
-என்னும்	O
-மறைவல்லுநரின்	O
-எழுத்துகளிலிருந்து	O
-பெறப்பட்டது	O
-.	O
-
-**	O
-மாஸ்கோ	B-LOC
-(	O
-தூதரகம்	O
-)	O
-
-வழிமாற்று	O
-ஏக்லி	B-LOC
-ஓவல்	I-LOC
-அரங்கம்	I-LOC
-
-ஐக்கிய	B-ORG
-நாடுகள்	I-ORG
-கடைப்பிடிப்புக்கள்	I-ORG
--	I-ORG
-அனைத்துலக	I-ORG
-ஆண்டு	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ed5cf1c1e47ec69b0fe3467d1352a10b931ffbf26e4797241ae3646f4c67653
+size 600

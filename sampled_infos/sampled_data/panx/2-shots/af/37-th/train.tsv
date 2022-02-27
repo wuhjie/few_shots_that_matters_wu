@@ -1,36 +1,3 @@
-Pieter	B-PER
-Willem	I-PER
-Botha	I-PER
-(	O
-1916–2006	O
-)	O
-,	O
-politikus	O
-
-30	B-LOC
-Mei	I-LOC
-–	O
-Die	O
-Europese	B-ORG
-Ruimtevaartorganisasie	I-ORG
-word	O
-amptelik	O
-gestig	O
-.	O
-
-Lys	B-PER
-van	I-PER
-botaniste	I-PER
-volgens	I-PER
-outeursafkorting	I-PER
-.	O
-
-New	B-LOC
-Jersey	I-LOC
-–	O
-DeCavalcante-familie	O
-
-AANSTUUR	O
-CBC	B-ORG
-/	I-ORG
-Radio-Canada	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:11700e3f60914a5751ee8f3e47ea295cf5c5a801c1629db2b90b609da06b51c5
+size 363

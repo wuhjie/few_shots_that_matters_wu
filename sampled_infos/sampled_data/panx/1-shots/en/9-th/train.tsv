@@ -1,22 +1,3 @@
-List	B-ORG
-of	I-ORG
-Antarctic	I-ORG
-and	I-ORG
-sub-Antarctic	I-ORG
-islands	I-ORG
-
-''	O
-Olindia	B-LOC
-schumacherana	I-LOC
-''	O
-(	O
-Fabricius	O
-,	O
-1787	O
-)	O
-
-Morris	B-PER
-Peterson	I-PER
-(	O
-28	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d5e926c209538cd17c6e0e3013bada97ca34100513b97c7c126c17431874c27
+size 198

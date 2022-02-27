@@ -1,21 +1,3 @@
-ချစ်ထွန်း၊	B-PER
-ဦး	I-PER
-(	I-PER
-ဝေါ်လတာ	I-PER
-)	I-PER
-
-တီထွင်သူ	O
-...	O
-...	O
-ဆိုင်လန်	B-PER
-။	O
-
-(	O
-၇	O
-)	O
-ကျောက်တော်မြို့	B-LOC
-
-ဆေးဝါးတက္ကသိုလ်	B-ORG
-(	I-ORG
-မန္တလေး	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:9273a6a2b837196da04cf05bae511d20a09802319d6d2cec77a5a342a5b89ab0
+size 335

@@ -1,16 +1,3 @@
-''	O
-ওয়ার্ল্ড	B-ORG
-রেসলিং	I-ORG
-ফেডারেশন	I-ORG
-''	O
-'	O
-
-মার্কুস	B-PER
-ইউনিয়ুস	I-PER
-ব্রুতুস	I-PER
-
-টাকি	B-LOC
-,	I-LOC
-উত্তর	I-LOC
-চব্বিশ	I-LOC
-পরগনা	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b483b57455b90c888c1efc7b77283098ed3c82c116b2664451fa6e9aecfd377
+size 289

@@ -1,17 +1,3 @@
-Lisäksi	O
-hän	O
-kävi	O
-Jan	B-PER
-DeGaetanin	I-PER
-kursseilla	O
-.	O
-
-FC	B-ORG
-Inter	I-ORG
-Turku	I-ORG
-
-Silkeborgin	B-LOC
-kunta	I-LOC
-Skanderborgin	B-LOC
-kunta	I-LOC
-13	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:7941c6cdfd93f413ad2f577b622a7bac51ae4e30e39d661c10b5b9e019c4b5cb
+size 172

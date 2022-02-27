@@ -1,32 +1,3 @@
-Chicago	B-LOC
-,	O
-Verenigde	B-LOC
-State	I-LOC
-.	O
-
-Genl.	B-PER
-De	I-PER
-la	I-PER
-Rey	I-PER
-neem	O
-189	O
-soldate	O
-van	O
-die	O
-''Scots	O
-Greys	O
-and	O
-Lincolns	O
-''	O
-gevange	O
-.	O
-
-Basel	B-LOC
-word	O
-deel	O
-van	O
-die	O
-Heilige	B-ORG
-Romeinse	I-ORG
-Ryk	I-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b3ee43147261cde1352769476ac019b851501bb654401b5b614f2bd04061d38
+size 262

@@ -1,16 +1,3 @@
-തിരിച്ചുവിടുക	O
-കെ.വി.	B-PER
-അബ്ദുൾ	I-PER
-ഖാദർ	I-PER
-
-**	O
-ടിബറ്റൻ	B-LOC
-മകാകു	I-LOC
-,	O
-''M	O
-.	O
-
-തിരിച്ചുവിടുക	O
-ദ്	B-ORG
-ന്യൂയോർക്ക്	I-ORG
-ടൈംസ്	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:54359a76793cc2bdcbfb7c8d10aecd68ae59bd49565eca54c6d9eb97298dc5fd
+size 295

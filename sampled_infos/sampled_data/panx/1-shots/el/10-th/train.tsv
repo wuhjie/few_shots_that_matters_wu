@@ -1,21 +1,3 @@
-ΑΝΑΚΑΤΕΥΘΥΝΣΗ	O
-Ασιατικό	B-ORG
-Κύπελλο	I-ORG
-Ποδοσφαίρου	I-ORG
-2007	I-ORG
-
-Συνέχισε	O
-σε	O
-σπουδές	O
-υποκριτικής	O
-σε	O
-Λος	B-LOC
-Άντζελες	I-LOC
-και	O
-Μεξικό	B-LOC
-.	O
-
-Arndt	B-PER
-,	I-PER
-Michael	I-PER
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a69b527dade6a03a91a7987be0761c2783e78e94811d211badae14f550ed42b1
+size 296

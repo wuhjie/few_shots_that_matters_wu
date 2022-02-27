@@ -1,16 +1,3 @@
-''	O
-Ultimate	B-ORG
-Fighting	I-ORG
-Championship	I-ORG
-
-Capitán	B-LOC
-Sarmiento	I-LOC
-(	I-LOC
-partido	I-LOC
-)	I-LOC
-
-Nicolás	B-PER
-Laprovittola	I-PER
-(	O
-6	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0021239fc7fc3d744bc378c7e60902c0e024c84f197c2297c6f4e146d1e275d
+size 163

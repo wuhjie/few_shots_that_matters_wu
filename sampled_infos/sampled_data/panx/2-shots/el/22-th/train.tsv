@@ -1,34 +1,3 @@
-Τσαρλς	B-PER
-Γκμέλιν	I-PER
-Μεγάλη	B-LOC
-Βρετανία	I-LOC
-(	O
-GBR	O
-)	O
-
-Λούντβιχ	B-PER
-φον	I-PER
-Μίζες	I-PER
-(	O
-Ludwig	O
-von	O
-Mises	O
-)	O
-===	O
-
-ΑΝΑΚΑΤΕΥΘΥΝΣΗ	O
-Επαρχία	B-LOC
-της	I-LOC
-Σεγόβια	I-LOC
-
-ΑΝΑΚΑΤΕΥΘΥΝΣΗ	O
-Πρωτάθλημα	B-ORG
-Ελλάδας	I-ORG
-ποδοσφαίρου	I-ORG
-ανδρών	I-ORG
-
-Σπόρτινγκ	B-ORG
-Λισαβόνας	I-ORG
-(	O
-Πορτογαλία	B-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:64963c42f25a0648d8fb4503f0f46b356022d759155b0b104fadd6ebf8b7b66f
+size 484

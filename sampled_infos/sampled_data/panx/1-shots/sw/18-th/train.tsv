@@ -1,22 +1,3 @@
-Barbados	B-LOC
-(	O
-Bridgetown	B-LOC
-)	O
-(	O
-NA	O
-)	O
-
-Got	B-ORG
-to	I-ORG
-Be	I-ORG
-There	I-ORG
-''	O
-
-Leonia	B-LOC
-,	I-LOC
-New	I-LOC
-Jersey	I-LOC
-
-Papa	B-PER
-Gregori	I-PER
-I	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:960267b5bb68cc6f07a40d31faa83d0a003d14c8e4829a79127f770ac2930ba9
+size 178

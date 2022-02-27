@@ -1,29 +1,3 @@
-Оценку	O
-в	O
-7	O
-баллов	O
-дал	O
-рецензент	O
-из	O
-сайта	O
-GameSpot	B-ORG
-.	O
-
-==	O
-Великопермское	B-ORG
-княжество	I-ORG
-(	O
-1323—1505	O
-)	O
-==	O
-
-перенаправление	O
-Абланица	B-LOC
-(	I-LOC
-Ловечская	I-LOC
-область	I-LOC
-)	I-LOC
-
-Игнатиус	B-PER
-,	I-PER
-Дэвид	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:7171428c4e8b91863c140cf8a104de33848bb122db774d1530c747483342d970
+size 369

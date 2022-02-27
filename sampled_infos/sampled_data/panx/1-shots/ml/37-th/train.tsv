@@ -1,15 +1,3 @@
-കോലത്തുനാടിന്റെ	B-LOC
-അധികാരം	O
-അറക്കൽ	B-LOC
-രാജ്യത്തിനു	I-LOC
-നൽകി	O
-.	O
-
-തിരിച്ചുവിടുക	O
-സയ്യിദ്	B-PER
-അഹമ്മദ്	I-PER
-ഖാൻ	I-PER
-
-അബൂദാബി	B-ORG
-കൊമേസ്ഷ്യൽ	I-ORG
-ബാങ്ക്	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:2727443162e8078161ee022155ebfb98d38bbd3491dc31f1da30de39bad13d68
+size 366

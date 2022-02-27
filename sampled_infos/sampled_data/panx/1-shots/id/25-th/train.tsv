@@ -1,20 +1,3 @@
-Maganoy	O
-→	O
-Shariff	B-LOC
-Aguak	I-LOC
-
-ALIH	O
-Battlestar	B-ORG
-Galactica	I-ORG
-(	I-ORG
-serial	I-ORG
-televisi	I-ORG
-2004	I-ORG
-)	I-ORG
-
-'	O
-''	O
-Jarno	B-PER
-Trulli	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e816d874465681627acc0c5b8928ad45fd5a573f00bc870cd316504651a05a27
+size 182

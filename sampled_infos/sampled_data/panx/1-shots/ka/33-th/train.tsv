@@ -1,24 +1,3 @@
-ვერიკო	B-PER
-ანჯაფარიძე	I-PER
-(	O
-''კნეინა	O
-''	O
-)	O
-
-And	B-ORG
-I	I-ORG
-'ll	I-ORG
-Scratch	I-ORG
-Yours	I-ORG
-''	O
-
-სტრახოვის	O
-მიერ	O
-გამოქვეყნდა	O
-პირველი	O
-მსხვილი	O
-მონოგრაფია	O
-შავის	B-LOC
-ზღვის	I-LOC
-შესახებ	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:18b3d6427d4ff84c5ddf3bbf1684970c25fccd76b91817c375bed6809b568428
+size 393

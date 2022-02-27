@@ -1,30 +1,3 @@
-उत्तर	B-LOC
-प्रदेश	I-LOC
-(	O
-270	O
-)	O
-,	O
-मध्य	B-LOC
-प्रदेश	I-LOC
-(	O
-82	O
-)	O
-
-'	O
-''	O
-'	O
-''	O
-दिल्ली	B-LOC
-का	O
-एक	O
-मौहल्ला	O
-है।	O
-
-डैनी	B-PER
-डेन्जोंगपा	I-PER
--	O
-बख्तावर	O
-
-भारतीय	B-ORG
-सैन्य	I-ORG
-अकादमी	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa75aa35c9633c7f8c760575f3e22320782dcf03fe75f52efd5994f7bba569c6
+size 378

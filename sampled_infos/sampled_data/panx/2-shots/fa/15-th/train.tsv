@@ -1,36 +1,3 @@
-تغییرمسیر	O
-عباس‌آباد	B-LOC
-(	I-LOC
-دماوند	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-جاده	B-ORG
-۲۷	I-ORG
-(	I-ORG
-ایران	I-ORG
-)	I-ORG
-
-تغییرمسیر	O
-بخش	B-LOC
-مرکزی	I-LOC
-شهرستان	I-LOC
-رباط‌کریم	I-LOC
-
-'	O
-''	O
-لیونل	B-PER
-لیندون	I-PER
-''	O
-'	O
-
-تغییرمسیر	O
-مؤسسه	B-ORG
-استانداردهای	I-ORG
-ملی	I-ORG
-آمریکا	I-ORG
-
-تغییرمسیر	O
-لوئیس	B-PER
-وی.	I-PER
-بوگی	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:8565aa55eba2e8a6b135960d4ad170b2c657eaefb03233bee7acd1bef1c0f198
+size 485

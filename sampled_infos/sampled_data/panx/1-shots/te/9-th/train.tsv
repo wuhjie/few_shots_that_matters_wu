@@ -1,17 +1,3 @@
-దారిమార్పు	O
-అలీ	B-PER
-నవాజ్	I-PER
-జంగ్	I-PER
-బహాదుర్	I-PER
-
-MMTS	O
-Timings	O
-దక్షిణ	B-ORG
-మధ్య	I-ORG
-రైల్వే	I-ORG
-ప్రకారం	O
-
-శ్రీకాకుళం	B-LOC
-(	I-LOC
-ఘంటసాల	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f52d3b3a21fe079a40dc4ca80b3ea0eabce2bf102328052bb17df67b85c3457
+size 308

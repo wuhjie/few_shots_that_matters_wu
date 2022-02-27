@@ -1,24 +1,3 @@
-)	O
-'	O
-''	O
-,	O
-కరీంనగర్	B-LOC
-జిల్లా	I-LOC
-,	O
-ముత్తారం	B-LOC
-(	I-LOC
-మహాదేవపూర్	I-LOC
-)	I-LOC
-మండలానికి	O
-చెందిన	O
-గ్రామము	O
-
-శ్రీరంజని	B-PER
-(	I-PER
-జూనియర్	I-PER
-)	I-PER
-
-దారిమార్పు	O
-కాకతీయ	B-ORG
-వైద్య	I-ORG
-కళాశాల	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe122a08b6574405bb91b2b9d521f942b9ab95b2742c5c69d1093ed798654329
+size 421

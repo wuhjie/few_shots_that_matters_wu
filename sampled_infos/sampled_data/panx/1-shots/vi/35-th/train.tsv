@@ -1,17 +1,3 @@
-Zaragoza	B-LOC
-,	O
-Tây	B-LOC
-Ban	I-LOC
-Nha	I-LOC
-
-Sở	B-ORG
-giao	I-ORG
-dịch	I-ORG
-Hồng	I-ORG
-Kông	I-ORG
-
-Hoa	B-PER
-Mộc	I-PER
-Lan	I-PER
-''	O
-《花木蘭》	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:82f9196c998c43b653edccb03c22f2a0c6a1992f0cec44be52da7e73834517b3
+size 167

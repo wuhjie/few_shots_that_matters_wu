@@ -1,15 +1,3 @@
-Aris	B-ORG
-Salónica	I-ORG
-BC	I-ORG
-(	O
-1999-2000	O
-)	O
-
-Troyano	B-LOC
-(	I-LOC
-informática	I-LOC
-)	I-LOC
-
-Juan	B-PER
-Natalicio	I-PER
-González	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f36f4896cbe3770f0cd2427ca0c4adfce16983fabc2d54f640d9a52a1b242b4
+size 150

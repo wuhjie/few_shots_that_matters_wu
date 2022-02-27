@@ -1,16 +1,3 @@
-Тотали	B-ORG
-спайс	I-ORG
-''	O
-
-виж	O
-Мексико	B-LOC
-(	I-LOC
-град	I-LOC
-)	I-LOC
-
-'	O
-''	O
-Стефан	B-PER
-Саразен	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:05bbe5b9654f95160764c6c9eccb976406d417ecd879293aacf31d090d2503bd
+size 162

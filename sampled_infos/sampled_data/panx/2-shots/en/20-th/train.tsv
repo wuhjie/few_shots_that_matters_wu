@@ -1,35 +1,3 @@
-Antonín	B-PER
-Rýgr	I-PER
-(	O
-1970–72	O
-)	O
-
-Las	B-LOC
-Cruces	I-LOC
-,	I-LOC
-New	I-LOC
-Mexico	I-LOC
-
-Martha	B-PER
-Henry	I-PER
-(	O
-for	O
-acting	O
-)	O
-
-Virginia	B-ORG
-State	I-ORG
-Route	I-ORG
-231	I-ORG
-
-Long-tailed	B-LOC
-ground	I-LOC
-roller	I-LOC
-
-Drama	B-ORG
-City	I-ORG
-''	O
-``	O
-낙타씨의	O
-행방불명	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e2ba4b9236b6ddebdb14916ab8ea42235c293293aaaeca2d5165ca9e1ec6132
+size 315

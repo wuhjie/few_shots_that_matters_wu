@@ -1,33 +1,3 @@
-Administratiboki	O
-Frantziako	B-LOC
-Corrèze	B-LOC
-departamenduan	O
-dago	O
-,	O
-Akitania-Limousin-Poitou-Charentes	B-LOC
-eskualdean	O
-.	O
-
-Immigrazio	B-ORG
-eta	I-ORG
-Aduanen	I-ORG
-Agentzia	I-ORG
-(	I-ORG
-ICE	I-ORG
-)	I-ORG
-
-Handik	O
-bi	O
-urtera	O
-,	O
-Karlos	B-PER
-V.a	I-PER
-Espainiakoa	I-PER
-Le	B-LOC
-Havretik	I-LOC
-Espainiara	B-LOC
-eraman	O
-zuen	O
-ontzi	O
-berberean	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:19581a3e86a000b4ab439a72913a4f42ee0ac8df8aae963dea2caf6c547499e1
+size 370

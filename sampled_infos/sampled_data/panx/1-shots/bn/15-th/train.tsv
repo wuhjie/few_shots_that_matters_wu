@@ -1,14 +1,3 @@
-রবার্ট	B-PER
-আউমান	I-PER
-;	O
-টমাস	B-PER
-শেলিং	I-PER
-
-ওয়াশিংটন	B-LOC
-(	I-LOC
-অঙ্গরাজ্য	I-LOC
-)	I-LOC
-
-হাকা	B-ORG
-চিন	I-ORG
-ভাষা	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecce5317eaec26aa8af38f6f1ec4b80f2dd5ea9c50fd9ac752a7463fdee82418
+size 232

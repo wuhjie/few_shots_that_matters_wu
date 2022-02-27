@@ -1,18 +1,3 @@
-মহাবিশ্বের	B-ORG
-বৃহৎ-পরিসর	I-ORG
-গঠন	I-ORG
-
-'	O
-''	O
-মাক্সি	B-PER
-রোদ্রিগেস	I-PER
-(	O
-২০০৩–	O
-)	O
-'	O
-''	O
-
-সিস্তন	B-LOC
-ও	I-LOC
-বালুচেস্তন	I-LOC
-প্রদেশ	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6b063a856fb8ac525ab6894051eeded674242aeba6449a38fe53c62de136ea3
+size 290

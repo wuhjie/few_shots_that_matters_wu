@@ -1,21 +1,3 @@
-República	B-ORG
-Democrática	I-ORG
-Federal	I-ORG
-de	I-ORG
-Transcaucasia	I-ORG
-
-REDIRECCIÓN	O
-Clotilde	B-PER
-(	I-PER
-reina	I-PER
-)	I-PER
-
-REDIRECCIÓN	O
-Municipio	B-LOC
-de	I-LOC
-Ten	I-LOC
-Mile	I-LOC
-Lake	I-LOC
-(	I-LOC
-Minnesota	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:d517fb6c592f38827d62a13c071b6d0a67173fe82f364485b7cc46a21ab7ac72
+size 243

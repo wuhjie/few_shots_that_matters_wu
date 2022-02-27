@@ -1,33 +1,3 @@
-تغییرمسیر	O
-نی	B-PER
-(	I-PER
-بازیکن	I-PER
-فوتبال	I-PER
-)	I-PER
-
-کنگره	B-ORG
-ملی	I-ORG
-آفریقا	I-ORG
-
-تغییرمسیر	O
-موزه	B-ORG
-ملی	I-ORG
-تاریخ	I-ORG
-آمریکا	I-ORG
-
-تغییرمسیر	O
-دره	B-LOC
-جفتی	I-LOC
-دشت	I-LOC
-
-تغییرمسیر	O
-وکیل‌آباد	B-LOC
-(	I-LOC
-پاسارگاد	I-LOC
-)	I-LOC
-
-جان	B-PER
-لوند	I-PER
-در	O
-نقش	O
-«اَل»	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e63ccb19822e7ee9c8f40cfd5ad9b902b515e893e8576b4a9b981b5e01544d66
+size 430

@@ -1,1 +1,3 @@
-{"0": [{"uid": "french-252-val", "text_a": "Apr\u00e8s \u00eatre retourn\u00e9 \u00e0 Paramaribo en 1954, il s'installa en tant qu'avocat \u00e0 Suriname.", "label": "0", "portion_identifier": -1, "text_b": "Apr\u00e8s \u00eatre retourn\u00e9 au Surinam en 1954, il s'est \u00e9tabli en tant qu'avocat \u00e0 Paramaribo."}], "1": [{"uid": "french-1933-val", "text_a": "Il a enregistr\u00e9 avec le groupe de Billy Eckstine et en 1946 il a jou\u00e9 avec Lionel Hampton.", "label": "1", "portion_identifier": -1, "text_b": "Il enregistra avec le groupe de Billy Eckstine et, en 1946, joua avec le groupe de Lionel Hampton."}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d3f122d3a36f4b2233a7c348bf771a15d79aff293fc8ec13621e850e7a2bac4
+size 625

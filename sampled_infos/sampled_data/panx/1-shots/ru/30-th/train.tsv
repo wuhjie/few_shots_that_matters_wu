@@ -1,24 +1,3 @@
-'	O
-''	O
-Вада́кша	O
-''	O
-'	O
-—	O
-деревня	O
-в	O
-Сасовском	B-LOC
-районе	I-LOC
-Рязанской	B-LOC
-области	I-LOC
-России	B-LOC
-.	O
-
-''	O
-World	B-ORG
-Wrestling	I-ORG
-Federation	I-ORG
-
-Композитор	O
-—	O
-Сергей	B-PER
-Кортес	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:843ef800fb4a409299a58171c3e5c03625733aede80465afb56d12db34db6b96
+size 297

@@ -1,21 +1,3 @@
-Ang	O
-[[larawang	O
-Chandos	O
-ay	O
-pinaniniwalaang	O
-pagsasalarawan	O
-ni	O
-William	B-PER
-Shakespeare	I-PER
-.]]	O
-
-Bocaue	B-LOC
-,	I-LOC
-Bulacan	I-LOC
-
-Mall	B-ORG
-of	I-ORG
-Asia	I-ORG
-Arena	I-ORG
-,	O
-Pasay	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbd2800f8f372003de1b98d70b898c9d86ffc793f5cd9610172f465983dad1a4
+size 208

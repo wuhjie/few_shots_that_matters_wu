@@ -1,17 +1,3 @@
-'	O
-''	O
-নাফিস	B-PER
-ইকবাল	I-PER
-''	O
-'	O
-
-সেঞ্চল	B-LOC
-বন্যপ্রাণ	I-LOC
-অভয়ারণ্য	I-LOC
-
-রাধাগোবিন্দ	B-ORG
-কর	I-ORG
-মেডিক্যাল	I-ORG
-কলেজ	I-ORG
-ও	I-ORG
-হাসপাতাল	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec67bfed0bd7dce7ca096fe2f6a429b24695fdc22937db80aa21a013859292fc
+size 304

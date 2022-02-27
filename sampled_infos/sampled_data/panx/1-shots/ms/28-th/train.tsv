@@ -1,14 +1,3 @@
-Mines	B-ORG
-Resort	I-ORG
-City	I-ORG
-
-Dolfin	B-LOC
-Hidung	I-LOC
-Botol	I-LOC
-
-'	O
-''	O
-Kimi	B-PER
-Räikkönen	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a51755ee95e9be4825390741fa206e4f3cd2682930f9241e80b75b2b8ac91b82
+size 123

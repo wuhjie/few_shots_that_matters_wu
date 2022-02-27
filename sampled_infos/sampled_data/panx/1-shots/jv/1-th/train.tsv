@@ -1,22 +1,3 @@
-Jawa	B-LOC
-Wétan	I-LOC
--	O
-Surabaya	B-LOC
-
-49.035	O
-km²	O
---	O
-Slowakia	B-LOC
-
-Astro	B-ORG
-(	I-ORG
-TV	I-ORG
-satelit	I-ORG
-)	I-ORG
-
-Kasor	O
-PF	O
-vs	O
-Rafael	B-PER
-Nadal	I-PER
-[1]	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4d7382429dd7ef7f9047ea62f07173f87e8d5be710a656b6e37f658906add70
+size 182

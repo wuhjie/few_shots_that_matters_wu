@@ -1,26 +1,3 @@
-Административно-территориальное	B-LOC
-деление	I-LOC
-Архангельской	I-LOC
-области	I-LOC
-
-===	O
-Национальная	B-ORG
-футбольная	I-ORG
-конференция	I-ORG
-===	O
-
-Административный	O
-центр	O
-провинции	O
-—	O
-город	O
-Баколод	B-LOC
-.	O
-
-перенаправление	O
-Церемония	B-PER
-открытия	I-PER
-парламента	I-PER
-(	I-PER
-Великобритания	I-PER
-)	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:9237a9063c68e583872abb56dfc785c4c6e8a17ed8b257b37a60fe4cea0ff9ea
+size 517

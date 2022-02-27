@@ -1,15 +1,3 @@
-मुंबा	B-ORG
-देवी	I-ORG
-मंदिर	I-ORG
-
-गगनेन्द्रनाथ	B-PER
-ठाकुर	I-PER
-(	O
-१८६७-१९३८	O
-)	O
-
-डारविन	B-LOC
-पर्वत	I-LOC
-(	I-LOC
-ऐन्डीज़	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:75ddbf8f5472ec05a8d5bed49befb129e3ce4576a9f748d5cb1a63036573fa0a
+size 257

@@ -1,33 +1,3 @@
-Dalarna	B-LOC
-megye	I-LOC
-és	O
-Jämtland	B-LOC
-megye	I-LOC
-
-'	O
-''	O
-Széll	B-ORG
-Kálmán	I-ORG
-tér	I-ORG
-M	O
-''	O
-'végállomás	O
-
-—	O
-Felipe	B-PER
-Nasr	I-PER
-autója	O
-a	O
-kivezető	O
-körön	O
-váltóhiba	O
-miatt	O
-megállt	O
-,	O
-ezért	O
-nem	O
-tudott	O
-elrajtolni	O
-a	O
-futamon	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bb8a91b2e0d40421e12eb2f02edc921212ef35bccbd6b660291f380507613b1
+size 294

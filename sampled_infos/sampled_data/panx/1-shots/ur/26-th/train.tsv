@@ -1,16 +1,3 @@
-سرحد	O
-مع	O
-سوڈان	B-LOC
-,	O
-گامبیلا	B-LOC
-علاقہ	I-LOC
-
-رجوع_مکرر	O
-آئرین	B-PER
-جولیٹ	I-PER
-کیوری	I-PER
-
-رجوع_مکرر	O
-بینک	B-ORG
-آف	I-ORG
-خیبر	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf8fde43bcbac7c2b5f2fcb4aa1d97b3a9a5750fe5bb604ea0a8cf8cba3566d8
+size 211

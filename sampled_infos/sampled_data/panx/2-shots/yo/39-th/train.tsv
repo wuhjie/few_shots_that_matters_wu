@@ -1,32 +1,3 @@
-Àwọn	B-LOC
-Erékùṣù	I-LOC
-Fàróè	I-LOC
-
-Elena	B-PER
-Dementieva	I-PER
-''	O
-(	O
-Semifinals	O
-)	O
-
-(	O
-old	O
-)	O
-Ìpínlẹ̀	B-ORG
-Anámbra	I-ORG
-
-Yunifásítì	B-ORG
-ìlú	I-ORG
-Abùjá	I-ORG
-
-Getúlio	B-PER
-Vargas	I-PER
-(	O
-1st	O
-time	O
-)	O
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Girei	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbcc46c391a306c589f9623f110b1a1c799f9e365fdaa384b6950c894e82ff93
+size 312

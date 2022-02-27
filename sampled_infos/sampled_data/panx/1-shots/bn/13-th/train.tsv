@@ -1,15 +1,3 @@
-টিকি	B-LOC
-হাঁস	I-LOC
-(	O
-''Aythya	O
-fuligula	O
-''	O
-)	O
-
-ড্যাফোডিল	B-ORG
-ইন্টারন্যাশনাল	I-ORG
-ইউনিভার্সিটি	I-ORG
-
-জন	B-PER
-ল্য	I-PER
-কারে	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d660747ae313847005c799b4506671fe0f8b9eb7ced94ebb40c38e19a223e13
+size 249

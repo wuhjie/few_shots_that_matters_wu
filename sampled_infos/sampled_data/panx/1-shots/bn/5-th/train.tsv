@@ -1,20 +1,3 @@
-এভার্টন	B-ORG
-ফুটবল	I-ORG
-ক্লাব	I-ORG
-
-জাতীয়	B-LOC
-ক্রিকেট	I-LOC
-স্টেডিয়াম	I-LOC
-(	I-LOC
-গ্রেনাডা	I-LOC
-)	I-LOC
-
-এর	O
-সাবেক	O
-সদস্য	O
-জর্জ	B-PER
-মাইকেল।	I-PER
-
-জর্জ	B-PER
-গর্ডন	I-PER
-বায়রন	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2aaf9c332d225ecb7f6f20f84bd02ad7c5e7b70c4bd17c65f3e4491b05bb36e2
+size 370

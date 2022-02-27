@@ -1,34 +1,3 @@
-АЙДАУ	O
-Аман	B-PER
-Ғұмырұлы	I-PER
-Төлеев	I-PER
-
-Едірнедегі	O
-Селимие	B-ORG
-мешітінде	I-ORG
-жерленеді	O
-.	O
-
-АЙДАУ	O
-Юрий	B-PER
-Николаевич	I-PER
-Тынянов	I-PER
-
-Мюльдорф	B-LOC
-(	I-LOC
-Инн	I-LOC
-)	I-LOC
-ауданының	O
-құрамына	O
-енеді	O
-.	O
-
-АЙДАУ	O
-Батыс	B-ORG
-Түркі	I-ORG
-қағанаты	I-ORG
-
-Төменгі	B-LOC
-Рейн	I-LOC
-департаментінің	I-LOC
-коммуналары	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fd4505b8d479c3cfef584ce16778ab24ed33964e9f163185aa57c46ad20d68a
+size 526

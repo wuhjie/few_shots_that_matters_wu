@@ -1,35 +1,3 @@
-El	B-LOC
-Cantón	I-LOC
-de	I-LOC
-San	I-LOC
-Pablo	I-LOC
-
-'	O
-''	O
-Michael	B-PER
-Schumacher	I-PER
-''	O
-'	O
-
-LENCONG	O
-Terier	B-ORG
-biru	I-ORG
-Kerry	I-ORG
-
-LENCONG	O
-Anjing	B-ORG
-gembala	I-ORG
-Sweden	I-ORG
-
-'	O
-''	O
-Jarno	B-PER
-Trulli	I-PER
-''	O
-'	O
-
-Jawatankuasa	B-LOC
-pembangunan	I-LOC
-kampung	I-LOC
-di	I-LOC
-Nepal	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ee843e7d3cee26afd5290c3677b29313f4ab5d55ff8d95c7dff3e9b0cf22fec
+size 319

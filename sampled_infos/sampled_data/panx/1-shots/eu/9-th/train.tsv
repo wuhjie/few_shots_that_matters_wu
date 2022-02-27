@@ -1,32 +1,3 @@
-923	O
-urtean	O
-Hakozaki	B-ORG
-santutegia	I-ORG
-Dazaifutik	O
-Fukuokara	O
-ekarri	O
-zen	O
-.	O
-
-Euskal	B-LOC
-Herrian	I-LOC
-ETB3an	B-PER
-aireratu	O
-ohi	O
-da	O
-.	O
-
-Pertsonaia	O
-garrantzitsuek	O
-zeukaten	O
-,	O
-Julio	B-PER
-Zesarrek	I-PER
-,	O
-Marko	B-PER
-Antoniok	I-PER
-edo	O
-Augustok	B-PER
-besteak	O
-beste	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1072eab894e7cbef050d7d3868b2b85822fbcda5d0807f5a4781d7d2d7426580
+size 305

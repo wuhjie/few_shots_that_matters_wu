@@ -1,34 +1,3 @@
-Grâce	O
-à	O
-l'entremise	O
-des	O
-Étoliens	B-ORG
-,	O
-un	O
-accord	O
-est	O
-signé	O
-.	O
-
-REDIRECTION	O
-Patriarcat	B-LOC
-de	I-LOC
-Lisbonne	I-LOC
-
-Time	B-ORG
-Warner	I-ORG
-Cable	I-ORG
-Arena19	I-ORG
-145	O
-
-'	O
-''	O
-Bill	B-PER
-Lipinski	I-PER
-(	O
-D	O
-)	O
-100.00	O
-%	O
-'	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:57874898c69b8ff076c7fbe24b167bee2f7db16fdcd18d29cc26d1e975bed879
+size 270

@@ -1,30 +1,3 @@
-لم	O
-يلبث	O
-طويلاً	O
-حتى	O
-تم	O
-قتله	O
-من	O
-قِبل	O
-فيصل	B-PER
-بن	I-PER
-تركي	I-PER
-انتقاماً	O
-لوالده	O
-.	O
-
-هانغر	B-ORG
-لين	I-ORG
-(	I-ORG
-محطة	I-ORG
-مترو	I-ORG
-أنفاق	I-ORG
-لندن	I-ORG
-)	I-ORG
-
-McNairy	O
-مقاطعة	B-LOC
-تشيستر	I-LOC
-(	I-LOC
-تينيسي	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e4667eb5b28cc775b3f2ab363dfd3b278daf2a07dc59951c8f9bb8b4408d438
+size 350

@@ -1,18 +1,3 @@
-Đại	B-LOC
-Vũ	I-LOC
-(	O
-大武鄉	O
-)	O
-
-Danh	B-ORG
-sách	I-ORG
-vua	I-ORG
-Triều	I-ORG
-Tiên	I-ORG
-
-'	O
-''	O
-Julianne	B-PER
-Moore	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:43703fda49f8abaa8ec3fdf95f652173133131b058aac6e73f9ed5f2d6c44457
+size 149

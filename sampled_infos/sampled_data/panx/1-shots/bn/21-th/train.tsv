@@ -1,14 +1,3 @@
-লেন্ডল	B-PER
-সিমন্স	I-PER
-(	O
-আঘাতপ্রাপ্ত	O
-)	O
-
-এক্সপ্রেশন	B-ORG
-(	I-ORG
-গণিত	I-ORG
-)	I-ORG
-
-ইথাকা	B-LOC
-,	I-LOC
-নিউইয়র্ক	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d9860061e622b2d27ee2ad8f62ca5d0ecf67141eafe6a5e13fffe88bf2fdd73
+size 232

@@ -1,22 +1,3 @@
-===	O
-Lugares	B-LOC
-designados	I-LOC
-por	I-LOC
-el	I-LOC
-censo	I-LOC
-===	O
-
-Estadio	B-ORG
-Råsunda	I-ORG
-,	O
-Solna	B-LOC
-,	O
-Suecia	B-LOC
-
-REDIRECCIÓN	O
-Lilo	B-PER
-&	I-PER
-Stitch	I-PER
-:	I-PER
-The	I-PER
-Series	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc9781e920acf99487ab1a5b3c089b09e5aa6b6e99245c3d89fae1cf9c06249f
+size 216

@@ -1,25 +1,3 @@
-2011-2012	O
-yıllarında	O
-Brezilya	B-ORG
-A	I-ORG
-Millî	I-ORG
-Takımı	I-ORG
-kadrosunda	O
-yer	O
-almış	O
-fakat	O
-forma	O
-giymemiştir	O
-.	O
-
-Sefe	B-LOC
-değişeni	I-LOC
-(	O
-DCEP	O
-)	O
-
-Andrés	B-PER
-Fleurquin	I-PER
-–	O
-Galatasaray	B-ORG
-2001–02	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b09a1f4094870e1acaa143613a3aba13c11a07907c47b11c5e0f63354ab407d0
+size 253

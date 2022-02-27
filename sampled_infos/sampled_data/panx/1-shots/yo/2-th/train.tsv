@@ -1,18 +1,3 @@
-Pápá	B-ORG
-Eréìdárayá	I-ORG
-Royal	I-ORG
-Bafokeng	I-ORG
-
-Aláṣẹ	B-LOC
-Ìjọba	I-LOC
-Orílẹ̀-èdè	I-LOC
-Palẹstínì	I-LOC
-
-Martina	B-PER
-Hingis	I-PER
-''	O
-(	O
-Third	O
-Round	O
-)	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:89dcd2096c4b2fc744ac429613373e3b222dc18506ce92092598fe82578f930e
+size 199

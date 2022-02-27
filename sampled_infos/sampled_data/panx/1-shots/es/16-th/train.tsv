@@ -1,21 +1,3 @@
-Salto	B-ORG
-Uruguay	I-ORG
-Fútbol	I-ORG
-Club	I-ORG
-
-**	O
-Condado	B-LOC
-de	I-LOC
-Newton	I-LOC
-(	I-LOC
-IN	I-LOC
-)	I-LOC
-(	O
-50.600	O
-habitantes	O
-)	O
-
-Louis	B-PER
-Ducos	I-PER
-du	I-PER
-Hauron	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e80466de07072e9400cb392d21f811f0fcfa0a5562166e15810da05810bde81
+size 195

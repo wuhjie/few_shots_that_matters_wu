@@ -1,18 +1,3 @@
-জাপান	B-ORG
-জাতীয়	I-ORG
-ফুটবল	I-ORG
-দল	I-ORG
-
-এবিএম	B-PER
-মহিউদ্দীন	I-PER
-চৌধুরী	I-PER
-
-এই	O
-ইউনিয়নটি	O
-চট্টগ্রাম	B-LOC
-বিভাগের	I-LOC
-কুমিল্লা	B-LOC
-জেলার	I-LOC
-চৌদ্দগ্রাম	B-LOC
-উপজেলার	I-LOC
-অন্তর্গত।	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc02e1a2c1f7bd770f2dcfde061bea2714c342e490fe7c245b373029ca3bae7c
+size 414

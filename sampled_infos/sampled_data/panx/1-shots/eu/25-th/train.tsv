@@ -1,25 +1,3 @@
-Txinako	B-ORG
-Herri	I-ORG
-Errepublikako	I-ORG
-metroen	I-ORG
-zerrenda	I-ORG
-
-BIRZUZENDU	O
-Amerikar	B-LOC
-ahate	I-LOC
-txistulari	I-LOC
-
-'	O
-''	O
-Laufersweiler	O
-''	O
-'	O
-Alemaniako	B-LOC
-udalerria	O
-da	O
-.	O
-
-BIRZUZENDU	O
-Ana	B-PER
-Britainia	I-PER
-Handikoa	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:09cb16a808dde98681e12db33e619b80478ddb553db5a3c5eda7e43951c688c9
+size 261

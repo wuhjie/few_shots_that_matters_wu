@@ -1,33 +1,3 @@
-Msimbo	B-LOC
-wa	I-LOC
-posta	I-LOC
-ni	O
-33314	O
-.	O
-
-Chuo	B-ORG
-Kikuu	I-ORG
-cha	I-ORG
-Göttingen	I-ORG
-
-``	O
-Tricky	B-ORG
-,	I-ORG
-Tricky	B-ORG
-''	O
-
-Wilaya	B-LOC
-ya	I-LOC
-Dabou	I-LOC
-
-Alimfuata	O
-baba	O
-yake	O
-,	O
-Marcus	B-PER
-Aurelius	I-PER
-.	O
-
-Enzo	B-PER
-G.	I-PER
-Castellari	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fcf60cb245ad31f927ccbd8031c7d19e67bbe6eaacdd2ccdbc823278916dd76
+size 283

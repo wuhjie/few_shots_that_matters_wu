@@ -1,32 +1,3 @@
-رجوع_مکرر	O
-مسئلۂ	B-ORG
-فیثا	I-ORG
-غورث	I-ORG
-
-رجوع_مکرر	O
-جمرانی	B-ORG
-واہ	I-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
-
-رجوع_مکرر	O
-کرک	B-PER
-پیٹرک	I-PER
-میکملن	I-PER
-
-رجوع_مکرر	O
-لنکن	B-LOC
-کاؤنٹی،	I-LOC
-نیبراسکا	I-LOC
-
-رجوع_مکرر	O
-چیساگو	B-LOC
-کاؤنٹی،	I-LOC
-مینیسوٹا	I-LOC
-
-رجوع_مکرر	O
-سید	B-PER
-عطاء	I-PER
-اللہ	I-PER
-شاہ	I-PER
-بخاری	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d37f4dcacc2916f8de7be3d15df37230e9c1cd9e1908cfea1fdab073c3ecc57
+size 484

@@ -1,21 +1,3 @@
-मेरे	B-ORG
-रंग	I-ORG
-में	I-ORG
-रंगने	I-ORG
-वाली	I-ORG
-
-ए	B-PER
-के	I-PER
-हंगल	I-PER
--	O
-पुजारी	O
-
-इस्लामाबाद	B-LOC
-(	I-LOC
-ईरान	I-LOC
-)	I-LOC
-
-पेरू	B-LOC
-(	O
-1967	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddf0dc976e397ae9a85b6cadba153180e2871d61c5ef24b09247e5498ef92630
+size 268

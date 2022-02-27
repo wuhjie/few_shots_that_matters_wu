@@ -1,21 +1,3 @@
-Pierre	B-PER
-Le	I-PER
-Moyne	I-PER
-d'Iberville	I-PER
-.	O
-
-REDIRECCIÓN	O
-Repúblicas	B-LOC
-de	I-LOC
-la	I-LOC
-Unión	I-LOC
-Soviética	I-LOC
-
-REDIRECCIÓN	O
-Up	B-ORG
-(	I-ORG
-álbum	I-ORG
-de	I-ORG
-R.E.M	I-ORG
-.	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:33c66c9d96006db6eff9f884d5abb825e526e1abbabdc01ba41b4d9164f7b9b3
+size 221

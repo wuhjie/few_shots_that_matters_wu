@@ -1,30 +1,3 @@
-đổi	O
-Sáo	B-LOC
-vàng	I-LOC
-kim	I-LOC
-
-Minhyuk	B-ORG
-(	O
-BTOB	B-ORG
-)	O
-
-Người	O
-tạm	O
-thời	O
-kế	O
-nhiệm	O
-ông	O
-là	O
-Heo	B-PER
-Jeong	I-PER
-với	O
-quyền	O
-Tổng	O
-thống	O
-.	O
-
-``	O
-Dear	B-ORG
-Future	I-ORG
-Husband	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:59b1f9ead25b0f9a3ff10da972b092e6cf3de7bbe33b44ebbc567782847de43d
+size 247

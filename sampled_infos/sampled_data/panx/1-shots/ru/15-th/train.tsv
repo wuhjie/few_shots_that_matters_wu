@@ -1,25 +1,3 @@
-Также	O
-,	O
-в	O
-стране	O
-действуют	O
-Новоапостольская	B-ORG
-церковь	I-ORG
-(	O
-480	O
-тыс	O
-.	O
-
-Критский	B-LOC
-карликовый	I-LOC
-бегемот	I-LOC
-
-Профиль	O
-в	O
-соцсети	O
-Instagram	B-ORG
-''	O
-
-Моррисон	B-PER
-,	I-PER
-Алан	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:717a4ce46c4c0aa3f3ebf73aa16bee580efbe56d20942424d2dfbe720402fc7c
+size 321

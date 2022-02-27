@@ -1,34 +1,3 @@
-გადამისამართება	O
-ნიუ-იორკის	B-ORG
-სააქციო	I-ORG
-ბირჟა	I-ORG
-
-ასევე	O
-ქალაქ	O
-გდინიასთან	B-LOC
-მას	O
-ჰქონდა	O
-ბალტიის	B-LOC
-ზღვაზე	I-LOC
-მცირე	O
-გასასვლელი	O
-.	O
-
-ფილმში	O
-მთავარ	O
-როლებს	O
-ასრულებენ	O
-მარტინ	B-PER
-ფრიმენი	I-PER
-(	O
-ბილბო	B-PER
-ბეგინსი	I-PER
-)	O
-და	O
-რიჩარდ	B-PER
-არმიტიჯი	I-PER
-(	O
-თორინ	B-PER
-მუხისფარი	I-PER
-)	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d500913c60c577b1a577c14da828ab7e4be4642f6dbb5e7e5d8408fc703a902
+size 686

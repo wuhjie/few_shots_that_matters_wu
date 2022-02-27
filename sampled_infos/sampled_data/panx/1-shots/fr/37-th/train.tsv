@@ -1,17 +1,3 @@
-''	O
-Charmed	B-ORG
-''	O
-(	O
-Piper	B-PER
-Halliwell	I-PER
-)	O
-
-Alcalá	B-LOC
-de	I-LOC
-Guadaíra	I-LOC
-
-Lancers	B-ORG
-d'Omaha	I-ORG
-(	O
-USHL	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfe92fee32e8c06ad0592e8edc1716db8462e24fa53de5ca9fc58829372809de
+size 144

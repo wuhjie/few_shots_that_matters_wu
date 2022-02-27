@@ -1,25 +1,3 @@
-'	O
-''	O
-Ronaldo	B-PER
-''	O
-'	O
-
-Turki	B-LOC
-(	O
-laladan	O
-Anatolia	B-LOC
-)	O
-
-2006	B-ORG
--	O
-''Ora	O
-lolos	O
-''	O
-
-'	O
-''	O
-Rafael	B-PER
-Nadal	I-PER
-[1]	O
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4577de2f991b219887665a7d40fb7a3b53512105e4928f00bc6c99107e726227
+size 165

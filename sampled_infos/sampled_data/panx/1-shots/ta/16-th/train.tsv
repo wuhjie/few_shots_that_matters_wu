@@ -1,18 +1,3 @@
-**	O
-டென்	B-LOC
-ஹாக்	I-LOC
-(	O
-தூதரகம்	O
-)	O
-
-மேலைச்	B-ORG
-சாளுக்கியர்	I-ORG
-973	O
-–	O
-1189	O
-
-வழிமாற்று	O
-அப்துல்	B-PER
-காதர்	I-PER
-சாகுல்	I-PER
-அமீட்	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa3efb0849f8ddf8b8c93fd0478721b7146ac5899c80fbec85ddfa67f8905c54
+size 288

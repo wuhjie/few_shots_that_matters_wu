@@ -1,34 +1,3 @@
-**	O
-William	B-PER
-Holden	I-PER
-–	O
-''Sunset	O
-Boulevard	O
-''	O
-
-As	O
-sulks	O
-word	O
-hy	O
-as	O
-die	O
-primêre	O
-gesaghebber	O
-in	O
-Formule	B-ORG
-Een	I-ORG
-beskou	O
-.	O
-
-**	O
-Noordelike	B-LOC
-Mariana-eilande	I-LOC
-(	O
-via	O
-die	O
-wetlike	O
-stelsel	O
-van	O
-die	O
-VS	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bc7c23a4083d54eaf3ea3bf348e3338a93f0f8863c87990c749b26e96ac2c18
+size 272

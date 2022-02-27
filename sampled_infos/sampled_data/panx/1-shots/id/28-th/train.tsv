@@ -1,33 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Eure	I-LOC
-
-Dikarenakan	O
-jumlah	O
-yang	O
-tidak	O
-sepadan	O
-akhirnya	O
-banyak	O
-jatuh	O
-korban	O
-dipihak	O
-Raden	B-PER
-Ayu	I-PER
-Retno	I-PER
-Kencono	I-PER
-termasuk	O
-sang	O
-suami	O
-sendiri	O
-yaitu	O
-Sultan	B-PER
-Hadirin	I-PER
-.	O
-
-ALIH	O
-Korps	B-ORG
-Pasukan	I-ORG
-Khas	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:60c44b08e4d7d8d6a150be0e70236854960b0725c83777e2580a62fb4d3fdef8
+size 321

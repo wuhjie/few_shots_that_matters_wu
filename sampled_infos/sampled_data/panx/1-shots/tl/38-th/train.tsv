@@ -1,14 +1,3 @@
-Brad	B-PER
-Garrett	I-PER
--	O
-Lobo	B-PER
-
-Karuizawa	B-LOC
-,	I-LOC
-Nagano	I-LOC
-
-Pamantasan	B-ORG
-ng	I-ORG
-Lungsod	I-ORG
-ng	I-ORG
-Kalookan	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb8ea731787799edac19cf4e263a6f90b6b8902ae114586d3834da1cca888b84
+size 143

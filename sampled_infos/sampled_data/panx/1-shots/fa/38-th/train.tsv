@@ -1,20 +1,3 @@
-تغییرمسیر	O
-مجله	B-ORG
-انجمن	I-ORG
-پرستاران	I-ORG
-بهداشت	I-ORG
-حرفه‌ای	I-ORG
-آمریکا	I-ORG
-
-تغییرمسیر	O
-دیوید	B-PER
-فراست	I-PER
-(	I-PER
-مجری	I-PER
-)	I-PER
-
-تغییر_مسیر	O
-حسین‌آباد	B-LOC
-(	I-LOC
-رودسر	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed5eeed2c8e8f662223349d6717ed463af865a8435a16936f57f3ae0f2e6c476
+size 305

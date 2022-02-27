@@ -1,24 +1,3 @@
-Поддържали	O
-са	O
-Гвелфите	B-ORG
-и	I-ORG
-гибелините	I-ORG
-.	O
-
-Романо-бритите	O
-са	O
-оглавени	O
-от	O
-Константин	B-PER
-III	I-PER
-.	O
-
-Разпространен	O
-е	O
-в	O
-Испания	B-LOC
-(	O
-Канарски	B-LOC
-острови	I-LOC
-)	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f0029165b5924f889905aeca2db8414f7cb8d415ffaf0f43f52f765b1427361
+size 315

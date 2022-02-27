@@ -1,35 +1,3 @@
-تحويل	O
-ماري	B-PER
-وورتلي	I-PER
-مونتاغيو	I-PER
-
-تحويل	O
-راويل	B-PER
-عين	I-PER
-الدين	I-PER
-
-تحويل	O
-مندن	B-LOC
-(	I-LOC
-إلينوي	I-LOC
-)	I-LOC
-
-تحويل	O
-وينكونن	B-LOC
-(	I-LOC
-ويسكونسن	I-LOC
-)	I-LOC
-
-وهو	O
-عضو	O
-في	O
-الحزب	B-ORG
-الجمهوري	I-ORG
-الديمقراطي	I-ORG
-.	O
-
-تحويل	O
-لينكون	B-ORG
-(	I-ORG
-سيارة	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:6011bdf923cc831dbcdf542e67d7838dbb55d59569d781f7f17a88d7610d8d37
+size 432

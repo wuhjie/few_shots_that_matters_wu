@@ -1,30 +1,3 @@
-**	O
-John	B-PER
-Mahoney	I-PER
--	O
-Frasier	B-ORG
-''	O
-
-Milt	B-PER
-Schmidt	I-PER
-,	O
-Boston	B-ORG
-Bruins	I-ORG
-
-Redirecionamento	O
-Ratangarh	B-LOC
-(	I-LOC
-Neemuch	I-LOC
-)	I-LOC
-
-Região	B-ORG
-administrativa	I-ORG
-especial	I-ORG
-
-Está	O
-ameaçada	O
-por	O
-perda	B-LOC
-de	I-LOC
-habitat	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:88031c1691bba3d72ec20850ec109713c225883b6af5feef818866de482f4393
+size 292

@@ -1,27 +1,3 @@
-Thurston	B-PER
-Moore	I-PER
-,	O
-Sonic	B-ORG
-Youth	I-ORG
-
-REDIRECIONAMENTO	O
-My	B-ORG
-World	I-ORG
-2.0	I-ORG
-
-Redirecionamento	O
-Alessandro	B-PER
-Del	I-PER
-Mar	I-PER
-
-REDIRECIONAMENTO	O
-Idade	B-LOC
-de	I-LOC
-ouro	I-LOC
-do	I-LOC
-alpinismo	I-LOC
-
-Condado	B-LOC
-de	I-LOC
-Palo	I-LOC
-Pinto	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac825be4cca6f3dde74c96b615d3e80b6a734252ecec2efcbdacfb478373b09a
+size 287

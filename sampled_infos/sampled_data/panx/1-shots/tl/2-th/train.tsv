@@ -1,18 +1,3 @@
-Lungsod	B-LOC
-ng	I-LOC
-Tochigi	I-LOC
-
-Samurai	B-ORG
-Harem	I-ORG
-:	I-ORG
-Asu	I-ORG
-no	I-ORG
-Yoichi	I-ORG
-''	O
-
-'	O
-''	O
-Gian	B-PER
-Magdangal	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f600cd2063f9861dad78456ef9e499c41156ff17007e1ded5b518428ed28e2a5
+size 155

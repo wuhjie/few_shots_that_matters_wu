@@ -1,33 +1,3 @@
-Кастилия	B-LOC
-және	I-LOC
-Леон	I-LOC
-автономды	O
-бірлестігіне	O
-қарасты	O
-Саламанка	B-LOC
-провинциясының	O
-құрамына	O
-кіреді	O
-.	O
-
-АЙДАУ	O
-FDJ	B-ORG
-(	I-ORG
-велокоманда	I-ORG
-)	I-ORG
-
-'	O
-''	O
-Франсуа	B-PER
-Олланд	I-PER
-''	O
-'	O
-
-Оларды	O
-журналистерден	O
-басқа	O
-Пентагон	B-ORG
-да	O
-сатып	O
-алды	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:c95d100e71669cab5a67d98ee9b42d870ae121abcfadc64bf843c2649b9e9acb
+size 458

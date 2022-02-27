@@ -1,18 +1,3 @@
-تغییرمسیر	O
-گستون	B-PER
-۳	I-PER
-دو	I-PER
-فوآ-بئارن	I-PER
-
-تغییرمسیر	O
-قرقاول	B-LOC
-شاخ‌دار	I-LOC
-بلایث	I-LOC
-
-日本代表	O
-試合別出場記録	O
-منتشرشده	O
-توسط	O
-فدراسیون	B-ORG
-فوتبال	I-ORG
-ژاپن	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:d726e83078212fc93ae4de026226ab06795e437c17143eb2a0df6aac22cffdbe
+size 289

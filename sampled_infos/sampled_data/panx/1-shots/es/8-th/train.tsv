@@ -1,20 +1,3 @@
-Tony	B-PER
-Sirico	I-PER
-como	O
-Paulie	B-PER
-Gualtieri	I-PER
-.	O
-
-''	O
-Black	B-ORG
-Capricorn	I-ORG
-Day	I-ORG
-''	O
--	O
-05:41	O
-
-Ciudad	B-LOC
-de	I-LOC
-México	I-LOC
-(	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:63c5713b5cc8a6e7ae5cd6e783f8a21e145c22d09b9433620e61ade51722c9eb
+size 170

@@ -1,36 +1,3 @@
-Chuo	B-ORG
-Kikuu	I-ORG
-cha	I-ORG
-Oxford	I-ORG
-
-Mji	B-LOC
-mkuu	I-LOC
-ni	O
-Matsue	B-LOC
-(	O
-松江市	O
-)	O
-.	O
-
-'	O
-''	O
-Australia	B-LOC
-''	O
-'	O
-
-Kanisa	B-ORG
-la	I-ORG
-Kilatini	I-ORG
-
-Agostino	B-PER
-wa	I-PER
-Hippo	I-PER
-
-James	B-PER
-A.	I-PER
-Garfield	I-PER
-
-WF	O
-Wallis	B-LOC
-na	I-LOC
-Futuna	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:3737ca3827ee2625226c5cb437860dc0294060c44d24811f5a50e84a47461dd0
+size 298

@@ -1,21 +1,3 @@
-Pedro	B-PER
-Mesía	I-PER
-de	I-PER
-la	I-PER
-Cerda	I-PER
-
-'	O
-''	O
-Pieve	B-LOC
-Emanuele	I-LOC
-''	O
-'	O
-,	O
-Italia	B-LOC
-
-'	O
-''	O
-Athletic	B-ORG
-Club	I-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f03b4d0d7a67be7737eb1648951cf91d88aecae45d55891766be69e6f7f96d1a
+size 163

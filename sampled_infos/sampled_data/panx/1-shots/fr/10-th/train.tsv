@@ -1,22 +1,3 @@
-Il	O
-avait	O
-auparavant	O
-publié	O
-les	O
-''Écrits	O
-''	O
-Erik	B-PER
-Satie	I-PER
-.	O
-
-Liste	B-LOC
-des	I-LOC
-communes	I-LOC
-du	I-LOC
-Puy-de-Dôme	I-LOC
-
-**	O
-''	O
-Goodbye	B-ORG
-Stranger	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d593fe987777ab334085ad54219620ef9b3ad1d526dcd691e14782e5566bc3d
+size 197

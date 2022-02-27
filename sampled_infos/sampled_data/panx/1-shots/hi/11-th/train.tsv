@@ -1,17 +1,3 @@
-अण्डमान	B-LOC
-और	I-LOC
-निकोबार	I-LOC
-द्वीपसमूह	I-LOC
-''	O
-
-अनुप्रेषित	O
-रासायनिक	B-ORG
-हथियार	I-ORG
-निषेध	I-ORG
-संगठन	I-ORG
-
-शाहिद	B-PER
-कपूर	I-PER
-,	O
-जेनेलिया	B-PER
-डिसूज़ा	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:f39289412e43027e0b354297b7f0cb0ae1dfd15268cce492c71851bbf54c98d3
+size 347

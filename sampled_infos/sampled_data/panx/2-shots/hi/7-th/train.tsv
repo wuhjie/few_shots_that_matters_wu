@@ -1,32 +1,3 @@
-लातिनी	B-LOC
-अमरीका	I-LOC
-के	O
-अन्य	O
-देश	O
-
-अण्डमान	B-LOC
-और	I-LOC
-निकोबार	I-LOC
-द्वीपसमूह	I-LOC
-
-जॉन	B-PER
-फोर्ब्स	I-PER
-नैश	I-PER
-जूनियर	I-PER
-
-मंगल	B-PER
-पांडे	I-PER
-(	I-PER
-क्रांतिकारी	I-PER
-)	I-PER
-
-सूचना	B-ORG
-और	I-ORG
-प्रसारण	I-ORG
-मंत्रालय	I-ORG
-
-पुनर्प्रेषित	O
-द	B-ORG
-टाइम्स	I-ORG
-ऑफ़	I-ORG
-इण्डिया	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d1bfdc8613979ea3b0c2c0fb9be9ceafe2727a84e96da026a5e24c7ba0f5616
+size 588

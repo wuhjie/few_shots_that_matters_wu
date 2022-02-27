@@ -1,31 +1,3 @@
-رجوع_مکرر	O
-فیصل	B-PER
-بن	I-PER
-حسین	I-PER
-
-رجوع_مکرر	O
-مائیکولا،	B-LOC
-ٹوری	I-LOC
-پریش	I-LOC
-
-امیر	B-PER
-عبداللہ	I-PER
-خان	I-PER
-نیازی	I-PER
-
-رجوع_مکرر	O
-فائیٹ	B-LOC
-کاؤنٹی،	I-LOC
-آئیووا	I-LOC
-
-رجوع_مکرر	O
-علی	B-ORG
-بن	I-ORG
-حمزہ	I-ORG
-کسائی	I-ORG
-کوفی	I-ORG
-
-رجوع_مکرر	O
-بلوچستان	B-ORG
-لبریشن	I-ORG
-آرمی	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e47aa2dc0fb47ed572cc6cdc5982729f6098345c37196f2fe33eea70b9d0a83
+size 452

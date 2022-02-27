@@ -1,22 +1,3 @@
-야지마	B-PER
-아키코	I-PER
-(	O
-짱구	O
-역	O
-)	O
-,	O
-AKB48	B-ORG
-
-와카야마	B-LOC
-시	I-LOC
-(	O
-和歌山市	O
-)	O
-
-'	O
-''	O
-13	O
-''	O
-'	O
-콜론	B-ORG
-산타페	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b51059751684ee69d54ddfc6b36bcf121e7adf5304db9be0277d52395e5c51e0
+size 177

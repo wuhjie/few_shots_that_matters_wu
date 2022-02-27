@@ -1,32 +1,3 @@
-ခင်ခင်လေး၊	B-PER
-(	I-PER
-ဒဂုန်	I-PER
-)	I-PER
-
-ပြည်သူ့ကျန်းမာရေးတက္ကသိုလ်	B-ORG
-(	I-ORG
-ရန်ကုန်	I-ORG
-)	I-ORG
-
-(	O
-၁	O
-)	O
-ထားဝယ်မြို့	B-LOC
-
-**ချက်ပြည်နယ်	O
-လွတ်လပ်ရေးရရှိခြင်းနေ့	O
-(	O
-ချက်သမ္မတနိုင်ငံ	B-LOC
-)	O
-
-:	O
-ရွှေမြန်မာ	B-ORG
-လေကြောင်းလိုင်း	I-ORG
-
-ဘကြီးတော်	B-PER
-(	I-PER
-စစ်ကိုင်းမင်း	I-PER
-)	I-PER
-၏	I-PER
-မိဖုရားခေါင်	O
-နန်းမတော်မယ်နု	B-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f90477a41343d601a0709d8935a07714f98bc6be6f96f3063e51a0ac4a49a74
+size 720

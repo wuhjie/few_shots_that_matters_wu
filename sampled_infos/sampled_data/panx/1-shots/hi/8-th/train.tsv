@@ -1,18 +1,3 @@
-अनुप्रेषित	O
-जलदापाड़ा	B-LOC
-राष्ट्रीय	I-LOC
-उद्यान	I-LOC
-
-उत्तराखण्ड	B-ORG
-के	I-ORG
-मुख्यमन्त्रियों	I-ORG
-की	I-ORG
-सूची	I-ORG
-
-तैलप	B-PER
-२	I-PER
-(	O
-973	O
--	O
-997	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c00690ab58bfba2140980ad8174c0dcca36dfeda953d6b03ddea1af0f8e0710
+size 315

@@ -1,17 +1,3 @@
-La	B-LOC
-Cañada	I-LOC
-Flintridge	I-LOC
-,	I-LOC
-California	I-LOC
-
-Reli	B-ORG
-ya	I-ORG
-Tanganyika	I-ORG
-
-Previously	O
-Omar	B-PER
-Bongo	I-PER
-;	O
-amekuwa	O
-akiwa	O
-madarakani	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:292fa59d9960cf019cb7e2e89a9350a3094cee880652b9d4e2e3bdcdc94b3454
+size 175

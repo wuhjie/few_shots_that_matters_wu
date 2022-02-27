@@ -1,16 +1,3 @@
-దారిమార్పు	O
-నరసరావుపేట	B-ORG
-లోకసభ	I-ORG
-నియోజకవర్గం	I-ORG
-
-(	O
-రూట్	B-LOC
-కిట్	I-LOC
-చూడండి	O
-)	O
-.	O
-
-దారిమార్పు	O
-కోడి	B-PER
-రామ్మూర్తి	I-PER
-నాయుడు	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:a382a98b4cd2dc44ebf17d5247d7b9a969301a45449912afeb093fae39cad891
+size 319

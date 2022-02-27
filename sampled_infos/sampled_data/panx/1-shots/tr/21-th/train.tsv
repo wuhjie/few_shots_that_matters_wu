@@ -1,18 +1,3 @@
-KV	B-ORG
-Mechelen'e	I-ORG
-evsahipliği	O
-yapar	O
-.	O
-
-'	O
-''	O
-Meryl	B-PER
-Streep	I-PER
-''	O
-'	O
-''	O
-
-YÖNLENDİRME	O
-Gelinözü	B-LOC
-,	I-LOC
-Mudurnu	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:49f90216be0d2a5b30226a4d63fedfe6e865d1c9e026db04ae29913358579a70
+size 158

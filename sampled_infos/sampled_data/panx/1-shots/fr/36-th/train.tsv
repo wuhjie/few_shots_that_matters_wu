@@ -1,20 +1,3 @@
-Dune	B-ORG
-(	I-ORG
-groupe	I-ORG
-)	I-ORG
-
-Michel	B-PER
-Félix	I-PER
-Dunal	I-PER
-(	O
-1789-1856	O
-)	O
-
-**	O
-dans	O
-les	O
-Pays	B-LOC
-de	I-LOC
-la	I-LOC
-Loire	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a084a56280f5e6d1d0f389bde419162cdc2b1daf4a7c62a222f62da8d9e9d492
+size 163

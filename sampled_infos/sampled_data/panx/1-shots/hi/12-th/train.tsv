@@ -1,19 +1,3 @@
-इन्दिरा	B-ORG
-गांधी	I-ORG
-राष्ट्रीय	I-ORG
-मुक्त	I-ORG
-विश्‍वविद्यालय	I-ORG
-
-मुंबई	B-LOC
-उपनगरीय	I-LOC
-जिला	I-LOC
-
-'	O
-''	O
-शिलांग	B-LOC
-''	O
-'	O
-
-चेस्टर	B-PER
-ऐलन	I-PER
-आर्थर	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c61f04590a434af37143d7a0b49db15a7b094ffaaf552dd465baffee40b93b9
+size 333

@@ -1,17 +1,3 @@
-Belfast	B-LOC
-,	O
-Irlande	B-LOC
-du	I-LOC
-Nord	I-LOC
-
-Championnat	B-ORG
-du	I-ORG
-Lesotho	I-ORG
-de	I-ORG
-football	I-ORG
-
-Laurent	B-PER
-Sciarra	I-PER
-(	O
-Paris	B-ORG
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d796d5a6288110cd157973517a9cdd10ee45be5f5111a5094a1deb9b3e21d0b
+size 167

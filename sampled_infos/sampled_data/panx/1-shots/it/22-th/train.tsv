@@ -1,25 +1,3 @@
-Rosario	B-PER
-Livatino	I-PER
-(	O
-1952-1990	O
-)	O
-,	O
-magistrato	O
-,	O
-assassinato	O
-dalla	O
-Stidda	B-ORG
-;	O
-
-===	O
-Distretto	B-LOC
-Federale	I-LOC
-Meridionale	I-LOC
-===	O
-
-Niru-ye	B-ORG
-Havayi-ye	I-ORG
-Artesh-e	I-ORG
-Jomhuri-ye	I-ORG
-Eslami-e	I-ORG
-Iran	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:75534560f423489dbcbb451fe3e480961b6802a3bb4de0edc23aafd111b1abc8
+size 260

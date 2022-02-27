@@ -1,29 +1,3 @@
-ALIH	O
-David	B-PER
-Murphy	I-PER
-(	I-PER
-pemain	I-PER
-sepak	I-PER
-bola	I-PER
-)	I-PER
-
-Bus-bus	O
-ini	O
-jurusannya	O
-di	O
-antaranya	O
-rute-rute	O
-ke	O
-Cirebon	B-LOC
-,	O
-Jawa	B-LOC
-Tengah	I-LOC
-dan	O
-Jawa	B-LOC
-Timur	I-LOC
-.	O
-
-ALIH	O
-Universitas	B-ORG
-Nasional	I-ORG
-Seoul	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:92c5fac2f4d0273e3e81fbddb4a40ae1308660da8f8bde4daec6fa4a64fe722f
+size 276

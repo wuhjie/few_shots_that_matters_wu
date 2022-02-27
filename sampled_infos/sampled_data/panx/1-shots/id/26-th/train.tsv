@@ -1,21 +1,3 @@
-September	O
-Ceria]]	O
-''	O
-(	O
-Vina	B-PER
-Panduwinata	I-PER
-)	O
-
-ALIH	O
-MUFG	B-ORG
-Union	I-ORG
-Bank	I-ORG
-,	I-ORG
-N.A	I-ORG
-.	I-ORG
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Haute-Loire	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:abf151b89f906b10833bbce0ea347ac24392be27164fe654751e9040cbde5c05
+size 197

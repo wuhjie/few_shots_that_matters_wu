@@ -1,22 +1,3 @@
-넘겨주기	O
-뉴펀들랜드	B-LOC
-래브라도	I-LOC
-주	I-LOC
-
-It	B-ORG
-Wo	I-ORG
-n't	I-ORG
-Be	I-ORG
-Soon	I-ORG
-Before	I-ORG
-Long	I-ORG
-''	O
-디럭스반에	O
-수록되어있다	O
-.	O
-
-시나가와	B-PER
-야지로	I-PER
-(	O
-品川弥二郎	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2eefc3cd5a9287554815a7177ae6ff9976f70d6e0d0ed59cdd29b2de2de74826
+size 249

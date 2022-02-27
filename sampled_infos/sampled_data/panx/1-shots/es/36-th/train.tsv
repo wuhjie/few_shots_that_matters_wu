@@ -1,21 +1,3 @@
-**	O
-'	O
-''	O
-Clarksville	B-LOC
-''	O
-'	O
-,	O
-en	O
-Nuevo	B-LOC
-Hampshire	I-LOC
-.	O
-
-Johann	B-PER
-Müller	I-PER
-Regiomontano	I-PER
-
-Museo	B-ORG
-Field	I-ORG
-de	I-ORG
-Historia	I-ORG
-Natural	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:2544eb78a33ef704a18362c06ae4baa06a2c09470741086ff386117c67c3f698
+size 192

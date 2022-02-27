@@ -1,25 +1,3 @@
-'	O
-''	O
-Andrus	B-PER
-Veerpalu	I-PER
-''	O
-'	O
-
-Tema	O
-tähtsamad	O
-lisajõed	O
-on	O
-Pandži	B-LOC
-jõgi	I-LOC
-ja	O
-Vahši	B-LOC
-jõgi	I-LOC
-.	O
-
-''	O
-How	B-ORG
-to	I-ORG
-Touch	I-ORG
-a	I-ORG
-Girl	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ebb5c9589a57973b410e2a4c818245ad69874f8dbb203bbdb4adb55a5f5a0ba
+size 205

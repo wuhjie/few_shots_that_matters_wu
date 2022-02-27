@@ -1,20 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Ariège	I-LOC
-
-Sila	O
-pergi	O
-ke	O
-Il	B-ORG
-Divo	I-ORG
-untuk	O
-maklumat	O
-lanjut	O
-.	O
-
-Tengku	B-PER
-Yahya	I-PER
-Petra	I-PER
-Sultan	I-PER
-Ibrahim	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4d44abef74714cbec4fa41065af276c536daf400034757fb2375fe20cdc86d3
+size 187

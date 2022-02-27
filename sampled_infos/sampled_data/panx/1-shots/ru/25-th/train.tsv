@@ -1,20 +1,3 @@
-Non	B-ORG
-Zero	I-ORG
-Sumness	I-ORG
-,	O
-музыкальный	O
-альбом	O
-группы	O
-Planet	B-ORG
-Funk	I-ORG
-.	O
-
-Ампква	B-LOC
-(	I-LOC
-река	I-LOC
-)	I-LOC
-
-Григорьев	B-PER
-,	I-PER
-Александр	I-PER
-Андреевич	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d20a7915f6bea9ce73e02076336f489c39c7788b0fde2d85a20d6fe366e542fa
+size 257

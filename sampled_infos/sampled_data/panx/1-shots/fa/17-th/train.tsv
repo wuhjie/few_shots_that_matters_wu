@@ -1,15 +1,3 @@
-تغییرمسیر	O
-شهرستان	B-LOC
-مودی،	I-LOC
-داکوتای	I-LOC
-جنوبی	I-LOC
-
-تغییرمسیر	O
-جاده	B-ORG
-ئی۶۷	I-ORG
-اروپا	I-ORG
-
-تغییرمسیر	O
-دنیل	B-PER
-فرانک	I-PER
-والس	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d90bad5beafeef5fc77d4814ad25cdf960f10acc5d1ae2345eaf50b9a00a757d
+size 235

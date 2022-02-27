@@ -1,17 +1,3 @@
-Nigel	B-PER
-Farage	I-PER
-(	O
-Royaume-Uni	B-LOC
-)	O
-
-Argenteuil	B-LOC
-(	I-LOC
-circonscription	I-LOC
-provinciale	I-LOC
-)	I-LOC
-
-Association	B-ORG
-des	I-ORG
-constructeurs	I-ORG
-européens	I-ORG
-d'automobiles	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:cea1e047af6be69355141c6a6a379eb5776c4422b725a9c4e49af95db4a728c8
+size 211

@@ -1,14 +1,3 @@
-ইছাপুর	B-LOC
-প্রতিরক্ষা	I-LOC
-এস্টেট	I-LOC
-
-'	O
-''	O
-শোয়েব	B-PER
-মালিক	I-PER
-''	O
-'	O
-
-১৯৪৪	B-ORG
-শীতকালীন	I-ORG
-অলিম্পিক	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e8465da8e30a0dd07e225a00097b837c6385cd398d4a688f9521cc9b536506f
+size 235

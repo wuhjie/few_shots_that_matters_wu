@@ -1,31 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Meurthe-et-Moselle	I-LOC
-
-''	O
-El	B-LOC
-Salvador	I-LOC
-''	O
-'	O
--	O
-
-ALIH	O
-Barisone	B-PER
-III	I-PER
-dari	I-PER
-Torres	I-PER
-
-Kim	B-PER
-Ryeowook	I-PER
-(	O
-Super	B-ORG
-Junior	I-ORG
-)	O
-
-ALIH	O
-Daftar	B-ORG
-Presiden	I-ORG
-Republik	I-ORG
-Tiongkok	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:076eb0589327cf0ed16d0306f701c9d874ab6804f532a419b50f4adfb39d4d93
+size 296

@@ -1,18 +1,3 @@
-*25px	O
-'	O
-''	O
-ကူဝိတ်နိုင်ငံ	B-LOC
-''	O
-'	O
-
-ချားလ်	B-PER
-ဂျော့ရှ်	I-PER
-ဂေါ်ဒင်	I-PER
-
-ပြည်နယ်နှင့်	B-ORG
-တိုင်းဒေသကြီး	I-ORG
-အလိုက်	O
-တည်ရှိသော	O
-မြို့များစာရင်းမှာ	O
-အောက်ပါ	O
-အတိုင်းဖြစ်သည်။	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:56fc93cfe1d32357c010afeb579c0b78657ffe4e94ede9b7b62b1dfe656f0cce
+size 427

@@ -1,34 +1,3 @@
-पुनर्प्रेषित	O
-कॉमेडी	B-ORG
-नाइट्स	I-ORG
-विद्	I-ORG
-कपिल	I-ORG
-
-लियेटन	B-PER
-हेविट	I-PER
-ने	O
-पीट	B-PER
-सेमप्रास	I-PER
-को	O
-76	O
-(	O
-4	O
-)	O
-61	O
-61	O
-से	O
-हराया।	O
-
-वैशाली	B-LOC
-,	O
-बिहार	B-LOC
-का	O
-एक	O
-प्रखण्ड।	O
-
-पुनर्प्रेषित	O
-बिलासपुर	B-LOC
-जिला	I-LOC
-(	I-LOC
-छत्तीसगढ़	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a86345dc9a88584bccffbf3cef578bc7791888c35b38adf7683f7884b04d73ff
+size 534

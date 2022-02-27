@@ -1,36 +1,3 @@
-تغییر_مسیر	O
-فرانچسکو	B-PER
-دی	I-PER
-جورجو	I-PER
-
-تغییرمسیر	O
-پرسیوال	B-PER
-میتلند	I-PER
-لورنس	I-PER
-
-تغییرمسیر	O
-باشگاه	B-ORG
-فوتبال	I-ORG
-آ.	I-ORG
-ث	I-ORG
-میلان	I-ORG
-در	I-ORG
-اروپا	I-ORG
-
-تغییرمسیر	O
-ده	B-LOC
-مورد	I-LOC
-علیا	I-LOC
-
-تغییرمسیر	O
-پائس	B-LOC
-(	I-LOC
-کائوکا	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-جاده	B-ORG
-۹۳	I-ORG
-(	I-ORG
-ایران	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:963b0e584180174e73cb42db578e125c04cb1f213e7bf976542c409d99049238
+size 492

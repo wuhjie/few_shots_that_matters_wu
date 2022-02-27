@@ -1,25 +1,3 @@
-Partai	B-ORG
-Keadilan	I-ORG
-dan	I-ORG
-Persatuan	I-ORG
-Indonesia	I-ORG
-
-Selain	O
-itu	O
-,	O
-ia	O
-juga	O
-dikenal	O
-sebagai	O
-guru	O
-dari	O
-Zeno	B-PER
-dari	I-PER
-Citium	I-PER
-.	O
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Ardennes	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:12ce7b15d15025a783e59235ff4ec142d10bad7876bbc69b8aa7378afdb7ee2e
+size 237

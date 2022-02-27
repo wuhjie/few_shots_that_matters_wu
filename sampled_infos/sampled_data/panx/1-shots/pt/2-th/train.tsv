@@ -1,21 +1,3 @@
-Estádio	B-ORG
-Nagai	I-ORG
-,	O
-Osaka	B-LOC
-,	O
-Japão	B-LOC
-
-REDIRECIONAMENTO	O
-Henry	B-PER
-Paget	I-PER
-,	I-PER
-1.º	I-PER
-Marquês	I-PER
-de	I-PER
-Anglesey	I-PER
-
-REDIRECIONAMENTO	O
-Médéa	B-LOC
-(	I-LOC
-província	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e7c217452cdfb231d1d230d67f59bb098a125db2ac33f4918a14b053018e7d9
+size 229

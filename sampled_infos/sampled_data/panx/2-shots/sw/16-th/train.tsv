@@ -1,36 +1,3 @@
-Surinam	B-LOC
-(	I-LOC
-mto	I-LOC
-)	I-LOC
-
-'	O
-''	O
-Australia	B-LOC
-''	O
-'	O
-
-Wilaya	B-ORG
-ya	I-ORG
-Katiola	I-ORG
-
-Alifuatwa	O
-na	O
-Mohamed	B-PER
-Boudiaf	I-PER
-.	O
-
-Cecil	B-PER
-of	I-PER
-Chelwood	I-PER
-
-Wilaya	B-LOC
-ya	I-LOC
-Mwingi	I-LOC
-(	O
-Mwingi	B-LOC
-)	O
-==	O
-
-Kanisa	B-ORG
-la	I-ORG
-Moravian	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:443a8603839d0a50f77298dbd91276ddb111f06102e922dee785f4d97cce2e21
+size 299

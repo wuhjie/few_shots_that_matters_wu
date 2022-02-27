@@ -1,29 +1,3 @@
-Атлантикалық	B-LOC
-Пиреней	I-LOC
-департаментінің	I-LOC
-коммуналары	I-LOC
-
-Волфганг	B-PER
-Амадей	I-PER
-Моцарт	I-PER
-
-'	O
-''	O
-SVT	B-ORG
-''	O
-'	O
-''	O
-
-С.Сейфуллиннің	B-PER
-``	O
-Бір	O
-акынның	O
-сандырағы	O
-''	O
-
-АЙДАУ	O
-Бельгия	B-ORG
-Ұлттық	I-ORG
-футбол	I-ORG
-құрама	I-ORG
-командасы	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac91df6f76b0a7641c1e97869d0d47c743e454dd94664ece9ce9bd8d093aec47
+size 423

@@ -1,17 +1,3 @@
-Soort	O
-Kinixys	B-LOC
-lobatsiana	I-LOC
-''	O
-
-'	O
-''	O
-FC	B-ORG
-Volendam	I-ORG
-''	O
-'	O
-
-Marco	B-PER
-Pantani	I-PER
-(	O
-Ita	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:9062392664976613f2ea488f5fa16ee7e7e93aed049a3ad2d8c12c24c3ec9c33
+size 128

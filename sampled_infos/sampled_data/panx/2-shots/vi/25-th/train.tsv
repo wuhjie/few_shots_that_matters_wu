@@ -1,36 +1,3 @@
-**	O
-Hildegard	B-PER
-Goss-Mayr	I-PER
-,	O
-Áo	B-LOC
-
-Phân	B-LOC
-cấp	I-LOC
-hành	I-LOC
-chính	I-LOC
-Bắc	I-LOC
-Triều	I-LOC
-Tiên	I-LOC
-
-Villanueva	B-LOC
-de	I-LOC
-los	I-LOC
-Castillejos	I-LOC
-,	I-LOC
-Huelva2.720	I-LOC
-
-Kyrgyzstan	B-ORG
-Airlines	I-ORG
-(	O
-14	O
-)	O
-
-Lady	B-PER
-Gaga	I-PER
--	O
-``	O
-Dance	B-ORG
-in	I-ORG
-the	I-ORG
-Dark	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bf4aaa97d279ef72b1bccdbf7cf706353d1169d2c863d3383245fba8a258296
+size 345

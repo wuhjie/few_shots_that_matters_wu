@@ -1,26 +1,3 @@
-تحويل	O
-جامعة	B-ORG
-غرب	I-ORG
-باريس	I-ORG
-نانتير	I-ORG
-لاديفونس	I-ORG
-
-وخلفه	O
-على	O
-عرشه	O
-ابنه	O
-نصير	B-PER
-الدين	I-PER
-همايون	I-PER
-.	O
-
-تحويل	O
-أرملة	B-LOC
-سوداء	I-LOC
-قمية	I-LOC
-
-الوالد	O
-فلسطيني	B-ORG
-من	O
-رامين	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:51d9ee81afd45e9cd36a0ef51bb49b5fe97836f8f1fd4c532157aad6844180f8
+size 330

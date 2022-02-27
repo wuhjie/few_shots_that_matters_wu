@@ -1,30 +1,3 @@
-ডব্লিউ	B-PER
-অ্যান্ড্রু	I-PER
-রবিনসন	I-PER
-
-দুলাল	B-PER
-দত্ত	I-PER
--	O
-সম্পাদক	O
-
-হার্ড	B-ORG
-ডিস্ক	I-ORG
-ড্রাইভ	I-ORG
-
-ভারতের	B-ORG
-কমিউনিস্ট	I-ORG
-পার্টি	I-ORG
-(	I-ORG
-মার্ক্সবাদী	I-ORG
-)	I-ORG
-
-সংযুক্ত	B-LOC
-আরব	I-LOC
-আমিরাত	I-LOC
-
-এই	O
-মাযহাবের	O
-বিস্তার	O
-সৌদি	B-LOC
-আরবে	I-LOC
-সীমাবদ্ধ।	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3b57597921dc6c0591753d2624cdd533fe3b4d18ff0ac4f719f617e5b6007b6
+size 567

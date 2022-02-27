@@ -1,18 +1,3 @@
-Arno	B-PER
-Allan	I-PER
-Penzias	I-PER
-
-Diğer	O
-takım	O
-Göztepe	B-ORG
-SK'dir	I-ORG
-.	O
-
-YÖNLENDİRME	O
-Clarence	B-LOC
-Adası	I-LOC
-(	I-LOC
-Güney	I-LOC
-Shetland	I-LOC
-Adaları	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:36dd82c618f3f45d1d474e8fa6940699d39ce48baad2391ab2139ec60054db43
+size 192

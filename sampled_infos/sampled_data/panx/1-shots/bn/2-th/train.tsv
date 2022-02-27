@@ -1,15 +1,3 @@
-বায়ার্ন	B-ORG
-মিউনিখ	I-ORG
-(	O
-জার্মানি	B-LOC
-)	O
-
-গৌতম	B-LOC
-বুদ্ধ	I-LOC
-নগর	I-LOC
-জেলা	I-LOC
-
-ছালেকুর	B-PER
-রহমান	I-PER
-রাহে	I-PER
-ভান্ডারী	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dbc272b45bfca1dfa493be730397bad58eaa79056235c7a0d39284cc6ef59df
+size 273

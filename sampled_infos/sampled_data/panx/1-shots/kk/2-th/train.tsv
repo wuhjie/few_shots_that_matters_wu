@@ -1,29 +1,3 @@
-Атлантикалық	B-LOC
-Пиреней	I-LOC
-департаментінің	I-LOC
-коммуналары	I-LOC
-
-АЙДАУ	O
-Порту	B-ORG
-(	I-ORG
-футбол	I-ORG
-клубы	I-ORG
-)	I-ORG
-
-Марк	B-PER
-Цукерберг	I-PER
-өз	O
-идеясының	O
-атауын	O
-''Facebook	O
-''	O
-деп	O
-қоюы	O
-,	O
-жоғары	O
-сыныптардағы	O
-оқу	O
-жылдарына	O
-байналанысты	O
-болды	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:177eaf3c254e0a882b559db8078035d26efe600e3338db59c1cf884b00d90bdd
+size 443

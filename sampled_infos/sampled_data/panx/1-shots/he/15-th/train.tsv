@@ -1,18 +1,3 @@
-הפניה	O
-לוי	B-PER
-יצחק	I-PER
-מברדיצ'ב	I-PER
-
-הפניה	O
-הארמייה	B-ORG
-ה-51	I-ORG
-(	I-ORG
-ברית	I-ORG
-המועצות	I-ORG
-)	I-ORG
-
-הפניה	O
-גפן	B-LOC
-(	I-LOC
-מושב	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:512eba0b55054d47d763c6dce552d5b10dc24d22545223b1e01bfa7ff5ea8073
+size 220

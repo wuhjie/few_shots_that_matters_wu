@@ -1,17 +1,3 @@
-Irlanda	B-LOC
-(	I-LOC
-pulo	I-LOC
-)	I-LOC
-
-Siya	O
-ang	O
-ama	O
-ni	O
-Ramesses	B-PER
-II	I-PER
-.	O
-
-Talampakan	B-ORG
-(	I-ORG
-yunit	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fba304f6441117346fdf32e8b74b47b42df18ce30ea40818088fa648b5330d9
+size 140

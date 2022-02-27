@@ -1,25 +1,3 @@
-Radio	B-ORG
-Televisyen	I-ORG
-Malaysia	I-ORG
--	O
-Malaysia	B-LOC
-
-Dewa	B-PER
-Pacekan	I-PER
-(	O
-1642–1650	O
-;	O
-posisi	O
-tidak	O
-jelas	O
-)	O
-[anak	O
-Dalem	O
-Di	O
-Made]	O
-
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Lozère	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f93eca88c1a9813113e76adbbbf7875c0c06abdc3b5d58f2b24a2f04800a3d3a
+size 230

@@ -1,30 +1,3 @@
-(	O
-ဎ	O
-)	O
-ဧရာဝတီတိုင်းဒေသကြီး	B-LOC
-
-သန်းရွှေ၊	B-PER
-(	I-PER
-ဗိုလ်ချုပ်မှူးကြီး	I-PER
-)	I-PER
-
-နိုကီယာ	B-ORG
-(	I-ORG
-ကုမ္ပဏီ	I-ORG
-)	I-ORG
-
-အမျိုးသား	B-ORG
-ဒီမိုကရေစီ	I-ORG
-အဖွဲ့ချုပ်	I-ORG
-
-ဘရာဇီးနိုင်ငံ	B-LOC
--	O
-မြောက်ပိုင်းနှင့်	O
-အရှေ့မြောက်ပိုင်း	O
-ပြည်နယ်များ	O
-
-မြင့်၊	B-PER
-ဦး	I-PER
-(	I-PER
-ဒေါက်တာ	I-PER
-)	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a6cc57f0f9e35c206592f8580cd22f49d57ea01bcd69830093caaf5309a783c
+size 650

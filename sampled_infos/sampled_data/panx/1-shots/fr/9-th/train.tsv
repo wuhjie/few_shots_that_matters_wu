@@ -1,18 +1,3 @@
-Liste	B-LOC
-des	I-LOC
-communes	I-LOC
-de	I-LOC
-la	I-LOC
-Sarthe	I-LOC
-
-RC	B-ORG
-Massy	I-ORG
-Essonne	I-ORG
-2013-2015	O
-
-'	O
-''	O
-Bode	B-PER
-Miller	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d494dcb9bd0fe4bcfeaf4a770a52e66b6764a0fe9903fcc327b33d46e73c8cfe
+size 159

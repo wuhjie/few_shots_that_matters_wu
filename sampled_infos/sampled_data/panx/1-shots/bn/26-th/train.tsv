@@ -1,16 +1,3 @@
-•	O
-অ্যান্ড্রু	B-PER
-হল	I-PER
-কট	O
-উপুল	B-PER
-থারাঙ্গা	I-PER
-
-ম্যানচেস্টার	B-ORG
-ইউনাইটেড	I-ORG
-ফুটবল	I-ORG
-ক্লাব	I-ORG
-
-আরি	B-LOC
-(	I-LOC
-তুরস্ক	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ec9da37778d2ec4309ad7e1ee5a589eff1d274afcc0ea7849f580c1970ffa9f
+size 292

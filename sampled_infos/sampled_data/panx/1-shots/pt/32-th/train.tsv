@@ -1,28 +1,3 @@
-Nesse	O
-local	O
-,	O
-o	O
-próprio	O
-Monteiro	B-PER
-Lobato	I-PER
-frequentava	O
-e	O
-contava	O
-histórias	O
-para	O
-as	O
-crianças	O
-.	O
-
-Filme	O
-gravado	O
-na	O
-África	B-LOC
-do	I-LOC
-Sul	I-LOC
-
-The	B-ORG
-Fabulous	I-ORG
-Johnny	I-ORG
-Cash	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b5a72713ead930c2456293780d013e77b8c84f8a6100b67f01f14cb4692b897
+size 244

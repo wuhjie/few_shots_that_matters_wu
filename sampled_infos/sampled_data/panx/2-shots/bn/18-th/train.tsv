@@ -1,35 +1,3 @@
-অ্যাভাটর	B-ORG
-:	I-ORG
-দ্য	I-ORG
-লাস্ট	I-ORG
-এয়ারবেন্ডার	I-ORG
-
-জর্জ	B-PER
-এফ	I-PER
-স্মুট	I-PER
-
-জর্জ	B-PER
-কিংস্‌লি	I-PER
-জিফ	I-PER
-
-মুক্ত	B-ORG
-সফটওয়্যার	I-ORG
-আন্দোলন	I-ORG
-
-আলোর	B-LOC
-গতিবেগ	I-LOC
-প্রায়	O
-২৯৯.৭৯২	O
-মেগা.মি	O
-.	O
-
-কলকাতা	B-LOC
-(	O
-উদয়াচল	O
-,	O
-সল্টলেক	O
-)	O
-,	O
-কলকাতা	B-LOC
-জেলা	I-LOC
-[মহানগর]	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c5854d0614810f52490af7a8d988dbda7a79e0df2d6accd6a7c63d57ae455c5
+size 601

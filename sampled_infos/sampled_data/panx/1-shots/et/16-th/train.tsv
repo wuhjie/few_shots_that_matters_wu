@@ -1,18 +1,3 @@
-Saare	B-LOC
-(	I-LOC
-Noarootsi	I-LOC
-)	I-LOC
-
-*Piibeleht	O
-(	O
-Eduard	B-PER
-Vilde	I-PER
-„Pisuhänd“	O
-)	O
-4	O
-.	O
-
-suuna	O
-Barney	B-ORG
-ja	I-ORG
-sõbrad	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:0edd728d9be6791af315a1546657b0577907d7a916ac7a3b6660ccca4bac010a
+size 162

@@ -1,15 +1,3 @@
-رجوع_مکرر	O
-جیکسن	B-LOC
-ٹاؤنشپ،	I-LOC
-کاسس	I-LOC
-کاؤنٹی،	I-LOC
-انڈیانا	I-LOC
-
-رجوع_مکرر	O
-اندس	B-ORG
-لنیاس	I-ORG
-ایریاس	I-ORG
-
-محمد	B-PER
-علی	I-PER
-جناح	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:15ef0b552dfa53f31c5c59878ad136a3ee9c51310ab5561185f15ea2f0549435
+size 231

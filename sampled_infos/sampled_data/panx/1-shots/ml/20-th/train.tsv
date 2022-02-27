@@ -1,29 +1,3 @@
-വേലൂർ	B-LOC
-,	I-LOC
-തൃശ്ശൂർ	I-LOC
-
-ഗവർണർ	O
-ജനറലിന്റെ	O
-സർജനായി	O
-ജോലി	O
-നോക്കി	O
-കുറച്ചു	O
-നാൾ	O
-കഴിഞ്ഞ്	O
-അദ്ദേഹം	O
-ലണ്ടനിലേക്ക്	B-LOC
-തിരിച്ചു	O
-പോയി	O
-.	O
-
-തിരിച്ചുവിടുക	O
-രംഭ	B-PER
-(	I-PER
-നടി	I-PER
-)	I-PER
-
-തിരിച്ചുവിടുക	O
-കൊച്ചിൻ	B-ORG
-ശാസ്ത്ര	I-ORG
-സാങ്കേതിക	I-ORG
-സർവ്വകലാശാല	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d2a8aded669e95ecf839fd8f96e07fd196bd8b6a695d584aae8651d4d68d126
+size 604

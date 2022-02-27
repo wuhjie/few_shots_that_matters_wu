@@ -1,27 +1,3 @@
-'	O
-''	O
-1	O
-)	O
-'	O
-''	O
-το	O
-Ευρωπαϊκό	B-ORG
-Κοινοβούλιο	I-ORG
-
-Σεμπαστιάνο	B-PER
-ντελ	I-PER
-Πιόμπο	I-PER
-(	O
-Sebastiano	O
-del	O
-Piombo	O
-)	O
-(	O
-περ	O
-.	O
-
-ΑΝΑΚΑΤΕΥΘΥΝΣΗ	O
-Φρανκφούρτη	B-LOC
-(	I-LOC
-Όντερ	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:aeae7022ce29d9e38ebbec53609be7b79b45837b9f0d120c418f34ebeacc1ec8
+size 296

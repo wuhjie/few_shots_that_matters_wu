@@ -1,15 +1,3 @@
-تغییرمسیر	O
-جاده	B-ORG
-ئی۵۱۱	I-ORG
-اروپا	I-ORG
-
-تغییرمسیر	O
-نجف‌آباد	B-LOC
-(	I-LOC
-لارستان	I-LOC
-)	I-LOC
-
-تغییر_مسیر	O
-ادمون	B-PER
-دو	I-PER
-گنکور	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdec49a4553740a1cf477091320cad3942effdb0cb5e4f0a03afc8b8f2243160
+size 221

@@ -1,34 +1,3 @@
-Ìwo	B-LOC
-Orí	I-LOC
-ilẹ̀	I-LOC
-Áfríkà	I-LOC
-
-Ladoke	B-ORG
-Akintola	I-ORG
-University	I-ORG
-of	I-ORG
-Technology	I-ORG
-''Ogbomoso	O
-''	O
-
-Louis	B-PER
-11k	I-PER
-ilẹ̀	I-PER
-Fránsì	I-PER
-
-Orin-ìyìn	B-ORG
-Orílẹ̀-èdè	I-ORG
-Ìsọ̀kan	I-ORG
-Sófìẹ̀tì	I-ORG
-
-Getúlio	B-PER
-Vargas	I-PER
-(	O
-1st	O
-time	O
-)	O
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Girei	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:35e1a1a18bdfbc8d93d102868f988d8abf95026f2c9a39ca4f071c1e5517d885
+size 387

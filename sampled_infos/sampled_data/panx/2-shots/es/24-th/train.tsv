@@ -1,31 +1,3 @@
-La	B-LOC
-Chapelle-Montbrandeix	I-LOC
-(	O
-87037	O
-)	O
-
-Torre	B-ORG
-Iberdrola	I-ORG
-(	O
-arquitecto	O
-César	B-PER
-Pelli	I-PER
-)	O
-.	O
-
-Santiago	B-LOC
-de	I-LOC
-Chile	I-LOC
-(	O
-)	O
-
-Real	B-ORG
-Murcia	I-ORG
-Club	I-ORG
-de	I-ORG
-Fútbol	I-ORG
-
-Pedro	B-PER
-I	I-PER
-de	I-PER
-Castilla	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:66b015046cb055b45210cbf3020823f30d2e2be748f5d7e8614818d373d54c08
+size 281

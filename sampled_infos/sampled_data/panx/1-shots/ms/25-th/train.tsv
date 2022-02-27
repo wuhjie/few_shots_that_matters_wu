@@ -1,16 +1,3 @@
-Bos	B-PER
-(	I-PER
-permainan	I-PER
-video	I-PER
-)	I-PER
-
-赤いフリージア	O
-(	O
-Akai	B-ORG
-Freesia	I-ORG
-)	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Charente-Maritime	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd9836bfb7c76d8100a5aa0a2df9558aba0f83038f4873f1d847e030db558a15
+size 172

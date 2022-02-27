@@ -1,15 +1,3 @@
-Martin	B-PER
-Luther	I-PER
-King	I-PER
-,	I-PER
-Jr	I-PER
-.	I-PER
-
-'	O
-''	O
-Jayanagara	B-PER
-''	O
-'	O
-(	O
-1309-1328	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8dbaaee5161d0ec7e5b4c2a90d29d26daf9605610a857e02b26a2836299d0fe
+size 118

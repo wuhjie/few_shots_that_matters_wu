@@ -1,22 +1,3 @@
-``	O
-Think	B-ORG
-for	I-ORG
-a	I-ORG
-Minute	I-ORG
-''	O
-
-``	O
-The	B-LOC
-Queen	I-LOC
-and	I-LOC
-I	I-LOC
-''	O
-—	O
-3:15	O
-
-Michael	B-PER
-Jackson	I-PER
-—	O
-``	O
-Thriller	B-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:2dfb31bf4ef505d12bd355800810bc6b27e18ac51bd90a0a8f3991a167ada9f1
+size 177

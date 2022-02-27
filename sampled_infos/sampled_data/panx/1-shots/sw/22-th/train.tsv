@@ -1,15 +1,3 @@
-Lambo	B-ORG
-la	I-ORG
-Aswan	I-ORG
-
-Arusha	B-LOC
-(	I-LOC
-mji	I-LOC
-)	I-LOC
-
-Bruce	B-PER
-Willis	I-PER
-kacheza	O
-kama	O
-Dk	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e88988ed0d067798c1f4fd44089eb346c752093997bcf798b9f3b8f31695db8
+size 125

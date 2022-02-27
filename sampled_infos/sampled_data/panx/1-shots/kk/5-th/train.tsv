@@ -1,19 +1,3 @@
-Жеңісті	O
-серия	O
-Реал	B-ORG
-Мадридке	I-ORG
-1:0	O
-есебімен	O
-жеңілісінен	O
-кейін	O
-аяқталды	O
-.	O
-
-Барыс	B-LOC
-(	I-LOC
-жануар	I-LOC
-)	I-LOC
-
-Шоқан	B-PER
-Шыңғысұлы	I-PER
-Уәлиханов	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a548983119cbb05c72bec6f31d3f40d243891c2f7fe863183a8b4e193cbc9ba
+size 275

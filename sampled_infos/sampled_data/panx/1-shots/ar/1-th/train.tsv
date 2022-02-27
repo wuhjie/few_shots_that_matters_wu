@@ -1,24 +1,3 @@
-بيل	B-PER
-تالبرت	I-PER
-''	O
-(	O
-النهائي	O
-)	O
-''	O
-
-تحويل	O
-بوكلاند	B-LOC
-(	I-LOC
-أوهايو	I-LOC
-)	I-LOC
-
-**الرئيس	O
-–	O
-إمام	B-ORG
-علي	I-ORG
-رحمن،	I-ORG
-رئيس	B-ORG
-طاجيكستان	I-ORG
-(	O
-1992–حالياً	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:951895b40c8af5a9b8672b9752a4e94b630124036bba340440e9a5a650974670
+size 276

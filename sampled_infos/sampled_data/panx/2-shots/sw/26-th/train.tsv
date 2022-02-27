@@ -1,35 +1,3 @@
-Wilaya	B-ORG
-ya	I-ORG
-Mankono	I-ORG
-
-'	O
-''	O
-Sahle	B-PER
-Dengel	I-PER
-''	O
-'	O
-
-Simu	O
-hizi	O
-mbili	O
-zinafanana	O
-na	O
-Nokia	B-PER
-1100	I-PER
-.	O
-
-Machansela	B-LOC
-wa	I-LOC
-Ujerumani	I-LOC
-
-Zauditu	B-ORG
-wa	I-ORG
-Ethiopia	I-ORG
-
-'	O
-''	O
-Wilaya	B-LOC
-ya	I-LOC
-Rachuonyo	I-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:294d1aaf5cfb77bf3cfda70afa58c6732e55febbc044b288cc64a4023a96cb10
+size 287

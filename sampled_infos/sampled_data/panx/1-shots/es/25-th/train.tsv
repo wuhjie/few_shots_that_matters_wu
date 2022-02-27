@@ -1,27 +1,3 @@
-Abadía	B-ORG
-de	I-ORG
-Solesmes	I-ORG
-
-Dibujo	O
-atribuido	O
-a	O
-Leonardo	B-PER
-Alenza	I-PER
-en	O
-''Los	O
-Españoles	O
-pintados	O
-por	O
-sí	O
-mismos	O
-''	O
-(	O
-1843-4	O
-)	O
-.	O
-
-REDIRECCIÓN	O
-Roxas	B-LOC
-(	I-LOC
-Palawan	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:98e1d86dcf2a59126182b35ebea15ceb8cf22d97700ffa30e68936a3aa98fbe9
+size 234

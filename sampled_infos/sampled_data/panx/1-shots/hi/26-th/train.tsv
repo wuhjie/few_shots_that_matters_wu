@@ -1,15 +1,3 @@
-उपरी	B-LOC
-दिबांग	I-LOC
-घाटी	I-LOC
-जिला	I-LOC
-
-शाहरुख़	B-PER
-ख़ान	I-PER
-,	O
-सुचित्रा	B-PER
-कृष्णमूर्ति	I-PER
-
-अक्षरधाम	B-ORG
-मंदिर	I-ORG
-,	I-ORG
-दिल्ली	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1443eb86665c1f99bb25ce15ec6a3c821da7b8fe53b7d4e408580ada2a5bfef
+size 292

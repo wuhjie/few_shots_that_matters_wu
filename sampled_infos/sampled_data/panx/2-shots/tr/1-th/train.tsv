@@ -1,28 +1,3 @@
-Scarlett	B-PER
-Johansson	I-PER
-ve	O
-Joaquin	B-PER
-Phoenix	I-PER
-
-YÖNLENDİRME	O
-2004-05	B-LOC
-FA	I-LOC
-Premier	I-LOC
-League	I-LOC
-
-YÖNLENDİRME	O
-Türk	B-ORG
-Hava	I-ORG
-Yolları	I-ORG
-
-YÖNLENDİRME	O
-Groß-Rosen	B-LOC
-Toplama	I-LOC
-Kampı	I-LOC
-
-**	O
-Shawn	B-PER
-Bradley	I-PER
-,	O
-Philadelphia	B-ORG
-76ers	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:993fc90321df18590549881e41d463aeac989760b1d1d29e720cf146f925393f
+size 315

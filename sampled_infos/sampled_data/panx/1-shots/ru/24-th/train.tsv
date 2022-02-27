@@ -1,36 +1,3 @@
-•	O
-'	O
-''	O
-Industrial	B-ORG
-Light	I-ORG
-&	I-ORG
-Magic	I-ORG
-''	O
-'	O
-
-группируются	O
-в	O
-Адмиралтействе	B-ORG
-,	O
-откуда	O
-впоследствии	O
-вынуждены	O
-отступить	O
-под	O
-угрозой	O
-обстрела	O
-артиллерией	O
-Петропавловской	B-LOC
-крепости	I-LOC
-.	O
-
-'	O
-''	O
-Эмелек	B-ORG
-''	O
-'	O
-
-перенаправление	O
-Ауре	B-PER
-,	I-PER
-Мюриэль	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d484b0c05e252be64877ee3ab1930e5fa52b3605c9eafe0f45c581602a234f8
+size 479

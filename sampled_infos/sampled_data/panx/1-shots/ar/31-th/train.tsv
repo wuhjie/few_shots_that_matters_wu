@@ -1,15 +1,3 @@
-محمد	B-PER
-سعيد	I-PER
-رمضان	I-PER
-البوطي	I-PER
-
-ليموج	B-ORG
-سي	I-ORG
-إس	I-ORG
-بي	I-ORG
-
-تحويل	O
-إينديانولا	B-LOC
-(	I-LOC
-إلينوي	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:15e8452e06f103ec1b33fd5f4f4016e21efeef2e9a86e0856e52b1edab96b5e3
+size 193

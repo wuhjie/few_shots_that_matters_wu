@@ -1,15 +1,3 @@
-Konstantino	B-PER
-XI	I-PER
-Paleologus	I-PER
-
-'	O
-''	O
-Oklahoma	B-ORG
-City	I-ORG
-Thunder	I-ORG
-''	O
-'	O
-
-Bulubundukin	B-LOC
-ng	I-LOC
-Zagros	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:78573ac7af6ba0c3e573318677305a2365b1b6d895f010088a115ecde0e30eb3
+size 145

@@ -1,31 +1,3 @@
-Қазақстанның	B-ORG
-құрама	I-ORG
-командасының	I-ORG
-ойыншысы	O
-.	O
-
-АЙДАУ	O
-Шон	B-PER
-Марк	I-PER
-Бин	I-PER
-
-'	O
-''	O
-Копыриха	O
-''	O
-'	O
-—	O
-Ресейдегі	B-LOC
-өзен	O
-.	O
-
-Қарағанды	B-LOC
-облысы	I-LOC
-Қарсақбай	B-LOC
-кентінің	O
-солтүстік-батысында	O
-10	O
-км	O
-жерде	O
-орналасқан	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:31501e33b7cbe52d3e80886f7bde9b0e1b4282cfbed747a71e18533507088847
+size 424

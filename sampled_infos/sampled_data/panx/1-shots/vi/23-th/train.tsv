@@ -1,18 +1,3 @@
-Thủy	B-ORG
-quân	I-ORG
-Lục	I-ORG
-chiến	I-ORG
-Hoa	I-ORG
-Kỳ	I-ORG
-
-'	O
-''	O
-'	O
-''	O
-Aishwarya	B-PER
-Rai	I-PER
-
-đổi	O
-Bờ	B-LOC
-Biển	I-LOC
-Ngà	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:54d1c752d43d60e46cbe72419e91820ca2791ed5ba033c2e416087f07a0ab8ef
+size 162

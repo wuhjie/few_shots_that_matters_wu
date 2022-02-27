@@ -1,17 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Meurthe-et-Moselle	I-LOC
-
-'	O
-''	O
-Fernando	B-PER
-Alonso	I-PER
-''	O
-'	O
-
-Kelayakan	B-ORG
-Piala	I-ORG
-Dunia	I-ORG
-FIFA	I-ORG
-1974	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6fba4e5a46952c7997bff653f35fa8d81aca107fd92fbfc4e7ccedbddceb84b
+size 170

@@ -1,31 +1,3 @@
-Papa	B-PER
-Pio	I-PER
-XII	I-PER
-
-Republika	B-LOC
-ng	I-LOC
-California	I-LOC
-
-Mga	B-ORG
-Nagkakaisang	I-ORG
-Bansa	I-ORG
-
-Si	O
-Farnese	O
-ay	O
-kalaunang	O
-naging	O
-Papa	B-PER
-Pablo	I-PER
-III	I-PER
-.	O
-
-Gun	B-ORG
-Frontier	I-ORG
-''	O
-
-Saint	B-LOC
-Vincent	I-LOC
-and	I-LOC
-the	I-LOC
-Grenadines	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2f4bb459b91dd801e9576ebda1b9f11cd9a920937746c2757899cb91144526d
+size 290

@@ -1,35 +1,3 @@
-Ìwo	B-LOC
-Orí	I-LOC
-ilẹ̀	I-LOC
-Áfríkà	I-LOC
-
-Yunifásítì	B-ORG
-ìlú	I-ORG
-Ìbàdàn	I-ORG
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Gurara	I-LOC
-
-Carla	B-PER
-Suárez	I-PER
-Navarro	I-PER
-''	O
-(	O
-Fourth	O
-round	O
-)	O
-
-Monica	B-PER
-Niculescu	I-PER
-''	O
-(	O
-First	O
-Round	O
-)	O
-
-Orin-ìyìn	B-ORG
-Orílẹ̀-èdè	I-ORG
-Ìsọ̀kan	I-ORG
-Sófìẹ̀tì	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e5fb485d30f0aead9a8e549b15b47cf24153994e66c3da5ca3c37ad67246de4
+size 375

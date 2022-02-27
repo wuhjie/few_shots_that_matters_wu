@@ -1,17 +1,3 @@
-ALIH	O
-Komune	B-LOC
-di	I-LOC
-departemen	I-LOC
-Charente-Maritime	I-LOC
-
-ALIH	O
-Daftar	B-ORG
-Perdana	I-ORG
-Menteri	I-ORG
-Grenada	I-ORG
-
-Ali	B-PER
-Adil	I-PER
-Shah	I-PER
-I	I-PER
-1558–1580	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:743a1a8eb3e7273b3f12394c1660bd6823606e5e9adca678091353f11578721b
+size 188

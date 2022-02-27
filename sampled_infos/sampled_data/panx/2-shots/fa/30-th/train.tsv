@@ -1,32 +1,3 @@
-ایستگاه	B-ORG
-متروی	I-ORG
-دکتر	I-ORG
-شریعتی	I-ORG
-
-تغییرمسیر	O
-علی	B-PER
-بن	I-PER
-موسی	I-PER
-الرضا	I-PER
-
-تغییرمسیر	O
-کلیسای	B-ORG
-ارتدکس	I-ORG
-گرجی	I-ORG
-
-تغییرمسیر	O
-ساموئل	B-PER
-جی.	I-PER
-آرنولد	I-PER
-
-تغییرمسیر	O
-کامپانیا	B-LOC
-(	I-LOC
-استان	I-LOC
-سالرنو	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-ولف	B-LOC
-لیک،	I-LOC
-مینه‌سوتا	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4da9616c9101fd354c8b2281dd3b5c4b494c885a45eedce9fcd60aa29e34b0d4
+size 470

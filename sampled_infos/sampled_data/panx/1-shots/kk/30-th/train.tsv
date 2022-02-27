@@ -1,28 +1,3 @@
-Бонифатий	B-PER
-Михайлович	I-PER
-Кедров	I-PER
-
-АЙДАУ	O
-Шығыс	B-ORG
-Түркі	I-ORG
-қағанаты	I-ORG
-
-Гипстер	B-ORG
-негізінен	O
-ақшыл	O
-сұр	O
-түсті	O
-келеді	O
-.	O
-
-Кастилия	B-LOC
-—	I-LOC
-Ла-Манча	I-LOC
-автономды	O
-бірлестігіне	O
-қарасты	O
-Куэнка	B-ORG
-провинциясының	O
-құрамына	O
-кіреді	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b39f81dc70646001bf0534d769dac3ffe87fb74f33a4e2b8b3ab33d0752900f2
+size 448

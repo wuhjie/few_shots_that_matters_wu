@@ -1,16 +1,3 @@
-Colegio	B-ORG
-Nacional	I-ORG
-de	I-ORG
-Monserrat	I-ORG
-
-Leonor	B-PER
-de	I-PER
-Arborea	I-PER
-
-'	O
-''	O
-América	B-LOC
-del	I-LOC
-Norte	I-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:36217ca32fa9bf314cd4213606ae125a3bf5a6654f4189fc1aa96bacfcbfd33b
+size 147

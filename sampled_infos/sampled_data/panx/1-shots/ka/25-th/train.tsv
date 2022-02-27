@@ -1,28 +1,3 @@
-გადამისამართება	O
-ჟუან	B-PER
-ბერნარდუ	I-PER
-ვიეირა	I-PER
-
-სხვადასხვა	O
-დროს	O
-შედიოდა	O
-ლაზიკის	B-LOC
-სამეფოში	I-LOC
-,	O
-ბიზანტიის	B-LOC
-იმპერიაში	I-LOC
-,	O
-ტრაპიზონის	B-LOC
-იმპერიაში	I-LOC
-,	O
-რუმის	B-LOC
-სასულთნოში	I-LOC
-და	O
-ოსმალეთის	B-LOC
-იმპერიაში	I-LOC
-.	O
-
-A	B-ORG
-Question	I-ORG
-of	I-ORG
-Time	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:e67950489d88f09257e1fa7dd3d28117b4d17876a214122ae8690ef87e54f6be
+size 590

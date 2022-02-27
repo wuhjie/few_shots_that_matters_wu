@@ -1,25 +1,3 @@
-Prime	O
-Minister]]	O
-José	B-PER
-Maria	I-PER
-Neves	I-PER
-
-Agbègbè	B-LOC
-Ìjọba	I-LOC
-Ìbílẹ̀	I-LOC
-Onna	I-LOC
-
-'	O
-''	O
-'	O
-''	O
-je	O
-ìlú	O
-ní	O
-Nàìjíríà	B-LOC
-.	O
-
-Àgbájọ	B-ORG
-àwọn	I-ORG
-Orílẹ̀-èdè	I-ORG
-Aṣòkan	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:424517a87fb8c0544b65ff1951bbf8ef07e23ffb2a3881ee990bd6a480b3614b
+size 251

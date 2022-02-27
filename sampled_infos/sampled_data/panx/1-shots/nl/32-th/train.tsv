@@ -1,26 +1,3 @@
-'	O
-''	O
-Hindi	B-LOC
-''	O
-'	O
-
-Santa	B-ORG
-Barbara	I-ORG
-Botanic	I-ORG
-Garden	I-ORG
-
-Shaka	B-PER
-Zoeloe	I-PER
-(	O
-1786-1828	O
-)	O
-,	O
-stichter	O
-van	O
-het	O
-Zoeloekoninkrijk	B-LOC
-
-Franqueville	B-LOC
-(	I-LOC
-Aisne	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:1282808c1f697090a88ca5ecd40dda728efbbcc0cb921cc88557ceb8bd58069d
+size 228

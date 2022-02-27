@@ -1,22 +1,3 @@
-Ladoke	B-ORG
-Akintola	I-ORG
-University	I-ORG
-of	I-ORG
-Technology	I-ORG
-''Ogbomoso	O
-''	O
-
-Pópù	B-PER
-Alexander	I-PER
-4k	I-PER
-
-'	O
-''	O
-'	O
-''	O
-jẹ́	O
-Fáráò	B-PER
-ni	O
-Ẹ́gíptì	B-LOC
-Ayéijọ́un	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f038d218d4ca2cf5057e79e726670b9d462bc3c93576d91bd3b6afa451e2da95
+size 219

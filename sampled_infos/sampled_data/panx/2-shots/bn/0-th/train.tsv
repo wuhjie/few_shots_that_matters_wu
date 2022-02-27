@@ -1,32 +1,3 @@
-**	O
-মাইন্ডানাও	B-LOC
-বলিচিহ্নিত	I-LOC
-ধনেশ	I-LOC
-''Aceros	O
-leucocephalus	O
-''	O
-
-জর্জ	B-PER
-ডেভিড	I-PER
-বার্কফ	I-PER
-
-জাতিসংঘ	B-ORG
-উন্নয়ন	I-ORG
-কর্মসূচী	I-ORG
-
-সুন্দরবন	B-LOC
-জাতীয়	I-LOC
-উদ্যান	I-LOC
-
-কার্তিক	B-ORG
-(	I-ORG
-দেবতা	I-ORG
-)	I-ORG
-
-আল-আমিন	B-PER
-হোসেন১	I-PER
-''	O
-(	O
-প্রত্যাহার	O
-)	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:036710a2bd5124f172732b30bc3bf0fd2c883f787755fbfa996395a055e2ddf1
+size 537

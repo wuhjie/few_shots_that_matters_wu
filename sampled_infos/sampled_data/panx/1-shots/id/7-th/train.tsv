@@ -1,17 +1,3 @@
-Canberra	B-LOC
-,	I-LOC
-Australia	I-LOC
-(	O
-bersama	O
-Sky	B-ORG
-News	I-ORG
-Australia	I-ORG
-)	O
-
-Branko	B-PER
-Crvenkovski	I-PER
-(	O
-Periode	O
-ke	O
-1	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f19b858ee1cf2ad663bc84ac0c4a09c7b8ee5918bf84d295246a12a1502a6ca
+size 153

@@ -1,25 +1,3 @@
-Çin	B-LOC
-Halk	I-LOC
-Cumhuriyeti	I-LOC
-(	O
-Çin	B-ORG
-Halk	I-ORG
-Kurtuluş	I-ORG
-Ordusu	I-ORG
-)	O
-
-McDonald	B-ORG
-'s	I-ORG
-dizisinde	O
-Ronald	B-PER
-McDonald	I-PER
-seslendirmesi	O
-ile	O
-bilinmektedir	O
-.	O
-
-Porsche	B-ORG
-Type-935	O
-3.0L	O
-Turbo	O
-Flat-6	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:acca1d903e5c88feee57b6d14be1d0a90be3a84531a4868c82d85fc658491943
+size 256

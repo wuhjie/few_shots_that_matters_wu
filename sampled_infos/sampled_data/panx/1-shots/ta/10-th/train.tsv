@@ -1,36 +1,3 @@
-வழிமாற்று	O
-பார்க்	B-ORG
-அயாத்	I-ORG
-,	I-ORG
-ஐதராபாத்	I-ORG
-
-இவரது	O
-கணவர்	O
-இங்கிலாந்தின்	B-PER
-மூன்றாம்	I-PER
-வில்லியம்	I-PER
-தனியே	O
-ஆட்சி	O
-செய்தார்	O
-.	O
-
-மார்த்தாண்டன்	B-PER
--	O
-(	O
-1325	O
--	O
-1348	O
-)	O
-
-வழிமாற்று	O
-மேற்கு	B-LOC
-காரோ	I-LOC
-மலை	I-LOC
-மாவட்டம்	I-LOC
-
-டாக்கா	B-LOC
-(	O
-'	O
-''	O
-'	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d64427a1cd346a9a856d377d7f640a6e68c8c67169d4e2dc8bb7f17098bcc903
+size 577

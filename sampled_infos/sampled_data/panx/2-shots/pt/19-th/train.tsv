@@ -1,35 +1,3 @@
-Condado	B-LOC
-de	I-LOC
-Wrocław	I-LOC
-
-Wendell	B-LOC
-(	I-LOC
-Carolina	I-LOC
-do	I-LOC
-Norte	I-LOC
-)	I-LOC
-
-''granulatostellulata	O
-''	O
--	O
-Global	B-ORG
-Biodiversity	I-ORG
-Information	I-ORG
-Facility	I-ORG
-
-Ordonho	B-PER
-I	I-PER
-das	I-PER
-Astúrias	I-PER
-
-REDIRECIONAMENTO	O
-Imperador	B-PER
-Taizong	I-PER
-de	I-PER
-Tang	I-PER
-
-REDIRECIONAMENTO	O
-Ashanti	B-ORG
-Gold	I-ORG
-Sporting	I-ORG
-Club	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:88ab588a04184be9a729589610425865d5c4c97fe8849693353b5d549b1483b3
+size 394

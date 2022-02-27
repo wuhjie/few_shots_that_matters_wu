@@ -1,14 +1,3 @@
-মার্কিন	B-ORG
-যুক্তরাষ্ট্রের	I-ORG
-সেনাবাহিনী	I-ORG
-
-'	O
-''	O
-আলীম	B-PER
-দার	I-PER
-''	O
-'	O
-
-কাম্পটে	B-LOC
-,	I-LOC
-নাগপুর	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9cf54820699dc25dd9ed2bfbccca0f751f9a860f932928f8e973da39873ae47
+size 230

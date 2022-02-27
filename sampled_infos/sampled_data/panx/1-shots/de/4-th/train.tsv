@@ -1,24 +1,3 @@
-Sie	O
-lag	O
-im	O
-Aggertal	B-LOC
-nordöstlich	O
-von	O
-Overath	B-LOC
-im	O
-Rheinisch-Bergischen	B-LOC
-Kreis	I-LOC
-in	O
-Nordrhein-Westfalen	B-LOC
-.	O
-
-WEITERLEITUNG	O
-Nationalpark	B-ORG
-Desembarco	I-ORG
-del	I-ORG
-Granma	I-ORG
-
-WEITERLEITUNG	O
-Elizabeth	B-PER
-F.	I-PER
-Neufeld	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:d085fc8082c0ccfa0bd9e512d1f495495b3d9742d0e48b98323cea9a160d920f
+size 278

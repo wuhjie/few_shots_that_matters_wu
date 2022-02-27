@@ -1,22 +1,3 @@
-Salvador	B-PER
-de	I-PER
-Madariaga	I-PER
-Rojo	I-PER
-
-Talde	O
-berean	O
-Manchester	B-ORG
-United	I-ORG
-eta	O
-Bayer	B-ORG
-04	I-ORG
-Leverkusen	I-ORG
-egokitu	O
-zitzaion	O
-Realari	O
-.	O
-
-Java	B-LOC
-(	I-LOC
-uhartea	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b2f4bef5199a33efd3d48c0439ec09f06ab1dcc9e065a0a16ff571b41791225
+size 220

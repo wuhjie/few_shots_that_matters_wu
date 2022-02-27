@@ -1,16 +1,3 @@
-'	O
-''	O
-Fernando	B-PER
-Alonso	I-PER
-''	O
-'	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Charente	I-LOC
-
-LENCONG	O
-Terier	B-ORG
-rubah	I-ORG
-kecil	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:86bdbd1777d8b6bdf16f9e5d12222665e97780769634eecb0264136f927c50bb
+size 145

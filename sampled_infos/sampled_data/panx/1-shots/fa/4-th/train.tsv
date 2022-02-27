@@ -1,15 +1,3 @@
-تغییرمسیر	O
-باشگاه	B-ORG
-فوتبال	I-ORG
-هلسینکی	I-ORG
-
-تغییرمسیر	O
-خوری‌آباد	B-LOC
-(	I-LOC
-روانسر	I-LOC
-)	I-LOC
-
-سید	B-PER
-محمدعلی	I-PER
-علوی	I-PER
-گرگانی	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:b491f740dadc8b18b5ad475699ea1e845dd4b1bbdb2cca76cbd6accc5c7c874e
+size 232

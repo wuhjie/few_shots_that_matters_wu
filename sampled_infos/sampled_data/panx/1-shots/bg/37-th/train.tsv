@@ -1,20 +1,3 @@
-Велико	B-LOC
-Търново	I-LOC
-,	O
-България	B-LOC
-
-виж	O
-Светът	B-ORG
-на	I-ORG
-BMW	I-ORG
-
-пренасочване	O
-Джоузеф	B-PER
-Алън	I-PER
-Хайнек	I-PER
-
-Практикуват	O
-гадаенето	O
-и	O
-магьосничеството	B-ORG
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:adac5328632fcac89d222bd04cbf77c101159f8965b4c1926712a6d3a8678d75
+size 295

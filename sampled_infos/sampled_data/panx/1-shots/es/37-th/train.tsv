@@ -1,22 +1,3 @@
-Biblioteca	B-ORG
-del	I-ORG
-Congreso	I-ORG
-de	I-ORG
-Estados	I-ORG
-Unidos	I-ORG
-
-Nació	O
-en	O
-Karagandá	B-LOC
-,	O
-en	O
-la	O
-RSS	B-LOC
-de	I-LOC
-Kazajistán	I-LOC
-.	O
-
-REDIRECCIÓN	O
-Ana	B-PER
-Catalina	I-PER
-Emmerick	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a45e4db0c8bc3ee2011c7d68784586420df9ed49269c77f8bafff46857b96c5
+size 221

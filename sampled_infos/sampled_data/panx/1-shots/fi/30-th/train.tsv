@@ -1,36 +1,3 @@
-Yrityksen	O
-pääkonttori	O
-sijaitsee	O
-Kalifornian	B-LOC
-Palo	B-LOC
-Altossa	I-LOC
-.	O
-
-Seuraava	O
-pääministeri	O
-Abhisit	B-PER
-Vejjajiva	I-PER
-aloitti	O
-virkakautensa	O
-joulukuussa	O
-2008	O
-.	O
-
-Harvoin	O
-nähdystä	O
-filmistä	O
-ei	O
-ole	O
-kunnollista	O
-DVD-julkaisua	B-ORG
-.	O
-
-'	O
-''	O
-Borussia	B-ORG
-Dortmund	I-ORG
-''	O
-'	O
-(	O
-Saksa	B-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa2cf89bf9c162fb8511902037d57efcdb4c4e664f3ebcb5ed067be4e3db57f9
+size 351

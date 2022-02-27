@@ -1,32 +1,3 @@
-Биография	O
-на	O
-сайта	O
-на	O
-Атинско-Македонската	B-ORG
-информационна	I-ORG
-агенция	I-ORG
-
-Над	O
-нея	O
-е	O
-монтиран	O
-модел	O
-на	O
-кораба	O
-Орион“	B-ORG
-.	O
-
-'	O
-''	O
-Вера	B-PER
-Звонарьова	I-PER
-''	O
-'	O
-
-пренасочване	O
-Доня	B-LOC
-Биоча	I-LOC
-(	I-LOC
-община	I-LOC
-Илияш	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a078d076ee8cd66fdf044334b862ce25ec5541e0b5fd4b49b2590f24911abcec
+size 423

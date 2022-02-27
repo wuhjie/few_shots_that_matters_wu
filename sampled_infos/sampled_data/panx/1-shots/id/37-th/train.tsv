@@ -1,29 +1,3 @@
-2011	O
-–	O
-Durban	B-LOC
-,	O
-Afrika	B-LOC
-Selatan	I-LOC
-
-Pada	O
-saat	O
-ini	O
-ia	O
-bermain	O
-di	O
-Divisi	B-ORG
-Kedua	I-ORG
-Rusia	I-ORG
-bersama	O
-dengan	O
-tim	O
-FC	B-ORG
-Vologda	I-ORG
-.	O
-
-ALIH	O
-Karl	B-PER
-XIV	I-PER
-Johan	I-PER
-dari	I-PER
-Swedia	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:063421b455017da2e2b14f406e0cf0a5e81cd07b0d41087809b370839177b066
+size 252

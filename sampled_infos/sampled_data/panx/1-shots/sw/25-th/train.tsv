@@ -1,22 +1,3 @@
-Holmdel	B-LOC
-Township	I-LOC
-,	I-LOC
-New	I-LOC
-Jersey	I-LOC
-
-Jayne	B-PER
-Atkinson	I-PER
-kama	O
-Karen	B-PER
-Hayes	I-PER
-
-Uneo	O
-lake	O
-ni	O
-151.2	O
-km²	B-ORG
-.	O
-
-Face	B-ORG
-to	I-ORG
-Face	B-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3ac531907706b3bda32d4c3cd95f3c4a70ab44ad0456ded7830f25c591e1b5e
+size 194

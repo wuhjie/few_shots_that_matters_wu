@@ -1,32 +1,3 @@
-**	O
-Angel	B-PER
-(	O
-Rivale	O
-)	O
-
-Il	O
-semblerait	O
-que	O
-sa	O
-cible	O
-était	O
-la	O
-Maison-Blanche	B-ORG
-.	O
-
-'	O
-''	O
-Doris	B-PER
-Leuthard	I-PER
-''	O
-'	O
-
-Championnat	B-ORG
-de	I-ORG
-RDA	I-ORG
-de	I-ORG
-football	I-ORG
-
-Lavras	B-LOC
-da	I-LOC
-Mangabeira	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:05da8ef85df3def5d6d80961d2668173e463495c08c6f5de253193376a6f2d94
+size 259

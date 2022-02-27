@@ -1,29 +1,3 @@
-அவை	O
-ஆமோஸ்	B-ORG
-இறைவாக்கினர்	I-ORG
-அறிவித்த	O
-செய்தியோடு	O
-ஒத்திருக்கின்றன	O
-.	O
-
-'	O
-''	O
-ஜாஷ்	B-PER
-ஸ்மித்	I-PER
-''	O
-'	O
-
-t	O
-Gram	O
-Panchayat	O
-''	O
-)	O
-,	O
-தமிழ்நாட்டின்	B-LOC
-விழுப்புரம்	B-LOC
-மாவட்டத்தில்	I-LOC
-உள்ள	O
-திருவெண்ணெய்நல்லூர்	B-LOC
-வட்டாரத்தில்	O
-அமைந்துள்ளது	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:11e7f2c915284fe3ddd1889913c74d4d9abcaf6bc7ae669cf365be5ae64cf2a1
+size 579

@@ -1,20 +1,3 @@
-перенаправление	O
-Барцяны	B-LOC
-(	I-LOC
-гмина	I-LOC
-)	I-LOC
-
-Лучший	O
-бомбардир	O
-в	O
-истории	O
-английской	B-ORG
-Премьер-лиги	I-ORG
-—	O
-260	O
-голов	O
-.	O
-
-Варгас	B-PER
-,	I-PER
-Камило	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:535bed59bf28aaa2ea6f7a2608c5aff34e5cc912cac8cb03987465b50075a94c
+size 279

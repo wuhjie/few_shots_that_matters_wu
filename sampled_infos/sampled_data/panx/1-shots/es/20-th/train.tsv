@@ -1,18 +1,3 @@
-Vitas	B-PER
-Gerulaitis	I-PER
-(	O
-Estados	B-LOC
-Unidos	I-LOC
-)	O
-/	O
-Paul	B-PER
-McNamee	I-PER
-(	O
-Australia	B-LOC
-)	O
-
-Masters	B-ORG
-Nórdico	I-ORG
-de	I-ORG
-Fórmula	I-ORG
-3	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f77c0f5a83181edc8c9afaebf26ca7cbecf69ef65c59072815538c807b377162
+size 179

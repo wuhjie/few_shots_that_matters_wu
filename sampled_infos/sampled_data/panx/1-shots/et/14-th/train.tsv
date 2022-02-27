@@ -1,21 +1,3 @@
-TAP	B-ORG
-Portugal	I-ORG
-(	O
-SA	O
-)	O
-
-Aleksandr	B-PER
-Kaidanovski	I-PER
-—	O
-''Stalker	O
-''	O
-
-Itaalia]]	O
-,	O
-Sloveenia	B-LOC
-,	O
-Horvaatia	B-LOC
-,	O
-Bosnia	B-LOC
-ja	I-LOC
-Hertsegoviina	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:48a093c15ac074f1cd6dd4fa440bfa3680873db2c51f41e8cc94324c89662490
+size 195

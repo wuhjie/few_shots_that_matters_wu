@@ -1,36 +1,3 @@
-Université	B-ORG
-du	I-ORG
-Québec	I-ORG
-à	I-ORG
-Montréal	I-ORG
-
-Cédric	B-PER
-Vasseur	I-PER
-(	O
-FRA	B-LOC
-)	O
-
-Équipe	B-ORG
-de	I-ORG
-Turquie	I-ORG
-de	I-ORG
-volley-ball	I-ORG
-féminin	I-ORG
-
-redirection	O
-Caille	B-LOC
-des	I-LOC
-blés	I-LOC
-
-Orpington]]	O
-,	O
-Swanley	B-LOC
-,	O
-West	B-LOC
-Wickham	I-LOC
-
-Francisco	B-PER
-Suárez	I-PER
-(	O
-1548-1617	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:40f129d74058f34e893d5dd3e70687a2140405a34755eba5b2beef38d198a383
+size 356

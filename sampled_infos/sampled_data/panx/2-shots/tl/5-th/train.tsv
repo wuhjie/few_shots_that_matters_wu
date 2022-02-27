@@ -1,35 +1,3 @@
-South	B-LOC
-Africa	I-LOC
-(	O
-Zuid-Afrika	O
-)	O
-
-Lungsod	B-LOC
-ng	I-LOC
-San	I-LOC
-Juan	I-LOC
-(	O
-1	O
-)	O
-
-'	O
-''	O
-Jade	B-PER
-Lopez	I-PER
-''	O
-'	O
-
-100	B-ORG
-Days	I-ORG
-to	I-ORG
-Heaven	I-ORG
-''	O
-
-Mahabang	B-ORG
-Muog	I-ORG
-ng	I-ORG
-Tsina	I-ORG
-
-Papa	B-PER
-Calixto	I-PER
-III	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:43020549cd4dc980f6f61afdcf473e0c12714ab0a6e19aba881e6da650b3d644
+size 279

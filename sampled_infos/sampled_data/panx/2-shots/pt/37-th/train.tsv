@@ -1,31 +1,3 @@
-REDIRECIONAMENTO	O
-Basílica	B-ORG
-de	I-ORG
-Santa	I-ORG
-Cruz	I-ORG
-em	I-ORG
-Jerusalém	I-ORG
-
-William	B-PER
-Daniel	I-PER
-Phillips	I-PER
-
-Gheorghe	B-PER
-G.	I-PER
-Mironescu	I-PER
-
-''	O
-Hajime	B-ORG
-no	I-ORG
-Ippo	I-ORG
-''	O
-
-Gualaca	B-LOC
-(	I-LOC
-distrito	I-LOC
-)	I-LOC
-
-Clarksville	B-LOC
-(	I-LOC
-Texas	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ad63b39d588c89d2a22ff38e7be90d615d7e49860ca453ad9ecf809c24dfef9
+size 314

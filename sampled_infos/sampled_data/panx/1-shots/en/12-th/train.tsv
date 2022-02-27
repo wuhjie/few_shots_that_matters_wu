@@ -1,18 +1,3 @@
-2000	O
-:	O
-Mateen	B-PER
-Cleaves	I-PER
-,	O
-Morris	B-PER
-Peterson	I-PER
-
-Trójka	B-LOC
-,	I-LOC
-Greater	I-LOC
-Poland	I-LOC
-Voivodeship	I-LOC
-
-''	O
-Brooklyn	B-ORG
-Nine-Nine	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ee5a4b8954e62582d7de17799af13bc71a74996da90f22adfb44581ca4fa32b
+size 180

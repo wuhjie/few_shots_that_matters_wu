@@ -1,25 +1,3 @@
-تغییر_مسیر	O
-خارزار	B-LOC
-(	I-LOC
-مشهد	I-LOC
-)	I-LOC
-
-تغییر_مسیر	O
-پلنگ	B-PER
-سیاه	I-PER
-(	I-PER
-شخصیت	I-PER
-کمیک	I-PER
-)	I-PER
-
-او	O
-همچنین	O
-مدتی	O
-سرپرست	O
-باشگاه	B-ORG
-فوتبال	I-ORG
-صنعت	I-ORG
-نفت	I-ORG
-آبادان	I-ORG
-بود	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:379211a969d8261513f4fd8a31bee070a53bc6ddea6a7163e5e7c4877da48b4c
+size 320

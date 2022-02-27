@@ -1,31 +1,3 @@
-Jānis	B-PER
-Čakste	I-PER
-(	O
-2	O
-)	O
-
-aastast	O
-UNESCO	B-ORG
-maailmapärandi	I-ORG
-nimistusse	I-ORG
-.	O
-
-Ta	O
-kasvab	O
-peamiselt	O
-peamiselt	O
-Lõuna-	O
-ja	O
-Euroopas	B-LOC
-alates	O
-Maroko	B-LOC
-üle	O
-Pürenee	B-LOC
-poolsaare	I-LOC
-ida	O
-suunas	O
-kuni	O
-Poola	B-LOC
-ja	O
-Makedooniani	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc654f7f9477bc18277da3be2dadfcb0956d74e0eeb964a057c1c91967048119
+size 297

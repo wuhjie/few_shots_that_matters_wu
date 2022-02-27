@@ -1,14 +1,3 @@
-فہرست	B-ORG
-ممالک	I-ORG
-بلحاظ	I-ORG
-رقبہ	I-ORG
-
-رجوع_مکرر	O
-صوبہ	B-LOC
-چیانگ	I-LOC
-مائی	I-LOC
-
-رجوع_مکرر	O
-وحید	B-PER
-الدین	I-PER
-خاں	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f7b472d9284aec357dacfe162ac0976442fc06ce214a749da681398a9fc2507
+size 200

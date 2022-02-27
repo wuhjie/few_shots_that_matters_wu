@@ -1,25 +1,3 @@
-نام،	O
-جمعیت	O
-و	O
-مساحت	O
-از	O
-درگاه	B-ORG
-ملی	I-ORG
-آمار	I-ORG
-(	I-ORG
-اسپانیا	I-ORG
-)	I-ORG
-گرفته	O
-شده	O
-است	O
-.	O
-
-تغییرمسیر	O
-موش‌صاریغ	B-LOC
-دم-چاق	I-LOC
-سیندرلا	I-LOC
-
-تغییرمسیر	O
-آنتونی	B-PER
-دبلیو	I-PER
-انگلند	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:6565294128ae401ea3eda51542ad40833350df1ce568d423c72691cff27c87a7
+size 330

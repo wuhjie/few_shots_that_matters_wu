@@ -1,34 +1,3 @@
-अखिल	B-ORG
-भारतीय	I-ORG
-हिन्दू	I-ORG
-महासभा	I-ORG
-
-आमिर	B-PER
-ख़ान	I-PER
-,	O
-मनीषा	B-PER
-कोइराला	I-PER
-
-==	O
-चमोली	B-LOC
-गढ़वाल	I-LOC
-जिला	I-LOC
-==	O
-
-लेफ्टिनेंट	B-PER
-कर्नल	I-PER
-ए॰	I-PER
-बी॰	I-PER
-तारापोर	I-PER
-
-पुनर्प्रेषित	O
-गुजरात	B-LOC
-(	I-LOC
-शहर	I-LOC
-)	I-LOC
-
-इतना	B-ORG
-करो	I-ORG
-ना	I-ORG
-मुझे	I-ORG
-प्यार	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:b262ac7abb02d6c24f573deeafc1109df52490725a41938b49d32e58f7c74c49
+size 568

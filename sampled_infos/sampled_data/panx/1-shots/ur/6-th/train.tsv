@@ -1,14 +1,3 @@
-رجوع_مکرر	O
-رابطہ	B-ORG
-عالم	I-ORG
-اسلامی	I-ORG
-
-رجوع_مکرر	O
-جگن	B-LOC
-لوی	I-LOC
-کرد	I-LOC
-
-رجوع_مکرر	O
-جہاں	B-PER
-آرا	I-PER
-بیگم	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f709e5d55ab995924ac790409f0667ffc2a90dd77d2baa1a91862ac6c23165b
+size 195

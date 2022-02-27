@@ -1,33 +1,3 @@
-ამ	O
-ადგილას	O
-იდგა	O
-იმერეთის	B-ORG
-მეფეთა	I-ORG
-საზაფხულო	O
-დასასვენებელი	O
-რეზიდენცია	O
-.	O
-
-პიტერ	B-PER
-ებდონი	I-PER
-(	O
-1	O
-/	O
-2	O
-)	O
-
-==	O
-მარმარილოს	B-LOC
-ზღვის	I-LOC
-რეგიონი	I-LOC
-(	O
-Marmara	O
-Bölgesi	O
-)	O
-==	O
-
-*იმპერატორი	O
-ტიბერიუსის	B-PER
-მეცხრე	O
-წელიწადი	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d7f344f1f081b5ff6cd0d5082b40a109e8bb152625a314d382aedb5e86a2239
+size 532

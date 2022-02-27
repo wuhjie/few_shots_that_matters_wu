@@ -1,27 +1,3 @@
-'	O
-''	O
-Ivan	B-PER
-Lendl	I-PER
-''	O
-'	O
-
-Universitas	B-ORG
-Gadjah	I-ORG
-Mada	I-ORG
-,	O
-ditetapkan	O
-berdasarkan	O
-Peraturan	O
-Pemerintah	O
-Nomor	O
-153	O
-Tahun	O
-2000	O
-.	O
-
-Ibu	O
-kotanya	O
-adalah	O
-La	B-LOC
-Paz	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:bffb04a2c6c479851d4fd13314e7f2312e3427fce0b1501680ce46db40188f72
+size 222

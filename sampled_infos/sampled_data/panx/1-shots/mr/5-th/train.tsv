@@ -1,20 +1,3 @@
-**	O
-रोम	B-LOC
-(	O
-एम्बसी	O
-)	O
-
-सेरी	B-LOC
-आ	I-LOC
-२००७-०८	I-LOC
-
-आंतरराष्ट्रीय	B-ORG
-ऑलिंपिक	I-ORG
-समिती	I-ORG
-
-'	O
-''	O
-माहेला	B-PER
-जयवर्दने	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb232eeb735c5e4bfb024b1c010155089ab2734bcbfd0685b1b751d7b11a6147
+size 278

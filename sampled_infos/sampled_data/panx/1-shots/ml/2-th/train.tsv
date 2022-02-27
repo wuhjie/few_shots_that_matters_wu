@@ -1,21 +1,3 @@
-മെൽബൺ	B-ORG
-ക്രിക്കറ്റ്	I-ORG
-ഗ്രൗണ്ട്	I-ORG
-,	O
-മെൽബൺ	B-LOC
-
-തിരിച്ചുവിടുക	O
-ന്യൂ	B-LOC
-സൗത്ത്	I-LOC
-വെയ്ൽസ്	I-LOC
-
-പി.ഭാസ്കരനും	B-PER
-നമ്പ്യാത്തും	O
-പാട്ടുകൾ	O
-എഴുതി	O
-,	O
-എം.ബി.	B-PER
-ശ്രീനിവാസൻ	I-PER
-സംഗീതസംവിധാനം	O
-ചെയ്തു	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:024a28bbdd416a18d7122cf12ce1e522667aa06f54c771a8ac7c2ffb135b953d
+size 489

@@ -1,31 +1,3 @@
-বাসুদেব	B-PER
-দাশগুপ্ত	I-PER
-রচিত	O
-'	O
-''	O
-বমনরহস্য	O
-''	O
-'	O
-
-কলাপাড়া	B-LOC
-উপজেলা	I-LOC
-,	O
-রাঙ্গাবালী	B-LOC
-উপজেলা	I-LOC
-
-পিয়ের	B-PER
-তাঁয়ার	I-PER
-দ্য	I-PER
-শারদাঁ	I-PER
-
-চেলসি	B-ORG
-ফুটবল	I-ORG
-ক্লাব	I-ORG
-
-টুয়েন্টিয়েথ	B-ORG
-সেঞ্চুরি	I-ORG
-ফক্স	I-ORG
-
-বসনিয়া	B-LOC
-ও	I-LOC
-হার্জেগোভিনা	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:3eef4cff0e589d72b703038f5327ebdea19c67a1875b3c8c6e7587dbf9a7c45a
+size 583

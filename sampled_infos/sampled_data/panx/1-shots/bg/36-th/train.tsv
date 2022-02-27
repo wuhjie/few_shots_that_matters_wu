@@ -1,19 +1,3 @@
-пренасочване	O
-Въглен	B-LOC
-(	I-LOC
-област	I-LOC
-Варна	I-LOC
-)	I-LOC
-
-'	O
-''	O
-Казуки	B-PER
-Накаджима	I-PER
-''	O
-'	O
-
-ФК	B-ORG
-Асеновец	I-ORG
-(	O
-Асеновград	B-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6520e38b73cf4ff9c994de2000b270c21929e45c6d595df614b306d39029aa3f
+size 231

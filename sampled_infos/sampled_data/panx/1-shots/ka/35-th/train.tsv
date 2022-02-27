@@ -1,22 +1,3 @@
-გადამისამართება	O
-ბურგოსის	B-ORG
-საკათედრო	I-ORG
-ტაძარი	I-ORG
-
-მდებარეობს	O
-ნაცტალსა	O
-და	O
-ზაასტალს	O
-შორის	O
-,	O
-ვალეს	B-LOC
-კანტონში	I-LOC
-.	O
-
-მარკო	B-PER
-ბორიელო	I-PER
-''	O
-(	O
-მილანი	B-ORG
-)	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:677887931df9e9e3dbd1e02f9b553a5ff8bedb0ed03b54737d53ccde3b665a95
+size 408

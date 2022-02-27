@@ -1,21 +1,3 @@
-തിരിച്ചുവിടുക	O
-ഹൈദരലി	B-PER
-ശിഹാബ്	I-PER
-തങ്ങൾ	I-PER
-
-സയ്യിദുനാ	B-LOC
-അബ്ദുല്ലാഹി	I-LOC
-ഇബ്‌നു	I-LOC
-അബ്ബാസ്	I-LOC
-(	I-LOC
-റ	I-LOC
-)	I-LOC
-
-തിരിച്ചുവിടുക	O
-കമ്മ്യൂണിസ്റ്റ്	B-ORG
-പാർട്ടി	I-ORG
-ഓഫ്	I-ORG
-ഇന്ത്യ	I-ORG
-(	I-ORG
-മാർക്സിസ്റ്റ്	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:efd05f43335956a8ae016b7c1dc7acefffebd3450875509c8ba81cc6b8ced745
+size 494

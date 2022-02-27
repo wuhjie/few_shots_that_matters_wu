@@ -1,34 +1,3 @@
-REDIRECCIÓN	O
-Colegiata	B-ORG
-de	I-ORG
-Santillana	I-ORG
-del	I-ORG
-Mar	I-ORG
-
-REDIRECCIÓN	O
-Clube	B-ORG
-de	I-ORG
-Futebol	I-ORG
-União	I-ORG
-
-REDIRECCIÓN	O
-Ciudad	B-LOC
-de	I-LOC
-San	I-LOC
-Juan	I-LOC
-
-REDIRECCIÓN	O
-Oseas	B-PER
-de	I-PER
-Israel	I-PER
-
-San	B-LOC
-Salvador	I-LOC
-,	O
-El	B-LOC
-Salvador	I-LOC
-
-REDIRECCIÓN	O
-Yosef	B-PER
-Hayim	I-PER
-Yerushalmi	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:b85e3557ec7df5c2c487bdcbc9f2c3ff182c23903b794b0be1f1b0cffae9ade1
+size 361

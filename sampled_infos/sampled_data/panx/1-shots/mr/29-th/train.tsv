@@ -1,21 +1,3 @@
-Leonhard	O
-लिओनार्ड	B-PER
-ऑयलर	I-PER
-,	O
-1707	O
-–	O
-1783	O
-
-लहान	B-LOC
-पाणकावळा	I-LOC
-(	O
-लिटिल	O
-कॉर्मोरन्ट	O
-)	O
-
-पुनर्निर्देशन	O
-सिद्धिविनायक	B-ORG
-महागणपती	I-ORG
-मंदिर	I-ORG
-,	I-ORG
-टिटवाळा	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c53760b01ae65ced7166001f447d5a984cf0e73b8b37af80274abf9f9375563
+size 370

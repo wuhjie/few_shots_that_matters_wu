@@ -1,24 +1,3 @@
-Πρόκειται	O
-για	O
-μια	O
-προεπέκταση	O
-του	O
-όρους	B-LOC
-του	I-LOC
-Ναού	I-LOC
-.	O
-
-'	O
-''	O
-Ακράτητος	B-ORG
-Άνω	I-ORG
-Λιοσίων	I-ORG
-''	O
-'	O
-
-Μοντέστ	B-PER
-Πετρόβιτς	I-PER
-Μούσοργκσκι	I-PER
-(	O
-1839-1881	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:815ca530f2c6462a2f24b53db9031c59ee8cc90681093e1a486853dff4be111c
+size 296

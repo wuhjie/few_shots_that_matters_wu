@@ -1,28 +1,3 @@
-Kimi	B-ORG
-wa	I-ORG
-Jitensha	I-ORG
-Watashi	I-ORG
-wa	I-ORG
-Densha	I-ORG
-de	I-ORG
-Kitaku	I-ORG
-(	O
-君は自転車	O
-私は電車で帰宅	O
-)	O
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Eure	I-LOC
-
-Nabi	B-PER
-Sulaiman	I-PER
-a.s	I-PER
-.	I-PER
-dikurniakan	O
-Allah	O
-kerajaan	O
-yang	O
-besar	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:46027d5adaab9a5bfbb1236a4cd65d9126517d3dfb8159f305e6c3cc9024b358
+size 287

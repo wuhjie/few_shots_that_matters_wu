@@ -1,31 +1,3 @@
-Rodrigo	B-PER
-Mora	I-PER
-—	O
-River	B-ORG
-Plate	I-ORG
-(	O
-E	O
-)	O
-
-Game	B-PER
-of	I-PER
-Thrones	I-PER
-
-'	O
-''	O
-Rede	B-ORG
-Globo	I-ORG
-''	O
-'	O
-
-(	O
-Syndicat	B-LOC
-National	I-LOC
-de	I-LOC
-l'Édition	I-LOC
-Phonographique	I-LOC
-)	O
-
-Puerto	B-LOC
-del	I-LOC
-Rosario	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbdf6baa47bfaa57666bed0a308271570b42319e1f02cfdf73ca08f4c85c1ba3
+size 268

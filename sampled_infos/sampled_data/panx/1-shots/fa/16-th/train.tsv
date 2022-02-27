@@ -1,18 +1,3 @@
-ماهی‌برقی	B-LOC
-طلایی	I-LOC
---	O
--Golden	O
-shiner	O
-
-تغییرمسیر	O
-امین‌الله	B-PER
-آندره	I-PER
-حسین	I-PER
-
-سازمان	B-ORG
-میراث	I-ORG
-فرهنگی،	I-ORG
-صنایع	I-ORG
-دستی	I-ORG
-و	I-ORG
-گردشگری	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:02d1974a99a58f94497138e8400dbe9e74beaf4c9817edaf5ce2f5936eb5bc5b
+size 267

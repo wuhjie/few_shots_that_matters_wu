@@ -1,35 +1,3 @@
-Abdij	B-LOC
-van	I-LOC
-Sint-Bertinus	I-LOC
-
-Iheremias	B-PER
-(	I-PER
-Jeremia	I-PER
-)	I-PER
-
-Hij	O
-speelt	O
-als	O
-aanvaller	O
-bij	O
-Real	B-ORG
-Murcia	I-ORG
-.	O
-
-'	O
-''	O
-Jean	B-PER
-Alesi	I-PER
-''	O
-'	O
-
-*Belgisch	O
-kampioen	O
--	O
-Telenet	B-ORG
-Oostende	I-ORG
-
-Augsburg	B-LOC
-(	I-LOC
-stad	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:99a22316176710c17784f55de34ea9c1e900f99d1459144f7183a8ea1f7707ee
+size 299

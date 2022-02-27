@@ -1,27 +1,3 @@
-Poliittisesti	O
-kannattajaryhmä	O
-oli	O
-asettunut	O
-tukemaan	O
-Kroatian	B-ORG
-demokraattista	I-ORG
-liittoa	I-ORG
-sekä	O
-Franjo	B-PER
-Tuđmania	I-PER
-.	O
-
-OHJAUS	O
-City	B-ORG
-of	I-ORG
-Oxford	I-ORG
-High	I-ORG
-School	I-ORG
-for	I-ORG
-Boys	I-ORG
-
-Grand	B-LOC
-Island	I-LOC
-–	O
-49	O
-989	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6bec462b2dc623ea0184b72069b4c70ec173e5c7dde24967cc4e8ebb1c56b34
+size 286

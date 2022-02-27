@@ -1,32 +1,3 @@
-تحويل	O
-المملكة	B-ORG
-المصرية	I-ORG
-القديمة	I-ORG
-
-تحويل	O
-قائمة	B-LOC
-صفحات	I-LOC
-أساسية	I-LOC
-عن	I-LOC
-مصر	I-LOC
-
-تحويل	O
-ماري	B-PER
-وورتلي	I-PER
-مونتاغيو	I-PER
-
-ويتم	O
-انتخابهم	O
-من	O
-قبل	O
-اعضاء	O
-المجالس	O
-البلدية	O
-في	O
-بأعداد	O
-تتناسب	O
-مع	O
-عدد	O
-سكان	O
-البلديات	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:15e96ffdcf783a8b5412318a8eab1667710ea05e0ac6b832d36464c7d503618f
+size 423

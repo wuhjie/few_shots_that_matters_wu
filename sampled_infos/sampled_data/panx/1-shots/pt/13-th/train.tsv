@@ -1,33 +1,3 @@
-'	O
-''	O
-Ukhta	B-LOC
-''	O
-'	O
-,	O
-República	B-LOC
-de	I-LOC
-Komi	I-LOC
-,	O
-Rússia	B-LOC
-
-Associação	B-ORG
-Desportiva	I-ORG
-'	I-ORG
-''	I-ORG
-Confiança	I-ORG
-''	I-ORG
-'	I-ORG
-(	O
-Aracaju	B-LOC
-''	O
-)	O
-
-**	O
-Alan	B-PER
-Alda	I-PER
-,	O
-em	O
-The	B-ORG
-West	I-ORG
-Wing	I-ORG
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d3775ce64acd5fb61e42ba11240e7e207d7b9a8b0bc9440047f74476fd712e5
+size 278

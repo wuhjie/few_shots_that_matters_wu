@@ -1,16 +1,3 @@
-ريال	B-ORG
-سوسيداد	I-ORG
-(	O
-P	O
-)	O
-
-تحويل	O
-غويلاوم	B-PER
-داه	I-PER
-زادي	I-PER
-
-تحويل	O
-ليدين	B-LOC
-(	I-LOC
-ماساتشوستس	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e451b38cfcc365b54083513449a2c52a7178e3e069eb59bc01e0204fa7ad1901
+size 185

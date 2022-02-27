@@ -1,27 +1,3 @@
-YÖNLENDİRME	O
-Osmansin	B-LOC
-,	I-LOC
-Çamlıdere	I-LOC
-
-'	O
-''	O
-30	B-ORG
-Rock	I-ORG
-''	O
-'	O
-''	O
-
-Son	O
-sayıyı	O
-yayınlayabilmek	O
-için	O
-ise	O
-Abidin	B-PER
-Dino'nun	I-PER
-kendine	O
-hediye	O
-ettiği	O
-resimleri	O
-elden	O
-çıkardı	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:c91415ae72646e577fd28ae919ec998096b738713c64cd84a9b2556e0b824566
+size 246

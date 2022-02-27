@@ -1,16 +1,3 @@
-মাধব	B-PER
-কন্দলী	I-PER
-(	O
-১৪	O
-শতকের	O
-)	O
-
-চট্টগ্রাম	B-ORG
-প্রকৌশল	I-ORG
-ও	I-ORG
-প্রযুক্তি	I-ORG
-বিশ্ববিদ্যালয়	I-ORG
-
-গ্রেট	B-LOC
-ব্যারিয়ার	I-LOC
-রিফ	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fc1608d59fce2110d67f9af1bbfe282130792931d33c81458c15d468f7803db
+size 311

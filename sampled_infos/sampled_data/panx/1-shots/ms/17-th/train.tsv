@@ -1,15 +1,3 @@
-''	O
-Faizal	B-PER
-Tahir	I-PER
-''	O
-'	O
-
-LENCONG	O
-Anjing	B-ORG
-penuding	I-ORG
-Ariège	I-ORG
-
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Yonne	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:14f447180cd997ed8d5ef93fe6fda9ab5e9a9e8874ec006d60f3ad136d4d30da
+size 140

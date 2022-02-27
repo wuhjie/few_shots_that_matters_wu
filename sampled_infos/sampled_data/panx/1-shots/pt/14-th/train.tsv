@@ -1,15 +1,3 @@
-António	B-PER
-Vitorino	I-PER
-PS	B-ORG
-(	O
-Partido	B-ORG
-Socialista	I-ORG
-Europeu	I-ORG
-)	O
-
-Condado	B-LOC
-de	I-LOC
-Houston	I-LOC
-(	I-LOC
-Tennessee	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3d4f8d72afdafd6156fb0dee25b64adb1141470866c37cc353ee1aa7623497d
+size 162

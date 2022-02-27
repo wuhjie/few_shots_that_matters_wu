@@ -1,18 +1,3 @@
-''	O
-Capcom	B-ORG
-Fighting	I-ORG
-Jam	I-ORG
-''	O
-
-Pierre	B-PER
-Braine	I-PER
-(	O
-K	B-ORG
-Beerschot	I-ORG
-VAC	I-ORG
-)	O
-
-Požega	B-LOC
-(	I-LOC
-Serbie	I-LOC
-)	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:ada23c3af1582491296e3e9b5e8c072fb6d65c0261d0c608aedf50b68e49f1c6
+size 161

@@ -1,18 +1,3 @@
-ဘရာဇီးနိုင်ငံ	B-LOC
--	O
-မြောက်ပိုင်းနှင့်	O
-အရှေ့မြောက်ပိုင်း	O
-ပြည်နယ်များ	O
-
-၅။	O
-မာသာ	B-PER
-ထရီဆာ	I-PER
-(	O
-၁၉၆၉	O
-)	O
-
-ဆေးတက္ကသိုလ်	B-ORG
-(	I-ORG
-၂	I-ORG
-)	I-ORG
-ရန်ကုန်	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb7e7ab8e06a89249c2d941de7578de5c33de5346d8ce2ee5157de6ece08d124
+size 366

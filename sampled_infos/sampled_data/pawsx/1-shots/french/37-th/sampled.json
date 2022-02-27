@@ -1,1 +1,3 @@
-{"0": [{"uid": "french-333-val", "text_a": "The Lost Boys est une s\u00e9rie docudrame de 1978 produite par la BBC, \u00e9crite par Andrew Birkin et r\u00e9alis\u00e9e par Rodney Bennett.", "label": "0", "portion_identifier": -1, "text_b": "The Lost Boys est une mini-s\u00e9rie docudrame produite par la BBC en 1978, \u00e9crite par Rodney Bennett et r\u00e9alis\u00e9e par Andrew Birkin."}], "1": [{"uid": "french-1341-val", "text_a": "Emma Townshend est repr\u00e9sent\u00e9e par David Godwin chez DGA Associates.", "label": "1", "portion_identifier": -1, "text_b": "Emma Townshend est repr\u00e9sent\u00e9e par David Godwin chez DGA Associates."}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a8329e062e27a5b26197134f71fc108d5484567064fd624e5e6d506fece35ef
+size 652

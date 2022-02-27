@@ -1,17 +1,3 @@
-राजेश	B-PER
-खन्ना	I-PER
-,	O
-लीना	B-PER
-चन्दावरकर	I-PER
-
-अनुप्रेषित	O
-तारापुर	B-LOC
-प्रखण्ड	I-LOC
-(	I-LOC
-मुंगेर	I-LOC
-)	I-LOC
-
-भारत	B-ORG
-का	I-ORG
-उच्चतम	I-ORG
-न्यायालय	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4e5e2682f8c8e61452f5870cc9ffa9f8fb51bbd96f2d4d1fb87c0b0481b4d41
+size 321

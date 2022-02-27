@@ -1,14 +1,3 @@
-رجوع_مکرر	O
-اشتراکی	B-LOC
-جمہوریہ	I-LOC
-کرویئشا	I-LOC
-
-رجوع_مکرر	O
-کیتھرین	B-PER
-زیٹا	I-PER
-جونز	I-PER
-
-رجوع_مکرر	O
-ساہیانوالہ	B-ORG
-ریلوے	I-ORG
-اسٹیشن	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:19a44c2d7a353bf2e177ee42ebba77d030f2db973aaea46ca290402c68d99bd1
+size 239

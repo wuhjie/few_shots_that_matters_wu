@@ -1,10 +1,3 @@
-Powiat	B-LOC
-Puławy	I-LOC
-,	O
-Puławy	B-LOC
-
-Zachary	B-PER
-Taylor	I-PER
-,	O
-Millard	B-ORG
-Fillmore	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbd74d42c69c59ebf694ad5f25e77e11caa6362ea672ca5b7b7a7b21ebd23c8c
+size 106

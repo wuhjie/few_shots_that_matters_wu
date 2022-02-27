@@ -1,25 +1,3 @@
-Lidia	B-PER
-Valentín	I-PER
-115	O
-+	O
-132	O
-=	O
-247	O
-
-1	O
-operado	O
-por	O
-Bluebird	B-ORG
-Cargo	I-ORG
-
-(	O
-Carrión	B-LOC
-de	I-LOC
-Calatrava	I-LOC
-.	O
-
-'	O
-''	O
-Chaumont-en-Vexin	B-LOC
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf731e05d37572769e3baaace8936e97bb011ef2c407226847531bb2951c4972
+size 194

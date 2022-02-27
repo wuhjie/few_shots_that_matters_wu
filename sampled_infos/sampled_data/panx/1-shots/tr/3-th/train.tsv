@@ -1,21 +1,3 @@
-Erak	B-LOC
-kentinin	O
-80	O
-km	O
-.	O
-
-I	B-ORG
-'m	I-ORG
-in	I-ORG
-Love	I-ORG
-
-YÖNLENDİRME	O
-Akdamla	B-LOC
-,	I-LOC
-Şavşat	I-LOC
-
-I.	B-PER
-Ahmed	I-PER
-''	O
-Bahtî	O
-''	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:54cd85928bb1c305a2b62a0cabbf27316c7f1bb347325dba5867f48ef80f87c7
+size 169

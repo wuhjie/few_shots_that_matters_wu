@@ -1,21 +1,3 @@
-Zacky	B-PER
-Vengeance	I-PER
--	O
-slaggitaar	O
-,	O
-achtergrondzang	O
-
-Łopuszno	B-LOC
-,	O
-Miedziana	B-LOC
-Góra	I-LOC
-,	O
-Mniów	B-LOC
-,	O
-Piekoszów	B-LOC
-
-Make	B-ORG
-You	I-ORG
-Feel	I-ORG
-My	I-ORG
-Love	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a3bc91afe896716163e3e557874d0a658d296674403d69f2436ef12f3bd8be2
+size 207

@@ -1,21 +1,3 @@
-OHJAUS	O
-I	B-ORG
-Can’t	I-ORG
-Stop	I-ORG
-Drinking	I-ORG
-About	I-ORG
-You	I-ORG
-
-Nykyinen	O
-puheenjohtaja	O
-on	O
-Hannu	B-PER
-Tihinen	I-PER
-.	O
-
-**	O
-Abu	B-LOC
-Dhabi	I-LOC
-(	O
-Suurlähetystö	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:12c49223847cd72a8cc3c2ca3e376de089159d89ce10a29b2db8bfa5cd28ca82
+size 196

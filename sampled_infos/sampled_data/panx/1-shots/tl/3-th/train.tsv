@@ -1,13 +1,3 @@
-Aklat	B-PER
-ni	I-PER
-Nehemias	I-PER
-
-==	O
-Departamento	B-LOC
-ng	I-LOC
-Chocó	I-LOC
-==	O
-
-Pontificio	B-ORG
-Collegio	I-ORG
-Filippino	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e45b892c50bf17d2de7869799b28f964f0fdf6486d25a573cbc01481a308fe3
+size 137

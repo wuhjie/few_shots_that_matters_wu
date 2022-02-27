@@ -1,13 +1,3 @@
-തിരിച്ചുവിടുക	O
-ഗേൾസ്	B-ORG
-ഇസ്‌ലാമിക്	I-ORG
-ഓർഗനൈസേഷൻ	I-ORG
-
-ചിമ്മിണി	B-LOC
-വന്യജീവി	I-LOC
-സംരക്ഷണകേന്ദ്രം	I-LOC
-
-ബാബു	B-PER
-ആന്റണി	I-PER
-–	O
-അയ്യങ്കാളി	B-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:7eed6ffb870ca742619ecb6d0f4ee8d1979308e9e4919573a23417e6c355258e
+size 338

@@ -1,36 +1,3 @@
-Vasili	B-PER
-I.aren	I-PER
-semea	O
-zen	O
-.	O
-
-Trajanok	B-PER
-konkistatu	O
-eta	O
-Arabia	B-LOC
-Petraea	I-LOC
-bilakatu	O
-
-Iruñeko	B-ORG
-eta	O
-Aragoiko	B-ORG
-erregea	I-ORG
-zen	O
-Alfontso	B-PER
-I.arekin	I-PER
-lotura	O
-estua	O
-izan	O
-zuen	O
-.	O
-
-Norwich	B-ORG
-City	I-ORG
-Football	I-ORG
-Club	I-ORG
-
-Qiaokou	B-LOC
-Barrutia	I-LOC
-(	O
-硚口区	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6b84d02eab677ca38933a480201835d8423d1a701b549b1fc7ffe2b969a0db8
+size 341

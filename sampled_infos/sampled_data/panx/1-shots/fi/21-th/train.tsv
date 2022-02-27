@@ -1,31 +1,3 @@
-Hän	O
-tapasi	O
-elokuvantekijä	O
-Roger	B-PER
-Vadimin	I-PER
-,	O
-ja	O
-heistä	O
-tuli	O
-rakastavaisia	O
-.	O
-
-Joulukuussa	O
-1999	O
-yhtiö	O
-listautui	O
-Tokion	B-ORG
-pörssiin	I-ORG
-.	O
-
-Hän	O
-syntyi	O
-New	B-LOC
-Yorkissa	I-LOC
-.	O
-
-Bhutan	B-LOC
-,	O
-Intia	B-LOC
-,	O
-Nepal	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4e7fbda31cf7daa69269d100da731584bfada1cd4824249c68928043b9e444b
+size 274

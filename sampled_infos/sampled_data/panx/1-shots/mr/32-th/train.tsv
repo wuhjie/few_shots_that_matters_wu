@@ -1,20 +1,3 @@
-शाकिब	B-PER
-अल	I-PER
-हसन	I-PER
-(	O
-कर्णधार	O
-)	O
-
-लोफ्टस	B-ORG
-वर्सफेल्ड	I-ORG
-मैदान	I-ORG
-,	O
-प्रिटोरिया	B-LOC
-
-यापैकी	O
-मुख्य	O
-म्हणजे	O
-ब्रह्मपुत्रा	B-LOC
-नदी	I-LOC
-होय	O
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:6eaa5c38bc0257f01e644a3322d509380e6376f09f542c2c9349aa4a599b3077
+size 342

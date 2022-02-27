@@ -1,13 +1,3 @@
-לברון	B-PER
-ג'יימס	I-PER
-,	O
-קליבלנד	B-ORG
-קאבלירס	I-ORG
-
-אחת	O
-לשנה	O
-הוא	O
-מגיע	O
-ארצות	B-LOC
-הברית	I-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:86cb4122730cca39d84e08a20ed75b11e737bf6db80c895e62c4647e833e6262
+size 160

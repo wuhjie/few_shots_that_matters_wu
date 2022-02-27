@@ -1,17 +1,3 @@
-عطاء	B-PER
-اللہ	I-PER
-خان	I-PER
-عیسی	I-PER
-خیلوی	I-PER
-
-رجوع_مکرر	O
-بئیر	B-ORG
-کریک	I-ORG
-گاؤں	I-ORG
-تاریخی	I-ORG
-ضلع	I-ORG
-
-رجوع_مکرر	O
-گیلیٹن	B-LOC
-کاؤنٹی،	I-LOC
-مونٹانا	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:c492bd95e367a1584292004aa19af6d76ab2be2d2dc2df4ae84b2d3bdbddff83
+size 255

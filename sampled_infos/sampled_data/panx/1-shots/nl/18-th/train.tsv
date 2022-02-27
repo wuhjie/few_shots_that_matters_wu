@@ -1,21 +1,3 @@
-'	O
-''	O
-Hamburger	B-ORG
-SV	I-ORG
-''	O
-'	O
-
-Antoine	B-PER
-Laurent	I-PER
-de	I-PER
-Jussieu	I-PER
-
-Kentucky	B-LOC
-Bend	I-LOC
-(	O
-van	O
-Kentucky	B-LOC
-,	O
-Verenigde	B-LOC
-Staten	I-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:07c805f5f6cc93d2a75fa2408976bd216a3fad9b22d695aa826f4c471ee14b2f
+size 184

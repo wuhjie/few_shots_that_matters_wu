@@ -1,18 +1,3 @@
-Komun	B-LOC
-di	I-LOC
-jabatan	I-LOC
-Oise	I-LOC
-
-モーニング娘。のひょっこりひょうたん島	O
-(	O
-Morning	B-ORG
-Musume	I-ORG
-no	I-ORG
-Hyokkori	I-ORG
-Hyoutanjima	I-ORG
-)	O
-
-Jeff	B-PER
-Ooi	I-PER
-Chuan	I-PER
-Aun	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a93f45f886d9f9744411b1666b7d2bac9fe9d8b17f0e323a661beaad5356c38
+size 228

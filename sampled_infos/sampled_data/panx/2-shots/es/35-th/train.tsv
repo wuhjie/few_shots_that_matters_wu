@@ -1,34 +1,3 @@
-Sébastien	B-PER
-Le	I-PER
-Toux	I-PER
-
-JetBlue	B-ORG
-Airways	I-ORG
-/	O
-US	B-ORG
-Airways	I-ORG
-
-Vseslav	B-PER
-de	I-PER
-Pólotsk	I-PER
-
-REDIRECCIÓN	O
-Palau	B-LOC
-de	I-LOC
-Santa	I-LOC
-Eulalia	I-LOC
-
-REDIRECCIÓN	O
-Municipio	B-LOC
-de	I-LOC
-Crooked	I-LOC
-Creek	I-LOC
-(	I-LOC
-Minnesota	I-LOC
-)	I-LOC
-
-Brescia	B-ORG
-Calcio	I-ORG
-(	O
-cedido	O
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b47a5cf2f1b2a4a12f395e4ed9f7069073b456e5df9e4df005d94dcc93d74ca8
+size 339

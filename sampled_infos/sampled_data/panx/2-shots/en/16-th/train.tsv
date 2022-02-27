@@ -1,31 +1,3 @@
-William	B-PER
-O'Connor	I-PER
-''	O
-(	O
-First	O
-round	O
-)	O
-
-'	O
-''	O
-Felicia	B-PER
-Day	I-PER
-''	O
-'	O
-
-Robin	B-ORG
-Park	I-ORG
-Centre	I-ORG
-,	O
-Wigan	B-LOC
-,	O
-Greater	B-LOC
-Manchester	I-LOC
-
-College	B-ORG
-of	I-ORG
-DuPage	I-ORG
-(	O
-Glen	B-LOC
-Ellyn	I-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca7effee07fa6dbb42643f42c6dbd9437be1f6c53f320df564b04633c755383d
+size 257

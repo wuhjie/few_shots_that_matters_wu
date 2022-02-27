@@ -1,13 +1,3 @@
-ဆုရှင်၊	B-PER
-မောင်၊	I-PER
-စာရေးဆရာ	I-PER
-
-(	O
-၁	O
-)	O
-စစ်ကိုင်းမြို့	B-LOC
-
-နည်းပညာတက္ကသိုလ်	B-ORG
-(	I-ORG
-မြိတ်	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a03e06a9f578b3bdc0fe0648447f5b531705a8579fdf3e85de21e8de71900db0
+size 242

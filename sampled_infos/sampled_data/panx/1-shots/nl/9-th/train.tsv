@@ -1,36 +1,3 @@
-'	O
-''	O
-SC	B-ORG
-Genemuiden	I-ORG
-''	O
-'	O
-
-*2005	O
-–	O
-Carol	B-PER
-Ann	I-PER
-Duffy	I-PER
-,	O
-''Rapture	O
-''	O
-
-Nadat	O
-zij	O
-verslagen	O
-was	O
-,	O
-kreeg	O
-ze	O
-een	O
-baan	O
-aangeboden	O
-bij	O
-het	O
-tv-station	O
-RealNetworks	B-ORG
-.	O
-
-Wikipedia	B-LOC
-artikel	I-LOC
-over	I-LOC
-Mima	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee69a33ffa4ee884abb25e81554157996a5e1bf154a2e5a776d6173f27549dd3
+size 291

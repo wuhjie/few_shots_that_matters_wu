@@ -1,18 +1,3 @@
-গ্রে'স	B-ORG
-অ্যানাটমি	I-ORG
-(	I-ORG
-টিভি	I-ORG
-সিরিজ	I-ORG
-)	I-ORG
-
-শহীদ	B-LOC
-সোহরাওয়ার্দী	I-LOC
-মেডিকেল	I-LOC
-কলেজ	I-LOC
-হাসপাতাল	I-LOC
-,	O
-ঢাকা	B-LOC
-
-বুত্রোস	B-PER
-বুত্রোস	B-PER
-গালি	I-PER
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e8651cda3dcd3df6033795047003a2bfd2d06243e22fe9d741f3535297c6308
+size 357

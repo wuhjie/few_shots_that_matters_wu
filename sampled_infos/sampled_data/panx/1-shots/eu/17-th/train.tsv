@@ -1,27 +1,3 @@
-'	O
-''	O
-Senon	B-LOC
-''	O
-'	O
-,	O
-Meuseko	B-ORG
-udalerria	O
-
-Ameriketako	B-LOC
-Estatu	I-LOC
-Batuetako	I-LOC
-presidenteorde	O
-bihurtu	O
-zen	O
-,	O
-lehendabizikoa	O
-Delawaretik	B-LOC
-etorria	O
-.	O
-
-Eñaut	B-PER
-Zubikarai	I-PER
-Goñi	I-PER
--	O
-Real	B-ORG
-Sociedad	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:565259a136c0b73f2d336dfcc540b8bdbc81ca02a735623ffec8564e2a4e4f0d
+size 266

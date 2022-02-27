@@ -1,24 +1,3 @@
-Левистон	B-LOC
-(	I-LOC
-Айдахо	I-LOC
-)	I-LOC
-
-Секстонды	O
-экстравагантты	O
-және	O
-публикалық	O
-имиджі	O
-жаттықтырушы	O
-жұмысына	O
-айқындалған	O
-,	O
-харизматикалық	O
-Рон	B-PER
-Аткинсон	I-PER
-алмастырды	O
-.	O
-
-Жеңіл	B-ORG
-атлетика	I-ORG
-—	O
-әрқашан	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ca09e6db72cecce85e578d1911fb52561ae7e0de09253a7aa4a3bdf60d0c555
+size 393

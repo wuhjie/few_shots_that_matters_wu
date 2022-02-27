@@ -1,22 +1,3 @@
-George	B-PER
-Harrison	I-PER
-–	O
-guitar	O
-lead	O
-,	O
-hát	O
-nền	O
-.	O
-
-Bochnia	B-LOC
-,	O
-Ba	B-LOC
-Lan	I-LOC
-
-''Stars	B-ORG
-and	I-ORG
-Stripes	I-ORG
-''	I-ORG
-(	I-ORG
-báo	I-ORG
-)	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e2751de6f9c4075766804e7985bc99011f05781ff7884a6c7efe184fd25327d
+size 186

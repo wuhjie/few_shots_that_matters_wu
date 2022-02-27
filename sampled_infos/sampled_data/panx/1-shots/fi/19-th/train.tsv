@@ -1,25 +1,3 @@
-Korkein	O
-kohta	O
-on	O
-Gunung	B-LOC
-Leuser	I-LOC
--vuori	O
-,	O
-joka	O
-kohoaa	O
-3	O
-466	O
-metriin	O
-.	O
-
-OHJAUS	O
-Los	B-ORG
-Angeles	I-ORG
-Rams	I-ORG
-
-'	O
-''	O
-Bruce	B-PER
-McLaren	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b9bc96dca8875c27fcdee05ac7c1a3258c92e7f75c482f1641e8a33a6da5ad6
+size 192

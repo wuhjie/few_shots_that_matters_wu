@@ -1,26 +1,3 @@
-ही	O
-गाडी	O
-दररोज	O
-हैदराबादच्या	B-LOC
-सिकंदराबाद	B-ORG
-ते	O
-नाशिक	B-LOC
-जिल्ह्यातील	I-LOC
-मनमाड	B-LOC
-ह्या	O
-स्थानकांदरम्यान	O
-धावते	O
-.	O
-
-प्रकाश	B-PER
-आमटे	I-PER
-व	O
-स्नुषा	O
-डॉ	O
-.	O
-
-पुनर्निर्देशन	O
-युनियन	B-ORG
-बँक	I-ORG
-ऑफ	I-ORG
-इंडिया	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa93420552baf49b73eec1872923d46a80d5a0aba0f534687db1d379aa8545c8
+size 507

@@ -1,15 +1,3 @@
-Raymond	B-PER
-Poincaré	I-PER
--	O
-Tổng	B-ORG
-thống	I-ORG
-Pháp	I-ORG
-
-Thủ	O
-tướng	O
-Helen	B-PER
-Clark	I-PER
-(	O
-New	B-LOC
-Zealand	I-LOC
-)	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:62f1bda916318817dd49a41bf7e0c0d03c04a3efb84628b629c713afac66f271
+size 149

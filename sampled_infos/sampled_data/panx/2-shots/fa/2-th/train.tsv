@@ -1,34 +1,3 @@
-تغییرمسیر	O
-آدا	B-PER
-(	I-PER
-ساتراپ	I-PER
-کاریا	I-PER
-)	I-PER
-
-تغییر_مسیر	O
-جنگ	B-ORG
-افغانستان	I-ORG
-(	I-ORG
-۲۰۰۱–۲۰۱۴	I-ORG
-)	I-ORG
-
-بدو	B-ORG
-بزن	I-ORG
-به	I-ORG
-چاک	I-ORG
-
-تغییرمسیر	O
-فنی	B-PER
-بالوک	I-PER
-ورکمن	I-PER
-
-تغییر_مسیر	O
-قوام‌آباد	B-LOC
-(	I-LOC
-چترود	I-LOC
-)	I-LOC
-
-تغییرمسیر	O
-شهرستان	B-LOC
-وین،	I-LOC
-میزوری	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f30b36a44a9414b39a022764a0f685e074fce7ff54f4b05e6509a7015d7f1a23
+size 468

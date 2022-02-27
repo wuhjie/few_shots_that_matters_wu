@@ -1,17 +1,3 @@
-রবার্ট	B-PER
-এ	I-PER
-হাইনলাইন	I-PER
-
-'	O
-''	O
-পশ্চিমে	O
-''	O
-'-	O
-দরং	B-LOC
-জেলা	I-LOC
-
-হামদর্দ	B-ORG
-(	I-ORG
-ওয়াক্‌ফ	I-ORG
-)	I-ORG
-ল্যাবরেটরীজ	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d5ff4c2a7dd9c19e58abd745c7a8de3242da72ce90912ec9779e6f980f69f20
+size 261

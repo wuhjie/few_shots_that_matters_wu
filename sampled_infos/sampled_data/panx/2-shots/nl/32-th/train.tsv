@@ -1,36 +1,3 @@
-Parides	B-LOC
-anchises	I-LOC
-''	O
-''drucei	O
-''	O
-
-Julien	B-PER
-Lahaut	I-PER
-(	O
-KPB-PCB	O
-)	O
-
-Pamukova	B-LOC
-(	I-LOC
-district	I-LOC
-)	I-LOC
-
-van	O
-de	O
-Vierde	B-ORG
-Internationale	I-ORG
-.	O
-
-DOORVERWIJZING	O
-Openbaar	B-ORG
-Ministerie	I-ORG
-(	I-ORG
-Nederland	I-ORG
-)	I-ORG
-
-'	O
-''	O
-Moumouni	B-PER
-Dagano	I-PER
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3a122bcb0bbd8af016a511d311548d26cb15c7614bd0aeb842aa8858a183e5a
+size 321

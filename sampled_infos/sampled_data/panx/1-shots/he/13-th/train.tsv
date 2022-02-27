@@ -1,21 +1,3 @@
-``	O
-הכשרת	B-ORG
-הישוב	I-ORG
-''	O
-ממשיכה	O
-להחזיק	O
-ב-27	O
-%	O
-ממניות	O
-מעריב	B-ORG
-.	O
-
-הפניה	O
-מרקוס	B-PER
-איימיליוס	I-PER
-לפידוס	I-PER
-
-פונטה	B-LOC
-ארנס	I-LOC
-,	O
-צ'ילה	B-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8c12c93e707e1e665a0378ee371951d6fdfb460948c615113f8805949a3098f
+size 250

@@ -1,22 +1,3 @@
-הפניה	O
-שלמה	B-PER
-יוסף	I-PER
-זווין	I-PER
-
-עקב	B-LOC
-עיטי	I-LOC
-(	O
-Buteo	O
-rufinus	O
-)	O
-
-היא	O
-לימדה	O
-במקומות	O
-שונים	O
-כולל	O
-אוניברסיטת	B-ORG
-קופנהגן	I-ORG
-ואוניברסיטת	O
-מסצ'וסטס	B-LOC
-.	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:513759ce7a4b0d83434175dad6c07b33e0a584990e17078ae81119f2ad37ea11
+size 278

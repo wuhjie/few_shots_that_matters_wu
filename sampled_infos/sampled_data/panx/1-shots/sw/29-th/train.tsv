@@ -1,16 +1,3 @@
-Karl	B-PER
-Alexander	I-PER
-Müller	I-PER
-
-Machansela	B-LOC
-wa	I-LOC
-Ujerumani	I-LOC
-
-'	O
-''	O
-Kanisa	B-ORG
-Katoliki	I-ORG
-la	I-ORG
-Armenia	I-ORG
-''	O
-'	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:a055d1094b18fd995308f96e21c7346f612d0f90c7b1c127a173b1fd612d5137
+size 154

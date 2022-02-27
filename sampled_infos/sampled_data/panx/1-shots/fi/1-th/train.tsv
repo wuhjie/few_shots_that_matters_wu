@@ -1,20 +1,3 @@
-OHJAUS	O
-Live	B-LOC
-at	I-LOC
-the	I-LOC
-Olympia	I-LOC
-’96	I-LOC
-
-All	B-ORG
-You	I-ORG
-Need	I-ORG
-Is	I-ORG
-Love”	I-ORG
-,	O
-suom	O
-.	O
-
-Anita	B-PER
-Pallenberg	I-PER
-–	O
-taustalaulu	O
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4fbec0cf2713f3e41dc20023ff623e7f393751fed1131cf242a9c0a411c7808
+size 185

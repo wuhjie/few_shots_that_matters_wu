@@ -1,18 +1,3 @@
-رجوع_مکرر	O
-لیبیا	B-ORG
-خانہ	I-ORG
-جنگی	I-ORG
-(	I-ORG
-2011ء	I-ORG
-)	I-ORG
-
-رجوع_مکرر	O
-معین	B-PER
-الدین	I-PER
-احمد	I-PER
-قریشی	I-PER
-
-رجوع_مکرر	O
-سبنگن،	B-LOC
-ماؤنٹین	I-LOC
-علاقہ	I-LOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cdec26c3ff1a86dc97b91ddbc19b8d2c150b57062e76cc8097cb23460c204b3
+size 259

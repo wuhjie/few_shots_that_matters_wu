@@ -1,27 +1,3 @@
-Está	O
-ameaçada	O
-por	O
-perda	B-LOC
-de	I-LOC
-habitat	I-LOC
-.	O
-
-Irina	B-PER
-Lobacheva	I-PER
-/	O
-Ilia	B-PER
-Averbukh	I-PER
-
-Ituzaingó	B-LOC
-(	O
-Ituzaingó	B-LOC
-)	O
-
-``	O
-Perdeu	O
-''	O
--	O
-com	O
-Thaeme	B-ORG
-&	I-ORG
-Thiago	I-ORG
+version https://git-lfs.github.com/spec/v1
+oid sha256:23de966dfda1edd16b6476b51479c9d9ba8ef95031e338260c652724151cdd67
+size 231

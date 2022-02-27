@@ -6,8 +6,6 @@ declare -a list_of_adapt_lr=(1e-5 3e-5 5e-5 7e-5)
 declare -a list_of_num_shots=(1)
 declare -a list_of_group_index=(0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39)
 
-
-
 for ((which_adapt_lang=0;which_adapt_lang<${#list_of_adapt_trn_languages[@]};++which_adapt_lang)); do
     for ((which_adapt_lr=0;which_adapt_lr<${#list_of_adapt_lr[@]};++which_adapt_lr)); do
         for ((which_num_shots=0;which_num_shots<${#list_of_num_shots[@]};++which_num_shots)); do
@@ -16,7 +14,7 @@ for ((which_adapt_lang=0;which_adapt_lang<${#list_of_adapt_trn_languages[@]};++w
                     --experiment marc_adapt_1_shot_no0s \
                     --ptl bert \
                     --model bert-base-multilingual-cased \
-                    --dataset_name marc \
+                    --dataset_name udpos \
                     --adapt_trn_languages ${list_of_adapt_trn_languages[which_adapt_lang]} \
                     --adapt_epochs 50 \
                     --early_stop True \

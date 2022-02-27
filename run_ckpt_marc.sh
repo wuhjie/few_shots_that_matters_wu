@@ -7,7 +7,7 @@ for ((which_finetune_lr=0;which_finetune_lr<${#list_of_finetune_lr[@]};++which_f
         --experiment marc_ckpts \
         --ptl bert \
         --model bert-base-multilingual-cased \
-        --dataset_name marc \
+        --dataset_name udpos \
         --trn_languages english \
         --eval_languages german,english,spanish,french,chinese,japanese \
         --finetune_epochs 10 \

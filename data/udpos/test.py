@@ -3,7 +3,7 @@
 sentence_egs = []
 language = 'german'
 
-with open("test-en.tsv", "r") as f:
+with open("train-en.tsv", "r") as f:
     print("file name: ", f)
     lines = f.read().strip().split("\n\n")
     for line in lines:

@@ -3,7 +3,7 @@
 sentence_egs = []
 language = 'german'
 
-with open("train-en.tsv", "r") as f:
+with open("test-en.tsv", "r") as f:
     print("file name: ", f)
     lines = f.read().strip().split("\n\n")
     for line in lines:
@@ -12,7 +12,6 @@ with open("train-en.tsv", "r") as f:
         if True:
             for _, tag in token_tag_vec:
                 # self.label_list.append(tag)
-                print(1)
+                continue
         # sentence_egs.append((language, which_split, token_tag_vec,))
 # return sentence_egs
-

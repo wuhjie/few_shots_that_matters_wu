@@ -1,5 +1,7 @@
 #!/bin/bash
 
+TASK=${1:udpos}
+
 declare -a list_of_finetune_lr=(1e-5 3e-5 5e-5 7e-5)
 
 for ((which_finetune_lr=0;which_finetune_lr<${#list_of_finetune_lr[@]};++which_finetune_lr)); do
@@ -7,7 +9,7 @@ for ((which_finetune_lr=0;which_finetune_lr<${#list_of_finetune_lr[@]};++which_f
         --experiment marc_ckpts \
         --ptl bert \
         --model bert-base-multilingual-cased \
-        --dataset_name udpos \
+        --dataset_name $TASK \
         --trn_languages english \
         --eval_languages german,english,spanish,french,chinese,japanese \
         --finetune_epochs 10 \

@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# use the customised task
+TASK=${1:udpos}
 
 declare -a list_of_adapt_trn_languages=(german spanish french chinese japanese)
 declare -a list_of_adapt_lr=(1e-5 3e-5 5e-5 7e-5)
@@ -14,7 +15,7 @@ for ((which_adapt_lang=0;which_adapt_lang<${#list_of_adapt_trn_languages[@]};++w
                     --experiment marc_adapt_1_shot_no0s \
                     --ptl bert \
                     --model bert-base-multilingual-cased \
-                    --dataset_name udpos \
+                    --dataset_name  $TASK\
                     --adapt_trn_languages ${list_of_adapt_trn_languages[which_adapt_lang]} \
                     --adapt_epochs 50 \
                     --early_stop True \

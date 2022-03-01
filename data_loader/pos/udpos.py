@@ -73,6 +73,7 @@ class UDPOSDataset(MultilingualRawDataset):
                     which_split = f"dev-{lang}.tsv"
                 if which_split == "test":
                     which_split = f"test-{lang}.tsv"
+                    
                 file_ = os.path.join(self.data_dir, which_split)
                 entries.extend(self.udpos_parse(lang, file_, wsplit))
         entries = sorted(entries, key=lambda x: x[0])  # groupby requires contiguous
@@ -115,7 +116,6 @@ class UDPOSDataset(MultilingualRawDataset):
         sentence_egs = []
         language = abbre2language[lang]
         with open(input_file, "r") as f:
-            print("file name: ", f)
             lines = f.read().strip().split("\n\n")
             for line in lines:
                 sent_vec = line.strip().split("\n")

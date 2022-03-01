@@ -25,6 +25,7 @@ for ((which_adapt_lang=0;which_adapt_lang<${#list_of_adapt_trn_languages[@]};++w
                     --adapt_num_shots ${list_of_num_shots[which_num_shots]} \
                     --group_index ${list_of_group_index[which_group_index]} \
                     --load_ckpt True \
+                    # ckpt-path stands for checkpoint path //guess
                     --ckpt_path ckpt-path \
                     --manual_seed 42 \
                     --train_fast True \

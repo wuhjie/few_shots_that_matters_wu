@@ -2,7 +2,8 @@
 
 TASK=${1:udpos}
 
-declare -a list_of_finetune_lr=(1e-5 3e-5 5e-5 7e-5)
+# 1e-5 3e-5 5e-5 7e-5
+declare -a list_of_finetune_lr=(1e-5)
 
 for ((which_finetune_lr=0;which_finetune_lr<${#list_of_finetune_lr[@]};++which_finetune_lr)); do
     python finetuning_baseline.py --override False \

@@ -20,14 +20,15 @@ for ((which_adapt_lang=0;which_adapt_lang<${#list_of_adapt_trn_languages[@]};++w
                     --model bert-base-multilingual-cased \
                     --dataset_name  $TASK\
                     --adapt_trn_languages ${list_of_adapt_trn_languages[which_adapt_lang]} \
-                    --adapt_epochs 50 \
+                    # 50
+                    --adapt_epochs 10 \
                     --early_stop True \
                     --early_stop_patience 10 \
                     --adapt_batch_size 32 \
                     --adapt_lr ${list_of_adapt_lr[which_adapt_lr]} \
                     --adapt_num_shots ${list_of_num_shots[which_num_shots]} \
                     --group_index ${list_of_group_index[which_group_index]} \
-                    --load_ckpt True \
+                    --load_ckpt False \
                     --ckpt_path ckpt_path \
                     --manual_seed 42 \
                     --train_fast True \

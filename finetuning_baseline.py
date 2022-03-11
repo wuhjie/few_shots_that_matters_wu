@@ -19,7 +19,7 @@ import os
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",
-    dataset_name="panx",
+    dataset_name="udpos",
     experiment="debug",
     trn_languages="german",
     eval_languages=(

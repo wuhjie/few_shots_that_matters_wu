@@ -30,8 +30,6 @@ task2sampleddataset = {
     "udpos": SampledUDPOSDataset,
 }
 
-
-# config would be override in marc_adapt_1_shot.sh
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",

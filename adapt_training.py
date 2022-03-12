@@ -30,6 +30,7 @@ task2sampleddataset = {
     "udpos": SampledUDPOSDataset,
 }
 
+# early_stop_patience=10,
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",
@@ -48,7 +49,7 @@ config = dict(
     manual_seed=42,
     ckpt_path="path-to-en-ckpt",
     early_stop=True,
-    early_stop_patience=10,
+    early_stop_patience=5,
     train_all_params=True,
     train_classifier=True,
     train_pooler=True,  # NOTE: tagging does not use this layer

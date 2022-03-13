@@ -73,7 +73,7 @@ class AdaptTuner(BaseTrainer):
         adapt_language = self.conf.adapt_trn_languages[0]
         learning_curves = {"val_egs": defaultdict(list)}
 
-        for epoch_index in range(1, self.conf.adapt_epochs + 1):
+        for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)

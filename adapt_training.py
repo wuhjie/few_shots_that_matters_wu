@@ -80,6 +80,7 @@ def init_task(conf):
             # version mismatch
             model.load_state_dict(ckpt["best_state_dict"], strict=False)
 
+# use the mentioned langauge in adapt_1_shot.sh to train
     exp_languages = sorted(list(set(conf.adapt_trn_languages)))
     # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]

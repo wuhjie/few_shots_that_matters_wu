@@ -59,8 +59,8 @@ class AdaptTuner(BaseTrainer):
                 scores[language][split_name] = eval_res
         return scores
 
-    def train(
 # model from configuration: bert-base-multilingual-cased
+    def train(
         self, model, tokenizer, data_iter, metric_name, adapt_loaders, hooks=None
     ):
         opt, model = self._init_model_opt(model)

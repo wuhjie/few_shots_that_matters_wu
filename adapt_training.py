@@ -177,12 +177,12 @@ def main(conf):
 
     hooks = init_hooks(conf, metric_name)
 
-# call the adapt trainer, adding active learning in line 187
     conf.logger.log("Initialized tasks, recorders, and initing the trainer.")
     trainer = AdaptTuner(
         conf, collocate_batch_fn=collocate_batch_fn, logger=conf.logger
     )
 
+# TODO: active learning
     conf.logger.log("Starting training/validation.")
     trainer.train(
         model,

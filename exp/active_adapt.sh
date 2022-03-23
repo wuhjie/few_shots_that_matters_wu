@@ -14,7 +14,7 @@ declare -a list_of_group_index=(0 1 2 3 4 5 6 7)
 for ((which_adapt_lang=0;which_adapt_lang<${#list_of_adapt_trn_languages[@]};++which_adapt_lang)); do
     for ((which_adapt_lr=0;which_adapt_lr<${#list_of_adapt_lr[@]};++which_adapt_lr)); do
             for ((which_group_index=0;which_group_index<${#list_of_group_index[@]};++which_group_index)); do
-                python adapt_training.py 
+                python ../adapt_training.py 
                     --override False \
                     --experiment udpos_adapt_1_shot_no0s \
                     --ptl bert \

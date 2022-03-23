@@ -9,6 +9,8 @@ from .hooks import EvaluationRecorder
 from torch.utils.data import SequentialSampler, RandomSampler
 from collections import defaultdict, Counter
 
+import active_learning
+
 
 # adapt tuner inherit all the functions from the basetrainer
 class AdaptTuner(BaseTrainer):
@@ -41,6 +43,8 @@ class AdaptTuner(BaseTrainer):
         for language in tst_languages:
             for split_name in ["tst_egs"]:
                 loader = getattr(adapt_loaders[language], split_name)
+            
+            # func from base.py
                 if self.conf.dataset_name in ["conll2003", "panx", "udpos"]:
                     eval_res, *_ = self._infer_one_loader_tagging(
                         model=best_model,
@@ -116,9 +120,11 @@ class AdaptTuner(BaseTrainer):
                         )
                     scores[language][split_name] = eval_res
                     learning_curves[split_name][language].append(eval_res)
+
             eval_score = scores[adapt_language]["val_egs"]
             hook_container.on_validation_end(eval_score=eval_score, all_scores=scores)
             best_epoch_step = self._get_eval_recorder_hook(hook_container).best_epoch
+
             if (
                 self.conf.early_stop
                 and epoch_index - best_epoch_step > self.conf.early_stop_patience

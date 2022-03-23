@@ -31,6 +31,7 @@ class BaseTrainer(object):
             model = torch.nn.DataParallel(model, device_ids=self.conf.world)
         return model
 
+# model_ptl == bert
     def _model_forward(self, model, **kwargs):
         if self.model_ptl == "distilbert" and "token_type_ids" in kwargs:
             kwargs.pop("token_type_ids")
@@ -64,6 +65,7 @@ class BaseTrainer(object):
         model.train()
         return eval_res, metric_name
 
+# TODO: 
     def _infer_one_loader_tagging(
         self,
         model,
@@ -77,6 +79,7 @@ class BaseTrainer(object):
             device = torch.cuda.current_device()
         model.eval()
         all_preds_tagging, all_golds_tagging = [], []
+
         for batched in loader:
             batched, golds, uids, _golds_tagging = collocate_batch_fn(
                 batched, device=device
@@ -96,6 +99,7 @@ class BaseTrainer(object):
                     all_preds_tagging.append(
                         [idx2label[label_id.item()] for label_id in sent_pred]
                     )
+                    
         assert len(all_golds_tagging) == len(all_preds_tagging)
         eval_fn = eval(metric_name)
         eval_res = eval_fn(all_preds_tagging, all_golds_tagging)

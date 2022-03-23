@@ -30,7 +30,8 @@ task2sampleddataset = {
     "udpos": SampledUDPOSDataset,
 }
 
-# early_stop_patience=10,
+# early_stop_patience=10
+# bert-base-multilingual-cased is from hugging face
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",
@@ -81,10 +82,12 @@ def init_task(conf):
             model.load_state_dict(ckpt["best_state_dict"], strict=False)
 
 # use the mentioned langauge in adapt_1_shot.sh to train
+# TODO: adapt with the active learning strategy
     exp_languages = sorted(list(set(conf.adapt_trn_languages)))
     # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]
     data_iter = {}
+    
     if hasattr(raw_dataset, "contents"):
         for language in exp_languages:
             data_iter[language] = data_iter_cls(

@@ -24,6 +24,7 @@ class AdaptTuner(BaseTrainer):
         # plt == bert
         self.model_ptl = conf.ptl
 
+# opt: optimization, use adam optimiser in this project
     def _init_model_opt(self, model):
         model = self._parallel_to_device(model)
         trn_params = [p for p in model.parameters() if p.requires_grad]

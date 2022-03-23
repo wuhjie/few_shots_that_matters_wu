@@ -1,34 +1,53 @@
-# use the method--uncertainty sampling
+'''
+pool-based sampling -> scrnario
+uncertainty-based sampling -> query strategy framework
+example url: https://modal-python.readthedocs.io/en/latest/content/examples/pool-based_sampling.html
+'''
 
-from modAL.models import ActiveLearner, Committee
-from sklearn.ensemble import RandomForestClassifier
+
+from tkinter.tix import Y_REGION
 import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
+from modAL.models import ActiveLearner
+from sklearn.neural_network import MLPClassifier
 
 #RNG seed for reproductivity
-RAMDOM_STATE_SEED = 1
-np.random.seed(RAMDOM_STATE_SEED)
+RANDOM_STATE_SEED = 123
+np.random.seed(RANDOM_STATE_SEED)
 
-# initialising committee members
-n_members = 2
-learner_list = list()
+N_QUERIES = 20
 
-class ActiveLearner():
-    # Uncertainty sampling query strategy. 
-    # Selects the least sure instances for labelling.
-    def __init__(self, X_training, y_training):
-        learner = ActiveLearner(
-            estimator=RandomForestClassifier(),
-            query_strategy=uncertainty_sampling,
-            X_training=X_training, 
-            y_training = y_training
-        )
+def al_with_pool(X_raw, tag_raw):
+    X, tag = np.array(X_raw), np.array(tag_raw)
+    X_length = X.size
+
+# 80/20 split
+    training_indices = np.random.randint(low=0, high=X_length+1, size=int(X_length*0.8))
+    X_train, tag_train = X_raw[training_indices], tag[training_indices]
+    X_pool, tag_pool = np.delete(X_raw, training_indices, axis=0), np.delete(tag_raw, training_indices, axis=0)
+
+# the core
+    knn = KNeighborsClassifier(n_neighbors=3)
+    learner = ActiveLearner(estimator=knn, X_training=X_train, y_training=tag_train)
+
+    predictions = learner.predict(X_raw)
+    is_correct = (predictions==tag_raw)
+
+    unqueried_score = learner.score(X_raw, tag_raw)
+
+    performance_history = [unqueried_score]
+
+    for index in range(N_QUERIES):
+        query_index, query_instance = learner.query(X_pool)
+
+        X_record, tag_record = X_pool[query_index].reshape(1, -1), tag_pool[query_index].reshape(1, )
+        learner.teach(X=X_record, y=tag_record)
+
+        X_pool, tag_pool = np.delete(X_pool, query_index, axis = 0), np.delete(tag_pool, query_index)
         
-    def leaner_to_list(earner_list, learner):
-        learner_list.append(learner)
+        model_accuracy = learner.score(X_raw, tag_raw)
+        print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
 
-    def committee_assembling(learner_list):
-        return Committee(learner_list=learner_list)
+        performance_history.append(model_accuracy)
 
-    # the hypothese could be different due to the different form of active learning
-    def prediction(committee, X_training):
-        predictions = committee.prediction(X_training)
+        

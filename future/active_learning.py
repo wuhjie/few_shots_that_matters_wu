@@ -50,4 +50,9 @@ def al_with_pool(X_raw, tag_raw):
 
         performance_history.append(model_accuracy)
 
+    # TODO: could use plots to visualise the result 
+    predicctions = learner.predict(X_raw)
+    is_correct = (predictions == tag_raw)
+    
+
         

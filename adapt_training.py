@@ -30,12 +30,12 @@ task2sampleddataset = {
     "udpos": SampledUDPOSDataset,
 }
 
-
-# config would be override in marc_adapt_1_shot.sh
+# early_stop_patience=10
+# bert-base-multilingual-cased is from hugging face
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",
-    dataset_name="marc",
+    dataset_name="udpos",
     experiment="debug",
     adapt_trn_languages="german",
     adapt_epochs=50,
@@ -50,7 +50,7 @@ config = dict(
     manual_seed=42,
     ckpt_path="path-to-en-ckpt",
     early_stop=True,
-    early_stop_patience=10,
+    early_stop_patience=5,
     train_all_params=True,
     train_classifier=True,
     train_pooler=True,  # NOTE: tagging does not use this layer
@@ -81,10 +81,13 @@ def init_task(conf):
             # version mismatch
             model.load_state_dict(ckpt["best_state_dict"], strict=False)
 
+# use the mentioned langauge in adapt_1_shot.sh to train
+# TODO: adapt with the active learning strategy
     exp_languages = sorted(list(set(conf.adapt_trn_languages)))
     # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]
     data_iter = {}
+    
     if hasattr(raw_dataset, "contents"):
         for language in exp_languages:
             data_iter[language] = data_iter_cls(
@@ -182,6 +185,7 @@ def main(conf):
         conf, collocate_batch_fn=collocate_batch_fn, logger=conf.logger
     )
 
+# TODO: active learning
     conf.logger.log("Starting training/validation.")
     trainer.train(
         model,

@@ -33,6 +33,8 @@ class SampledUDPOSDataset(UDPOSDataset):
             entries.extend(self.udpos_parse(lang, file_, 'trn', update_label_list=False))
 
         entries = sorted(entries, key=lambda x: x[0])  # groupby requires contiguous
+
+        # the print function works when during training
         for language, triplets in itertools.groupby(entries, key=lambda x: x[0]):
             # language, [(lang, split, eg)...]
             triplets = list(triplets)

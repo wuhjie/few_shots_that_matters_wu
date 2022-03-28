@@ -114,4 +114,3 @@ class HookContainer(Hook):
     @_patch
     def on_validation_end(self, **kwargs):
         pass
-

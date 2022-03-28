@@ -67,6 +67,7 @@ class BaseTrainer(object):
 
 # TODO: model == bert-base-multilingual-cased
 # adapt_trainer line 108
+# using f1 to measure the accuracy
     def _infer_one_loader_tagging(
         self,
         model,

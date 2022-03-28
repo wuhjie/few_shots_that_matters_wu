@@ -38,8 +38,7 @@ class AdaptTuner(BaseTrainer):
     ):
         assert isinstance(tst_languages, list)
         best_model = deepcopy(
-            self._get_eval_recorder_hook(hook_container).best_state["best_state_dict"]
-        ).cuda()
+            self._get_eval_recorder_hook(hook_container).best_state["best_state_dict"]).cuda()
         scores = defaultdict(dict)
         for language in tst_languages:
             for split_name in ["tst_egs"]:
@@ -70,6 +69,7 @@ class AdaptTuner(BaseTrainer):
     ):
         opt, model = self._init_model_opt(model)
         self.model = model
+        # the train from torch
         self.model.train()
 
         hook_container = HookContainer(world_env={"trainer": self}, hooks=hooks)

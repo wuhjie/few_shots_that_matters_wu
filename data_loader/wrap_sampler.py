@@ -17,6 +17,11 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             if len(egs) > 0
             else None
         )    
+
+        print("egs: ", egs)
+        print("sampler: ", sampler)
+        print("batch size: ", batch_size)
+
         setattr(language_dataset, split_name, dl)
     return language_dataset
 

@@ -181,9 +181,9 @@ def main(conf):
         )
 
         # show the programme and killed it for test
-        print(adapt_loaders[language])
+        print("dataset: ", adapt_loaders[language])
 
-        sys.exit("Error message")
+        # sys.exit("Error message")
 
 
     hooks = init_hooks(conf, metric_name)

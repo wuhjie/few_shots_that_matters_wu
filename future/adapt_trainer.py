@@ -9,8 +9,6 @@ from .hooks import EvaluationRecorder
 from torch.utils.data import SequentialSampler, RandomSampler
 from collections import defaultdict, Counter
 
-import active_learning
-
 
 # adapt tuner inherit all the functions from the basetrainer
 class AdaptTuner(BaseTrainer):

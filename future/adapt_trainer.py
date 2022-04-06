@@ -44,7 +44,6 @@ class AdaptTuner(BaseTrainer):
             for split_name in ["tst_egs"]:
                 loader = getattr(adapt_loaders[language], split_name)
             
-            # func from base.py
                 if self.conf.dataset_name in ["conll2003", "panx", "udpos"]:
                     eval_res, *_ = self._infer_one_loader_tagging(
                         model=best_model,
@@ -80,6 +79,8 @@ class AdaptTuner(BaseTrainer):
 
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
+
+            # training
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 logits, *_ = self._model_forward(self.model, **batched)
@@ -101,6 +102,7 @@ class AdaptTuner(BaseTrainer):
             self.log_fn(f"{all_uids}")
             self.log_fn("*" * 10)
 
+            # dev
             scores = defaultdict(dict)
             for language in [adapt_language]:
                 for split_name in ["val_egs"]:
@@ -111,6 +113,7 @@ class AdaptTuner(BaseTrainer):
                             data_iter[language].raw_dataset.idx2label,
                             loader,
                             self.collocate_batch_fn,
+                            epoch_index,
                         )
                     else:
                         eval_res, *_ = self._infer_one_loader(
@@ -118,6 +121,7 @@ class AdaptTuner(BaseTrainer):
                             loader=loader,
                             collocate_batch_fn=self.collocate_batch_fn,
                             metric_name=metric_name,
+                            
                         )
                     scores[language][split_name] = eval_res
                     learning_curves[split_name][language].append(eval_res)
@@ -146,6 +150,8 @@ class AdaptTuner(BaseTrainer):
                 )
                 return
             self._epoch_step += 1
+
+        # test
         tst_scores = self._infer_tst_egs(
             hook_container,
             data_iter,

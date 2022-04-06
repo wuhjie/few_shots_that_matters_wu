@@ -1,4 +1,5 @@
 from adapt_parameters import get_args
+from future.active_learning import al_sampler
 from future.adapt_trainer import AdaptTuner
 from future.modules import ptl2classes
 from future.hooks import EvaluationRecorder, LearningCurveRecorder
@@ -22,7 +23,7 @@ from sampled_infos.sampled_data_loader.udpos import SampledUDPOSDataset
 
 
 task2sampleddataset = {
-    # "mldoc": SampledMLDocDataset,
+    "mldoc": SampledMLDocDataset,
     "marc": SampledMARCDataset,
     "xnli": SampledXNLIDataset,
     "pawsx": SampledPAWSXDataset,
@@ -41,7 +42,7 @@ config = dict(
     adapt_epochs=50,
     adapt_batch_size=32,
     adapt_lr=3e-5,
-    adapt_num_shots=1,
+    adapt_num_shots=4,
     group_index=4,
     inference_batch_size=512,
     world="0",
@@ -81,8 +82,6 @@ def init_task(conf):
             # version mismatch
             model.load_state_dict(ckpt["best_state_dict"], strict=False)
 
-# use the mentioned langauge in adapt_1_shot.sh to train
-# TODO: adapt with the active learning strategy
     exp_languages = sorted(list(set(conf.adapt_trn_languages)))
     # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]
@@ -141,7 +140,7 @@ def confirm_model(conf, model):
             if "classifier" in name:
                 param.requires_grad = True
 
-    # if train pooler layer
+    # if train pooler layer, only use pooler in MARC in previous project
     if conf.train_pooler:
         for name, param in model.named_parameters():
             if "bert.pooler" in name:
@@ -171,7 +170,15 @@ def main(conf):
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
-        adapt_loaders[language] = wrap_sampler(
+
+        if conf.dataset_name  == "udpos":
+            adapt_loaders[language] = al_sampler(
+                
+            )
+
+
+        else: 
+            adapt_loaders[language] = wrap_sampler(
             trn_batch_size=conf.adapt_batch_size,
             infer_batch_size=conf.inference_batch_size,
             language=language,
@@ -181,11 +188,11 @@ def main(conf):
     hooks = init_hooks(conf, metric_name)
 
     conf.logger.log("Initialized tasks, recorders, and initing the trainer.")
+
     trainer = AdaptTuner(
         conf, collocate_batch_fn=collocate_batch_fn, logger=conf.logger
     )
 
-# TODO: active learning
     conf.logger.log("Starting training/validation.")
     trainer.train(
         model,

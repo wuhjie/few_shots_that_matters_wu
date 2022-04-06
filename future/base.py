@@ -82,7 +82,6 @@ class BaseTrainer(object):
         idx2label,
         loader,
         collocate_batch_fn,
-        epoch_index,
         metric_name="f1_score_tagging",
         device=None,
     ):

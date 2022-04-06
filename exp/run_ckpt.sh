@@ -11,8 +11,8 @@ for ((which_finetune_lr=0;which_finetune_lr<${#list_of_finetune_lr[@]};++which_f
         --ptl bert \
         --model bert-base-multilingual-cased \
         --dataset_name $TASK \
-        --trn_languages german \
-        --eval_languages german,spanish,french,chinese,japanese \
+        --trn_languages english \
+        --eval_languages german \
         --finetune_epochs 10 \
         --finetune_batch_size 32 \
         --eval_every_batch 50 \

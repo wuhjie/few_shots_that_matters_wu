@@ -3,7 +3,7 @@
 TASK=${1:udpos}
 
 # (german spanish french chinese japanese)
-declare -a list_of_adapt_trn_languages=(german)
+declare -a list_of_adapt_trn_languages=(chinese)
 # (1e-5 3e-5 5e-5 7e-5)
 declare -a list_of_adapt_lr=(1e-5)
 # list of number of shots depends on the dataset, 1

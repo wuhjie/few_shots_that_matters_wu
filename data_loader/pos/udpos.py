@@ -15,7 +15,35 @@ class UDPOSDataset(MultilingualRawDataset):
         # "marathi,dutch,portuguese,russian,"
         # "tamil,telugu,turkish,urdu,vietnamese,chinese")
         self.lang_abbres = [
-            "af", 
+            "en",
+            "af",
+            "ar",
+            "bg",
+            "de",
+            "el",
+            "es",
+            "et",
+            "eu",
+            "fa",
+            "fi",
+            "fr",
+            "he",
+            "hi",
+            "hu",
+            "id",
+            "it",
+            "ja",
+            "ko",
+            "mr",
+            "nl",
+            "pt",
+            "ru",
+            "ta",
+            "te",
+            "tr",
+            "ur",
+            "vi",
+            "zh",
         ]
         self.metrics = ["f1_score_tagging"]
         self.label_list = []

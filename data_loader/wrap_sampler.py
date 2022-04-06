@@ -19,6 +19,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
         )    
 
         print("egs: ", egs)
+        print("langauge datasets: ", language_dataset)
         print("sampler: ", sampler)
         print("batch size: ", batch_size)
 

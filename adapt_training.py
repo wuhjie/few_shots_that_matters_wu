@@ -14,6 +14,8 @@ import random
 import os
 import numpy as np
 
+import sys
+
 from sampled_infos.sampled_data_loader.mldoc import SampledMLDocDataset
 from sampled_infos.sampled_data_loader.marc import SampledMARCDataset
 from sampled_infos.sampled_data_loader.xnli import SampledXNLIDataset
@@ -170,20 +172,19 @@ def main(conf):
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
-
-        if conf.dataset_name  == "udpos":
-            adapt_loaders[language] = al_sampler(
-                
-            )
-
-
-        else: 
-            adapt_loaders[language] = wrap_sampler(
-            trn_batch_size=conf.adapt_batch_size,
-            infer_batch_size=conf.inference_batch_size,
-            language=language,
-            language_dataset=language_dataset,
+ 
+        adapt_loaders[language] = wrap_sampler(
+        trn_batch_size=conf.adapt_batch_size,
+        infer_batch_size=conf.inference_batch_size,
+        language=language,
+        language_dataset=language_dataset,
         )
+
+        # show the programme and killed it for test
+        print(adapt_loaders[language])
+
+        sys.exit("Error message")
+
 
     hooks = init_hooks(conf, metric_name)
 

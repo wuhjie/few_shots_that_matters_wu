@@ -3,7 +3,7 @@ from .hooks import EvaluationRecorder
 import utils.eval_meters as eval_meters
 from seqeval.metrics import f1_score as f1_score_tagging
 import torch
-from active_learning import Al_with_pool
+# from active_learning import Al_with_pool
 
 
 class BaseTrainer(object):

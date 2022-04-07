@@ -19,7 +19,7 @@ np.random.seed(RANDOM_STATE_SEED)
 N_QUERIES = 10
 
 def extract(lst, n):
-    return list(list(zip(*lst))[n])
+    return list(list(zip(*lst[0]))[n])
 
 def al_with_pool(trn_data):
     X_raw, tag_raw = extract(trn_data, 0), extract(trn_data, 1)

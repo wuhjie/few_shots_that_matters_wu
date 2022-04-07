@@ -170,7 +170,7 @@ def main(conf):
     # init model
     model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
 
-    print("data iters: ", data_iter)
+    print("training data iters: ", data_iter.trn_egs)
 
     model = confirm_model(conf, model)
     adapt_loaders = {}

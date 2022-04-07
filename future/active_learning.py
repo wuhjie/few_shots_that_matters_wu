@@ -32,6 +32,9 @@ def al_with_pool(trn_data):
 
 # 80/20 split
     training_indices = np.random.randint(low=0, high=X_length+1, size=int(X_length*0.8))
+
+    print("training indices: ", training_indices)
+
     X_train, tag_train = X_raw[training_indices], tag[training_indices]
     X_pool, tag_pool = np.delete(X_raw, training_indices, axis=0), np.delete(tag_raw, training_indices, axis=0)
 

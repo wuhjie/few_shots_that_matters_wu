@@ -96,6 +96,9 @@ class UDPOSDataset(MultilingualRawDataset):
                     tst_egs.append(eg)
                 else:
                     raise ValueError
+
+            print("udpos training egs: ", trn_egs)
+
             _dataset = RawDataset(
                 name=f"{self.name}-{language}",
                 language=language,

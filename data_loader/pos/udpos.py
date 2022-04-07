@@ -97,7 +97,7 @@ class UDPOSDataset(MultilingualRawDataset):
                 else:
                     raise ValueError
 
-            print("udpos training egs: ", trn_egs)
+            # TODO:
 
             _dataset = RawDataset(
                 name=f"{self.name}-{language}",

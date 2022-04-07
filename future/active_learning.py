@@ -10,7 +10,7 @@ from tkinter.tix import Y_REGION
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from modAL.models import ActiveLearner
-from torch.utils.data import SequentialSampler, DataLoader
+import random
 
 #RNG seed for reproductivity
 RANDOM_STATE_SEED = 123
@@ -28,10 +28,10 @@ def al_with_pool(trn_data):
     print("tag_raw: ", tag_raw)
 
     X, tag = np.array(X_raw), np.array(tag_raw)
-    X_length = X.size
+    X_length = X.shape[0]
 
 # 80/20 split
-    training_indices = np.random.randint(low=0, high=X_length+1, size=int(X_length*0.8))
+    training_indices = random.sample(range(0, X_length+1), int(X_length*0.8))
 
     print("training indices: ", training_indices)
 

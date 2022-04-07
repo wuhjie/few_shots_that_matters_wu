@@ -19,7 +19,7 @@ np.random.seed(RANDOM_STATE_SEED)
 N_QUERIES = 10
 
 def al_with_pool(trn_data):
-    X_raw, tag_raw = _, _
+    X_raw, tag_raw = zip(*trn_data)[0], zip(*trn_data)[1]
     X, tag = np.array(X_raw), np.array(tag_raw)
     X_length = X.size
 
@@ -58,30 +58,8 @@ def al_with_pool(trn_data):
         performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
-    predicctions = learner.predict(X_raw)
+    predictions = learner.predict(X_raw)
     is_correct = (predictions == tag_raw)
 
-    return performance_history, predicctions
+    return performance_history, predictions
     
-
-def al_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
-    for split_name in ("trn_egs", "val_egs", "tst_egs"):
-        egs = getattr(language_dataset, split_name)
-        if len(egs) == 0:
-            print(f"[WARN] {split_name} of {language} has zero egs")
-        if split_name == "trn_egs":
-            # TODO: use the above actve learning strategy, use the training set from target languages
-            sampler = al_with_pool()
-            batch_size = trn_batch_size
-        else:
-            sampler = SequentialSampler
-            batch_size = infer_batch_size
-
-        dl = (
-            DataLoader(egs, sampler=sampler(egs), batch_size=batch_size)
-            if len(egs) > 0
-            else None
-        )  
-
-        setattr(language_dataset, split_name, dl)
-        return language_dataset

@@ -5,16 +5,20 @@ from future.active_learning import al_with_pool
 
 def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
 
-    # language_dataset.raw_dataset.trn_egs
+    performance_history, predictions = al_with_pool(language_dataset.raw_dataset.trn_egs)
+    print("performance history: ", performance_history)
+    # print("ptrdictions: ", predictions)
+    
+    #TODO: select with lowest predictions
+
+
     for split_name in ("trn_egs", "val_egs", "tst_egs"):
         egs = getattr(language_dataset, split_name)
         if len(egs) == 0:
             print(f"[WARN] {split_name} of {language} has zero egs")
-        if split_name == "trn_egs": 
-            
-            print("training egs: ", egs)
+        if split_name == "trn_egs":  
 
-             
+            # TODO: only select those with highest uncertainty   
             sampler = RandomSampler
             batch_size = trn_batch_size
         else:

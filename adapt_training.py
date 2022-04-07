@@ -1,4 +1,5 @@
 from adapt_parameters import get_args
+from future.active_learning import al_with_pool
 from future.adapt_trainer import AdaptTuner
 from future.modules import ptl2classes
 from future.hooks import EvaluationRecorder, LearningCurveRecorder

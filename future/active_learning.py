@@ -35,8 +35,8 @@ def al_with_pool(trn_data):
 
     print("training indices: ", training_indices)
 
-    X_train, tag_train = X_raw[training_indices], tag[training_indices]
-    X_pool, tag_pool = np.delete(X_raw, training_indices, axis=0), np.delete(tag_raw, training_indices, axis=0)
+    X_train, tag_train = X[training_indices], tag[training_indices]
+    X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
 # the core
     knn = KNeighborsClassifier(n_neighbors=3)
@@ -47,10 +47,10 @@ def al_with_pool(trn_data):
         query_strategy=uncertainty_sampling
         )
 
-    predictions = learner.predict(X_raw)
-    is_correct = (predictions==tag_raw)
+    predictions = learner.predict(X)
+    is_correct = (predictions==tag)
 
-    unqueried_score = learner.score(X_raw, tag_raw)
+    unqueried_score = learner.score(X, tag)
 
     performance_history = [unqueried_score]
 
@@ -62,14 +62,14 @@ def al_with_pool(trn_data):
 
         X_pool, tag_pool = np.delete(X_pool, query_index, axis = 0), np.delete(tag_pool, query_index)
         
-        model_accuracy = learner.score(X_raw, tag_raw)
+        model_accuracy = learner.score(X, tag)
         print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
 
         performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
-    predictions = learner.predict(X_raw)
-    is_correct = (predictions == tag_raw)
+    predictions = learner.predict(X)
+    is_correct = (predictions == tag)
 
     return performance_history, predictions
     

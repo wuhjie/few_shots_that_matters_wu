@@ -18,7 +18,8 @@ np.random.seed(RANDOM_STATE_SEED)
 
 N_QUERIES = 10
 
-def al_with_pool(X_raw, tag_raw):
+def al_with_pool(trn_data):
+    X_raw, tag_raw = _, _
     X, tag = np.array(X_raw), np.array(tag_raw)
     X_length = X.size
 

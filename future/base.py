@@ -3,7 +3,6 @@ from .hooks import EvaluationRecorder
 import utils.eval_meters as eval_meters
 from seqeval.metrics import f1_score as f1_score_tagging
 import torch
-# from active_learning import Al_with_pool
 
 
 class BaseTrainer(object):
@@ -17,7 +16,6 @@ class BaseTrainer(object):
         self._batch_step = 0
         self._epoch_step = 0
 
-# similar to getter and setter
     @property
     def batch_step(self):
         return self._batch_step
@@ -32,20 +30,13 @@ class BaseTrainer(object):
             model = torch.nn.DataParallel(model, device_ids=self.conf.world)
         return model
 
-    # model_ptl == bert
     def _model_forward(self, model, **kwargs):
         if self.model_ptl == "distilbert" and "token_type_ids" in kwargs:
             kwargs.pop("token_type_ids")
         return model(**kwargs)
 
-# for dataset except ["conll2003", "panx", "udpos"]
     def _infer_one_loader(
-        self, 
-        model, 
-        loader, 
-        collocate_batch_fn, 
-        metric_name="accuracy", 
-        device=None
+        self, model, loader, collocate_batch_fn, metric_name="accuracy", device=None
     ):
         assert isinstance(loader.sampler, SequentialSampler)
         try:
@@ -54,13 +45,10 @@ class BaseTrainer(object):
             raise ValueError(
                 f"Required metric {metric_name} not implemented in meters module."
             )
-
         if device is None:
             device = torch.cuda.current_device()
-
         model.eval()
         all_golds, all_preds = [], []
-
         for batched in loader:
             batched, golds, *_ = collocate_batch_fn(batched, device=device)
             with torch.no_grad():
@@ -73,9 +61,6 @@ class BaseTrainer(object):
         model.train()
         return eval_res, metric_name
 
-# TODO: model == bert-base-multilingual-cased
-# no_grad == no gradient which would reduce memory consumption,
-# make sure not calling tf.backwards when using this function
     def _infer_one_loader_tagging(
         self,
         model,
@@ -89,15 +74,10 @@ class BaseTrainer(object):
             device = torch.cuda.current_device()
         model.eval()
         all_preds_tagging, all_golds_tagging = [], []
-
-        # divide data into different batches
         for batched in loader:
             batched, golds, uids, _golds_tagging = collocate_batch_fn(
                 batched, device=device
             )
-            
-            # use the original model in the first epoch and al in the rest
-            
             with torch.no_grad():
                 _, bert_out_preds, *_ = self._model_forward(model, **batched)
                 assert bert_out_preds.shape == _golds_tagging.shape
@@ -110,17 +90,10 @@ class BaseTrainer(object):
                     )
                     all_preds_tagging.append(
                         [idx2label[label_id.item()] for label_id in sent_pred]
-                )
-                
+                    )
         assert len(all_golds_tagging) == len(all_preds_tagging)
-
-        print("metric name:", metric_name)
-
-
         eval_fn = eval(metric_name)
         eval_res = eval_fn(all_preds_tagging, all_golds_tagging)
-
-        # bert training here
         model.train()
         return eval_res, metric_name
 

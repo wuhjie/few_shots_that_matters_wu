@@ -24,14 +24,16 @@ def extract(lst, n):
 def al_with_pool(trn_data):
     X_raw, tag_raw = extract(trn_data, 0), extract(trn_data, 1)
 
-    print("x_raw: ", X_raw)
-    print("tag_raw: ", tag_raw)
+    # print("x_raw: ", X_raw)
+    # print("tag_raw: ", tag_raw)
 
     X, tag = np.array(X_raw), np.array(tag_raw)
     X_length = X.shape[0]
 
+    print("length of x: ", X_length)
+
 # 80/20 split
-    training_indices = random.sample(range(0, X_length+1), int(X_length*0.8))
+    training_indices = random.sample(range(0, X_length), int(X_length*0.8))
 
     print("training indices: ", training_indices)
 

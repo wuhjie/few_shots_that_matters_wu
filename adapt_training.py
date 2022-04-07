@@ -88,6 +88,8 @@ def init_task(conf):
     # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]
     data_iter = {}
+
+    print("raw training data: ", raw_dataset.trn_egs)
     
     if hasattr(raw_dataset, "contents"):
         for language in exp_languages:

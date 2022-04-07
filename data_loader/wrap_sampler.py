@@ -3,15 +3,18 @@ from torch.utils.data import SequentialSampler, DataLoader, RandomSampler
 from future.active_learning import al_with_pool
 
 
-def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset, al_trn):
+def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
+
+    # language_dataset.raw_dataset.trn_egs
     for split_name in ("trn_egs", "val_egs", "tst_egs"):
         egs = getattr(language_dataset, split_name)
         if len(egs) == 0:
             print(f"[WARN] {split_name} of {language} has zero egs")
-        if split_name == "trn_egs":
-            sampler = al_with_pool
+        if split_name == "trn_egs": 
+            
+            print("training egs: ", egs)
 
-
+             
             sampler = RandomSampler
             batch_size = trn_batch_size
         else:

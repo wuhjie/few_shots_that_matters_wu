@@ -46,7 +46,9 @@ class MARCDataset(MultilingualRawDataset):
                     # reference before assignment
                 file_ = os.path.join(marc_, which_split)
                 entries.extend(self.marc_parse(lang, file_, wsplit))
-        entries = sorted(entries, key=lambda x: x[0])  # groupby requires contiguous
+
+        # groupby requires contiguous
+        entries = sorted(entries, key=lambda x: x[0]) 
         for language, triplets in itertools.groupby(entries, key=lambda x: x[0]):
             # get examples in this language
             triplets = list(triplets)

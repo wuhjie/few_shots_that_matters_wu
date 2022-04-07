@@ -29,6 +29,6 @@ task2labelsetsize = {
     "mldoc": 4,
     "marc": 5,
     "conll2003": -1,
-    "panx": -1,
+    "panx": -1,                                    
     "udpos": -1,
 }

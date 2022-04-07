@@ -1,21 +1,3 @@
-from adapt_parameters import get_args
-from future.active_learning import al_sampler
-from future.adapt_trainer import AdaptTuner
-from future.modules import ptl2classes
-from future.hooks import EvaluationRecorder, LearningCurveRecorder
-
-import data_loader.data_configs as data_configs
-from future.collocate_fns import task2collocate_fn
-from data_loader.wrap_sampler import wrap_sampler
-import utils.checkpoint as checkpoint
-import utils.logging as logging
-import torch
-import random
-import os
-import numpy as np
-
-import sys
-
 from sampled_infos.sampled_data_loader.mldoc import SampledMLDocDataset
 from sampled_infos.sampled_data_loader.marc import SampledMARCDataset
 from sampled_infos.sampled_data_loader.xnli import SampledXNLIDataset
@@ -23,18 +5,22 @@ from sampled_infos.sampled_data_loader.pawsx import SampledPAWSXDataset
 from sampled_infos.sampled_data_loader.panx import SampledPANXDataset
 from sampled_infos.sampled_data_loader.udpos import SampledUDPOSDataset
 
+from collections import namedtuple
+import torch
+import data_loader.data_configs as data_configs
+from future.collocate_fns import task2collocate_fn
+import numpy as np
+import random
+import utils.checkpoint as checkpoint
+import utils.logging as logging
 
-task2sampleddataset = {
-    "mldoc": SampledMLDocDataset,
-    "marc": SampledMARCDataset,
-    "xnli": SampledXNLIDataset,
-    "pawsx": SampledPAWSXDataset,
-    "panx": SampledPANXDataset,
-    "udpos": SampledUDPOSDataset,
-}
+from modules import (
+    BertForSequenceClassification,
+    BertForMultipleChoice,
+    BertTokenizer,
+    BertForSequenceTagging,
+)
 
-# early_stop_patience=10
-# bert-base-multilingual-cased is from hugging face
 config = dict(
     ptl="bert",
     model="bert-base-multilingual-cased",
@@ -60,6 +46,19 @@ config = dict(
     reinit_classifier=False,
 )
 
+task2sampleddataset = {
+    "udpos": SampledUDPOSDataset,
+}
+
+Classes = namedtuple("Classes", "seqcls seqtag multiplechoice tokenizer")
+ptl2classes = {
+    "bert": Classes(
+        BertForSequenceClassification,
+        BertForSequenceTagging,
+        BertForMultipleChoice,
+        BertTokenizer,
+    )
+}
 
 def init_task(conf):
     raw_dataset = task2sampleddataset[conf.dataset_name](
@@ -109,107 +108,6 @@ def init_task(conf):
     collocate_batch_fn = task2collocate_fn[conf.dataset_name]
     return (model, tokenizer, data_iter, metric_name, collocate_batch_fn)
 
-
-def init_hooks(conf, metric_name):
-    eval_recorder = EvaluationRecorder(
-        where_=os.path.join(conf.checkpoint_root, "state_dicts"),
-        which_metric=metric_name,
-    )
-    learning_curve_recorder = LearningCurveRecorder(
-        where_=os.path.join(conf.checkpoint_root, "learning_curves")
-    )
-    return [eval_recorder, learning_curve_recorder]
-
-
-def confirm_model(conf, model):
-    # reinit classifier if necessary
-    if conf.reinit_classifier:
-        for name, param in model.named_parameters():
-            if "classifier.weight" in name:
-                param.data.normal_(mean=0.0, std=0.02)
-                print("[INFO] reset classifier weights.")
-            if "classifier.bias" in name:
-                print("[INFO] reset classifier bias.")
-                param.data.zero_()
-
-    # lets turn off the grad for all first
-    for name, param in model.named_parameters():
-        param.requires_grad = False
-
-    # if train classifier layer
-    if conf.train_classifier:
-        for name, param in model.named_parameters():
-            if "classifier" in name:
-                param.requires_grad = True
-
-    # if train pooler layer, only use pooler in MARC in previous project
-    if conf.train_pooler:
-        for name, param in model.named_parameters():
-            if "bert.pooler" in name:
-                param.requires_grad = True
-
-    # if train all, turn on everything
-    if conf.train_all_params:
-        for name, param in model.named_parameters():
-            param.requires_grad = True
-
-    for name, param in model.named_parameters():
-        print(name, param.requires_grad)
-
-    return model
-
-
-def main(conf):
-    if conf.override:
-        for name, value in config.items():
-            assert type(getattr(conf, name)) == type(value), f"{name} {value}"
-            setattr(conf, name, value)
-
-    init_config(conf)
-
-    # init model
-    model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
-    model = confirm_model(conf, model)
-    adapt_loaders = {}
-    for language, language_dataset in data_iter.items():
- 
-        adapt_loaders[language] = wrap_sampler(
-        trn_batch_size=conf.adapt_batch_size,
-        infer_batch_size=conf.inference_batch_size,
-        language=language,
-        language_dataset=language_dataset,
-        )
-
-        # show the programme and killed it for test
-        print("dataset: ", adapt_loaders[language])
-
-        # sys.exit("Error message")
-
-
-    hooks = init_hooks(conf, metric_name)
-
-    conf.logger.log("Initialized tasks, recorders, and initing the trainer.")
-
-    trainer = AdaptTuner(
-        conf, collocate_batch_fn=collocate_batch_fn, logger=conf.logger
-    )
-
-    conf.logger.log("Starting training/validation.")
-    trainer.train(
-        model,
-        tokenizer=tokenizer,
-        data_iter=data_iter,
-        metric_name=metric_name,
-        adapt_loaders=adapt_loaders,
-        hooks=hooks,
-    )
-
-    # update the status.
-    conf.logger.log("Finishing training/validation.")
-    conf.is_finished = True
-    logging.save_arguments(conf)
-
-
 def init_config(conf):
     conf.is_finished = False
     conf.task = conf.dataset_name
@@ -254,9 +152,63 @@ def init_config(conf):
     # configure logger.
     conf.logger = logging.Logger(conf.checkpoint_root)
 
+def confirm_model(conf, model):
+    # reinit classifier if necessary
+    if conf.reinit_classifier:
+        for name, param in model.named_parameters():
+            if "classifier.weight" in name:
+                param.data.normal_(mean=0.0, std=0.02)
+                print("[INFO] reset classifier weights.")
+            if "classifier.bias" in name:
+                print("[INFO] reset classifier bias.")
+                param.data.zero_()
 
-if __name__ == "__main__":
-    conf = get_args()
+    # lets turn off the grad for all first
+    for name, param in model.named_parameters():
+        param.requires_grad = False
 
-# back to line 156
-    main(conf)
+    # if train classifier layer
+    if conf.train_classifier:
+        for name, param in model.named_parameters():
+            if "classifier" in name:
+                param.requires_grad = True
+
+    # if train pooler layer, only use pooler in MARC in previous project
+    if conf.train_pooler:
+        for name, param in model.named_parameters():
+            if "bert.pooler" in name:
+                param.requires_grad = True
+
+    # if train all, turn on everything
+    if conf.train_all_params:
+        for name, param in model.named_parameters():
+            param.requires_grad = True
+
+    for name, param in model.named_parameters():
+        print(name, param.requires_grad)
+
+    return model
+
+def main(conf):
+    if conf.override:
+        for name, value in config.items():
+            assert type(getattr(conf, name)) == type(value), f"{name} {value}"
+            setattr(conf, name, value)
+
+    init_config(conf)
+
+    # init model
+    model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
+    model = confirm_model(conf, model)
+    adapt_loaders = {}
+    for language, language_dataset in data_iter.items():
+
+        if conf.dataset_name  == "udpos":
+            adapt_loaders[language] = wrap_sampler(
+            trn_batch_size=conf.adapt_batch_size,
+            infer_batch_size=conf.inference_batch_size,
+            language=language,
+            language_dataset=language_dataset,
+        )
+        else:
+            print("failed to load the data")

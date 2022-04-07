@@ -174,10 +174,7 @@ def main(conf):
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
-
-        print("language_dataset in data_iters.items", language_dataset.raw_dataset.trn_egs)
-        print("previous success: ", data_iter[language].raw_dataset.trn_egs)
-        
+ 
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
         infer_batch_size=conf.inference_batch_size,

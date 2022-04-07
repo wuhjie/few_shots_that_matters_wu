@@ -170,11 +170,13 @@ def main(conf):
     # init model
     model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
 
-    print("training data iters: ", data_iter.trn_egs)
+    
 
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
+
+        print("training set: ", data_iter[language].trn_egs)
  
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
@@ -186,7 +188,7 @@ def main(conf):
         # show the programme and killed it for test
         print("dataset: ", adapt_loaders[language])
 
-        # sys.exit("Error message")
+
 
 
     hooks = init_hooks(conf, metric_name)

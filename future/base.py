@@ -92,6 +92,9 @@ class BaseTrainer(object):
                         [idx2label[label_id.item()] for label_id in sent_pred]
                     )
         assert len(all_golds_tagging) == len(all_preds_tagging)
+
+        print("metric_name", metric_name)
+
         eval_fn = eval(metric_name)
         eval_res = eval_fn(all_preds_tagging, all_golds_tagging)
         model.train()

@@ -88,8 +88,6 @@ def init_task(conf):
     # init the project with the data_configs.py
     data_iter_cls = data_configs.task2dataiter[conf.dataset_name]
     data_iter = {}
-
-    print("raw training data: ", raw_dataset.trn_egs)
     
     if hasattr(raw_dataset, "contents"):
         for language in exp_languages:
@@ -171,6 +169,9 @@ def main(conf):
 
     # init model
     model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
+
+    print("data iters: ", data_iter)
+
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():

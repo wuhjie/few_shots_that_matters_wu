@@ -9,7 +9,8 @@
 4. Due to the size of the dataset, the language datasets are not included in the github repo.
 
 ### The running process
-1. finetuning $\rightarrow$ adapt_learning
+1. Running platform: google colab
+2. finetuning $\rightarrow$ adapt_learning
 
 ### Active learning
 1. Use the library, modAL

@@ -93,7 +93,10 @@ class BaseTrainer(object):
                     )
         assert len(all_golds_tagging) == len(all_preds_tagging)
 
-        print("metric_name", metric_name)
+        metric_name="f1_score_tagging"
+
+        print("metric_name: ", metric_name)
+        print("type: ", type(metric_name))
 
         eval_fn = eval(metric_name)
         eval_res = eval_fn(all_preds_tagging, all_golds_tagging)

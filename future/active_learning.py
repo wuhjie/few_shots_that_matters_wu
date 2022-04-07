@@ -5,7 +5,6 @@ example url: https://modal-python.readthedocs.io/en/latest/content/examples/pool
 '''
 
 
-from contextlib import redirect_stderr
 from tkinter.tix import Y_REGION
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
@@ -25,7 +24,7 @@ def extract(lst, n):
 def al_with_pool(trn_data):
     X_raw, tag_raw = extract(trn_data, 0), extract(trn_data, 1)
 
-    X, tag = np.array(X_raw).reshape(1, -1), np.array(tag_raw).reshape(1, -1)
+    X, tag = np.array(X_raw).reshape(1, -1).T, np.array(tag_raw).reshape(1, -1).T
     X_length = X.shape[0]
 
 # 80/20 split

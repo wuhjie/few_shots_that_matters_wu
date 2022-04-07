@@ -176,7 +176,7 @@ def main(conf):
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
 
-        print("training set: ", data_iter[language].trn_egs)
+        print("raw set: ", data_iter[language].raw_dataset)
  
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
@@ -186,7 +186,7 @@ def main(conf):
         )
 
         # show the programme and killed it for test
-        print("dataset: ", adapt_loaders[language])
+        # print("dataset: ", adapt_loaders[language])
 
 
 

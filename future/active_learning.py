@@ -25,7 +25,7 @@ def extract(lst, n):
 def al_with_pool(trn_data):
     X_raw, tag_raw = extract(trn_data, 0), extract(trn_data, 1)
 
-    X, tag = np.array(X_raw), np.array(tag_raw)
+    X, tag = np.array(X_raw).reshape(1, -1), np.array(tag_raw).reshape(1, -1)
     X_length = X.shape[0]
 
 # 80/20 split
@@ -55,7 +55,7 @@ def al_with_pool(trn_data):
     for index in range(N_QUERIES):
         query_index, query_instance = learner.query(X_pool)
 
-        X_record, tag_record = X_pool[query_index].reshape(1, -1), tag_pool[query_index].reshape(1, -1)
+        X_record, tag_record = X_pool[query_index].reshape(1, -1), tag_pool[query_index].reshape(1, )
         learner.teach(X=X_record, y=tag_record)
 
         X_pool, tag_pool = np.delete(X_pool, query_index, axis = 0), np.delete(tag_pool, query_index)

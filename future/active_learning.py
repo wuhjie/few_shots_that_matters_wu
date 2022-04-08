@@ -34,8 +34,8 @@ def al_with_pool(trn_data):
 
     print("training indices: ", training_indices)
 
-    X_train, tag_train = X[training_indices], tag[training_indices]
-    X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
+    X_train, tag_train = X[training_indices].reshape(1, -1), tag[training_indices]
+    X_pool, tag_pool = np.delete(X[0], training_indices, axis=0).reshape(1, -1), np.delete(tag, training_indices, axis=0)
 
     print("x train shape: ", X_train.shape)
     print("tag train shape: ", tag_train.shape)

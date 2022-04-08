@@ -22,7 +22,9 @@ def extract(lst, n):
     return list(list(zip(*lst[0]))[n])
 
 def al_with_pool(trn_data):
-    X_raw, tag_raw = trn_data.uides, trn_data.tags_ides
+    X_raw, tag_raw = extract(trn_data, 0),  extract(trn_data, 1)
+
+    # X_raw, tag_raw = trn_data.uides, trn_data.tags_ides
 
     X, tag = np.array(X_raw), np.array(tag_raw)
     X_length = X.shape[0]

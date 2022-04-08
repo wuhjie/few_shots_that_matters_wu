@@ -5,7 +5,12 @@ from future.active_learning import al_with_pool
 
 def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
 
-    performance_history, predictions = al_with_pool(language_dataset.raw_dataset.trn_egs)
+    # performance_history, predictions = al_with_pool(language_dataset.trn_egs)
+
+    trn_egs = language_dataset.trn_egs
+    print("input_idses: ", trn_egs.input_idses)
+    print("attention_masks: ", trn_egs.attention_maskes)
+    print("tags_ides : ", trn_egs.tags_ides)
 
     #TODO: select with lowest predictions
 

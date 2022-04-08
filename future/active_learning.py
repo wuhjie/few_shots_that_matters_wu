@@ -33,6 +33,8 @@ def tensor_to_np(egs):
 def al_with_pool(egs):
     X, tag = extract(egs, 0),  extract(egs, 1)
 
+    X.reshape(X.shape[0], 1)
+
     # X, tag = egs.input_idses, egs.tags_ides
     performance_history = 0
     # X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)

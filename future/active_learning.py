@@ -33,7 +33,8 @@ def tensor_to_np(egs):
 def al_with_pool(egs):
     # X_raw, tag_raw = extract(trn_data, 0),  extract(trn_data, 1)
 
-    X, tag = egs.input_idses, egs.tags_ides
+    # X, tag = egs.input_idses, egs.tags_ides
+    performance_history = 0
     X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)
 
     print("X: ", X)
@@ -61,9 +62,9 @@ def al_with_pool(egs):
     predictions = learner.predict(X)
     is_correct = (predictions==tag)
 
-    unqueried_score = learner.score(X, tag)
+    # unqueried_score = learner.score(X, tag)
 
-    performance_history = [unqueried_score]
+    # performance_history = [unqueried_score]
 
     for index in range(N_QUERIES):
         query_index, query_instance = learner.query(X_pool)
@@ -76,7 +77,7 @@ def al_with_pool(egs):
         model_accuracy = learner.score(X, tag)
         print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
 
-        performance_history.append(model_accuracy)
+        # performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
     predictions = learner.predict(X)

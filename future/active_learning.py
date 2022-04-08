@@ -45,8 +45,6 @@ def al_with_pool(egs):
     X_train, tag_train = indices_data_mapping(X, training_indices), indices_data_mapping(tag, training_indices) 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
-    print("x train shape: ", len(X_train))
-    print("tag train shape: ", len(tag_train))
 # the core
     knn = KNeighborsClassifier(n_neighbors=3)
     learner = ActiveLearner(
@@ -56,7 +54,7 @@ def al_with_pool(egs):
         query_strategy=uncertainty_sampling
         )
 
-    predictions = learner.predict(X)
+    predictions = learner.predict(X[0])
     is_correct = (predictions==tag)
 
     unqueried_score = learner.score(X, tag)
@@ -77,7 +75,7 @@ def al_with_pool(egs):
         performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
-    predictions = learner.predict(X)
+    predictions = learner.predict(X[0])
     is_correct = (predictions == tag)
 
     return performance_history, predictions

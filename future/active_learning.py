@@ -54,7 +54,7 @@ def al_with_pool(egs):
         query_strategy=uncertainty_sampling
         )
 
-    predictions = learner.predict(X[0])
+    predictions = learner.predict(X)
     is_correct = (predictions==tag)
 
     unqueried_score = learner.score(X, tag)
@@ -75,7 +75,7 @@ def al_with_pool(egs):
         performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
-    predictions = learner.predict(X[0])
+    predictions = learner.predict(X)
     is_correct = (predictions == tag)
 
     return performance_history, predictions

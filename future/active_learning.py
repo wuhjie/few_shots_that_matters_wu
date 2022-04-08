@@ -42,8 +42,8 @@ def al_with_pool(trn_data):
     X_train, tag_train = indices_data_mapping(X, training_indices), indices_data_mapping(tag, training_indices) 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
-    print("x train shape: ", X_train.shape)
-    print("tag train shape: ", tag_train.shape)
+    print("x train shape: ", len(X_train))
+    print("tag train shape: ", len(tag_train))
 # the core
     knn = KNeighborsClassifier(n_neighbors=3)
     learner = ActiveLearner(

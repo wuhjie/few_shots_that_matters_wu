@@ -27,10 +27,13 @@ def indices_data_mapping(egs, indices):
         mapped_egs.append(egs[i])
     return mapped_egs
 
-def al_with_pool(trn_data):
+def al_with_pool(egs):
     # X_raw, tag_raw = extract(trn_data, 0),  extract(trn_data, 1)
 
-    X, tag = trn_data.input_idse, trn_data.tags_ides
+    X, tag = egs.input_idses, egs.tags_ides
+
+    print("X: ", X)
+    print("tags: ", tag)
 
     X_length = len(X)
 

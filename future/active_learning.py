@@ -27,22 +27,26 @@ def indices_data_mapping(egs, indices):
         mapped_egs.append(egs[i])
     return mapped_egs
 
+def tensor_to_np(egs):
+    return np.array([e.tolist() for e in egs])
+
 def al_with_pool(egs):
     # X_raw, tag_raw = extract(trn_data, 0),  extract(trn_data, 1)
 
     X, tag = egs.input_idses, egs.tags_ides
+    X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)
 
     print("X: ", X)
     print("tags: ", tag)
 
-    X_length = len(X)
+    X_length = X.shape[0]
 
 # 80/20 split
     training_indices = random.sample(range(0, X_length-1), int(X_length*0.8))
 
     print("training indices: ", training_indices)
 
-    X_train, tag_train = indices_data_mapping(X, training_indices), indices_data_mapping(tag, training_indices) 
+    X_train, tag_train = X[training_indices], tag[training_indices] 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
 # the core

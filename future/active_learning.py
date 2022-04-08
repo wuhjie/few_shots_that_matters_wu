@@ -21,6 +21,12 @@ N_QUERIES = 10
 def extract(lst, n):
     return list(list(zip(*lst[0]))[n])
 
+def indices_data_mapping(egs, indices):
+    mapped_egs = []
+    for i in indices:
+        mapped_egs.append(egs[i])
+    return mapped_egs
+
 def al_with_pool(trn_data):
     # X_raw, tag_raw = extract(trn_data, 0),  extract(trn_data, 1)
 
@@ -33,7 +39,7 @@ def al_with_pool(trn_data):
 
     print("training indices: ", training_indices)
 
-    X_train, tag_train = X[training_indices], tag[training_indices]
+    X_train, tag_train = indices_data_mapping(X, training_indices), indices_data_mapping(tag, training_indices) 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
     print("x train shape: ", X_train.shape)

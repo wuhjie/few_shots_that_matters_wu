@@ -19,7 +19,7 @@ np.random.seed(RANDOM_STATE_SEED)
 N_QUERIES = 10
 
 def extract(lst, n):
-    return list(list(zip(*lst[0]))[n])
+    return np.array(list(list(zip(*lst[0]))[n]))
 
 def indices_data_mapping(egs, indices):
     mapped_egs = []

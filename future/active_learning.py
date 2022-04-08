@@ -30,7 +30,7 @@ def indices_data_mapping(egs, indices):
 def al_with_pool(trn_data):
     # X_raw, tag_raw = extract(trn_data, 0),  extract(trn_data, 1)
 
-    X, tag = trn_data.uides, trn_data.tags_ides
+    X, tag = trn_data.input_idse, trn_data.tags_ides
 
     X_length = len(X)
 

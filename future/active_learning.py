@@ -26,10 +26,10 @@ def al_with_pool(trn_data):
 
     X, tag = trn_data.uides, trn_data.tags_ides
 
-    X_length = X.shape[0]
+    X_length = len(X)
 
 # 80/20 split
-    training_indices = random.sample(range(0, X_length), int(X_length*0.8))
+    training_indices = random.sample(range(0, X_length-1), int(X_length*0.8))
 
     print("training indices: ", training_indices)
 

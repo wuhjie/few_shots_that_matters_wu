@@ -72,8 +72,6 @@ class TaggingDataIter(object):
             with open(meta_, "w") as f:
                 json.dump({"complete": complete, "uid": uid}, f)
 
-        print("fts: ", fts)
-
         return _TaggingIter(fts)
 
     @property

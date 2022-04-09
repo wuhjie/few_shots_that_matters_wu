@@ -97,8 +97,6 @@ class UDPOSDataset(MultilingualRawDataset):
                 else:
                     raise ValueError
 
-            # TODO:
-
             _dataset = RawDataset(
                 name=f"{self.name}-{language}",
                 language=language,

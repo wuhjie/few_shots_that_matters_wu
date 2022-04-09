@@ -123,8 +123,6 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
         sent_pieces, sent_piece_tags, sent_if_tgt = [], [], []
         for word, tag in sent:
 
-            print("words: ", word)
-
             word_pieces = tokenizer.tokenize(word)
             piece_tags = ["<PAD>"] * (len(word_pieces) - 1) + [tag]
             if tag in _skipped_tags:
@@ -134,6 +132,9 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             sent_pieces.extend(word_pieces)
             sent_piece_tags.extend(piece_tags)
             sent_if_tgt.extend(piece_if_tgt)
+
+        print("sent_if_tgt: ", sent_if_tgt)
+
         if len(sent_pieces) > msl - 2:
             # print(sent_pieces)
             print("{} > {} in {} ...".format(len(sent_pieces), msl - 2, which_split))

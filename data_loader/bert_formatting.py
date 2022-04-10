@@ -133,7 +133,7 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             sent_piece_tags.extend(piece_tags)
             sent_if_tgt.extend(piece_if_tgt)
 
-        print("sent_if_tgt: ", sent_if_tgt)
+        print("word pieces: ", word_pieces)
 
         if len(sent_pieces) > msl - 2:
             # print(sent_pieces)

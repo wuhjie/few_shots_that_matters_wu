@@ -7,6 +7,7 @@
 3. the prediction of test data needs to be set to X everytime before running
     - all data from xtreme
 4. Due to the size of the dataset, the language datasets are not included in the github repo.
+5. <em>sent_pieces</em> is the segmented sentences
 
 ### The running process
 1. Running platform: google colab

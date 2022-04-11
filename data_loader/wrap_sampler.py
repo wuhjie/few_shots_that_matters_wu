@@ -5,7 +5,7 @@ from future.active_learning import al_with_pool
 
 def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
 
-    performance_history, predictions = al_with_pool(language_dataset.raw_dataset.trn_egs)
+    # performance_history, predictions = al_with_pool(language_dataset.raw_dataset.trn_egs)
 
     for split_name in ("trn_egs", "val_egs", "tst_egs"):
         egs = getattr(language_dataset, split_name)

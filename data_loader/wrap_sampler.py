@@ -8,7 +8,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
     for split_name in ("trn_egs", "val_egs", "tst_egs"):
         egs = getattr(language_dataset, split_name)
 
-        print("raw training data: ", language_dataset.raw_dataset。trn_egs)
+        print("raw training data: ", language_dataset.raw_dataset.trn_egs)
 
         # print("egs: ", egs)
 

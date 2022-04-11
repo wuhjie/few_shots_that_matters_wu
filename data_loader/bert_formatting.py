@@ -107,6 +107,8 @@ def glue_example_to_feature(
 _skipped_tags = {"-NONE-", "NFP", "AFX"}
 
 
+# input ids and tags ids
+
 class TaggingBertInputFeature(BertInputFeature):
     def __init__(self, uid, input_ids, attention_mask, sent_if_tgt, tags_ids):
         super(TaggingBertInputFeature, self).__init__(
@@ -169,9 +171,9 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
         )
 
     # print("length of all_fts: ", len(all_fts))
-    for f in all_fts:
-        # print("f input ids: ", f.input_ids)
-        print("f sent if tgt: ", f.sent_if_tgt)
+    # for f in all_fts:
+    #     print("f input ids: ", f.input_ids)
+        # print("f sent if tgt: ", f.sent_if_tgt)
 
 
     print("[WARN]: {} sentences longer than msl ...".format(len(toolongs)))

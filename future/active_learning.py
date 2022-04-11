@@ -33,7 +33,7 @@ def tensor_to_np(egs_item):
 def al_with_pool(egs):
     
     # length of each segmentation is 128
-    X, tag = egs.input_idses[0], egs.tags_ides
+    X, tag = egs.input_idses[0], egs.tags_ides[0]
 
     performance_history = 0
     # X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)

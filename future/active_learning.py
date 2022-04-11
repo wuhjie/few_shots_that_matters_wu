@@ -35,6 +35,8 @@ def al_with_pool(egs):
     # X = X.reshape(X.shape[0], 1)
     X, tag = egs.input_idses, egs.tags_ides 
 
+    print("tags: ", tag)
+
     performance_history = 0
     # X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)
 

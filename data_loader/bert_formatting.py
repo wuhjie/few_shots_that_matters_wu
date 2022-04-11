@@ -168,6 +168,10 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             )
         )
 
-        print("all_fls: ", all_fts)
+        print("length of all_fts: ", len(all_fts))
+        for f in all_fts:
+            print("f input ids: ", f.input_ids)
+
+
     print("[WARN]: {} sentences longer than msl ...".format(len(toolongs)))
     return all_fts

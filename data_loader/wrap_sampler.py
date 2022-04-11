@@ -15,7 +15,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
         if split_name == "trn_egs":  
             # TODO: only select those with highest uncertainty 
             # input_idses, tags_ides 
-            print(egs)
+            print("egs: ", egs)
             
             # performance_history, predictions = al_with_pool(egs)
 

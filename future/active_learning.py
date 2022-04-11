@@ -28,7 +28,7 @@ def indices_data_mapping(egs, indices):
     return mapped_egs
 
 def tensor_to_np(egs_item):
-    return np.array([e.tolist() for e in egs_item])
+    return np.array([e.tolist() for e in egs_item]).reshape(-1, 1)
 
 def al_with_pool(egs):
     

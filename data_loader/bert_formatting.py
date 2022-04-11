@@ -133,8 +133,6 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             sent_piece_tags.extend(piece_tags)
             sent_if_tgt.extend(piece_if_tgt)
 
-        print("word pieces: ", word_pieces)
-
         if len(sent_pieces) > msl - 2:
             # print(sent_pieces)
             print("{} > {} in {} ...".format(len(sent_pieces), msl - 2, which_split))
@@ -156,6 +154,8 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             bert_inp_mask.append(0)
             sent_if_tgt.append(0)
             tags_ids.append(t2i["<PAD>"])
+
+        print("bert_inp_ids: ", bert_inp_ids)
 
         all_fts.append(
             TaggingBertInputFeature(

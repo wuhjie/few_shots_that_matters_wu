@@ -31,25 +31,22 @@ def tensor_to_np(egs_item):
     return np.array([e.tolist() for e in egs_item])
 
 def al_with_pool(egs):
-    # X, tag = extract(egs, 0),  extract(egs, 1)
-    # X = X.reshape(X.shape[0], 1)
+    
+    # length of each segmentation is 128
     X, tag = egs.input_idses[0], egs.tags_ides[0] 
 
     performance_history = 0
     # X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)
 
     # print("X: ", X)
-    # print("tags: ", tag)
+    print("tags: ", tag)
 
     X_length = X.shape[0]
-
-    print("X length: ", X_length)
-    print("tags length: ", tag.shape[0])
 
 # 80/20 split
     training_indices = random.sample(range(0, X_length-1), int(X_length*0.8))
 
-    print("training indices: ", training_indices)
+    # print("training indices: ", training_indices)
 
     X_train, tag_train = X[training_indices], tag[training_indices] 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)

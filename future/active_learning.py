@@ -51,7 +51,7 @@ def al_with_pool(egs):
     X_train, tag_train = X[training_indices], tag[training_indices] 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
-# the core
+# the corex
     knn = KNeighborsClassifier(n_neighbors=3)
     learner = ActiveLearner(
         estimator=knn, 

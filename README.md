@@ -16,3 +16,4 @@
 1. Use the library, modAL
 2. pool-based sampling + uncertainty sampling
 3. The basic idea is replacing the random sampling process in wrap_sampler.py in the original project with active learning. Hopefully this could increase the accuracy and improve the performance.
+4. we use the <em>input_idses</em> and <em>tags_ides</em> from language_dataset for active learning (tensor format)

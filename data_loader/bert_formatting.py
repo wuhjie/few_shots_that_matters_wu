@@ -155,7 +155,7 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             sent_if_tgt.append(0)
             tags_ids.append(t2i["<PAD>"])
 
-        print("sent_pieces: ", sent_pieces)
+        # print("sent_pieces: ", sent_pieces)
         # print("bert_inp_ids: ", bert_inp_ids)
 
         all_fts.append(
@@ -167,5 +167,7 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
                 tags_ids=tags_ids,
             )
         )
+
+        print("all_fls: ", all_fts)
     print("[WARN]: {} sentences longer than msl ...".format(len(toolongs)))
     return all_fts

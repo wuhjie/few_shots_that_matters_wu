@@ -35,8 +35,6 @@ def al_with_pool(egs):
     # X = X.reshape(X.shape[0], 1)
     X, tag = egs.input_idses, egs.tags_ides 
 
-    print("tags: ", tag)
-
     performance_history = 0
     # X, tag = tensor_to_np(egs.input_idses), tensor_to_np(egs.tags_ides)
 
@@ -44,6 +42,9 @@ def al_with_pool(egs):
     # print("tags: ", tag)
 
     X_length = X.shape[0]
+
+    print("X length: ", X_length)
+    print("tags length: ", tag.shape[0])
 
 # 80/20 split
     training_indices = random.sample(range(0, X_length-1), int(X_length*0.8))

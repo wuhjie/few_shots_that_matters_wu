@@ -28,7 +28,7 @@ def indices_data_mapping(egs, indices):
     return mapped_egs
 
 def tensor_to_np(egs_item):
-    return np.array([e.tolist() for e in egs_item]).reshape(-1, 1)
+    return np.array([e.tolist() for e in egs_item])
 
 def al_with_pool(egs):
     
@@ -36,7 +36,7 @@ def al_with_pool(egs):
     # X, tag = egs.input_idses[0], egs.tags_ides[0]
 
     performance_history = 0
-    X, tag = tensor_to_np(egs.input_idses[0]), tensor_to_np(egs.tags_ides[0])
+    X, tag = tensor_to_np(egs.input_idses[0]).reshape(-1, 1), tensor_to_np(egs.tags_ides[0])
 
     # print("X: ", X)
     print("tags: ", tag)

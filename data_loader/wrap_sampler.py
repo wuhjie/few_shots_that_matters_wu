@@ -23,12 +23,12 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
 
             sampler = RandomSampler
             batch_size = trn_batch_size
-
             dl = (
-                DataLoader(egs.uides[lowest_score_index], sampler=sampler(egs.uides[lowest_score_index]), batch_size=batch_size)
+                DataLoader(egs[lowest_score_index], sampler=sampler, batch_size=batch_size)
                 if len(egs) > 0
                 else None
             )   
+
         else:
             sampler = SequentialSampler
             batch_size = infer_batch_size

@@ -18,16 +18,17 @@ np.random.seed(RANDOM_STATE_SEED)
 
 N_QUERIES = 10
 
+# tensor to numpy in one batch
 def tensor_to_np(egs_item):
     # return np.array([e.tolist() for e in egs_item])
     return np.array(egs_item)
 
-def al_with_pool(egs):
+def al_with_pool(eg):
 
     performance_history = 0
 
     # reshape for ActiveLearner
-    X, tag = tensor_to_np(egs.input_idses[0]).reshape(-1, 1), tensor_to_np(egs.tags_ides[0])
+    X, tag = tensor_to_np(eg.input_idses).reshape(-1, 1), tensor_to_np(eg.tags_ides)
     X_length = X.shape[0]
 
 # 80/20 split

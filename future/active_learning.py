@@ -27,11 +27,16 @@ def al_pool(egs):
     all_history, all_predictions = [], []
 
     for i in range(len(egs)):
-        his, pre = al_with_pool_batched(egs.input_idses[i], egs.tags_ides[i])
+        his, pre =  al_with_pool_batched(egs.input_idses[i], egs.tags_ides[i])
+
         all_history.append(his)
         all_predictions.append(pre)
 
-    return all_history, all_history
+        # the batch that contains the lowest score
+        last_score = [h[-1] for h in all_history]
+        lowest_score_index = last_score.index(min(last_score))
+
+    return all_history, all_history, lowest_score_index
     
 # for one batch
 def al_with_pool_batched(X_raw, tag_raw):

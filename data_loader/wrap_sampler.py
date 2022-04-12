@@ -1,6 +1,6 @@
 from torch.utils.data import SequentialSampler, DataLoader, RandomSampler
 
-from future.active_learning import al_with_pool
+from future.active_learning import al_pool
 
 
 def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
@@ -15,9 +15,10 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
         if split_name == "trn_egs":  
             # TODO: only select those with highest uncertainty 
             # input_idses, tags_ides 
-            performance_history, predictions = al_with_pool(egs)
 
-            print("performance history", performance_history)
+            all_history, all_predictions = al_pool(egs)
+            print("performance history", all_history)
+
 
             sampler = RandomSampler
             batch_size = trn_batch_size
@@ -30,7 +31,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             else None
         )    
 
-        print("batch size: ", batch_size)
+        # print("batch size: ", batch_size)
 
         setattr(language_dataset, split_name, dl)
     return language_dataset

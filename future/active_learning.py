@@ -8,7 +8,7 @@ example url: https://modal-python.readthedocs.io/en/latest/content/examples/pool
 from tkinter.tix import Y_REGION
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
-from modAL.models import ActiveLearner
+from modAL.models import ActiveLearner, Committee
 from modAL.uncertainty import uncertainty_sampling
 import random
 
@@ -56,28 +56,31 @@ def al_with_pool_batched(X_raw, tag_raw):
         query_strategy=uncertainty_sampling
         )
 
-    predictions = learner.predict(X)
+    committee = Committee(learner_list=learner)
+
+    # predictions = learner.predict(X)
     # is_correct = (predictions==tag)
 
-    unqueried_score = learner.score(X, tag)
+    unqueried_score = committee.score(X, tag)
+    predictions = committee.predict(X)
 
     performance_history = [unqueried_score]
 
     for index in range(N_QUERIES):
-        query_index, query_instance = learner.query(X_pool)
+        query_index, query_instance = committee.query(X_pool)
 
         X_record, tag_record = X_pool[query_index].reshape(1, -1), tag_pool[query_index].reshape(1, )
-        learner.teach(X=X_record, y=tag_record)
+        committee.teach(X=X_record, y=tag_record)
 
         X_pool, tag_pool = np.delete(X_pool, query_index, axis = 0), np.delete(tag_pool, query_index)
         
-        model_accuracy = learner.score(X, tag)
+        model_accuracy = committee.score(X, tag)
         print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
 
         performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
-    predictions = learner.predict(X)
+    predictions = committee.predict(X)
     # is_correct = (predictions == tag)
 
     return performance_history, predictions

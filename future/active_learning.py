@@ -57,7 +57,7 @@ def al_with_pool_batched(X_raw, tag_raw):
         )
 
     predictions = learner.predict(X)
-    is_correct = (predictions==tag)
+    # is_correct = (predictions==tag)
 
     unqueried_score = learner.score(X, tag)
 
@@ -74,11 +74,11 @@ def al_with_pool_batched(X_raw, tag_raw):
         model_accuracy = learner.score(X, tag)
         print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
 
-        # performance_history.append(model_accuracy)
+        performance_history.append(model_accuracy)
 
     # TODO: could use plots to visualise the result 
     predictions = learner.predict(X)
-    is_correct = (predictions == tag)
+    # is_correct = (predictions == tag)
 
     return performance_history, predictions
     

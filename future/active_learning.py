@@ -39,7 +39,7 @@ def al_with_pool(egs):
     X, tag = tensor_to_np(egs.input_idses[0]).reshape(-1, 1), tensor_to_np(egs.tags_ides[0])
 
     # print("X: ", X)
-    print("tags: ", tag)
+    # print("tags: ", tag)
 
     X_length = X.shape[0]
 

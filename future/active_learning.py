@@ -36,6 +36,7 @@ def al_pool(egs):
 # for one batch
 def al_with_pool_batched(X_raw, tag_raw):
     performance_history = 0
+    learner_list = []
 
     # reshape for ActiveLearner
     X, tag = tensor_to_np(X_raw).reshape(-1, 1), tensor_to_np(tag_raw)
@@ -56,7 +57,9 @@ def al_with_pool_batched(X_raw, tag_raw):
         query_strategy=uncertainty_sampling
         )
 
-    committee = Committee(learner_list=list(learner))
+    learner_list.append(learner)
+
+    committee = Committee(learner_list=learner_list)
 
     # predictions = learner.predict(X)
     # is_correct = (predictions==tag)

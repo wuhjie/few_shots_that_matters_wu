@@ -59,15 +59,14 @@ def al_with_pool_batched(X_raw, tag_raw):
         estimator=knn, 
         X_training=X_train, 
         y_training=tag_train, 
-        query_strategy=uncertainty_sampling
         )
+
+    # query_strategy=uncertainty_sampling
 
     learner_list.append(learner)
 
     committee = Committee(learner_list=learner_list)
 
-    # predictions = learner.predict(X)
-    # is_correct = (predictions==tag)
 
     unqueried_score = committee.score(X, tag)
     predictions = committee.predict(X)

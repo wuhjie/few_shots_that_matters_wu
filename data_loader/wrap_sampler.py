@@ -17,6 +17,8 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             # input_idses, tags_ides 
             performance_history, predictions = al_with_pool(egs)
 
+            print("performance history", performance_history)
+
             sampler = RandomSampler
             batch_size = trn_batch_size
         else:

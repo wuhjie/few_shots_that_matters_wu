@@ -56,7 +56,7 @@ def al_with_pool_batched(X_raw, tag_raw):
         query_strategy=uncertainty_sampling
         )
 
-    committee = Committee(learner_list=learner)
+    committee = Committee(learner_list=list(learner))
 
     # predictions = learner.predict(X)
     # is_correct = (predictions==tag)

@@ -23,12 +23,22 @@ def tensor_to_np(egs_item):
     # return np.array([e.tolist() for e in egs_item])
     return np.array(egs_item)
 
-def al_with_pool(eg):
+def al_pool(egs):
+    all_history, all_predictions = [], []
 
+    for i in range(len(egs)):
+        his, pre = al_with_pool_batched(egs.input_idses[i], egs.tags_ides[i])
+        all_history.append(his)
+        all_predictions.append(pre)
+
+    return all_history, all_history
+    
+# for one batch
+def al_with_pool_batched(X_raw, tag_raw):
     performance_history = 0
 
     # reshape for ActiveLearner
-    X, tag = tensor_to_np(eg.input_idses).reshape(-1, 1), tensor_to_np(eg.tags_ides)
+    X, tag = tensor_to_np(X_raw).reshape(-1, 1), tensor_to_np(tag_raw)
     X_length = X.shape[0]
 
 # 80/20 split

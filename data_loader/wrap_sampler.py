@@ -21,8 +21,8 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             eg_name = egs.uides[lowest_score_index]
             print("eg_name: ", eg_name)
 
-            sampler = RandomSampler
-            batch_size = trn_batch_size
+            # sampler = RandomSampler
+            # batch_size = trn_batch_size
 
             # TODO:
             dl = (

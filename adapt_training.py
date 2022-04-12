@@ -1,5 +1,4 @@
 from adapt_parameters import get_args
-from future.active_learning import al_sampler
 from future.adapt_trainer import AdaptTuner
 from future.modules import ptl2classes
 from future.hooks import EvaluationRecorder, LearningCurveRecorder
@@ -175,20 +174,16 @@ def main(conf):
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
-
-        print("raw training set: ", data_iter[language].raw_dataset.trn_egs)
  
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
         infer_batch_size=conf.inference_batch_size,
         language=language,
         language_dataset=language_dataset,
+        
         )
 
-        # show the programme and killed it for test
-        # print("dataset: ", adapt_loaders[language])
-
-
+        # al_trn_egs = data_iter[language].raw_dataset.trn_egs,
 
 
     hooks = init_hooks(conf, metric_name)

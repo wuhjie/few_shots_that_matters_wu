@@ -7,6 +7,7 @@
 3. the prediction of test data needs to be set to X everytime before running
     - all data from xtreme
 4. Due to the size of the dataset, the language datasets are not included in the github repo.
+5. <em>sent_pieces</em> is the segmented sentences
 
 ### The running process
 1. Running platform: google colab
@@ -16,3 +17,4 @@
 1. Use the library, modAL
 2. pool-based sampling + uncertainty sampling
 3. The basic idea is replacing the random sampling process in wrap_sampler.py in the original project with active learning. Hopefully this could increase the accuracy and improve the performance.
+4. we use the <em>input_idses</em> and <em>tags_ides</em> from language_dataset for active learning (tensor format)

@@ -107,6 +107,8 @@ def glue_example_to_feature(
 _skipped_tags = {"-NONE-", "NFP", "AFX"}
 
 
+# input ids and tags ids
+
 class TaggingBertInputFeature(BertInputFeature):
     def __init__(self, uid, input_ids, attention_mask, sent_if_tgt, tags_ids):
         super(TaggingBertInputFeature, self).__init__(
@@ -122,6 +124,7 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
     for sent_idx, sent in enumerate(tqdm(tagged_sents)):
         sent_pieces, sent_piece_tags, sent_if_tgt = [], [], []
         for word, tag in sent:
+
             word_pieces = tokenizer.tokenize(word)
             piece_tags = ["<PAD>"] * (len(word_pieces) - 1) + [tag]
             if tag in _skipped_tags:
@@ -131,6 +134,7 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             sent_pieces.extend(word_pieces)
             sent_piece_tags.extend(piece_tags)
             sent_if_tgt.extend(piece_if_tgt)
+
         if len(sent_pieces) > msl - 2:
             # print(sent_pieces)
             print("{} > {} in {} ...".format(len(sent_pieces), msl - 2, which_split))
@@ -145,7 +149,6 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
         bert_inp_mask = [1] * len(bert_inp_ids)
         tags_ids = [t2i[tag] for tag in sent_piece_tags]
 
-# todo
         assert len(sent_pieces) == len(sent_if_tgt) == len(tags_ids)
 
         while len(bert_inp_ids) < msl:
@@ -153,6 +156,9 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             bert_inp_mask.append(0)
             sent_if_tgt.append(0)
             tags_ids.append(t2i["<PAD>"])
+
+        # print("sent_pieces: ", sent_pieces)
+        # print("bert_inp_ids: ", bert_inp_ids)
 
         all_fts.append(
             TaggingBertInputFeature(
@@ -163,5 +169,12 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
                 tags_ids=tags_ids,
             )
         )
+
+    # print("length of all_fts: ", len(all_fts))
+    # for f in all_fts:
+    #     print("f input ids: ", f.input_ids)
+        # print("f sent if tgt: ", f.sent_if_tgt)
+
+
     print("[WARN]: {} sentences longer than msl ...".format(len(toolongs)))
     return all_fts

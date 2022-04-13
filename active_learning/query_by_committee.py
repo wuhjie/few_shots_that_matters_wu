@@ -53,15 +53,12 @@ def al_with_pool_batched(X_raw, tag_raw):
     X_train, tag_train = X[training_indices], tag[training_indices] 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
-# the corex
-    knn = KNeighborsClassifier(n_neighbors=3)
+# the core
     learner = ActiveLearner(
-        estimator=knn, 
+        estimator=KNeighborsClassifier(n_neighbors=3), 
         X_training=X_train, 
         y_training=tag_train, 
         )
-
-    # query_strategy=uncertainty_sampling
 
     learner_list.append(learner)
 

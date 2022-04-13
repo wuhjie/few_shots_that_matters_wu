@@ -12,7 +12,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             print(f"[WARN] {split_name} of {language} has zero egs")
         if split_name == "trn_egs":  
             # input_idses, tags_ides 
-            # all_history, all_predictions, lowest_score_index = al_pool(egs)
+            all_history, all_predictions, lowest_score_index = al_pool(egs)
 
             # TODO: replace the random sampler with uncertainty sampling
             sampler = RandomSampler
@@ -22,14 +22,15 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
         else:
             sampler = SequentialSampler
             batch_size = infer_batch_size
-            dl = (
-                DataLoader(egs, sampler=sampler(egs), batch_size=batch_size)
-                if len(egs) > 0
-                else None
-            )    
-
-        # print("batch size: ", batch_size)
+            
+        dl = (
+            DataLoader(egs, sampler=sampler(egs), batch_size=batch_size)
+            if len(egs) > 0
+            else None
+        )    
 
         setattr(language_dataset, split_name, dl)
+
+        print("batch size: ", batch_size)
     return language_dataset
 

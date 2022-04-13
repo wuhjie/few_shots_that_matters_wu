@@ -1,13 +1,7 @@
-'''
-pool-based sampling -> scrnario
-uncertainty-based sampling -> query strategy framework
-example url: https://modal-python.readthedocs.io/en/latest/content/examples/pool-based_sampling.html
-'''
-
-
 from tkinter.tix import Y_REGION
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
 from modAL.models import ActiveLearner, Committee
 from modAL.uncertainty import uncertainty_sampling
 import random
@@ -54,13 +48,20 @@ def al_with_pool_batched(X_raw, tag_raw):
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
 # the core
-    learner = ActiveLearner(
+    learner1 = ActiveLearner(
         estimator=KNeighborsClassifier(n_neighbors=3), 
         X_training=X_train, 
         y_training=tag_train, 
         )
 
-    learner_list.append(learner)
+    learner2 = ActiveLearner(
+        estimator=RandomForestClassifier(), 
+        X_training=X_train, 
+        y_training=tag_train, 
+        )
+
+    learner_list.append(learner1)
+    learner_list.append(learner2)
 
     committee = Committee(learner_list=learner_list)
 

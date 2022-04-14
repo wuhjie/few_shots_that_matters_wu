@@ -169,22 +169,16 @@ def main(conf):
     # init model
     model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
 
-    
-
+    # adding uncertainty sampling/query by committe
     model = confirm_model(conf, model)
     adapt_loaders = {}
     for language, language_dataset in data_iter.items():
- 
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
         infer_batch_size=conf.inference_batch_size,
         language=language,
         language_dataset=language_dataset,
-        
         )
-
-        # al_trn_egs = data_iter[language].raw_dataset.trn_egs,
-
 
     hooks = init_hooks(conf, metric_name)
 

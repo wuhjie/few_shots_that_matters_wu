@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from modAL.models import ActiveLearner, Committee
-from modAL.uncertainty import uncertainty_sampling
+
 import random
 
 #RNG seed for reproductivity
@@ -14,7 +14,6 @@ N_QUERIES = 10
 
 # tensor to numpy in one batch
 def tensor_to_np(egs_item):
-    # return np.array([e.tolist() for e in egs_item])
     return np.array(egs_item)
 
 def al_pool(egs):
@@ -47,42 +46,42 @@ def al_with_pool_batched(X_raw, tag_raw):
     X_train, tag_train = X[training_indices], tag[training_indices] 
     X_pool, tag_pool = np.delete(X, training_indices, axis=0), np.delete(tag, training_indices, axis=0)
 
-# the core
+# creating learners with different learning strategy
     learner1 = ActiveLearner(
         estimator=KNeighborsClassifier(n_neighbors=3), 
         X_training=X_train, 
         y_training=tag_train, 
-        )
+    )
 
     learner2 = ActiveLearner(
         estimator=RandomForestClassifier(), 
         X_training=X_train, 
         y_training=tag_train, 
-        )
+    )
 
     learner_list.append(learner1)
     learner_list.append(learner2)
 
     committee = Committee(learner_list=learner_list)
 
-
     unqueried_score = committee.score(X, tag)
     predictions = committee.predict(X)
-
     performance_history = [unqueried_score]
 
     for index in range(N_QUERIES):
         query_index, query_instance = committee.query(X_pool)
 
-        X_record, tag_record = X_pool[query_index].reshape(1, -1), tag_pool[query_index].reshape(1, )
-        committee.teach(X=X_record, y=tag_record)
+        committee.teach(
+            X=X_pool[query_index].reshape(1, -1), 
+            y=tag_pool[query_index].reshape(1, )
+        )
 
-        X_pool, tag_pool = np.delete(X_pool, query_index, axis = 0), np.delete(tag_pool, query_index)
+        performance_history.append(committee.score(X, tag))
+
+        X_pool = np.delete(X_pool, query_index, axis = 0)
+        tag_pool = np.delete(tag_pool, query_index)
         
-        model_accuracy = committee.score(X, tag)
-        print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
-
-        performance_history.append(model_accuracy)
+        # print('Accuracy after query {n}: {acc:0.4f}'.format(n=index+1, acc=model_accuracy))
 
     # TODO: could use plots to visualise the result 
     predictions = committee.predict(X)

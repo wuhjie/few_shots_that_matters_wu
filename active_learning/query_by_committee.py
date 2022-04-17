@@ -20,7 +20,7 @@ def al_pool(egs):
     all_history, all_predictions = [], []
 
     for i in range(len(egs)):
-        his, pre =  al_with_pool_batched(egs.input_idses[i], egs.tags_ides[i])
+        his, pre =  query_by_committee(egs.input_idses[i], egs.tags_ides[i])
 
         all_history.append(his)
         all_predictions.append(pre)
@@ -32,11 +32,10 @@ def al_pool(egs):
     return all_history, all_history, lowest_score_index
     
 # for one batch
-def al_with_pool_batched(X_raw, tag_raw):
+def query_by_committee(X_raw, tag_raw):
     performance_history = 0
     learner_list = []
 
-    # reshape for ActiveLearner
     X, tag = tensor_to_np(X_raw).reshape(-1, 1), tensor_to_np(tag_raw)
     X_length = X.shape[0]
 

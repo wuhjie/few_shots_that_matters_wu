@@ -12,8 +12,12 @@ from random import shuffle
 class UncertaintySampler:
     def __init__(self, verbose) -> None:
         self.verbose = verbose
-        print([1, 2, 4])
-        
+
+    """
+    Keyword arguments:
+        prob_dist -- a pytorch tensor of real numbers between 0 and 1 that total to 1.0
+        sorted -- if the probability distribution is pre-sorted from largest to smallest
+    """
     def least_confidence(self, prob_dist, sorted=False):
         # most confidence prediction
         if sorted:
@@ -26,13 +30,13 @@ class UncertaintySampler:
         normalized_least_conf = (1-simple_least_conf) * (num_labels / (num_labels-1))
 
         return normalized_least_conf.item()
-        
+
     def softmax(self, scores, base=math.e):
         exps = (base**scores.to(dtype=torch.float))
         sum_exps = torch.sum(exps)
 
         return exps / sum_exps
-    
+
     def get_samples(self, model, unlabeled_data, method, feature_method, number=5, limit=10000):
         samples = []
 
@@ -62,3 +66,7 @@ class UncertaintySampler:
         samples.sort(reverse=True, key=lambda x: x[4])
 
         return samples[:number:]
+
+
+# e.g. sampled_data += uncert_sampling.get_samples(model, data, uncert_sampling.least_confidence, 
+#                                                       make_feature_vector, number=number_least_confidence)

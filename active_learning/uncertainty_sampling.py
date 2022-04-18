@@ -23,6 +23,7 @@ class Sampler(Generic[T_co]):
 
     def __iter__(self) -> Iterator[T_co]:
         raise NotImplementedError
+
 class UncertaintySampler(Sampler[int]):
     data_source: Sized
     # replacement: bool
@@ -52,7 +53,7 @@ class UncertaintySampler(Sampler[int]):
 
 def least_confidence(prob_dist):
     # most confidence prediction
-    simple_least_conf = torch.max(prob_dist)
+    simple_least_conf = torch.max(torch.as_tensor(prob_dist))
     
     # number of data, for torch
     num_labels = prob_dist.numel()

@@ -1,4 +1,4 @@
-from torch.utils.data import SequentialSampler, DataLoader, RandomSampler
+from torch.utils.data import SequentialSampler, DataLoader, RandomSampler, Sampler
 
 from active_learning.query_by_committee import al_pool
 from active_learning.uncertainty_sampling import UncertaintySampler
@@ -13,11 +13,11 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             print(f"[WARN] {split_name} of {language} has zero egs")
         if split_name == "trn_egs":  
             # input_idses, tags_ides 
-            # all_history, all_predictions, lowest_score_index = al_pool(egs)
+            all_history, all_predictions, lowest_score_index = al_pool(egs)
 
             # TODO: replace the random sampler with uncertainty sampling
             # sampler = RandomSampler
-            sampler = UncertaintySampler
+            sampler = Sampler
 
             batch_size = trn_batch_size
   

@@ -34,22 +34,15 @@ class BaselineTuner(BaseTrainer):
         for language in tst_languages:
             for split_name in ["tst_egs"]:
                 loader = getattr(adapt_loaders[language], split_name)
-                if self.conf.dataset_name in ["conll2003", "panx", "udpos"]:
-                    idx2label = adapt_loaders[language].raw_dataset.idx2label
-                    eval_res, *_ = self._infer_one_loader_tagging(
-                        best_model,
-                        idx2label,
-                        loader,
-                        self.collocate_batch_fn,
-                        metric_name=metric_name,
-                    )
-                else:
-                    eval_res, *_ = self._infer_one_loader(
-                        best_model,
-                        loader,
-                        self.collocate_batch_fn,
-                        metric_name=metric_name,
-                    )
+                idx2label = adapt_loaders[language].raw_dataset.idx2label
+                eval_res, *_ = self._infer_one_loader_tagging(
+                    best_model,
+                    idx2label,
+                    loader,
+                    self.collocate_batch_fn,
+                    metric_name=metric_name,
+                )
+
                 self.log_fn(f"{language} {split_name} score: {eval_res * 100:.1f}")
                 scores[language][split_name] = eval_res
         return scores
@@ -95,14 +88,11 @@ class BaselineTuner(BaseTrainer):
                     f" global batch @ {self._batch_step}"
                 )
                 if self._batch_step % self.conf.eval_every_batch == 0:
-                    if self.conf.dataset_name in ["conll2003", "panx", "udpos"]:
-                        eval_score, all_scores = self.plain_eval_tagging(
-                            self.model, adapt_loaders, metric_name=metric_name
-                        )
-                    else:
-                        eval_score, all_scores = self.plain_eval(
-                            self.model, adapt_loaders, metric_name=metric_name,
-                        )
+
+                    eval_score, all_scores = self.plain_eval_tagging(
+                        self.model, adapt_loaders, metric_name=metric_name
+                    )
+                    
                     self.log_fn("--" * 10)
                     self.log_fn(f"Evaluate @ batch {self._batch_step}:")
                     self.log_fn(f"metrics: {metric_name}")

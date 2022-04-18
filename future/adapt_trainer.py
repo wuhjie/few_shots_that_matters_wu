@@ -41,22 +41,15 @@ class AdaptTuner(BaseTrainer):
         for language in tst_languages:
             for split_name in ["tst_egs"]:
                 loader = getattr(adapt_loaders[language], split_name)
-            
-                if self.conf.dataset_name in ["conll2003", "panx", "udpos"]:
-                    eval_res, *_ = self._infer_one_loader_tagging(
-                        model=best_model,
-                        idx2label=data_iter[language].raw_dataset.idx2label,
-                        loader=loader,
-                        collocate_batch_fn=self.collocate_batch_fn,
-                        metric_name=metric_name,
-                    )
-                else:
-                    eval_res, *_ = self._infer_one_loader(
-                        model=best_model,
-                        loader=loader,
-                        collocate_batch_fn=self.collocate_batch_fn,
-                        metric_name=metric_name,
-                    )
+
+                eval_res, *_ = self._infer_one_loader_tagging(
+                    model=best_model,
+                    idx2label=data_iter[language].raw_dataset.idx2label,
+                    loader=loader,
+                    collocate_batch_fn=self.collocate_batch_fn,
+                    metric_name=metric_name,
+                )
+
                 scores[language][split_name] = eval_res
         return scores
 
@@ -105,22 +98,14 @@ class AdaptTuner(BaseTrainer):
             for language in [adapt_language]:
                 for split_name in ["val_egs"]:
                     loader = getattr(adapt_loaders[language], split_name)
-                    if self.conf.dataset_name in ["conll2003", "panx", "udpos"]:
-                        eval_res, *_ = self._infer_one_loader_tagging(
-                            self.model,
-                            data_iter[language].raw_dataset.idx2label,
-                            loader,
-                            self.collocate_batch_fn,
-                            epoch_index,
-                        )
-                    else:
-                        eval_res, *_ = self._infer_one_loader(
-                            model=self.model,
-                            loader=loader,
-                            collocate_batch_fn=self.collocate_batch_fn,
-                            metric_name=metric_name,
-                            
-                        )
+                    eval_res, *_ = self._infer_one_loader_tagging(
+                        self.model,
+                        data_iter[language].raw_dataset.idx2label,
+                        loader,
+                        self.collocate_batch_fn,
+                        epoch_index,
+                    )
+                 
                     scores[language][split_name] = eval_res
                     learning_curves[split_name][language].append(eval_res)
 

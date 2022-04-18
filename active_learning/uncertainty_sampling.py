@@ -25,16 +25,16 @@ class Sampler(Generic[T_co]):
         raise NotImplementedError
 class UncertaintySampler(Sampler[int]):
     data_source: Sized
-    replacement: bool
+    # replacement: bool
 
     def __init__(self, data_source: Sized,
                  prob_list=[]) -> None:
         self.data_source = data_source
         self.prob_list = prob_list
 
-        if not isinstance(self.replacement, bool):
-            raise TypeError("replacement should be a boolean value, but got "
-                            "replacement={}".format(self.replacement))
+        # if not isinstance(self.replacement, bool):
+        #     raise TypeError("replacement should be a boolean value, but got "
+        #                     "replacement={}".format(self.replacement))
         
     @property
     def num_samples(self) -> int:

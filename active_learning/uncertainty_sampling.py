@@ -59,7 +59,7 @@ class UncertaintySampler(Sampler[int]):
     
     def __iter__(self) -> Iterator[int]:
         least_conf = least_confidence(self.prob_list, False)
-        print(least_conf)
+        print("least_conf: ", least_conf)
 
 
 def least_confidence(prob_dist):

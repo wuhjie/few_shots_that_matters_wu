@@ -27,27 +27,15 @@ class UncertaintySampler(Sampler[int]):
     data_source: Sized
     replacement: bool
 
-    def __init__(self, data_source: Sized, replacement: bool=False, 
-                 num_samples: Optional[int]=None, generator=None,
+    def __init__(self, data_source: Sized,
                  prob_list=[]) -> None:
         self.data_source = data_source
-        self.replacement = replacement
-        self._num_samples = num_samples
-        self.generator = generator
         self.prob_list = prob_list
 
         if not isinstance(self.replacement, bool):
             raise TypeError("replacement should be a boolean value, but got "
                             "replacement={}".format(self.replacement))
         
-        if self._num_samples is not None and not replacement:
-            raise ValueError("With replacement=False, num_samples should not be specified, "
-                            "since a random permute will be performed.")
-
-        if not isinstance(self._num_samples, int) or self._num_samples <= 0:
-            raise ValueError("num_samples should be a positive integer "
-                            "value, but got num_samples={}".format(self._num_samples))
-
     @property
     def num_samples(self) -> int:
         if self._num_samples is None:

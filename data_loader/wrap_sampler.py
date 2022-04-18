@@ -19,7 +19,6 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             # sampler = RandomSampler
             sampler = UncertaintySampler
 
-
             batch_size = trn_batch_size
   
 

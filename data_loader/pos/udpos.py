@@ -119,6 +119,9 @@ class UDPOSDataset(MultilingualRawDataset):
         with open(input_file, "r") as f:
             lines = f.read().strip().split("\n\n")
             for line in lines:
+
+                print("line: ", line)
+
                 sent_vec = line.strip().split("\n")
                 token_tag_vec = [wt.strip().split("\t") for wt in sent_vec]
                 if update_label_list:

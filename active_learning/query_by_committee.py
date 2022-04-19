@@ -26,8 +26,8 @@ def al_pool(egs):
         all_predictions.append(pre)
 
         # the batch that contains the lowest score
-        last_score = [h[-1] for h in all_history]
-        lowest_score_index = last_score.index(min(last_score))
+        last_scores = [h[-1] for h in all_history]
+        lowest_score_index = last_scores.index(min(last_scores))
 
     return all_history, all_history, lowest_score_index
     

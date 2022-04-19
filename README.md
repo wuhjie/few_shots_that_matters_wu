@@ -25,5 +25,5 @@
 3. set the samples according to the previous project
 4. train 
 5. the training, develop and test set are for evaluation, instead of training.
-
+6. least confidence == highest uncertainty
    

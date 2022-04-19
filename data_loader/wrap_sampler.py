@@ -14,6 +14,8 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
         if split_name == "trn_egs":  
             # input_idses, tags_ides 
             all_history, all_predictions, lowest_score_index = al_pool(egs)
+            print("performance history", all_history)
+            print("all predictions: ", all_predictions)
 
             # TODO: replace the random sampler with uncertainty sampling
             # sampler = RandomSampler

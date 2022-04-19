@@ -118,7 +118,6 @@ class UDPOSDataset(MultilingualRawDataset):
         language = abbre2language[lang]
         with open(input_file, "r") as f:
 
-            print("file name: ", f)
             lines = f.read().strip().split("\n\n")
             for line in lines:
 

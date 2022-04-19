@@ -1,4 +1,4 @@
-from torch.utils.data import SequentialSampler, DataLoader, RandomSampler, Sampler
+from torch.utils.data import SequentialSampler, DataLoader, RandomSampler, 
 
 from active_learning.query_by_committee import al_pool
 from active_learning.uncertainty_sampling import UncertaintySampler
@@ -17,9 +17,8 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             print("performance history", all_history)
             print("all predictions: ", all_predictions)
 
-            # TODO: replace the random sampler with uncertainty sampling
-            sampler = RandomSampler
-            # sampler = Sampler
+            # the samoler
+            sampler = SequentialSampler
 
             batch_size = trn_batch_size
   

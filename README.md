@@ -26,4 +26,5 @@
 4. train 
 5. the training, develop and test set are for evaluation, instead of training.
 6. least confidence == highest uncertainty
+7. limit the testing data between 1 or 2
    

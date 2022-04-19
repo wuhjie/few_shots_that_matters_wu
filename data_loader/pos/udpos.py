@@ -117,10 +117,10 @@ class UDPOSDataset(MultilingualRawDataset):
         sentence_egs = []
         language = abbre2language[lang]
         with open(input_file, "r") as f:
+
+            print("file name: ", f)
             lines = f.read().strip().split("\n\n")
             for line in lines:
-
-                print("line: ", line)
 
                 sent_vec = line.strip().split("\n")
                 token_tag_vec = [wt.strip().split("\t") for wt in sent_vec]

@@ -30,6 +30,7 @@ class BaseTrainer(object):
             model = torch.nn.DataParallel(model, device_ids=self.conf.world)
         return model
 
+# TODO:
     def _model_forward(self, model, **kwargs):
         if self.model_ptl == "distilbert" and "token_type_ids" in kwargs:
             kwargs.pop("token_type_ids")

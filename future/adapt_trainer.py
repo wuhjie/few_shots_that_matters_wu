@@ -78,6 +78,7 @@ class AdaptTuner(BaseTrainer):
                 # TODO: 
                 logits, *_ = self._model_forward(self.model, **batched)
                 print("logits: ", logits)
+                print("batched: ", batched)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

@@ -17,7 +17,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             print("performance history", all_history)
             print("all predictions: ", all_predictions)
 
-            # the samoler
+            # the sampler
             sampler = SequentialSampler
 
             batch_size = trn_batch_size

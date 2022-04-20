@@ -57,6 +57,7 @@ class AdaptTuner(BaseTrainer):
     def train(
         self, model, tokenizer, data_iter, metric_name, adapt_loaders, hooks=None
     ):
+    # use adam optimizer
         opt, model = self._init_model_opt(model)
         self.model = model
         # the train from torch
@@ -71,7 +72,7 @@ class AdaptTuner(BaseTrainer):
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
 
-            # training
+            # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 logits, *_ = self._model_forward(self.model, **batched)

@@ -1,4 +1,4 @@
-from torch.utils.data import SequentialSampler, DataLoader, RandomSampler, 
+from torch.utils.data import SequentialSampler, DataLoader, RandomSampler 
 
 from active_learning.query_by_committee import al_pool
 from active_learning.uncertainty_sampling import UncertaintySampler

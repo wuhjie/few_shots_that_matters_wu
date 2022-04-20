@@ -143,6 +143,8 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
                 lambda x: x[: (msl - 2)], [sent_pieces, sent_piece_tags, sent_if_tgt],
             )
         sent_pieces = ["[CLS]"] + sent_pieces + ["[SEP]"]
+
+        print("sent_pieces: ", sent_pieces)
         sent_piece_tags = ["<PAD>"] + sent_piece_tags + ["<PAD>"]
         sent_if_tgt = [0] + sent_if_tgt + [0]
         bert_inp_ids = tokenizer.convert_tokens_to_ids(sent_pieces)

@@ -2,6 +2,7 @@ from adapt_parameters import get_args
 from future.adapt_trainer import AdaptTuner
 from future.modules import ptl2classes
 from future.hooks import EvaluationRecorder, LearningCurveRecorder
+from transformers import pipeline
 
 import data_loader.data_configs as data_configs
 from future.collocate_fns import task2collocate_fn
@@ -166,6 +167,8 @@ def main(conf):
         language=language,
         language_dataset=language_dataset,
         )
+
+    # unmasker = pipeline('fill-mask', model=conf.model)
 
     hooks = init_hooks(conf, metric_name)
 

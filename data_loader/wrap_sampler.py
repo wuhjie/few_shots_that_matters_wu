@@ -13,9 +13,9 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             print(f"[WARN] {split_name} of {language} has zero egs")
         if split_name == "trn_egs":  
             # input_idses, tags_ides 
-            all_history, all_predictions, lowest_score_index = al_pool(egs)
-            print("performance history", all_history)
-            print("all predictions: ", all_predictions)
+            # all_history, all_predictions, lowest_score_index = al_pool(egs)
+            # print("performance history", all_history)
+            # print("all predictions: ", all_predictions)
 
             # the sampler
             sampler = SequentialSampler

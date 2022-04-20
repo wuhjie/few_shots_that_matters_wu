@@ -61,6 +61,8 @@ class TaggingDataIter(object):
             fts = tagging_example_to_feature(
                 which_split, tagged_sents, tokenizer, self.raw_dataset.label2idx, max_seq_len,
             )
+
+            print("fts: ", fts)
             if not do_cache:
                 return _TaggingIter(fts)
             uid, complete = str(uuid.uuid4()), True

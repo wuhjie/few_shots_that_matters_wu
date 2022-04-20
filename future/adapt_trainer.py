@@ -76,11 +76,10 @@ class AdaptTuner(BaseTrainer):
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 # TODO: 
-                # logits, *_ = self._model_forward(self.model, **batched)
-                logits, unknown = self._model_forward(self.model, **batched)
+                logits, *unknown = self._model_forward(self.model, **batched)
                 print("logits: ", logits)
-                print("unknown: ", unknown)
                 print("batched: ", batched)
+                print("unknown: ", unknown)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

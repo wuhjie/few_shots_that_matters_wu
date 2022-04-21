@@ -6,25 +6,37 @@ example url: https://github.com/rmunro/pytorch_active_learning/blob/master/uncer
 
 
 import torch
-from torch import Tensor
+import math
 
-from typing import Iterator, Optional, Sequence, List, TypeVar, Generic, Sized
-
-T_co = TypeVar('T_co', covariant=True)
-
-'''
-Every Sampler subclass has to provide an __iter__() method, 
-providing a way to iterate over indices of dataset elements, 
-and a __len__() method that returns the length of the returned iterators.
-'''
 
 def least_confidence(probs, egs):
     # most confidence prediction
-    simple_least_conf = torch.max(torch.as_tensor(probs))
+    # simple_least_conf = torch.max(torch.as_tensor(probs))
     
     # number of data, for torch
     num_labels = probs.numel()
-
-    normalized_least_conf = (1-simple_least_conf) * (num_labels / (num_labels-1))
+    return _
+    
 
     return normalized_least_conf.item()
+
+def softmax(scores, base=math.e):
+        """Returns softmax array for array of scores
+        
+        Converts a set of raw scores from a model (logits) into a 
+        probability distribution via softmax.
+            
+        The probability distribution will be a set of real numbers
+        such that each is in the range 0-1.0 and the sum is 1.0.
+    
+        Assumes input is a pytorch tensor: tensor([1.0, 4.0, 2.0, 3.0])
+            
+        Keyword arguments:
+            prediction -- a pytorch tensor of any positive/negative real numbers.
+            base -- the base for the exponential (default e)
+        """
+        exps = (base**scores.to(dtype=torch.float)) # exponential for each value in array
+        sum_exps = torch.sum(exps) # sum of all exponentials
+
+        prob_dist = exps / sum_exps # normalize exponentials 
+        return prob_dist

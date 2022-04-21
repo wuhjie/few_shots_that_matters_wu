@@ -157,7 +157,6 @@ def tagging_example_to_feature(which_split, tagged_sents, tokenizer, t2i, msl):
             bert_inp_mask.append(0)
             sent_if_tgt.append(0)
             tags_ids.append(t2i["<PAD>"])
-# TODO: tags_ids, sent_piece_tags
 
         all_fts.append(
             TaggingBertInputFeature(

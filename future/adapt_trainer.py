@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 from copy import deepcopy
+
+from active_learning.uncertainty_sampling import least_confidence
 from .base import BaseTrainer
 from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder
@@ -60,7 +62,6 @@ class AdaptTuner(BaseTrainer):
     # use adam optimizer
         opt, model = self._init_model_opt(model)
         self.model = model
-        # the train from torch
         self.model.train()
 
         hook_container = HookContainer(world_env={"trainer": self}, hooks=hooks)
@@ -75,11 +76,11 @@ class AdaptTuner(BaseTrainer):
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
-                # TODO: 
-                logits, *unknown = self._model_forward(self.model, **batched)
-                print("logits: ", logits)
-                print("batched: ", batched)
-                print("unknown: ", unknown)
+                # TODO: logits for uncertainty sampling
+                logits, *_ = self._model_forward(self.model, **batched)
+
+                # least_confidence(logits, egs)
+                print("batched in adapt trainer: ", batched)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

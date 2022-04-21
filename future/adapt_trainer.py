@@ -5,7 +5,6 @@ import numpy as np
 import math
 
 from copy import deepcopy
-from active_learning.uncertainty_sampling import least_confidence
 from .base import BaseTrainer
 from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder

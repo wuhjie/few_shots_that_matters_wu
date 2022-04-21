@@ -83,6 +83,10 @@ class AdaptTuner(BaseTrainer):
 
                 sentence_logits = [sum(logit) for logit in logits]
                 print("sentence logits: ", sentence_logits)
+                
+                min_sentence_logits = min(sentence_logits)
+                min_sentence_logits_index = sentence_logits.index(min_sentence_logits)
+                print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

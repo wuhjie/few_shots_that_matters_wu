@@ -79,7 +79,7 @@ class AdaptTuner(BaseTrainer):
                 logits, *_ = self._model_forward(self.model, **batched)
 
                 # least_confidence(logits, egs)
-                print("batched in adapt trainer: ", batched)
+                # print("batched in adapt trainer: ", batched)
 
                 logits_softmax = softmax(logits)
                 print("logits_softmax: ", logits_softmax)

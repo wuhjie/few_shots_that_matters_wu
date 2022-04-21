@@ -78,11 +78,11 @@ class AdaptTuner(BaseTrainer):
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
 
-                # least_confidence(logits, egs)
-                # print("batched in adapt trainer: ", batched)
-
                 logits_softmax = softmax(logits)
                 print("logits_softmax: ", logits_softmax)
+
+                sentence_logits = [sum(sentence) for sentence in batched]
+                print("sentence logits: ", sentence_logits)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

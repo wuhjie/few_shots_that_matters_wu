@@ -90,7 +90,7 @@ class AdaptTuner(BaseTrainer):
 
                 print("bathch: ", batched)
 
-                batched = batched[min_sentence_logits_index]
+                # batched = batched[min_sentence_logits_index]
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

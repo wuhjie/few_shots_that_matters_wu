@@ -17,7 +17,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
             # print("all predictions: ", all_predictions)
 
             # the sampler
-            sampler = SequentialSampler
+            sampler = RandomSampler
 
             batch_size = trn_batch_size
   

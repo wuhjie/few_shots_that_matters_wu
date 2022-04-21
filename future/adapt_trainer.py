@@ -10,6 +10,7 @@ from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder
 from torch.utils.data import SequentialSampler, RandomSampler
 from collections import defaultdict, Counter
+from ..active_learning import uncertainty_sampling
 
 
 # adapt tuner inherit all the functions from the basetrainer
@@ -81,6 +82,9 @@ class AdaptTuner(BaseTrainer):
 
                 # least_confidence(logits, egs)
                 print("batched in adapt trainer: ", batched)
+
+                logits_softmax = uncertainty_sampling.softmax(logits)
+                print("logits_softmax: ", logits_softmax)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

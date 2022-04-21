@@ -81,7 +81,7 @@ class AdaptTuner(BaseTrainer):
                 logits_softmax = softmax(logits)
                 print("logits_softmax: ", logits_softmax)
 
-                sentence_logits = [sum(sentence) for sentence in batched]
+                sentence_logits = [sum(logit) for logit in logits]
                 print("sentence logits: ", sentence_logits)
 
                 loss = self.criterion(logits, golds).mean()

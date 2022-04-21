@@ -10,8 +10,6 @@ from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder
 from torch.utils.data import SequentialSampler, RandomSampler
 from collections import defaultdict, Counter
-from ..active_learning import uncertainty_sampling
-
 
 # adapt tuner inherit all the functions from the basetrainer
 class AdaptTuner(BaseTrainer):
@@ -83,7 +81,7 @@ class AdaptTuner(BaseTrainer):
                 # least_confidence(logits, egs)
                 print("batched in adapt trainer: ", batched)
 
-                logits_softmax = uncertainty_sampling.softmax(logits)
+                logits_softmax = softmax(logits)
                 print("logits_softmax: ", logits_softmax)
 
                 loss = self.criterion(logits, golds).mean()
@@ -157,3 +155,24 @@ class AdaptTuner(BaseTrainer):
             learning_curves=learning_curves, tst_scores=tst_scores,
         )
         return
+
+def softmax(scores, base=math.e):
+        """Returns softmax array for array of scores
+        
+        Converts a set of raw scores from a model (logits) into a 
+        probability distribution via softmax.
+            
+        The probability distribution will be a set of real numbers
+        such that each is in the range 0-1.0 and the sum is 1.0.
+    
+        Assumes input is a pytorch tensor: tensor([1.0, 4.0, 2.0, 3.0])
+            
+        Keyword arguments:
+            prediction -- a pytorch tensor of any positive/negative real numbers.
+            base -- the base for the exponential (default e)
+        """
+        exps = (base**scores.to(dtype=torch.float)) # exponential for each value in array
+        sum_exps = torch.sum(exps) # sum of all exponentials
+
+        prob_dist = exps / sum_exps # normalize exponentials 
+        return prob_dist

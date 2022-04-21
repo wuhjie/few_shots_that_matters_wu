@@ -2,8 +2,9 @@
 import torch
 import torch.nn as nn
 import numpy as np
-from copy import deepcopy
+import math
 
+from copy import deepcopy
 from active_learning.uncertainty_sampling import least_confidence
 from .base import BaseTrainer
 from .hooks.base_hook import HookContainer

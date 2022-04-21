@@ -6,17 +6,17 @@ example url: https://github.com/rmunro/pytorch_active_learning/blob/master/uncer
 
 
 import torch
-import math
 
 
-def least_confidence(probs, egs):
-    # most confidence prediction
-    # simple_least_conf = torch.max(torch.as_tensor(probs))
+
+# def least_confidence(probs, egs):
+#     # most confidence prediction
+#     # simple_least_conf = torch.max(torch.as_tensor(probs))
     
-    # number of data, for torch
-    num_labels = probs.numel()
-    return _
+#     # number of data, for torch
+#     num_labels = probs.numel()
+#     return _
     
 
-    return normalized_least_conf.item()
+#     return normalized_least_conf.item()
 

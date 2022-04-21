@@ -88,7 +88,10 @@ class AdaptTuner(BaseTrainer):
                 min_sentence_logits_index = sentence_logits.index(min_sentence_logits)
                 print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
 
+                print("bathch size: ", batched.size)
+                
                 batched = batched[min_sentence_logits_index]
+
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())
                 loss.backward()

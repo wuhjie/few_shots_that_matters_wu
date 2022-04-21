@@ -82,15 +82,17 @@ class AdaptTuner(BaseTrainer):
 
                 logits_softmax = softmax(logits)
                 print("logits_softmax: ", logits_softmax)
+                print("length of softmax: ", len(logits_softmax))
 
                 sentence_logits = [sum(logit) for logit in logits]
                 print("sentence logits: ", sentence_logits)
+                print("length of sentence logits: ", len(sentence_logits))
                 
                 min_sentence_logits = min(sentence_logits)
                 min_sentence_logits_index = sentence_logits.index(min_sentence_logits)
                 print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
 
-                print("bathch: ", batched)
+                print("batch: ", batched)
 
                 
 

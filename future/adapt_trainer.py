@@ -78,6 +78,8 @@ class AdaptTuner(BaseTrainer):
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
 
+                print("logits: ", logits)
+
                 logits_softmax = softmax(logits)
                 print("logits_softmax: ", logits_softmax)
 
@@ -89,6 +91,8 @@ class AdaptTuner(BaseTrainer):
                 print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
 
                 print("bathch: ", batched)
+
+                
 
                 # batched = batched[min_sentence_logits_index]
 

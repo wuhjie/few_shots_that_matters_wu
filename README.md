@@ -28,4 +28,7 @@
 6. least confidence == highest uncertainty
 7. limit the testing data between 1 or 2
 8. shots for recording the history
-   
+9. `tqdm` for visualising the running process
+
+### Huggingface
+1. about [model(**kwargs)](https://huggingface.co/docs/transformers/training)

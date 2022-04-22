@@ -77,7 +77,7 @@ class AdaptTuner(BaseTrainer):
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
-
+                print("batch: ", batched)
                 print("logits: ", logits)
 
                 logits_softmax = softmax(logits)
@@ -91,12 +91,6 @@ class AdaptTuner(BaseTrainer):
                 min_sentence_logits = min(sentence_logits)
                 min_sentence_logits_index = sentence_logits.index(min_sentence_logits)
                 print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
-
-                print("batch: ", batched)
-
-                
-
-                # batched = batched[min_sentence_logits_index]
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

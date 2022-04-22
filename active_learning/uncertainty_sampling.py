@@ -6,6 +6,7 @@ example url: https://github.com/rmunro/pytorch_active_learning/blob/master/uncer
 
 
 import torch
+import math
 
 def softmax(scores, base=math.e):
         """Returns softmax array for array of scores

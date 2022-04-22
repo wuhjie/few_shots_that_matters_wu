@@ -2,7 +2,6 @@
 import torch
 import torch.nn as nn
 import numpy as np
-import math
 
 from copy import deepcopy
 
@@ -79,7 +78,7 @@ class AdaptTuner(BaseTrainer):
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
-                
+
                 print("batch: ", batched)
                 least_confidence(logits)
 

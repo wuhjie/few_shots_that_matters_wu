@@ -6,7 +6,6 @@ import math
 
 from copy import deepcopy
 
-from active_learning.uncertainty_sampling import least_confidence
 from .base import BaseTrainer
 from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder
@@ -79,8 +78,7 @@ class AdaptTuner(BaseTrainer):
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
-                print("batch: ", batched)
-                least_confidence(logits)
+                
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

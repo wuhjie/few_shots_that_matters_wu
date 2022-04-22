@@ -65,8 +65,4 @@ class UncertaintySampler:
         
         samples.sort(reverse=True, key=lambda x: x[4])
 
-        return samples[:number:]
-
-
-# e.g. sampled_data += uncert_sampling.get_samples(model, data, uncert_sampling.least_confidence, 
-#                                                       make_feature_vector, number=number_least_confidence)
+        return samples[:number:] 

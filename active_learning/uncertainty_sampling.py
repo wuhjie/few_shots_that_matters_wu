@@ -7,6 +7,7 @@ example url: https://github.com/rmunro/pytorch_active_learning/blob/master/uncer
 
 import torch
 import math
+import numpy as np
 
 def softmax(scores, base=math.e):
         """Returns softmax array for array of scores
@@ -29,15 +30,19 @@ def softmax(scores, base=math.e):
         prob_dist = exps / sum_exps # normalize exponentials 
         return prob_dist
 
+def stable_softmax(X):
+    exps = np.exp(X - np.max(X))
+    return exps / np.sum(exps)
+
 def least_confidence(logits, batch_size):
     print("logits: ", logits)
 
-    logits_softmax = softmax(logits)
+    logits_softmax = stable_softmax(logits)
     print("logits_softmax: ", logits_softmax)
     print("length of softmax: ", len(logits_softmax))
 
     sentence_logits = [sum(logit) for logit in logits]
-    sentence_logits_softmax = softmax(sentence_logits)
+    sentence_logits_softmax = stable_softmax(sentence_logits)
     print("sentence logits: ", sentence_logits_softmax)
     print("length of sentence logits: ", len(sentence_logits_softmax))
     

@@ -79,7 +79,7 @@ class AdaptTuner(BaseTrainer):
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
 
-                print("raw data: ", adapt_loaders[adapt_language].raw_dataset)
+                print("raw data: ", adapt_loaders[adapt_language].raw_dataset.trn_egs)
                 print("batch: ", batched)
                 least_confidence(logits)
 

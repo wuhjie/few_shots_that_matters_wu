@@ -29,6 +29,7 @@
 7. limit the testing data between 1 or 2
 8. shots for recording the history
 9. `tqdm` for visualising the running process
+10. softmax(logits) and cross-entropy for calculate the distance
 
 ### Huggingface
 1. about [model(**kwargs)](https://huggingface.co/docs/transformers/training)

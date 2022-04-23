@@ -37,16 +37,17 @@ def least_confidence(logits, batch_size):
     print("length of softmax: ", len(logits_softmax))
 
     sentence_logits = [sum(logit) for logit in logits]
-    print("sentence logits: ", sentence_logits)
-    print("length of sentence logits: ", len(sentence_logits))
+    sentence_logits_softmax = softmax(logits)
+    print("sentence logits: ", sentence_logits_softmax)
+    print("length of sentence logits: ", len(sentence_logits_softmax))
     
-    min_sentence_logits = min(sentence_logits)
-    min_sentence_logits_index = sentence_logits.index(min_sentence_logits)
-    print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
+    min_sentence_logits_softmax = min(sentence_logits_softmax)
+    min_sentence_logits_index = sentence_logits.index(min_sentence_logits_softmax)
+    print("the min is: ", min_sentence_logits_index, 'with index ', min_sentence_logits_index)
     
-    div = min_sentence_logits_index // batch_size
-    mod = min_sentence_logits_index % batch_size
+    # div = min_sentence_logits_index // batch_size
+    # mod = min_sentence_logits_index % batch_size
     
-    print("the list is in the ", div, "th batch", "with position ", mod)
+    # print("the list is in the ", div, "th batch", "with position ", mod)
 
 

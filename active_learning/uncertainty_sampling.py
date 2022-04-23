@@ -34,22 +34,19 @@ def stable_softmax(X):
     exps = np.exp(X - np.max(X))
     return exps / np.sum(exps)
 
-def least_confidence(logits, batch_size):
+def least_confidence(logits):
     print("logits: ", logits)
 
-    logits_softmax = stable_softmax(logits)
+    logits_softmax = softmax(logits)
     print("logits_softmax: ", logits_softmax)
     print("length of softmax: ", len(logits_softmax))
 
-    sentence_logits = [sum(logit) for logit in logits]
-    sentence_logits_softmax = stable_softmax(sentence_logits)
-    print("sentence logits: ", sentence_logits_softmax)
-    print("length of sentence logits: ", len(sentence_logits_softmax))
-    
-    min_sentence_logits_softmax = min(sentence_logits_softmax)
-    min_sentence_logits_index = sentence_logits.index(min_sentence_logits_softmax)
-    print("the min is: ", min_sentence_logits_index, 'with index ', min_sentence_logits_index)
-    
+    min_logits_softmax = [min(lo) for lo in logits_softmax]
+    min_logits_softmax_index = [lo.index(min(lo)) for lo in logits_softmax]
+
+    print("min_logits_softmax: ", min_logits_softmax)
+    print("the index: ", min_logits_softmax_index)
+ 
     # div = min_sentence_logits_index // batch_size
     # mod = min_sentence_logits_index % batch_size
     

@@ -42,9 +42,9 @@ def least_confidence(logits):
     print("length of softmax: ", len(logits_softmax))
 
     min_logits_softmax = [min(lo) for lo in logits_softmax]
-    min_logits_softmax_index = [lo.index(min(lo)) for lo in logits_softmax]
-
     print("min_logits_softmax: ", min_logits_softmax)
+    
+    min_logits_softmax_index = [lo.index(min(lo)) for lo in logits_softmax]
     print("the index: ", min_logits_softmax_index)
  
     # div = min_sentence_logits_index // batch_size

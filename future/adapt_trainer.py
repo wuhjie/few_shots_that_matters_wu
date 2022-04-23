@@ -79,10 +79,12 @@ class AdaptTuner(BaseTrainer):
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
 
-                print("length of raw data: ", len(adapt_loaders[adapt_language].raw_dataset.trn_egs))
+                # print("length of raw data: ", len(adapt_loaders[adapt_language].raw_dataset.trn_egs))
 
-                print("batch: ", batched)
-                least_confidence(logits)
+                # print("batch: ", batched)
+                
+                # TODO: batch size
+                least_confidence(logits, 5)
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

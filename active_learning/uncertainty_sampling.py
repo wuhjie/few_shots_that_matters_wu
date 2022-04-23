@@ -29,7 +29,7 @@ def softmax(scores, base=math.e):
         prob_dist = exps / sum_exps # normalize exponentials 
         return prob_dist
 
-def least_confidence(logits):
+def least_confidence(logits, batch_size):
     print("logits: ", logits)
 
     logits_softmax = softmax(logits)
@@ -43,4 +43,10 @@ def least_confidence(logits):
     min_sentence_logits = min(sentence_logits)
     min_sentence_logits_index = sentence_logits.index(min_sentence_logits)
     print("the min is: ", min_sentence_logits, 'with index ', min_sentence_logits_index)
+    
+    div = min_sentence_logits_index // batch_size
+    mod = min_sentence_logits_index % batch_size
+    
+    print("the list is in the ", div, "th batch", "with position ", mod)
+
 

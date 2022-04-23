@@ -37,7 +37,7 @@ def least_confidence(logits, batch_size):
     print("length of softmax: ", len(logits_softmax))
 
     sentence_logits = [sum(logit) for logit in logits]
-    sentence_logits_softmax = softmax(logits)
+    sentence_logits_softmax = softmax(sentence_logits)
     print("sentence logits: ", sentence_logits_softmax)
     print("length of sentence logits: ", len(sentence_logits_softmax))
     

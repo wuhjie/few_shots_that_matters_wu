@@ -97,8 +97,6 @@ class HookContainer(Hook):
             for hook in hooks:
                 setattr(hook, "_" + attr_name, attr_val)
                 # i.e., Hook._trainer = word_env[trainer]
-
-            print("hooks: ", hooks)
         return hooks
 
     @_patch

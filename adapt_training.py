@@ -167,8 +167,6 @@ def main(conf):
         language_dataset=language_dataset,
         )
 
-    # unmasker = pipeline('fill-mask', model=conf.model)
-
     hooks = init_hooks(conf, metric_name)
 
     conf.logger.log("Initialized tasks, recorders, and initing the trainer.")

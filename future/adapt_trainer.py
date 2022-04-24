@@ -85,7 +85,6 @@ class AdaptTuner(BaseTrainer):
                 # TODO: batch size
                 least_confidence(logits)
 
-
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())
                 loss.backward()

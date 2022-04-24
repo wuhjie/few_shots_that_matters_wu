@@ -41,9 +41,11 @@ def least_confidence(logits):
     print("logits_softmax: ", logits_softmax)
     print("length of softmax: ", len(logits_softmax))
 
-    min_logits_softmax = [min(lo) for lo in logits_softmax]
-    print("min_logits_softmax: ", min_logits_softmax)
+    max_logits_softmax = [max(lo) for lo in logits_softmax]
+    print("min_logits_softmax: ", max_logits_softmax)
     
+    max_uncertainty = 1-max_logits_softmax
+    print("max_uncertainty: ", max_uncertainty)
     # min_logits_softmax_index = [lo.index(min(lo)) for lo in logits_softmax]
     # print("the index: ", min_logits_softmax_index)
  

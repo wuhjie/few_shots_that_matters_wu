@@ -30,9 +30,6 @@ def softmax(scores, base=math.e):
         prob_dist = exps / sum_exps # normalize exponentials 
         return prob_dist
 
-def stable_softmax(X):
-    exps = np.exp(X - np.max(X))
-    return exps / np.sum(exps)
 
 def least_confidence(logits):
     print("logits: ", logits)
@@ -41,7 +38,7 @@ def least_confidence(logits):
     print("logits_softmax: ", logits_softmax)
     print("length of softmax: ", len(logits_softmax))
 
-    max_logits_softmax = [max(lo) for lo in logits_softmax]
+    max_logits_softmax = [max(lo) for lo in logits_softmax][:, 1].tolist()
     print("min_logits_softmax: ", max_logits_softmax)
     
     max_uncertainty = 1-max_logits_softmax

@@ -70,8 +70,12 @@ class AdaptTuner(BaseTrainer):
         adapt_language = self.conf.adapt_trn_languages[0]
         learning_curves = {"val_egs": defaultdict(list)}
 
+        # loop inside the for loop
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
+
+            uncertainty_id_one_epoch = []
+            print("id list before training: ", uncertainty_id_one_epoch)
 
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
@@ -83,7 +87,7 @@ class AdaptTuner(BaseTrainer):
                 print("batch: ", batched)
                 
                 # TODO: batch size
-                least_confidence(logits)
+                uncertainty_id_one_epoch.append(least_confidence(logits))
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())
@@ -92,6 +96,9 @@ class AdaptTuner(BaseTrainer):
                 opt.zero_grad()
                 all_uids.extend(uids)
                 self._batch_step += 1
+
+            print("id list after training: ", uncertainty_id_one_epoch)
+
             epoch_losses_str = "->".join(
                 [f"{epoch_loss:.3f}" for epoch_loss in epoch_losses]
             )

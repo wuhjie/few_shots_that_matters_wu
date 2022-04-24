@@ -30,6 +30,7 @@
 8. shots for recording the history
 9. `tqdm` for visualising the running process
 10. softmax(logits) and cross-entropy for calculate the distance
+11. Prompting
 
 ### Huggingface
 1. about [model(**kwargs)](https://huggingface.co/docs/transformers/training)

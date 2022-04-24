@@ -80,11 +80,11 @@ class AdaptTuner(BaseTrainer):
                 logits, *_ = self._model_forward(self.model, **batched)
 
                 # print("length of raw data: ", len(adapt_loaders[adapt_language].raw_dataset.trn_egs))
-
-                # print("batch: ", batched)
+                print("batch: ", batched)
                 
                 # TODO: batch size
                 least_confidence(logits)
+
 
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())

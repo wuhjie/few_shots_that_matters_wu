@@ -37,7 +37,7 @@ def stable_softmax(X):
 def least_confidence(logits):
     print("logits: ", logits)
 
-    logits_softmax = stable_softmax(logits)
+    logits_softmax = softmax(logits)
     print("logits_softmax: ", logits_softmax)
     print("length of softmax: ", len(logits_softmax))
 

@@ -35,12 +35,10 @@ def least_confidence(logits):
     print("logits: ", logits)
 
     logits_softmax = softmax(logits)
-    print("logits_softmax: ", logits_softmax)
-    print("length of softmax: ", len(logits_softmax))
-
+    # print("logits_softmax: ", logits_softmax)
+    # print("length of softmax: ", len(logits_softmax))
     max_logits_softmax = [max(lo) for lo in logits_softmax]
-    print("min_logits_softmax: ", max_logits_softmax)
-
+    # print("min_logits_softmax: ", max_logits_softmax)
     max_logits_softmax_item = np.array([m.item() for m in max_logits_softmax])
     print("min_logits_softmax_item: ", max_logits_softmax_item)
     

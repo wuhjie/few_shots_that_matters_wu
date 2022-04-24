@@ -44,7 +44,7 @@ def least_confidence(logits):
     max_logits_softmax_item = np.array([m.item() for m in max_logits_softmax])
     print("min_logits_softmax_item: ", max_logits_softmax_item)
     
-    max_uncertainty = 1-max_logits_softmax
+    max_uncertainty = 1 - max_logits_softmax_item
     print("max_uncertainty: ", max_uncertainty)
 
     max_uncertainty_id = 0

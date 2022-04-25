@@ -37,7 +37,7 @@ def least_confidence(logits):
     logits_softmax = softmax(logits)
     max_logits_softmax = [max(lo) for lo in logits_softmax]
 
-    max_logits_softmax_index = [torch.argmax(l) for l in max_logits_softmax]
+    max_logits_softmax_index = torch.argmin(max_logits_softmax, dim=1)
     print("the index: ", max_logits_softmax_index)
 
     max_logits_softmax_item = np.array([m.item() for m in max_logits_softmax])

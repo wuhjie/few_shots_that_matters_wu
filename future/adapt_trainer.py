@@ -86,7 +86,6 @@ class AdaptTuner(BaseTrainer):
                 # TODO: logits for uncertainty sampling
                 logits, *_ = self._model_forward(self.model, **batched)
 
-                # TODO: batch size
                 uncertainty_id_one_epoch.append(least_confidence(logits))
 
                 loss = self.criterion(logits, golds).mean()

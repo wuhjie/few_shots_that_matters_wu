@@ -40,16 +40,10 @@ def least_confidence(logits):
     # max_logits_softmax = [max(lo) for lo in logits_softmax]
     # print("max logits softmax: ", max_logits_softmax)
 
+# the index of the max logits
     max_logits_softmax_index = torch.argmin(logits_softmax, dim=1)
     print("the index: ", max_logits_softmax_index)
-
-    # max_logits_softmax_item = np.array([m.item() for m in max_logits_softmax])
-    # print("min_logits_softmax_item: ", max_logits_softmax_item)
-    
-    max_uncertainty = 1 - max_logits_softmax_item
-    print("max_uncertainty: ", max_uncertainty)
-    print("length of max uncertainty: ", len(max_uncertainty))
-    print("the index of max uncertainty: ", )
+    print("the length of index: ", len(max_logits_softmax_index))
 
     max_uncertainty_id = 0
     

@@ -35,6 +35,8 @@ def least_confidence(logits):
     print("logits: ", logits)
 
     logits_softmax = softmax(logits)
+    print("logits after softmax: ", logits_softmax)
+
     max_logits_softmax = [max(lo) for lo in logits_softmax]
     print("max logits softmax: ", max_logits_softmax)
 

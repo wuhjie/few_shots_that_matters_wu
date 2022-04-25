@@ -72,11 +72,12 @@ class AdaptTuner(BaseTrainer):
 
         min_index = 0
 
+        uncertainty_id_one_epoch = []
+
         # loop inside the for loop
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
 
-            uncertainty_id_one_epoch = []
             print("id list before training: ", uncertainty_id_one_epoch)
 
             # train

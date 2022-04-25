@@ -22,7 +22,7 @@ Assumes input is a pytorch tensor: tensor([1.0, 4.0, 2.0, 3.0])
 Keyword arguments:
     prediction -- a pytorch tensor of any positive/negative real numbers.
     base -- the base for the exponential (default e)
-        """
+"""
 def softmax(scores, base=math.e):
         exps = (base**scores.to(dtype=torch.float)) # exponential for each value in array
         sum_exps = torch.sum(exps) # sum of all exponentials
@@ -44,6 +44,7 @@ def least_confidence(logits):
     
     max_uncertainty = 1 - max_logits_softmax_item
     print("max_uncertainty: ", max_uncertainty)
+    print("length of max uncertainty: ", len(max_uncertainty))
 
     max_uncertainty_id = 0
     

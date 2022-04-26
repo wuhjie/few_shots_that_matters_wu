@@ -77,14 +77,11 @@ class AdaptTuner(BaseTrainer):
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
 
-            # print("id list before training: ", uncertainty_id_one_epoch)
-
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 # TODO: logits for uncertainty sampling
 
-                # print("batch: ", batched)
                 logits, *_ = self._model_forward(self.model, **batched)
 
                 uncertainty_id_one_epoch.append(least_confidence(logits))

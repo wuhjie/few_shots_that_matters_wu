@@ -71,8 +71,6 @@ class AdaptTuner(BaseTrainer):
         adapt_language = self.conf.adapt_trn_languages[0]
         learning_curves = {"val_egs": defaultdict(list)}
 
-        min_index = 0
-
         uncertainty_id_one_epoch = []
 
         # loop inside the for loop
@@ -85,6 +83,8 @@ class AdaptTuner(BaseTrainer):
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 # TODO: logits for uncertainty sampling
+
+                print("batch: ", batched)
                 logits, *_ = self._model_forward(self.model, **batched)
 
                 uncertainty_id_one_epoch.append(least_confidence(logits))
@@ -152,7 +152,7 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-            adapt_loaders[adapt_language].trn_egs = adapt_loaders[adapt_language].trn_egs[uncertainty_id_one_epoch]
+            # adapt_loaders[adapt_language].trn_egs = adapt_loaders[adapt_language].trn_egs[uncertainty_id_one_epoch]
 
             # # TODO: reinit the data
             # for language, language_dataset in data_iter.items():

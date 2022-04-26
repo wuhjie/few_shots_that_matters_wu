@@ -71,8 +71,6 @@ class AdaptTuner(BaseTrainer):
         adapt_language = self.conf.adapt_trn_languages[0]
         learning_curves = {"val_egs": defaultdict(list)}
 
-        uncertainty_id_one_epoch = []
-
         # loop inside the for loop
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
@@ -142,9 +140,12 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-        max_uncertainty_id = least_confidence(logits)
+        # max_uncertainty_id = least_confidence(logits)
         # TODO:
-        # trn_list = search_in_trn(max_uncertainty_id, trn_list)
+        # trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
+
+        print("taggingdataIter: ", adapt_loaders[adapt_language].raw_dataset)
+        adapt_loaders[language]
 
         # test
         tst_scores = self._infer_tst_egs(

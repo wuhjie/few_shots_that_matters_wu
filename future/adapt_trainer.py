@@ -92,6 +92,12 @@ class AdaptTuner(BaseTrainer):
                 all_uids.extend(uids)
                 self._batch_step += 1
 
+# for one batch
+            uncertainty_id_one_epoch.append(least_confidence(logits))
+            print("id list after training: ", uncertainty_id_one_epoch)
+            print("the length: ", len(uncertainty_id_one_epoch))
+
+
             epoch_losses_str = "->".join(
                 [f"{epoch_loss:.3f}" for epoch_loss in epoch_losses]
             )
@@ -144,8 +150,6 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-            # adapt_loaders[adapt_language].trn_egs = adapt_loaders[adapt_language].trn_egs[uncertainty_id_one_epoch]
-
             # # TODO: reinit the data
             # for language, language_dataset in data_iter.items():
             #     adapt_loaders[language] = wrap_sampler(
@@ -154,10 +158,6 @@ class AdaptTuner(BaseTrainer):
             #     language=language,
             #     language_dataset=language_dataset,
             #     )
-            
-        uncertainty_id_one_epoch.append(torch.unique(least_confidence(logits)))
-
-        print("id list after training: ", uncertainty_id_one_epoch)
 
         # test
         tst_scores = self._infer_tst_egs(

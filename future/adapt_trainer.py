@@ -11,6 +11,7 @@ from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder
 from torch.utils.data import SequentialSampler, RandomSampler
 from collections import defaultdict, Counter
+from data_loader.wrap_sampler import wrap_sampler
 
 # adapt tuner inherit all the functions from the basetrainer
 class AdaptTuner(BaseTrainer):
@@ -96,6 +97,7 @@ class AdaptTuner(BaseTrainer):
                 all_uids.extend(uids)
                 self._batch_step += 1
 
+            
             print("id list after training: ", uncertainty_id_one_epoch)
 
             epoch_losses_str = "->".join(
@@ -148,8 +150,19 @@ class AdaptTuner(BaseTrainer):
                     learning_curves=learning_curves, tst_scores=tst_scores,
                 )
                 return
-            self._epoch_step += 1
+            self._epoch_step += 1 
 
+            adapt_loaders[adapt_language].trn_egs = adapt_loaders[adapt_language].trn_egs[uncertainty_id_one_epoch]
+
+            # # TODO: reinit the data
+            # for language, language_dataset in data_iter.items():
+            #     adapt_loaders[language] = wrap_sampler(
+            #     trn_batch_size=32,
+            #     infer_batch_size=32,
+            #     language=language,
+            #     language_dataset=language_dataset,
+            #     )
+            
         # test
         tst_scores = self._infer_tst_egs(
             hook_container,

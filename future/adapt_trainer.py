@@ -5,7 +5,7 @@ import numpy as np
 
 from copy import deepcopy
 
-from active_learning.uncertainty_sampling import least_confidence
+from active_learning.uncertainty_sampling import least_confidence, search_in_trn
 from .base import BaseTrainer
 from .hooks.base_hook import HookContainer
 from .hooks import EvaluationRecorder
@@ -80,8 +80,6 @@ class AdaptTuner(BaseTrainer):
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
-                # TODO: logits for uncertainty sampling
-
                 logits, *_ = self._model_forward(self.model, **batched)
 
                 loss = self.criterion(logits, golds).mean()
@@ -91,14 +89,6 @@ class AdaptTuner(BaseTrainer):
                 opt.zero_grad()
                 all_uids.extend(uids)
                 self._batch_step += 1
-
-
-# for one batch
-            # np.append(uncertainty_id_one_epoch, least_confidence(logits), axis=0)
-            # uncertainty_id_one_epoch.insert(least_confidence(logits))
-            # print("id list after training: ", uncertainty_id_one_epoch)
-            # print("the length: ", len(uncertainty_id_one_epoch))
-
 
             epoch_losses_str = "->".join(
                 [f"{epoch_loss:.3f}" for epoch_loss in epoch_losses]
@@ -152,15 +142,9 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-            # # TODO: reinit the data
-            # for language, language_dataset in data_iter.items():
-            #     adapt_loaders[language] = wrap_sampler(
-            #     trn_batch_size=32,
-            #     infer_batch_size=32,
-            #     language=language,
-            #     language_dataset=language_dataset,
-            #     )
-        least_confidence(logits)
+        max_uncertainty_id = least_confidence(logits)
+        # TODO:
+        trn_list = search_in_trn(max_uncertainty_id, trn_list)
 
         # test
         tst_scores = self._infer_tst_egs(

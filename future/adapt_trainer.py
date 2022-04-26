@@ -93,7 +93,8 @@ class AdaptTuner(BaseTrainer):
                 self._batch_step += 1
 
 # for one batch
-            uncertainty_id_one_epoch.insert(least_confidence(logits))
+            np.append(uncertainty_id_one_epoch, least_confidence(logits), axis=0)
+            # uncertainty_id_one_epoch.insert(least_confidence(logits))
             print("id list after training: ", uncertainty_id_one_epoch)
             print("the length: ", len(uncertainty_id_one_epoch))
 

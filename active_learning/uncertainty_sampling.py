@@ -44,3 +44,12 @@ def least_confidence(logits):
     max_uncertainty_id = max_logits_softmax_index
     
     return max_uncertainty_id
+
+def search_in_trn(index_list, trn_list):
+    search_in_trn = []
+    
+    for i in index_list:
+        for trn in trn_list:
+            search_in_trn.append(trn[i])
+
+    return search_in_trn

@@ -7,6 +7,7 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
 
     for split_name in ("trn_egs", "val_egs", "tst_egs"):
         egs = getattr(language_dataset, split_name)
+        print("egs: ", egs)
 
         if len(egs) == 0:
             print(f"[WARN] {split_name} of {language} has zero egs")
@@ -28,7 +29,6 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
 
         setattr(language_dataset, split_name, dl)
 
-        print("batch size: ", batch_size)
         # print("dl: ", dl)
     return language_dataset
 

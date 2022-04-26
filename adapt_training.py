@@ -168,7 +168,7 @@ def main(conf):
         language_dataset=language_dataset,
         )
     
-    print("data iter: ", data_iter.items)
+    print("data iter: ", data_iter.items['language_dataset'])
 
     hooks = init_hooks(conf, metric_name)
 

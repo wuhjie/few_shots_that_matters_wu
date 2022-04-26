@@ -161,6 +161,8 @@ def main(conf):
     adapt_loaders = {}
 
     for language, language_dataset in data_iter.items():
+        print("language dataset: ", language_dataset)
+
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
         infer_batch_size=conf.inference_batch_size,
@@ -168,7 +170,6 @@ def main(conf):
         language_dataset=language_dataset,
         )
     
-    print("data iter: ", data_iter.items['language_dataset'])
 
     hooks = init_hooks(conf, metric_name)
 

@@ -156,7 +156,8 @@ class AdaptTuner(BaseTrainer):
             #     )
             
         uncertainty_id_one_epoch.append(least_confidence(logits))
-        print("id list after training: ", uncertainty_id_one_epoch)
+        
+        print("id list after training: ", torch.unique(uncertainty_id_one_epoch))
 
         # test
         tst_scores = self._infer_tst_egs(

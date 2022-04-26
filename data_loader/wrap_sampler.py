@@ -29,5 +29,6 @@ def wrap_sampler(trn_batch_size, infer_batch_size, language, language_dataset):
         setattr(language_dataset, split_name, dl)
 
         print("batch size: ", batch_size)
+        print("dl: ", dl)
     return language_dataset
 

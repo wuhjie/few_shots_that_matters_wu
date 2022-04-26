@@ -92,8 +92,6 @@ class AdaptTuner(BaseTrainer):
                 all_uids.extend(uids)
                 self._batch_step += 1
 
-# test
-                least_confidence(logits)
 
 # for one batch
             # np.append(uncertainty_id_one_epoch, least_confidence(logits), axis=0)
@@ -162,6 +160,7 @@ class AdaptTuner(BaseTrainer):
             #     language=language,
             #     language_dataset=language_dataset,
             #     )
+        least_confidence(logits)
 
         # test
         tst_scores = self._infer_tst_egs(

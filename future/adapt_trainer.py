@@ -84,8 +84,6 @@ class AdaptTuner(BaseTrainer):
 
                 logits, *_ = self._model_forward(self.model, **batched)
 
-                uncertainty_id_one_epoch.append(least_confidence(logits))
-
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())
                 loss.backward()
@@ -93,9 +91,6 @@ class AdaptTuner(BaseTrainer):
                 opt.zero_grad()
                 all_uids.extend(uids)
                 self._batch_step += 1
-
-            
-            print("id list after training: ", uncertainty_id_one_epoch)
 
             epoch_losses_str = "->".join(
                 [f"{epoch_loss:.3f}" for epoch_loss in epoch_losses]
@@ -160,6 +155,9 @@ class AdaptTuner(BaseTrainer):
             #     language_dataset=language_dataset,
             #     )
             
+            uncertainty_id_one_epoch.append(least_confidence(logits))
+            print("id list after training: ", uncertainty_id_one_epoch)
+
         # test
         tst_scores = self._infer_tst_egs(
             hook_container,

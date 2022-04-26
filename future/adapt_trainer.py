@@ -144,7 +144,7 @@ class AdaptTuner(BaseTrainer):
 
         max_uncertainty_id = least_confidence(logits)
         # TODO:
-        trn_list = search_in_trn(max_uncertainty_id, trn_list)
+        # trn_list = search_in_trn(max_uncertainty_id, trn_list)
 
         # test
         tst_scores = self._infer_tst_egs(

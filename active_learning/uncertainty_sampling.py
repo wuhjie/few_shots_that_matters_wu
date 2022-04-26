@@ -39,7 +39,7 @@ def least_confidence(logits):
 
     # the index of the max logits
     max_logits_softmax_index = torch.argmin(logits_softmax, dim=1)
-    print("the index: ", max_logits_softmax_index)
+    print("the index: ", torch.uniqle(max_logits_softmax_index))
     print("the length of index: ", len(max_logits_softmax_index))
 
     max_uncertainty_id = max_logits_softmax_index

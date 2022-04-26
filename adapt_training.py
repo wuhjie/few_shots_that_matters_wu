@@ -159,6 +159,7 @@ def main(conf):
     # adding uncertainty sampling/query by committe
     model = confirm_model(conf, model)
     adapt_loaders = {}
+
     for language, language_dataset in data_iter.items():
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
@@ -166,6 +167,8 @@ def main(conf):
         language=language,
         language_dataset=language_dataset,
         )
+    
+    print("data iter: ", data_iter.items)
 
     hooks = init_hooks(conf, metric_name)
 

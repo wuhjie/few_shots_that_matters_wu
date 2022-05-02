@@ -39,6 +39,8 @@ def search_in_trn(index_list, loaders):
     # loaders.attention_maskes = loaders.attention_maskes[index_list]
     # loaders.tags_ides = loaders.tags_ides[index_list]
 
+    print("loaders before: ", loaders.raw_dataset.trn_egs)
+
     loaders.raw_dataset.trn_egs = loaders.raw_dataset.trn_egs[index_list]
 
     print("loaders after: ", loaders.raw_dataset.trn_egs)

@@ -33,10 +33,12 @@ def least_confidence(logits):
 
 def search_in_trn(index_list, loaders):
 
-    loaders.uides = index_list
-    loaders.input_idses = loaders.input_idses[index_list]
-    loaders.if_tgtes = loaders.if_tgtes[index_list]
-    loaders.attention_maskes = loaders.attention_maskes[index_list]
-    loaders.tags_ides = loaders.tags_ides[index_list]
+    # loaders.uides = index_list
+    # loaders.input_idses = loaders.input_idses[index_list]
+    # loaders.if_tgtes = loaders.if_tgtes[index_list]
+    # loaders.attention_maskes = loaders.attention_maskes[index_list]
+    # loaders.tags_ides = loaders.tags_ides[index_list]
+
+    loaders.trn_egs.tagged_sents = loaders.trn_egs.tagged_sents[index_list]
 
     return loaders

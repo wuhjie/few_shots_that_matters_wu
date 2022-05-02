@@ -41,4 +41,6 @@ def search_in_trn(index_list, loaders):
 
     loaders.raw_dataset.trn_egs = loaders.raw_dataset.trn_egs[index_list]
 
+    print("loaders after: ", loaders.raw_dataset.trn_egs)
+
     return loaders

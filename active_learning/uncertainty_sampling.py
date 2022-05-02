@@ -22,6 +22,7 @@ def least_confidence(logits):
 
     logits_softmax = softmax(logits)
     print("logits after softmax: ", logits_softmax)
+    print("length of logits: ", len(logits_softmax))
 
     # the index of the max logitsm, calculate the min in every column
     max_logits_softmax_index = torch.argmin(logits_softmax, dim=1)

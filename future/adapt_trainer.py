@@ -82,8 +82,6 @@ class AdaptTuner(BaseTrainer):
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
                 logits, *_ = self._model_forward(self.model, **batched)
 
-                print("batch: ", batched)
-
                 loss = self.criterion(logits, golds).mean()
                 epoch_losses.append(loss.item())
                 loss.backward()
@@ -146,8 +144,7 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-            # max_uncertainty_id = least_confidence(logits)
-
+            # at the end of the epoch
             # print("adapt_loaders: ", adapt_loaders[language])
             print("max_uncertainty_id: ", max_uncertainty_id)
             trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])

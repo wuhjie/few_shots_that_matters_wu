@@ -147,8 +147,10 @@ class AdaptTuner(BaseTrainer):
             # at the end of the epoch
             # print("adapt_loaders: ", adapt_loaders[language])
             print("max_uncertainty_id: ", max_uncertainty_id)
-            trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
-            print("trn_list: ", trn_list)
+
+            print("adapt languages: ", adapt_loaders[language])
+            # trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
+            # print("trn_list: ", trn_list)
 
         # test
         tst_scores = self._infer_tst_egs(

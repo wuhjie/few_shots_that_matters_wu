@@ -83,9 +83,6 @@ class TaggingDataIter(object):
     def label_list(self):
         return self.raw_dataset.label_list
 
-'''
-uids: eg. trn_1 trn_0
-'''
 class _TaggingIter(torch.utils.data.Dataset):
     def __init__(self, fts):
         self.uides = [ft.uid for ft in fts]

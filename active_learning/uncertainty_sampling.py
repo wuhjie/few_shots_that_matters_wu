@@ -41,7 +41,9 @@ def search_in_trn(index_list, loaders):
 
     print("loaders before: ", loaders.raw_dataset.trn_egs)
 
-    loaders.raw_dataset.trn_egs = [loaders.raw_dataset.trn_egs[0][0][i] for i in index_list.tolist()]
+    for j in range(len(loaders.raw_dataset.trn_egs[0])):
+        for i in index_list.tolist():
+            loaders.raw_dataset.trn_egs = [loaders.raw_dataset.trn_egs[0][j][i]]
 
     print("loaders after: ", loaders.raw_dataset.trn_egs)
 

@@ -42,7 +42,6 @@ def search_in_trn(index_list, loaders):
 
     new_loader = []
     for i in loaders.raw_dataset.trn_egs:
-
         print(i)
         # for j in i:
         #     print("j: ", j)

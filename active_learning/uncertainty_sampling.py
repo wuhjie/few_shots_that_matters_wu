@@ -40,6 +40,7 @@ def search_in_trn(index_list, loaders):
     # loaders.tags_ides = loaders.tags_ides[index_list]
 
     print("loaders before: ", loaders.raw_dataset.trn_egs)
+    print("list length: ", [len(li) for li in loaders.raw_dataset.trn_egs])
 
     for j in range(len(loaders.raw_dataset.trn_egs[0])):
         for i in index_list.tolist():

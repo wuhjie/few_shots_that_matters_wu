@@ -10,10 +10,12 @@ import math
 import numpy as np
 
 def softmax(scores, base=math.e):
-        exps = (base**scores.to(dtype=torch.float)) # exponential for each value in array
-        sum_exps = torch.sum(exps) # sum of all exponentials
-
-        prob_dist = exps / sum_exps # normalize exponentials 
+    #  exponential for each value in array
+        exps = (base**scores.to(dtype=torch.float)) 
+    # sum of all exponentials
+        sum_exps = torch.sum(exps) 
+     # normalize exponentials 
+        prob_dist = exps / sum_exps
         return prob_dist
 
 
@@ -29,11 +31,12 @@ def least_confidence(logits):
 
     return max_logits_softmax_index
 
-def search_in_trn(index_list, trn_list):
-    search_in_trn = []
+def search_in_trn(index_list, loaders):
 
-    for i in index_list:
-        for trn in trn_list:
-            search_in_trn.append(trn[i])
+    loaders.uides = index_list
+    loaders.input_idses = loaders.input_idses[index_list]
+    loaders.if_tgtes = loaders.if_tgtes[index_list]
+    loaders.attention_maskes = loaders.attention_maskes[index_list]
+    loaders.tags_ides = loaders.tags_ides[index_list]
 
-    return search_in_trn
+    return loaders

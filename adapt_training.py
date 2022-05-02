@@ -144,7 +144,6 @@ def confirm_model(conf, model):
 
     return model
 
-
 def main(conf):
     if conf.override:
         for name, value in config.items():
@@ -169,7 +168,6 @@ def main(conf):
         language=language,
         language_dataset=language_dataset,
         )
-    
 
     hooks = init_hooks(conf, metric_name)
 
@@ -193,7 +191,6 @@ def main(conf):
     conf.logger.log("Finishing training/validation.")
     conf.is_finished = True
     logging.save_arguments(conf)
-
 
 def init_config(conf):
     conf.is_finished = False

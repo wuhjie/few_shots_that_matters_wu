@@ -27,7 +27,8 @@ class BaseTrainer(object):
     def _parallel_to_device(self, model):
         model = model.cuda()
         if len(self.conf.world) > 1:
-            model = torch.nn.DataParallel(model, device_ids=self.conf.world)
+            # self.conf.world
+            model = torch.nn.DataParallel(model, device_ids=0)
         return model
 
 # TODO:

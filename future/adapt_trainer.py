@@ -140,9 +140,9 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-        # max_uncertainty_id = least_confidence(logits)
+        max_uncertainty_id = least_confidence(logits)
         # TODO:
-        # trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
+        trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
 
         print("taggingdataIter: ", adapt_loaders[adapt_language].raw_dataset)
         adapt_loaders[language]

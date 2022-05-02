@@ -15,8 +15,7 @@ def softmax(scores, base=math.e):
     # sum of all exponentials
         sum_exps = torch.sum(exps) 
      # normalize exponentials 
-        prob_dist = exps / sum_exps
-        return prob_dist
+        return exps / sum_exps
 
 
 def least_confidence(logits):
@@ -32,12 +31,6 @@ def least_confidence(logits):
     return max_logits_softmax_index
 
 def search_in_trn(index_list, loaders):
-
-    # loaders.uides = index_list
-    # loaders.input_idses = loaders.input_idses[index_list]
-    # loaders.if_tgtes = loaders.if_tgtes[index_list]
-    # loaders.attention_maskes = loaders.attention_maskes[index_list]
-    # loaders.tags_ides = loaders.tags_ides[index_list]
 
     print("loaders before: ", loaders.raw_dataset.trn_egs)
     print("list length: ", [len(li) for li in loaders.raw_dataset.trn_egs])

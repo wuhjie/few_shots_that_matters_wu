@@ -75,6 +75,8 @@ class AdaptTuner(BaseTrainer):
         for epoch_index in range(1, self.conf.adapt_epochs+1):
             all_uids, epoch_losses = [], []
 
+            max_uncertainty_id  = []
+
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
@@ -89,6 +91,8 @@ class AdaptTuner(BaseTrainer):
                 opt.zero_grad()
                 all_uids.extend(uids)
                 self._batch_step += 1
+
+                max_uncertainty_id.append(least_confidence(logits))
 
             epoch_losses_str = "->".join(
                 [f"{epoch_loss:.3f}" for epoch_loss in epoch_losses]
@@ -142,11 +146,11 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-        max_uncertainty_id = least_confidence(logits)
+            # max_uncertainty_id = least_confidence(logits)
 
-        print("adapt_loaders: ", adapt_loaders[language])
-        trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
-        print("trn_list: ", trn_list)
+            # print("adapt_loaders: ", adapt_loaders[language])
+            trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
+            print("trn_list: ", trn_list)
 
         # test
         tst_scores = self._infer_tst_egs(

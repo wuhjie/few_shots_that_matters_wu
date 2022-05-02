@@ -149,6 +149,7 @@ class AdaptTuner(BaseTrainer):
             # max_uncertainty_id = least_confidence(logits)
 
             # print("adapt_loaders: ", adapt_loaders[language])
+            print("max_uncertainty_id: ", max_uncertainty_id)
             trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
             print("trn_list: ", trn_list)
 

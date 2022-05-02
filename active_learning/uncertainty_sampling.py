@@ -42,8 +42,10 @@ def search_in_trn(index_list, loaders):
 
     new_loader = []
     for i in loaders.raw_dataset.trn_egs:
-        for j in i:
-            print("j: ", j)
+
+        print(i)
+        # for j in i:
+        #     print("j: ", j)
 
             # print("index: ", j[index_list[0]])
             # index_list = index_list[1:]

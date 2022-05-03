@@ -52,4 +52,6 @@ def search_in_trn(index_list, loaders):
 
     # loaders.raw_dataset.trn_egs = new_loader
 
-    return loaders.dataset[index_list]
+    newloaders = [loaders.dataset[i] for i in index_list]
+
+    return newloaders

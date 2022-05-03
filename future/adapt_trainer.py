@@ -148,10 +148,6 @@ class AdaptTuner(BaseTrainer):
                 return
             self._epoch_step += 1 
 
-            # at the end of the epoch
-            # print("adapt_loaders: ", adapt_loaders[language])
-        
-
         # test
         tst_scores = self._infer_tst_egs(
             hook_container,

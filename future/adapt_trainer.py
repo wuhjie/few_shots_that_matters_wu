@@ -77,6 +77,8 @@ class AdaptTuner(BaseTrainer):
 
             max_uncertainty_id  = []
 
+            print("train: ", adapt_loaders[adapt_language].trn_egs)
+
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)

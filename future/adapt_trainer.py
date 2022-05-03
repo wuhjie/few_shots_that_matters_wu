@@ -92,6 +92,10 @@ class AdaptTuner(BaseTrainer):
 
                 max_uncertainty_id.append(least_confidence(logits))
 
+            print("max_uncertainty_id: ", max_uncertainty_id)
+            trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[adapt_language].trn_egs)
+            print("trn_list: ", trn_list)
+
             epoch_losses_str = "->".join(
                 [f"{epoch_loss:.3f}" for epoch_loss in epoch_losses]
             )
@@ -146,13 +150,7 @@ class AdaptTuner(BaseTrainer):
 
             # at the end of the epoch
             # print("adapt_loaders: ", adapt_loaders[language])
-            print("max_uncertainty_id: ", max_uncertainty_id)
-
-            print("adapt languages: ", adapt_loaders[adapt_language].raw_dataset)
-            # trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
-            # print("trn_list: ", trn_list)
-
-            
+        
 
         # test
         tst_scores = self._infer_tst_egs(

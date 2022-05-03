@@ -15,20 +15,10 @@ import numpy as np
 
 import sys
 
-from sampled_infos.sampled_data_loader.mldoc import SampledMLDocDataset
-from sampled_infos.sampled_data_loader.marc import SampledMARCDataset
-from sampled_infos.sampled_data_loader.xnli import SampledXNLIDataset
-from sampled_infos.sampled_data_loader.pawsx import SampledPAWSXDataset
-from sampled_infos.sampled_data_loader.panx import SampledPANXDataset
 from sampled_infos.sampled_data_loader.udpos import SampledUDPOSDataset
 
 
 task2sampleddataset = {
-    "mldoc": SampledMLDocDataset,
-    "marc": SampledMARCDataset,
-    "xnli": SampledXNLIDataset,
-    "pawsx": SampledPAWSXDataset,
-    "panx": SampledPANXDataset,
     "udpos": SampledUDPOSDataset,
 }
 
@@ -67,14 +57,11 @@ def init_task(conf):
     metric_name = raw_dataset.metrics[0]
     classes = ptl2classes[conf.ptl]
     tokenizer = classes.tokenizer.from_pretrained(conf.model)
-    if conf.dataset_name in ["conll2003", "panx", "udpos"]:
-        model = classes.seqtag.from_pretrained(
-            conf.model, out_dim=raw_dataset.num_labels
-        )
-    else:
-        model = classes.seqcls.from_pretrained(
-            conf.model, num_labels=raw_dataset.num_labels,
-        )
+    
+    model = classes.seqtag.from_pretrained(
+        conf.model, out_dim=raw_dataset.num_labels
+    )
+
 
     if conf.load_ckpt:
         with open(conf.ckpt_path, "rb") as f:
@@ -157,7 +144,6 @@ def confirm_model(conf, model):
 
     return model
 
-
 def main(conf):
     if conf.override:
         for name, value in config.items():
@@ -169,22 +155,19 @@ def main(conf):
     # init model
     model, tokenizer, data_iter, metric_name, collocate_batch_fn = init_task(conf)
 
-    
-
+    # adding uncertainty sampling/query by committe
     model = confirm_model(conf, model)
     adapt_loaders = {}
+
     for language, language_dataset in data_iter.items():
- 
+        print("language dataset: ", language_dataset)
+
         adapt_loaders[language] = wrap_sampler(
         trn_batch_size=conf.adapt_batch_size,
         infer_batch_size=conf.inference_batch_size,
         language=language,
         language_dataset=language_dataset,
-        
         )
-
-        # al_trn_egs = data_iter[language].raw_dataset.trn_egs,
-
 
     hooks = init_hooks(conf, metric_name)
 
@@ -208,7 +191,6 @@ def main(conf):
     conf.logger.log("Finishing training/validation.")
     conf.is_finished = True
     logging.save_arguments(conf)
-
 
 def init_config(conf):
     conf.is_finished = False

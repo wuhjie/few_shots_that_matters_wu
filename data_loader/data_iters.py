@@ -61,6 +61,7 @@ class TaggingDataIter(object):
             fts = tagging_example_to_feature(
                 which_split, tagged_sents, tokenizer, self.raw_dataset.label2idx, max_seq_len,
             )
+
             if not do_cache:
                 return _TaggingIter(fts)
             uid, complete = str(uuid.uuid4()), True
@@ -82,9 +83,6 @@ class TaggingDataIter(object):
     def label_list(self):
         return self.raw_dataset.label_list
 
-'''
-uids: eg. trn_1 trn_0
-'''
 class _TaggingIter(torch.utils.data.Dataset):
     def __init__(self, fts):
         self.uides = [ft.uid for ft in fts]

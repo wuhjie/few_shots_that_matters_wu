@@ -54,7 +54,7 @@ def search_in_trn(index_list, loaders):
 
     print("index: ", index_list)
     print("loaders: ", loaders)
+    loaders.uides = index_list
+    
 
-    newloaders = [loaders.dataset[i] for i in index_list]
-
-    return newloaders
+    return 

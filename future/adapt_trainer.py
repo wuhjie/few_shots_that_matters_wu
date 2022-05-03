@@ -77,8 +77,6 @@ class AdaptTuner(BaseTrainer):
 
             max_uncertainty_id  = []
 
-            print("train: ", adapt_loaders[adapt_language].trn_egs)
-
             # train
             for batched in adapt_loaders[adapt_language].trn_egs:
                 batched, golds, uids, _golds_tagging = self.collocate_batch_fn(batched)
@@ -150,9 +148,11 @@ class AdaptTuner(BaseTrainer):
             # print("adapt_loaders: ", adapt_loaders[language])
             print("max_uncertainty_id: ", max_uncertainty_id)
 
-            print("adapt languages: ", adapt_loaders[language])
+            print("adapt languages: ", adapt_loaders[adapt_language].trn_egs)
             # trn_list = search_in_trn(max_uncertainty_id, adapt_loaders[language])
             # print("trn_list: ", trn_list)
+
+            
 
         # test
         tst_scores = self._infer_tst_egs(

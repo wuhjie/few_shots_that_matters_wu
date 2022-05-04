@@ -3,7 +3,7 @@
 declare -a ckpt_path=data/checkpoint_adapt
 
 # (german spanish french chinese japanese)
-declare -a list_of_adapt_trn_languages=(dannish)
+declare -a list_of_adapt_trn_languages=(dutch)
 # (1e-5 3e-5 5e-5 7e-5)
 declare -a list_of_adapt_lr=(1e-5)
 declare -a list_of_num_shots=(1)

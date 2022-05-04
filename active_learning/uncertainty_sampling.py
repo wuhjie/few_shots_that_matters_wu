@@ -33,25 +33,6 @@ def least_confidence(logits):
 
 def search_in_trn(index_list, loaders):
     print("loaders:", loaders)
-
-    # print("loaders before: ", loaders)
-    # print("list length: ", [len(li) for li in loaders.raw_dataset.trn_egs])
-
-    # for j in range(len(loaders.raw_dataset.trn_egs[0])):
-    #     for i in index_list:
-    #         loaders.raw_dataset.trn_egs = [loaders.raw_dataset.trn_egs[0][j][i]]
-
-    # new_loader = []
-    # for i in loaders.raw_dataset.trn_egs:
-    #     print(i)
-    #     # for j in i:
-    #     #     print("j: ", j)
-
-    #         # print("index: ", j[index_list[0]])
-    #         # index_list = index_list[1:]
-
-    # loaders.raw_dataset.trn_egs = new_loader
-
     print("index: ", index_list)
     print("loaders: ", loaders)
     loaders.uides = index_list

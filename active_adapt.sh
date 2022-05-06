@@ -6,7 +6,7 @@ declare -a ckpt_path=data/checkpoint_adapt
 declare -a list_of_adapt_trn_languages=(dutch, finnish)
 # (1e-5 3e-5 5e-5 7e-5)
 declare -a list_of_adapt_lr=(1e-5)
-declare -a list_of_num_shots=(1 2)
+declare -a list_of_num_shots=(2)
 # group: bucket; we sampled 40 buckets for each target
 declare -a list_of_group_index=(0 1 2 3 4)
 

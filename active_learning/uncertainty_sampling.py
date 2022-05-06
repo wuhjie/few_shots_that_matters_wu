@@ -21,20 +21,20 @@ def softmax(scores, base=math.e):
 def least_confidence(logits):
 
     logits_softmax = softmax(logits)
-    print("logits after softmax: ", logits_softmax)
-    print("length of logits: ", len(logits_softmax))
+    # print("logits after softmax: ", logits_softmax)
+    # print("length of logits: ", len(logits_softmax))
 
     # the index of the max logitsm, calculate the min in every column
     max_logits_softmax_index = torch.argmin(logits_softmax, dim=1)
-    print("the index: ", max_logits_softmax_index)
-    print("the length of index: ", len(max_logits_softmax_index))
+    # print("the index: ", max_logits_softmax_index)
+    # print("the length of index: ", len(max_logits_softmax_index))
 
     return max_logits_softmax_index
 
 def search_in_trn(index_list, loaders):
-    print("loaders:", loaders)
-    print("index: ", index_list)
-    print("loaders: ", loaders)
+    # print("loaders:", loaders)
+    # print("index: ", index_list)
+    # print("loaders: ", loaders)
     loaders.uides = index_list
     
 
